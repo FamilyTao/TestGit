@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AUTOSAR xmlns="http://autosar.org/schema/r4.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://autosar.org/schema/r4.0 autosar_4-2-2.xsd">
+  <AR-PACKAGES>
+    <AR-PACKAGE UUID="802174d8-b816-4f4a-8e44-2e45885560e4">
+      <SHORT-NAME>AUTOSAR</SHORT-NAME>
+      <AR-PACKAGES>
+        <AR-PACKAGE UUID="90c46d55-d911-48d4-8469-3ba644f056b5">
+          <SHORT-NAME>System</SHORT-NAME>
+          <ELEMENTS>
+            <SYSTEM UUID="35c87bb7-f50f-4405-a6cf-9767576e243d">
+              <SHORT-NAME>system_0</SHORT-NAME>
+              <MAPPINGS>
+                <SYSTEM-MAPPING UUID="05fa689b-96a8-4b4c-8342-ecfe817b8146">
+                  <SHORT-NAME>SystemMapping_0</SHORT-NAME>
+                  <DATA-MAPPINGS>
+                    <SENDER-RECEIVER-TO-SIGNAL-GROUP-MAPPING>
+                      <DATA-ELEMENT-IREF>
+                        <CONTEXT-COMPONENT-REF DEST="SW-COMPONENT-PROTOTYPE">/AUTOSAR/Compositions/TopComposition/BottomComposition</CONTEXT-COMPONENT-REF>
+                        <CONTEXT-COMPONENT-REF DEST="SW-COMPONENT-PROTOTYPE">/AUTOSAR/Compositions/BottomComposition/CptReceiverPrototype</CONTEXT-COMPONENT-REF>
+                        <CONTEXT-COMPOSITION-REF DEST="ROOT-SW-COMPOSITION-PROTOTYPE">/AUTOSAR/System/system_0/rootSwCompositionPrototype_0</CONTEXT-COMPOSITION-REF>
+                        <CONTEXT-PORT-REF DEST="R-PORT-PROTOTYPE">/AUTOSAR/Components/CptReceiver/ReceiverExplicit_Rp</CONTEXT-PORT-REF>
+                        <TARGET-DATA-PROTOTYPE-REF DEST="VARIABLE-DATA-PROTOTYPE">/AUTOSAR/Interfaces/Explicit_SrIF/structDE</TARGET-DATA-PROTOTYPE-REF>
+                      </DATA-ELEMENT-IREF>
+                      <SIGNAL-GROUP-REF DEST="SYSTEM-SIGNAL-GROUP">/SystemInfo/SystemSignals/E2E_Demo_Group1_E2E_Msg_Profile1</SIGNAL-GROUP-REF>
+                      <TYPE-MAPPING>
+                        <SENDER-REC-RECORD-TYPE-MAPPING>
+                          <RECORD-ELEMENT-MAPPINGS>
+                            <SENDER-REC-RECORD-ELEMENT-MAPPING>
+                              <IMPLEMENTATION-RECORD-ELEMENT-REF DEST="IMPLEMENTATION-DATA-TYPE-ELEMENT">/AUTOSAR/DataTypes/StructA/Counter8</IMPLEMENTATION-RECORD-ELEMENT-REF>
+                              <SYSTEM-SIGNAL-REF DEST="SYSTEM-SIGNAL">/SystemInfo/SystemSignals/E2E_Signal_Counter_E2E_Msg_Profile1</SYSTEM-SIGNAL-REF>
+                            </SENDER-REC-RECORD-ELEMENT-MAPPING>
+                            <SENDER-REC-RECORD-ELEMENT-MAPPING>
+                              <IMPLEMENTATION-RECORD-ELEMENT-REF DEST="IMPLEMENTATION-DATA-TYPE-ELEMENT">/AUTOSAR/DataTypes/StructA/Crc8</IMPLEMENTATION-RECORD-ELEMENT-REF>
+                              <SYSTEM-SIGNAL-REF DEST="SYSTEM-SIGNAL">/SystemInfo/SystemSignals/E2E_Signal_CRC_E2E_Msg_Profile1</SYSTEM-SIGNAL-REF>
+                            </SENDER-REC-RECORD-ELEMENT-MAPPING>
+                            <SENDER-REC-RECORD-ELEMENT-MAPPING>
+                              <IMPLEMENTATION-RECORD-ELEMENT-REF DEST="IMPLEMENTATION-DATA-TYPE-ELEMENT">/AUTOSAR/DataTypes/StructA/Data16</IMPLEMENTATION-RECORD-ELEMENT-REF>
+                              <SYSTEM-SIGNAL-REF DEST="SYSTEM-SIGNAL">/SystemInfo/SystemSignals/E2E_Signal_DATA_E2E_Msg_Profile1</SYSTEM-SIGNAL-REF>
+                            </SENDER-REC-RECORD-ELEMENT-MAPPING>
+                          </RECORD-ELEMENT-MAPPINGS>
+                        </SENDER-REC-RECORD-TYPE-MAPPING>
+                      </TYPE-MAPPING>
+                    </SENDER-RECEIVER-TO-SIGNAL-GROUP-MAPPING>
+                  </DATA-MAPPINGS>
+                  <SW-IMPL-MAPPINGS>
+                    <SWC-TO-IMPL-MAPPING UUID="a8bcd8a1-2b05-46aa-a735-b2b6561e6c8a">
+                      <SHORT-NAME>CptReceiverPrototypeImplMapping</SHORT-NAME>
+                      <COMPONENT-IMPLEMENTATION-REF DEST="SWC-IMPLEMENTATION">/AUTOSAR/SwcImplementations/swcImplementation_Receiver</COMPONENT-IMPLEMENTATION-REF>
+                      <COMPONENT-IREFS>
+                        <COMPONENT-IREF>
+                          <CONTEXT-COMPOSITION-REF DEST="ROOT-SW-COMPOSITION-PROTOTYPE">/AUTOSAR/System/system_0/rootSwCompositionPrototype_0</CONTEXT-COMPOSITION-REF>
+                          <CONTEXT-COMPONENT-REF DEST="SW-COMPONENT-PROTOTYPE">/AUTOSAR/Compositions/TopComposition/BottomComposition</CONTEXT-COMPONENT-REF>
+                          <CONTEXT-COMPONENT-REF DEST="SW-COMPONENT-PROTOTYPE">/AUTOSAR/Compositions/BottomComposition/CptReceiverPrototype</CONTEXT-COMPONENT-REF>
+                          <TARGET-COMPONENT-REF DEST="SW-COMPONENT-PROTOTYPE">/AUTOSAR/Compositions/BottomComposition/CptReceiverPrototype</TARGET-COMPONENT-REF>
+                        </COMPONENT-IREF>
+                      </COMPONENT-IREFS>
+                    </SWC-TO-IMPL-MAPPING>
+                    <SWC-TO-IMPL-MAPPING UUID="d1cd0e3a-b17d-482f-8144-654fff9f5bc8">
+                      <SHORT-NAME>CptSenderPrototypeImplMapping</SHORT-NAME>
+                      <COMPONENT-IMPLEMENTATION-REF DEST="SWC-IMPLEMENTATION">/AUTOSAR/SwcImplementations/swcImplementation_Sender</COMPONENT-IMPLEMENTATION-REF>
+                      <COMPONENT-IREFS>
+                        <COMPONENT-IREF>
+                          <CONTEXT-COMPOSITION-REF DEST="ROOT-SW-COMPOSITION-PROTOTYPE">/AUTOSAR/System/system_0/rootSwCompositionPrototype_0</CONTEXT-COMPOSITION-REF>
+                          <CONTEXT-COMPONENT-REF DEST="SW-COMPONENT-PROTOTYPE">/AUTOSAR/Compositions/TopComposition/BottomComposition</CONTEXT-COMPONENT-REF>
+                          <CONTEXT-COMPONENT-REF DEST="SW-COMPONENT-PROTOTYPE">/AUTOSAR/Compositions/BottomComposition/CptSenderPrototype</CONTEXT-COMPONENT-REF>
+                          <TARGET-COMPONENT-REF DEST="SW-COMPONENT-PROTOTYPE">/AUTOSAR/Compositions/BottomComposition/CptSenderPrototype</TARGET-COMPONENT-REF>
+                        </COMPONENT-IREF>
+                      </COMPONENT-IREFS>
+                    </SWC-TO-IMPL-MAPPING>
+                  </SW-IMPL-MAPPINGS>
+                  <SW-MAPPINGS>
+                    <SWC-TO-ECU-MAPPING UUID="11173299-ed65-467b-b62c-95eec775fbdf">
+                      <SHORT-NAME>ECUA_SwcToEcuMapping</SHORT-NAME>
+                      <COMPONENT-IREFS>
+                        <COMPONENT-IREF>
+                          <CONTEXT-COMPOSITION-REF DEST="ROOT-SW-COMPOSITION-PROTOTYPE">/AUTOSAR/System/system_0/rootSwCompositionPrototype_0</CONTEXT-COMPOSITION-REF>
+                          <CONTEXT-COMPONENT-REF DEST="SW-COMPONENT-PROTOTYPE">/AUTOSAR/Compositions/TopComposition/BottomComposition</CONTEXT-COMPONENT-REF>
+                          <CONTEXT-COMPONENT-REF DEST="SW-COMPONENT-PROTOTYPE">/AUTOSAR/Compositions/BottomComposition/CptSenderPrototype</CONTEXT-COMPONENT-REF>
+                          <TARGET-COMPONENT-REF DEST="SW-COMPONENT-PROTOTYPE">/AUTOSAR/Compositions/BottomComposition/CptSenderPrototype</TARGET-COMPONENT-REF>
+                        </COMPONENT-IREF>
+                      </COMPONENT-IREFS>
+                      <ECU-INSTANCE-REF DEST="ECU-INSTANCE">/SystemInfo/EcuInstances/ECUA</ECU-INSTANCE-REF>
+                    </SWC-TO-ECU-MAPPING>
+                    <SWC-TO-ECU-MAPPING UUID="60f7f7d3-4a4e-4716-b03c-4407cc412bed">
+                      <SHORT-NAME>ECUB_SwcToEcuMapping</SHORT-NAME>
+                      <COMPONENT-IREFS>
+                        <COMPONENT-IREF>
+                          <CONTEXT-COMPOSITION-REF DEST="ROOT-SW-COMPOSITION-PROTOTYPE">/AUTOSAR/System/system_0/rootSwCompositionPrototype_0</CONTEXT-COMPOSITION-REF>
+                          <CONTEXT-COMPONENT-REF DEST="SW-COMPONENT-PROTOTYPE">/AUTOSAR/Compositions/TopComposition/BottomComposition</CONTEXT-COMPONENT-REF>
+                          <CONTEXT-COMPONENT-REF DEST="SW-COMPONENT-PROTOTYPE">/AUTOSAR/Compositions/BottomComposition/CptReceiverPrototype</CONTEXT-COMPONENT-REF>
+                          <TARGET-COMPONENT-REF DEST="SW-COMPONENT-PROTOTYPE">/AUTOSAR/Compositions/BottomComposition/CptReceiverPrototype</TARGET-COMPONENT-REF>
+                        </COMPONENT-IREF>
+                      </COMPONENT-IREFS>
+                      <ECU-INSTANCE-REF DEST="ECU-INSTANCE">/SystemInfo/EcuInstances/ECUB</ECU-INSTANCE-REF>
+                    </SWC-TO-ECU-MAPPING>
+                  </SW-MAPPINGS>
+                </SYSTEM-MAPPING>
+              </MAPPINGS>
+              <ROOT-SOFTWARE-COMPOSITIONS>
+                <ROOT-SW-COMPOSITION-PROTOTYPE UUID="00f91088-571a-4138-9a6c-9acac59a4915">
+                  <SHORT-NAME>rootSwCompositionPrototype_0</SHORT-NAME>
+                  <SOFTWARE-COMPOSITION-TREF DEST="COMPOSITION-SW-COMPONENT-TYPE">/AUTOSAR/Compositions/TopComposition</SOFTWARE-COMPOSITION-TREF>
+                </ROOT-SW-COMPOSITION-PROTOTYPE>
+              </ROOT-SOFTWARE-COMPOSITIONS>
+            </SYSTEM>
+          </ELEMENTS>
+        </AR-PACKAGE>
+        <AR-PACKAGE UUID="ab456873-19f5-4022-8483-e211f1655d27">
+          <SHORT-NAME>Compositions</SHORT-NAME>
+          <ELEMENTS>
+            <COMPOSITION-SW-COMPONENT-TYPE UUID="1ba19ef2-9752-4ba7-a815-cee7781e9b73">
+              <SHORT-NAME>BottomComposition</SHORT-NAME>
+              <COMPONENTS>
+                <SW-COMPONENT-PROTOTYPE>
+                  <SHORT-NAME>CptReceiverPrototype</SHORT-NAME>
+                  <TYPE-TREF DEST="APPLICATION-SW-COMPONENT-TYPE">/AUTOSAR/Components/CptReceiver</TYPE-TREF>
+                </SW-COMPONENT-PROTOTYPE>
+                <SW-COMPONENT-PROTOTYPE>
+                  <SHORT-NAME>CptSenderPrototype</SHORT-NAME>
+                  <TYPE-TREF DEST="APPLICATION-SW-COMPONENT-TYPE">/AUTOSAR/Components/CptSender</TYPE-TREF>
+                </SW-COMPONENT-PROTOTYPE>
+              </COMPONENTS>
+              <CONNECTORS>
+                <ASSEMBLY-SW-CONNECTOR>
+                  <SHORT-NAME>assemblyConnect_1</SHORT-NAME>
+                  <PROVIDER-IREF>
+                    <CONTEXT-COMPONENT-REF DEST="SW-COMPONENT-PROTOTYPE">/AUTOSAR/Compositions/BottomComposition/CptSenderPrototype</CONTEXT-COMPONENT-REF>
+                    <TARGET-P-PORT-REF DEST="P-PORT-PROTOTYPE">/AUTOSAR/Components/CptSender/SendExplict_Pp</TARGET-P-PORT-REF>
+                  </PROVIDER-IREF>
+                  <REQUESTER-IREF>
+                    <CONTEXT-COMPONENT-REF DEST="SW-COMPONENT-PROTOTYPE">/AUTOSAR/Compositions/BottomComposition/CptReceiverPrototype</CONTEXT-COMPONENT-REF>
+                    <TARGET-R-PORT-REF DEST="R-PORT-PROTOTYPE">/AUTOSAR/Components/CptReceiver/ReceiverExplicit_Rp</TARGET-R-PORT-REF>
+                  </REQUESTER-IREF>
+                </ASSEMBLY-SW-CONNECTOR>
+              </CONNECTORS>
+            </COMPOSITION-SW-COMPONENT-TYPE>
+            <COMPOSITION-SW-COMPONENT-TYPE UUID="9a6d4c3b-e9f3-4a79-b259-0a8aa16f333f">
+              <SHORT-NAME>TopComposition</SHORT-NAME>
+              <COMPONENTS>
+                <SW-COMPONENT-PROTOTYPE UUID="e0c58264-c6ca-4ea8-ae3e-434049c85dbc">
+                  <SHORT-NAME>BottomComposition</SHORT-NAME>
+                  <TYPE-TREF DEST="COMPOSITION-SW-COMPONENT-TYPE">/AUTOSAR/Compositions/BottomComposition</TYPE-TREF>
+                </SW-COMPONENT-PROTOTYPE>
+              </COMPONENTS>
+            </COMPOSITION-SW-COMPONENT-TYPE>
+          </ELEMENTS>
+        </AR-PACKAGE>
+        <AR-PACKAGE UUID="1bbc21ed-9ee8-4422-9b27-c0537f8f6e83">
+          <SHORT-NAME>SwcImplementations</SHORT-NAME>
+          <ELEMENTS>
+            <SWC-IMPLEMENTATION UUID="78b6970e-7df9-46f7-87c5-77f271f55a2f">
+              <SHORT-NAME>swcImplementation_Sender</SHORT-NAME>
+              <BEHAVIOR-REF DEST="SWC-INTERNAL-BEHAVIOR">/AUTOSAR/Components/CptSender/IbSender</BEHAVIOR-REF>
+            </SWC-IMPLEMENTATION>
+            <SWC-IMPLEMENTATION UUID="fc40bc36-259a-4761-936c-1139e013f8b2">
+              <SHORT-NAME>swcImplementation_Receiver</SHORT-NAME>
+              <BEHAVIOR-REF DEST="SWC-INTERNAL-BEHAVIOR">/AUTOSAR/Components/CptReceiver/IbReceiver</BEHAVIOR-REF>
+            </SWC-IMPLEMENTATION>
+          </ELEMENTS>
+        </AR-PACKAGE>
+        <AR-PACKAGE UUID="544b5c9f-764c-43ab-9586-aedac39483a8">
+          <SHORT-NAME>DataTransformations</SHORT-NAME>
+          <ELEMENTS>
+            <DATA-TRANSFORMATION-SET UUID="50027a84-748c-40b9-adf5-c8e2af3b52dd">
+              <SHORT-NAME>dataTransformationSet_0</SHORT-NAME>
+              <DATA-TRANSFORMATIONS>
+                <DATA-TRANSFORMATION UUID="94c6b66a-7b0d-41e2-85ff-90f7e95b25d6">
+                  <SHORT-NAME>dataTransformation_StructE2E</SHORT-NAME>
+                  <EXECUTE-DESPITE-DATA-UNAVAILABILITY>true</EXECUTE-DESPITE-DATA-UNAVAILABILITY>
+                  <TRANSFORMER-CHAIN-REFS>
+                    <TRANSFORMER-CHAIN-REF DEST="TRANSFORMATION-TECHNOLOGY">/AUTOSAR/DataTransformations/dataTransformationSet_0/transformationTechnology_COMXf</TRANSFORMER-CHAIN-REF>
+                    <TRANSFORMER-CHAIN-REF DEST="TRANSFORMATION-TECHNOLOGY">/AUTOSAR/DataTransformations/dataTransformationSet_0/transformationTechnologies_E2EXf</TRANSFORMER-CHAIN-REF>
+                  </TRANSFORMER-CHAIN-REFS>
+                </DATA-TRANSFORMATION>
+              </DATA-TRANSFORMATIONS>
+              <TRANSFORMATION-TECHNOLOGYS>
+                <TRANSFORMATION-TECHNOLOGY UUID="eb027f9f-8ef2-4104-88ac-b56ecf92e740">
+                  <SHORT-NAME>transformationTechnology_COMXf</SHORT-NAME>
+                  <ADMIN-DATA>
+                    <SDGS>
+                      <SDG GID="iSoft::IdentifiableOptions"/>
+                    </SDGS>
+                  </ADMIN-DATA>
+                  <BUFFER-PROPERTIES>
+                    <HEADER-LENGTH>12</HEADER-LENGTH>
+                    <IN-PLACE>false</IN-PLACE>
+                  </BUFFER-PROPERTIES>
+                  <PROTOCOL>COMBased</PROTOCOL>
+                  <TRANSFORMER-CLASS>SERIALIZER</TRANSFORMER-CLASS>
+                  <VERSION>1.0.0</VERSION>
+                </TRANSFORMATION-TECHNOLOGY>
+                <TRANSFORMATION-TECHNOLOGY>
+                  <SHORT-NAME>transformationTechnologies_E2EXf</SHORT-NAME>
+                  <ADMIN-DATA>
+                    <SDGS>
+                      <SDG GID="iSoft::IdentifiableOptions"/>
+                    </SDGS>
+                  </ADMIN-DATA>
+                  <BUFFER-PROPERTIES>
+                    <HEADER-LENGTH>0</HEADER-LENGTH>
+                    <IN-PLACE>true</IN-PLACE>
+                  </BUFFER-PROPERTIES>
+                  <PROTOCOL>E2E</PROTOCOL>
+                  <TRANSFORMATION-DESCRIPTIONS>
+                    <END-TO-END-TRANSFORMATION-DESCRIPTION>
+                      <ADMIN-DATA>
+                        <SDGS>
+                          <SDG GID="iSoft::IdentifiableOptions">
+                            <SD GID="@windowSizeInit">3</SD>
+                            <SD GID="@windowSizeValid">3</SD>
+                            <SD GID="@windowSizeInvalid">3</SD>
+                            <SD GID="@clearFromValidToInvalid">true</SD>
+                          </SDG>
+                        </SDGS>
+                      </ADMIN-DATA>
+                      <COUNTER-OFFSET>8</COUNTER-OFFSET>
+                      <CRC-OFFSET>0</CRC-OFFSET>
+                      <DATA-ID-MODE>ALL-16-BIT</DATA-ID-MODE>
+                      <DATA-ID-NIBBLE-OFFSET>12</DATA-ID-NIBBLE-OFFSET>
+                      <MAX-DELTA-COUNTER>2</MAX-DELTA-COUNTER>
+                      <MAX-ERROR-STATE-INIT>1</MAX-ERROR-STATE-INIT>
+                      <MAX-ERROR-STATE-INVALID>1</MAX-ERROR-STATE-INVALID>
+                      <MAX-ERROR-STATE-VALID>1</MAX-ERROR-STATE-VALID>
+                      <MAX-NO-NEW-OR-REPEATED-DATA>14</MAX-NO-NEW-OR-REPEATED-DATA>
+                      <MIN-OK-STATE-INIT>1</MIN-OK-STATE-INIT>
+                      <MIN-OK-STATE-INVALID>2</MIN-OK-STATE-INVALID>
+                      <MIN-OK-STATE-VALID>1</MIN-OK-STATE-VALID>
+                      <OFFSET>0</OFFSET>
+                      <PROFILE-BEHAVIOR>R-4--2</PROFILE-BEHAVIOR>
+                      <PROFILE-NAME>PROFILE_01</PROFILE-NAME>
+                      <SYNC-COUNTER-INIT>1</SYNC-COUNTER-INIT>
+                      <UPPER-HEADER-BITS-TO-SHIFT>0</UPPER-HEADER-BITS-TO-SHIFT>
+                    </END-TO-END-TRANSFORMATION-DESCRIPTION>
+                  </TRANSFORMATION-DESCRIPTIONS>
+                  <TRANSFORMER-CLASS>SAFETY</TRANSFORMER-CLASS>
+                  <VERSION>1.0.0</VERSION>
+                </TRANSFORMATION-TECHNOLOGY>
+              </TRANSFORMATION-TECHNOLOGYS>
+            </DATA-TRANSFORMATION-SET>
+          </ELEMENTS>
+        </AR-PACKAGE>
+      </AR-PACKAGES>
+    </AR-PACKAGE>
+  </AR-PACKAGES>
+</AUTOSAR>

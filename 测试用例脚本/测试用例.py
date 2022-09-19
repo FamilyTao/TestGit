@@ -4,13 +4,16 @@ import re
 import os
 import shutil
 # 架构设计文档
-SA_DOC_PATH = 'Test\[PH-PRD-QC-002-2022]_ArchitecturalDesign_RTE.docx'
-# 集成用例
-TEST_SR_PATH = 'Test\[PH-PRD-QC-002-2022]_IntegrationTestCase&TestResult_SR_李涛.xlsx'
-TEST_SR_DIFFER_PATH = '[PH-PRD-QC-002-2022]_IntegrationTestCase&TestResult_SR_李涛_ID_去重数据.xlsx'
-# TEST_SR_DIFFER_PATH = ''
-TEST_E2E_PATH = 'Test\[PH-PRD-QC-002-2022]_IntegrationTestCase&TestResult_E2E_李涛.xlsx'
-TEST_E2E_DIFFER_PATH = '[PH-PRD-QC-002-2022]_IntegrationTestCase&TestResult_E2E_李涛_ID_去重数据.xlsx'
+SA_DOC_PATH = '文档\[PH-PRD-QC-002-2022]_ArchitecturalDesign_RTE.docx'
+
+# 输入文件
+TEST_SR_PATH = '文档\[PH-PRD-QC-002-2022]_IntegrationTestCase&TestResult_SR_李涛.xlsx'
+TEST_E2E_PATH = '文档\[PH-PRD-QC-002-2022]_IntegrationTestCase&TestResult_E2E_李涛.xlsx'
+
+
+# 输出文件
+TEST_SR_DUP_FILE = '[PH-PRD-QC-002-2022]_IntegrationTestCase&TestResult_SR_李涛_ID_去重数据.xlsx'
+TEST_E2E_DUP_FILE = '[PH-PRD-QC-002-2022]_IntegrationTestCase&TestResult_E2E_李涛_ID_去重数据.xlsx'
 
 OutputPathFiles = []
 
@@ -84,6 +87,7 @@ def hightlight_undo(excelPath:str,target_col:int,current_col:int):
 def stop():
     for i in OutputPathFiles:
         shutil.move(i,'output')
+    print('----------------脚步执行完成-------------------')
 
 
 if __name__ == "__main__" :
@@ -99,20 +103,17 @@ if __name__ == "__main__" :
     get_id_by_excel_word(TEST_E2E_PATH,SA_DOC_PATH,'Data Transformation',2)
 
     # 显示E2E测试用例未完成ID
-    hightlight_undo(TEST_E2E_DIFFER_PATH,target_col=3,current_col=2)
+    hightlight_undo(TEST_E2E_DUP_FILE,target_col=3,current_col=2)
     
     # 获取SR测试用例需求ID
     get_id_by_excel_word(TEST_SR_PATH,SA_DOC_PATH,'S-R Communciation',2)
 
     # 显示SR测试用例未完成ID
-    hightlight_undo(TEST_SR_DIFFER_PATH,target_col=3,current_col=2)
-
-    print('--------------')
+    hightlight_undo(TEST_SR_DUP_FILE,target_col=3,current_col=2)
 
 
     stop()
-    # str = 'SA_R2_180\nSA_R2_183\nSA_R2_181'
-    # print(re.findall('SA_R2_\d*',str))
+
 
 
         

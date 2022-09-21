@@ -12,36 +12,6 @@
               <MAPPINGS>
                 <SYSTEM-MAPPING UUID="05fa689b-96a8-4b4c-8342-ecfe817b8146">
                   <SHORT-NAME>SystemMapping_0</SHORT-NAME>
-                  <DATA-MAPPINGS>
-                    <SENDER-RECEIVER-TO-SIGNAL-GROUP-MAPPING>
-                      <DATA-ELEMENT-IREF>
-                        <CONTEXT-COMPONENT-REF DEST="SW-COMPONENT-PROTOTYPE">/AUTOSAR/Compositions/TopComposition/BottomComposition</CONTEXT-COMPONENT-REF>
-                        <CONTEXT-COMPONENT-REF DEST="SW-COMPONENT-PROTOTYPE">/AUTOSAR/Compositions/BottomComposition/CptReceiverPrototype</CONTEXT-COMPONENT-REF>
-                        <CONTEXT-COMPOSITION-REF DEST="ROOT-SW-COMPOSITION-PROTOTYPE">/AUTOSAR/System/system_0/rootSwCompositionPrototype_0</CONTEXT-COMPOSITION-REF>
-                        <CONTEXT-PORT-REF DEST="R-PORT-PROTOTYPE">/AUTOSAR/Components/CptReceiver/ReceiverExplicit_Rp</CONTEXT-PORT-REF>
-                        <TARGET-DATA-PROTOTYPE-REF DEST="VARIABLE-DATA-PROTOTYPE">/AUTOSAR/Interfaces/Explicit_SrIF/structDE</TARGET-DATA-PROTOTYPE-REF>
-                      </DATA-ELEMENT-IREF>
-                      <SIGNAL-GROUP-REF DEST="SYSTEM-SIGNAL-GROUP">/SystemInfo/SystemSignals/E2E_Demo_Group1_E2E_Msg_Profile1</SIGNAL-GROUP-REF>
-                      <TYPE-MAPPING>
-                        <SENDER-REC-RECORD-TYPE-MAPPING>
-                          <RECORD-ELEMENT-MAPPINGS>
-                            <SENDER-REC-RECORD-ELEMENT-MAPPING>
-                              <IMPLEMENTATION-RECORD-ELEMENT-REF DEST="IMPLEMENTATION-DATA-TYPE-ELEMENT">/AUTOSAR/DataTypes/StructA/Counter8</IMPLEMENTATION-RECORD-ELEMENT-REF>
-                              <SYSTEM-SIGNAL-REF DEST="SYSTEM-SIGNAL">/SystemInfo/SystemSignals/E2E_Signal_Counter_E2E_Msg_Profile1</SYSTEM-SIGNAL-REF>
-                            </SENDER-REC-RECORD-ELEMENT-MAPPING>
-                            <SENDER-REC-RECORD-ELEMENT-MAPPING>
-                              <IMPLEMENTATION-RECORD-ELEMENT-REF DEST="IMPLEMENTATION-DATA-TYPE-ELEMENT">/AUTOSAR/DataTypes/StructA/Crc8</IMPLEMENTATION-RECORD-ELEMENT-REF>
-                              <SYSTEM-SIGNAL-REF DEST="SYSTEM-SIGNAL">/SystemInfo/SystemSignals/E2E_Signal_CRC_E2E_Msg_Profile1</SYSTEM-SIGNAL-REF>
-                            </SENDER-REC-RECORD-ELEMENT-MAPPING>
-                            <SENDER-REC-RECORD-ELEMENT-MAPPING>
-                              <IMPLEMENTATION-RECORD-ELEMENT-REF DEST="IMPLEMENTATION-DATA-TYPE-ELEMENT">/AUTOSAR/DataTypes/StructA/Data16</IMPLEMENTATION-RECORD-ELEMENT-REF>
-                              <SYSTEM-SIGNAL-REF DEST="SYSTEM-SIGNAL">/SystemInfo/SystemSignals/E2E_Signal_DATA_E2E_Msg_Profile1</SYSTEM-SIGNAL-REF>
-                            </SENDER-REC-RECORD-ELEMENT-MAPPING>
-                          </RECORD-ELEMENT-MAPPINGS>
-                        </SENDER-REC-RECORD-TYPE-MAPPING>
-                      </TYPE-MAPPING>
-                    </SENDER-RECEIVER-TO-SIGNAL-GROUP-MAPPING>
-                  </DATA-MAPPINGS>
                   <SW-IMPL-MAPPINGS>
                     <SWC-TO-IMPL-MAPPING UUID="a8bcd8a1-2b05-46aa-a735-b2b6561e6c8a">
                       <SHORT-NAME>CptReceiverPrototypeImplMapping</SHORT-NAME>
@@ -75,8 +45,7 @@
                         <COMPONENT-IREF>
                           <CONTEXT-COMPOSITION-REF DEST="ROOT-SW-COMPOSITION-PROTOTYPE">/AUTOSAR/System/system_0/rootSwCompositionPrototype_0</CONTEXT-COMPOSITION-REF>
                           <CONTEXT-COMPONENT-REF DEST="SW-COMPONENT-PROTOTYPE">/AUTOSAR/Compositions/TopComposition/BottomComposition</CONTEXT-COMPONENT-REF>
-                          <CONTEXT-COMPONENT-REF DEST="SW-COMPONENT-PROTOTYPE">/AUTOSAR/Compositions/BottomComposition/CptSenderPrototype</CONTEXT-COMPONENT-REF>
-                          <TARGET-COMPONENT-REF DEST="SW-COMPONENT-PROTOTYPE">/AUTOSAR/Compositions/BottomComposition/CptSenderPrototype</TARGET-COMPONENT-REF>
+                          <TARGET-COMPONENT-REF DEST="SW-COMPONENT-PROTOTYPE">/AUTOSAR/Compositions/TopComposition/BottomComposition</TARGET-COMPONENT-REF>
                         </COMPONENT-IREF>
                       </COMPONENT-IREFS>
                       <ECU-INSTANCE-REF DEST="ECU-INSTANCE">/SystemInfo/EcuInstances/ECUA</ECU-INSTANCE-REF>
@@ -91,7 +60,6 @@
                           <TARGET-COMPONENT-REF DEST="SW-COMPONENT-PROTOTYPE">/AUTOSAR/Compositions/BottomComposition/CptReceiverPrototype</TARGET-COMPONENT-REF>
                         </COMPONENT-IREF>
                       </COMPONENT-IREFS>
-                      <ECU-INSTANCE-REF DEST="ECU-INSTANCE">/SystemInfo/EcuInstances/ECUB</ECU-INSTANCE-REF>
                     </SWC-TO-ECU-MAPPING>
                   </SW-MAPPINGS>
                 </SYSTEM-MAPPING>
@@ -125,11 +93,11 @@
                   <SHORT-NAME>assemblyConnect_1</SHORT-NAME>
                   <PROVIDER-IREF>
                     <CONTEXT-COMPONENT-REF DEST="SW-COMPONENT-PROTOTYPE">/AUTOSAR/Compositions/BottomComposition/CptSenderPrototype</CONTEXT-COMPONENT-REF>
-                    <TARGET-P-PORT-REF DEST="P-PORT-PROTOTYPE">/AUTOSAR/Components/CptSender/SendExplict_Pp</TARGET-P-PORT-REF>
+                    <TARGET-P-PORT-REF DEST="P-PORT-PROTOTYPE">/AUTOSAR/Components/CptSender/PpExplict</TARGET-P-PORT-REF>
                   </PROVIDER-IREF>
                   <REQUESTER-IREF>
                     <CONTEXT-COMPONENT-REF DEST="SW-COMPONENT-PROTOTYPE">/AUTOSAR/Compositions/BottomComposition/CptReceiverPrototype</CONTEXT-COMPONENT-REF>
-                    <TARGET-R-PORT-REF DEST="R-PORT-PROTOTYPE">/AUTOSAR/Components/CptReceiver/ReceiverExplicit_Rp</TARGET-R-PORT-REF>
+                    <TARGET-R-PORT-REF DEST="R-PORT-PROTOTYPE">/AUTOSAR/Components/CptReceiver/RpExplicit</TARGET-R-PORT-REF>
                   </REQUESTER-IREF>
                 </ASSEMBLY-SW-CONNECTOR>
               </CONNECTORS>
@@ -156,87 +124,6 @@
               <SHORT-NAME>swcImplementation_Receiver</SHORT-NAME>
               <BEHAVIOR-REF DEST="SWC-INTERNAL-BEHAVIOR">/AUTOSAR/Components/CptReceiver/IbReceiver</BEHAVIOR-REF>
             </SWC-IMPLEMENTATION>
-          </ELEMENTS>
-        </AR-PACKAGE>
-        <AR-PACKAGE UUID="544b5c9f-764c-43ab-9586-aedac39483a8">
-          <SHORT-NAME>DataTransformations</SHORT-NAME>
-          <ELEMENTS>
-            <DATA-TRANSFORMATION-SET UUID="50027a84-748c-40b9-adf5-c8e2af3b52dd">
-              <SHORT-NAME>dataTransformationSet_0</SHORT-NAME>
-              <DATA-TRANSFORMATIONS>
-                <DATA-TRANSFORMATION UUID="94c6b66a-7b0d-41e2-85ff-90f7e95b25d6">
-                  <SHORT-NAME>dataTransformation_StructE2E</SHORT-NAME>
-                  <EXECUTE-DESPITE-DATA-UNAVAILABILITY>true</EXECUTE-DESPITE-DATA-UNAVAILABILITY>
-                  <TRANSFORMER-CHAIN-REFS>
-                    <TRANSFORMER-CHAIN-REF DEST="TRANSFORMATION-TECHNOLOGY">/AUTOSAR/DataTransformations/dataTransformationSet_0/transformationTechnology_COMXf</TRANSFORMER-CHAIN-REF>
-                    <TRANSFORMER-CHAIN-REF DEST="TRANSFORMATION-TECHNOLOGY">/AUTOSAR/DataTransformations/dataTransformationSet_0/transformationTechnologies_E2EXf</TRANSFORMER-CHAIN-REF>
-                  </TRANSFORMER-CHAIN-REFS>
-                </DATA-TRANSFORMATION>
-              </DATA-TRANSFORMATIONS>
-              <TRANSFORMATION-TECHNOLOGYS>
-                <TRANSFORMATION-TECHNOLOGY UUID="eb027f9f-8ef2-4104-88ac-b56ecf92e740">
-                  <SHORT-NAME>transformationTechnology_COMXf</SHORT-NAME>
-                  <ADMIN-DATA>
-                    <SDGS>
-                      <SDG GID="iSoft::IdentifiableOptions"/>
-                    </SDGS>
-                  </ADMIN-DATA>
-                  <BUFFER-PROPERTIES>
-                    <HEADER-LENGTH>12</HEADER-LENGTH>
-                    <IN-PLACE>false</IN-PLACE>
-                  </BUFFER-PROPERTIES>
-                  <PROTOCOL>COMBased</PROTOCOL>
-                  <TRANSFORMER-CLASS>SERIALIZER</TRANSFORMER-CLASS>
-                  <VERSION>1.0.0</VERSION>
-                </TRANSFORMATION-TECHNOLOGY>
-                <TRANSFORMATION-TECHNOLOGY>
-                  <SHORT-NAME>transformationTechnologies_E2EXf</SHORT-NAME>
-                  <ADMIN-DATA>
-                    <SDGS>
-                      <SDG GID="iSoft::IdentifiableOptions"/>
-                    </SDGS>
-                  </ADMIN-DATA>
-                  <BUFFER-PROPERTIES>
-                    <HEADER-LENGTH>0</HEADER-LENGTH>
-                    <IN-PLACE>true</IN-PLACE>
-                  </BUFFER-PROPERTIES>
-                  <PROTOCOL>E2E</PROTOCOL>
-                  <TRANSFORMATION-DESCRIPTIONS>
-                    <END-TO-END-TRANSFORMATION-DESCRIPTION>
-                      <ADMIN-DATA>
-                        <SDGS>
-                          <SDG GID="iSoft::IdentifiableOptions">
-                            <SD GID="@windowSizeInit">3</SD>
-                            <SD GID="@windowSizeValid">3</SD>
-                            <SD GID="@windowSizeInvalid">3</SD>
-                            <SD GID="@clearFromValidToInvalid">true</SD>
-                          </SDG>
-                        </SDGS>
-                      </ADMIN-DATA>
-                      <COUNTER-OFFSET>8</COUNTER-OFFSET>
-                      <CRC-OFFSET>0</CRC-OFFSET>
-                      <DATA-ID-MODE>ALL-16-BIT</DATA-ID-MODE>
-                      <DATA-ID-NIBBLE-OFFSET>12</DATA-ID-NIBBLE-OFFSET>
-                      <MAX-DELTA-COUNTER>2</MAX-DELTA-COUNTER>
-                      <MAX-ERROR-STATE-INIT>1</MAX-ERROR-STATE-INIT>
-                      <MAX-ERROR-STATE-INVALID>1</MAX-ERROR-STATE-INVALID>
-                      <MAX-ERROR-STATE-VALID>1</MAX-ERROR-STATE-VALID>
-                      <MAX-NO-NEW-OR-REPEATED-DATA>14</MAX-NO-NEW-OR-REPEATED-DATA>
-                      <MIN-OK-STATE-INIT>1</MIN-OK-STATE-INIT>
-                      <MIN-OK-STATE-INVALID>2</MIN-OK-STATE-INVALID>
-                      <MIN-OK-STATE-VALID>1</MIN-OK-STATE-VALID>
-                      <OFFSET>0</OFFSET>
-                      <PROFILE-BEHAVIOR>R-4--2</PROFILE-BEHAVIOR>
-                      <PROFILE-NAME>PROFILE_01</PROFILE-NAME>
-                      <SYNC-COUNTER-INIT>1</SYNC-COUNTER-INIT>
-                      <UPPER-HEADER-BITS-TO-SHIFT>0</UPPER-HEADER-BITS-TO-SHIFT>
-                    </END-TO-END-TRANSFORMATION-DESCRIPTION>
-                  </TRANSFORMATION-DESCRIPTIONS>
-                  <TRANSFORMER-CLASS>SAFETY</TRANSFORMER-CLASS>
-                  <VERSION>1.0.0</VERSION>
-                </TRANSFORMATION-TECHNOLOGY>
-              </TRANSFORMATION-TECHNOLOGYS>
-            </DATA-TRANSFORMATION-SET>
           </ELEMENTS>
         </AR-PACKAGE>
       </AR-PACKAGES>

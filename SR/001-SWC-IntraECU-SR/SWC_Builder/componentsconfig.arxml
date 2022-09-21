@@ -11,8 +11,8 @@
               <SHORT-NAME>CptSender</SHORT-NAME>
               <PORTS>
                 <P-PORT-PROTOTYPE UUID="90b20a76-9c4f-418e-b6f2-0bb8b6d48801">
-                  <SHORT-NAME>SendExplict_Pp</SHORT-NAME>
-                  <PROVIDED-INTERFACE-TREF DEST="SENDER-RECEIVER-INTERFACE">/AUTOSAR/Interfaces/Explicit_SrIF</PROVIDED-INTERFACE-TREF>
+                  <SHORT-NAME>PpExplict</SHORT-NAME>
+                  <PROVIDED-INTERFACE-TREF DEST="SENDER-RECEIVER-INTERFACE">/AUTOSAR/Interfaces/SRIF_Explicit</PROVIDED-INTERFACE-TREF>
                 </P-PORT-PROTOTYPE>
               </PORTS>
               <INTERNAL-BEHAVIORS>
@@ -21,25 +21,43 @@
                   <EVENTS>
                     <TIMING-EVENT UUID="2d9b7ddf-2424-4fc2-a9a5-f6ea395c434a">
                       <SHORT-NAME>timingEvent_10</SHORT-NAME>
-                      <START-ON-EVENT-REF DEST="RUNNABLE-ENTITY">/AUTOSAR/Components/CptSender/IbSender/ReSender</START-ON-EVENT-REF>
+                      <START-ON-EVENT-REF DEST="RUNNABLE-ENTITY">/AUTOSAR/Components/CptSender/IbSender/Sender</START-ON-EVENT-REF>
                       <PERIOD>0.01</PERIOD>
                     </TIMING-EVENT>
                   </EVENTS>
                   <RUNNABLES>
                     <RUNNABLE-ENTITY UUID="37ea11c1-66bf-46c5-a353-d22d7e7008c4">
-                      <SHORT-NAME>ReSender</SHORT-NAME>
+                      <SHORT-NAME>Sender</SHORT-NAME>
                       <DATA-SEND-POINTS>
                         <VARIABLE-ACCESS UUID="164bd994-0734-4a57-86b0-65d219176893">
-                          <SHORT-NAME>DspStruct</SHORT-NAME>
+                          <SHORT-NAME>DataSendPointsPrimitive</SHORT-NAME>
                           <ACCESSED-VARIABLE>
                             <AUTOSAR-VARIABLE-IREF>
-                              <PORT-PROTOTYPE-REF DEST="P-PORT-PROTOTYPE">/AUTOSAR/Components/CptSender/SendExplict_Pp</PORT-PROTOTYPE-REF>
-                              <TARGET-DATA-PROTOTYPE-REF DEST="VARIABLE-DATA-PROTOTYPE">/AUTOSAR/Interfaces/Explicit_SrIF/structDE</TARGET-DATA-PROTOTYPE-REF>
+                              <PORT-PROTOTYPE-REF DEST="P-PORT-PROTOTYPE">/AUTOSAR/Components/CptSender/PpExplict</PORT-PROTOTYPE-REF>
+                              <TARGET-DATA-PROTOTYPE-REF DEST="VARIABLE-DATA-PROTOTYPE">/AUTOSAR/Interfaces/SRIF_Explicit/dataElementPrimitive</TARGET-DATA-PROTOTYPE-REF>
+                            </AUTOSAR-VARIABLE-IREF>
+                          </ACCESSED-VARIABLE>
+                        </VARIABLE-ACCESS>
+                        <VARIABLE-ACCESS>
+                          <SHORT-NAME>dataSendPointsArray</SHORT-NAME>
+                          <ACCESSED-VARIABLE>
+                            <AUTOSAR-VARIABLE-IREF>
+                              <PORT-PROTOTYPE-REF DEST="P-PORT-PROTOTYPE">/AUTOSAR/Components/CptSender/PpExplict</PORT-PROTOTYPE-REF>
+                              <TARGET-DATA-PROTOTYPE-REF DEST="VARIABLE-DATA-PROTOTYPE">/AUTOSAR/Interfaces/SRIF_Explicit/dataElementArray</TARGET-DATA-PROTOTYPE-REF>
+                            </AUTOSAR-VARIABLE-IREF>
+                          </ACCESSED-VARIABLE>
+                        </VARIABLE-ACCESS>
+                        <VARIABLE-ACCESS>
+                          <SHORT-NAME>dataSendPointsStruct</SHORT-NAME>
+                          <ACCESSED-VARIABLE>
+                            <AUTOSAR-VARIABLE-IREF>
+                              <PORT-PROTOTYPE-REF DEST="P-PORT-PROTOTYPE">/AUTOSAR/Components/CptSender/PpExplict</PORT-PROTOTYPE-REF>
+                              <TARGET-DATA-PROTOTYPE-REF DEST="VARIABLE-DATA-PROTOTYPE">/AUTOSAR/Interfaces/SRIF_Explicit/dataElementStruct</TARGET-DATA-PROTOTYPE-REF>
                             </AUTOSAR-VARIABLE-IREF>
                           </ACCESSED-VARIABLE>
                         </VARIABLE-ACCESS>
                       </DATA-SEND-POINTS>
-                      <SYMBOL>AppSender_Func</SYMBOL>
+                      <SYMBOL>AppSenderRunnable</SYMBOL>
                     </RUNNABLE-ENTITY>
                   </RUNNABLES>
                 </SWC-INTERNAL-BEHAVIOR>
@@ -49,15 +67,22 @@
               <SHORT-NAME>CptReceiver</SHORT-NAME>
               <PORTS>
                 <R-PORT-PROTOTYPE UUID="bdbc4d11-a9f2-474f-b444-25efbe1731ad">
-                  <SHORT-NAME>ReceiverExplicit_Rp</SHORT-NAME>
+                  <SHORT-NAME>RpExplicit</SHORT-NAME>
                   <REQUIRED-COM-SPECS>
                     <NONQUEUED-RECEIVER-COM-SPEC>
-                      <DATA-ELEMENT-REF DEST="VARIABLE-DATA-PROTOTYPE">/AUTOSAR/Interfaces/Explicit_SrIF/structDE</DATA-ELEMENT-REF>
-                      <EXTERNAL-REPLACEMENT-REF DEST="VARIABLE-DATA-PROTOTYPE">/AUTOSAR/Interfaces/Explicit_SrIF/structDE</EXTERNAL-REPLACEMENT-REF>
+                      <DATA-ELEMENT-REF DEST="VARIABLE-DATA-PROTOTYPE">/AUTOSAR/Interfaces/SRIF_Explicit/dataElementPrimitive</DATA-ELEMENT-REF>
+                      <EXTERNAL-REPLACEMENT-REF DEST="VARIABLE-DATA-PROTOTYPE">/AUTOSAR/Interfaces/SRIF_Explicit/dataElementPrimitive</EXTERNAL-REPLACEMENT-REF>
                       <HANDLE-OUT-OF-RANGE>NONE</HANDLE-OUT-OF-RANGE>
-                      <USES-END-TO-END-PROTECTION>true</USES-END-TO-END-PROTECTION>
                       <ALIVE-TIMEOUT>0.0</ALIVE-TIMEOUT>
                       <HANDLE-TIMEOUT-TYPE>NONE</HANDLE-TIMEOUT-TYPE>
+                      <INIT-VALUE>
+                        <NUMERICAL-VALUE-SPECIFICATION>
+                          <VALUE>0</VALUE>
+                        </NUMERICAL-VALUE-SPECIFICATION>
+                      </INIT-VALUE>
+                    </NONQUEUED-RECEIVER-COM-SPEC>
+                    <NONQUEUED-RECEIVER-COM-SPEC>
+                      <DATA-ELEMENT-REF DEST="VARIABLE-DATA-PROTOTYPE">/AUTOSAR/Interfaces/SRIF_Explicit/dataElementStruct</DATA-ELEMENT-REF>
                       <INIT-VALUE>
                         <RECORD-VALUE-SPECIFICATION>
                           <FIELDS>
@@ -65,17 +90,17 @@
                               <VALUE>0</VALUE>
                             </NUMERICAL-VALUE-SPECIFICATION>
                             <NUMERICAL-VALUE-SPECIFICATION>
-                              <VALUE>0</VALUE>
+                              <VALUE>1</VALUE>
                             </NUMERICAL-VALUE-SPECIFICATION>
                             <NUMERICAL-VALUE-SPECIFICATION>
-                              <VALUE>0</VALUE>
+                              <VALUE>2</VALUE>
                             </NUMERICAL-VALUE-SPECIFICATION>
                           </FIELDS>
                         </RECORD-VALUE-SPECIFICATION>
                       </INIT-VALUE>
                     </NONQUEUED-RECEIVER-COM-SPEC>
                   </REQUIRED-COM-SPECS>
-                  <REQUIRED-INTERFACE-TREF DEST="SENDER-RECEIVER-INTERFACE">/AUTOSAR/Interfaces/Explicit_SrIF</REQUIRED-INTERFACE-TREF>
+                  <REQUIRED-INTERFACE-TREF DEST="SENDER-RECEIVER-INTERFACE">/AUTOSAR/Interfaces/SRIF_Explicit</REQUIRED-INTERFACE-TREF>
                 </R-PORT-PROTOTYPE>
               </PORTS>
               <INTERNAL-BEHAVIORS>
@@ -84,25 +109,43 @@
                   <EVENTS>
                     <TIMING-EVENT UUID="672054ce-2202-4c81-96b6-7954cdf7e382">
                       <SHORT-NAME>timingEvent_10</SHORT-NAME>
-                      <START-ON-EVENT-REF DEST="RUNNABLE-ENTITY">/AUTOSAR/Components/CptReceiver/IbReceiver/ReReceiver</START-ON-EVENT-REF>
+                      <START-ON-EVENT-REF DEST="RUNNABLE-ENTITY">/AUTOSAR/Components/CptReceiver/IbReceiver/Receiver</START-ON-EVENT-REF>
                       <PERIOD>0.01</PERIOD>
                     </TIMING-EVENT>
                   </EVENTS>
                   <RUNNABLES>
                     <RUNNABLE-ENTITY UUID="91dcc638-eec3-4c19-b242-9ac3a2400a17">
-                      <SHORT-NAME>ReReceiver</SHORT-NAME>
+                      <SHORT-NAME>Receiver</SHORT-NAME>
                       <DATA-RECEIVE-POINT-BY-ARGUMENTS>
                         <VARIABLE-ACCESS UUID="0fbb08e3-294f-4f54-9555-639d4fcdb8b4">
-                          <SHORT-NAME>DrpbaStruct</SHORT-NAME>
+                          <SHORT-NAME>DataReceiveByArgPrimitive</SHORT-NAME>
                           <ACCESSED-VARIABLE>
                             <AUTOSAR-VARIABLE-IREF>
-                              <PORT-PROTOTYPE-REF DEST="R-PORT-PROTOTYPE">/AUTOSAR/Components/CptReceiver/ReceiverExplicit_Rp</PORT-PROTOTYPE-REF>
-                              <TARGET-DATA-PROTOTYPE-REF DEST="VARIABLE-DATA-PROTOTYPE">/AUTOSAR/Interfaces/Explicit_SrIF/structDE</TARGET-DATA-PROTOTYPE-REF>
+                              <PORT-PROTOTYPE-REF DEST="R-PORT-PROTOTYPE">/AUTOSAR/Components/CptReceiver/RpExplicit</PORT-PROTOTYPE-REF>
+                              <TARGET-DATA-PROTOTYPE-REF DEST="VARIABLE-DATA-PROTOTYPE">/AUTOSAR/Interfaces/SRIF_Explicit/dataElementPrimitive</TARGET-DATA-PROTOTYPE-REF>
+                            </AUTOSAR-VARIABLE-IREF>
+                          </ACCESSED-VARIABLE>
+                        </VARIABLE-ACCESS>
+                        <VARIABLE-ACCESS UUID="1b14d4bc-4506-4c5e-b9d0-e2ed8f664ad0">
+                          <SHORT-NAME>DataReceiveByArgArray</SHORT-NAME>
+                          <ACCESSED-VARIABLE>
+                            <AUTOSAR-VARIABLE-IREF>
+                              <PORT-PROTOTYPE-REF DEST="R-PORT-PROTOTYPE">/AUTOSAR/Components/CptReceiver/RpExplicit</PORT-PROTOTYPE-REF>
+                              <TARGET-DATA-PROTOTYPE-REF DEST="VARIABLE-DATA-PROTOTYPE">/AUTOSAR/Interfaces/SRIF_Explicit/dataElementArray</TARGET-DATA-PROTOTYPE-REF>
+                            </AUTOSAR-VARIABLE-IREF>
+                          </ACCESSED-VARIABLE>
+                        </VARIABLE-ACCESS>
+                        <VARIABLE-ACCESS UUID="615d529a-c5b5-48d1-925e-3cb9d3372882">
+                          <SHORT-NAME>DataReceiveByArgStruct</SHORT-NAME>
+                          <ACCESSED-VARIABLE>
+                            <AUTOSAR-VARIABLE-IREF>
+                              <PORT-PROTOTYPE-REF DEST="R-PORT-PROTOTYPE">/AUTOSAR/Components/CptReceiver/RpExplicit</PORT-PROTOTYPE-REF>
+                              <TARGET-DATA-PROTOTYPE-REF DEST="VARIABLE-DATA-PROTOTYPE">/AUTOSAR/Interfaces/SRIF_Explicit/dataElementStruct</TARGET-DATA-PROTOTYPE-REF>
                             </AUTOSAR-VARIABLE-IREF>
                           </ACCESSED-VARIABLE>
                         </VARIABLE-ACCESS>
                       </DATA-RECEIVE-POINT-BY-ARGUMENTS>
-                      <SYMBOL>AppReceiver_Func</SYMBOL>
+                      <SYMBOL>AppReceiverRunnable</SYMBOL>
                     </RUNNABLE-ENTITY>
                   </RUNNABLES>
                 </SWC-INTERNAL-BEHAVIOR>

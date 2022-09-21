@@ -7,23 +7,52 @@
         <AR-PACKAGE UUID="98e8e7ae-10b4-4391-8f0f-7566207d1268">
           <SHORT-NAME>DataTypes</SHORT-NAME>
           <ELEMENTS>
-            <IMPLEMENTATION-DATA-TYPE UUID="ce87489c-eb91-4902-8cb8-08e58cce814c">
-              <SHORT-NAME>IdtUint8</SHORT-NAME>
+            <IMPLEMENTATION-DATA-TYPE UUID="ec3cd9cc-2c45-401c-a0fd-2a09e042d8fb">
+              <SHORT-NAME>PrimitiveUint16</SHORT-NAME>
               <CATEGORY>VALUE</CATEGORY>
               <SW-DATA-DEF-PROPS>
                 <SW-DATA-DEF-PROPS-VARIANTS>
                   <SW-DATA-DEF-PROPS-CONDITIONAL>
-                    <BASE-TYPE-REF DEST="SW-BASE-TYPE">/AUTOSAR/SwBaseTypes/uint8</BASE-TYPE-REF>
+                    <BASE-TYPE-REF DEST="SW-BASE-TYPE">/AUTOSAR/SwBaseTypes/uint16</BASE-TYPE-REF>
                   </SW-DATA-DEF-PROPS-CONDITIONAL>
                 </SW-DATA-DEF-PROPS-VARIANTS>
               </SW-DATA-DEF-PROPS>
             </IMPLEMENTATION-DATA-TYPE>
-            <IMPLEMENTATION-DATA-TYPE UUID="aba40498-615d-4297-ad79-9d74e5cf0346">
+            <IMPLEMENTATION-DATA-TYPE UUID="9e68a84f-186f-4bb6-8fcd-55424bb8248e">
+              <SHORT-NAME>ArrayUint8</SHORT-NAME>
+              <CATEGORY>ARRAY</CATEGORY>
+              <SUB-ELEMENTS>
+                <IMPLEMENTATION-DATA-TYPE-ELEMENT UUID="f61dfae0-c6f9-4b26-9374-62eba91dd8ad">
+                  <SHORT-NAME>subElement</SHORT-NAME>
+                  <CATEGORY>VALUE</CATEGORY>
+                  <ARRAY-SIZE>10</ARRAY-SIZE>
+                  <SW-DATA-DEF-PROPS>
+                    <SW-DATA-DEF-PROPS-VARIANTS>
+                      <SW-DATA-DEF-PROPS-CONDITIONAL>
+                        <BASE-TYPE-REF DEST="SW-BASE-TYPE">/AUTOSAR/SwBaseTypes/uint8</BASE-TYPE-REF>
+                      </SW-DATA-DEF-PROPS-CONDITIONAL>
+                    </SW-DATA-DEF-PROPS-VARIANTS>
+                  </SW-DATA-DEF-PROPS>
+                </IMPLEMENTATION-DATA-TYPE-ELEMENT>
+              </SUB-ELEMENTS>
+            </IMPLEMENTATION-DATA-TYPE>
+            <IMPLEMENTATION-DATA-TYPE UUID="dc1a5538-da5d-4adb-8c11-ddbcaa850373">
               <SHORT-NAME>StructA</SHORT-NAME>
               <CATEGORY>STRUCTURE</CATEGORY>
               <SUB-ELEMENTS>
-                <IMPLEMENTATION-DATA-TYPE-ELEMENT UUID="564f5fc9-4a67-4190-b08e-1fab3b9fdf2f">
-                  <SHORT-NAME>Data16</SHORT-NAME>
+                <IMPLEMENTATION-DATA-TYPE-ELEMENT UUID="ff072ab2-1aa4-4bfb-bbb6-97b31d004910">
+                  <SHORT-NAME>Crc_Uint8</SHORT-NAME>
+                  <CATEGORY>VALUE</CATEGORY>
+                  <SW-DATA-DEF-PROPS>
+                    <SW-DATA-DEF-PROPS-VARIANTS>
+                      <SW-DATA-DEF-PROPS-CONDITIONAL>
+                        <BASE-TYPE-REF DEST="SW-BASE-TYPE">/AUTOSAR/SwBaseTypes/uint8</BASE-TYPE-REF>
+                      </SW-DATA-DEF-PROPS-CONDITIONAL>
+                    </SW-DATA-DEF-PROPS-VARIANTS>
+                  </SW-DATA-DEF-PROPS>
+                </IMPLEMENTATION-DATA-TYPE-ELEMENT>
+                <IMPLEMENTATION-DATA-TYPE-ELEMENT UUID="1c7bff5a-61b9-4183-85ff-f29a1b4eb34c">
+                  <SHORT-NAME>Data_Uint16</SHORT-NAME>
                   <CATEGORY>VALUE</CATEGORY>
                   <SW-DATA-DEF-PROPS>
                     <SW-DATA-DEF-PROPS-VARIANTS>
@@ -33,29 +62,9 @@
                     </SW-DATA-DEF-PROPS-VARIANTS>
                   </SW-DATA-DEF-PROPS>
                 </IMPLEMENTATION-DATA-TYPE-ELEMENT>
-                <IMPLEMENTATION-DATA-TYPE-ELEMENT UUID="e3466b16-f66e-4b6f-9996-62fe51dff467">
-                  <SHORT-NAME>Crc8</SHORT-NAME>
+                <IMPLEMENTATION-DATA-TYPE-ELEMENT UUID="c73f85bf-a93a-49a6-a40c-85e00895769b">
+                  <SHORT-NAME>Counter_Uint8</SHORT-NAME>
                   <CATEGORY>VALUE</CATEGORY>
-                  <SW-DATA-DEF-PROPS>
-                    <SW-DATA-DEF-PROPS-VARIANTS>
-                      <SW-DATA-DEF-PROPS-CONDITIONAL>
-                        <BASE-TYPE-REF DEST="SW-BASE-TYPE">/AUTOSAR/SwBaseTypes/uint8</BASE-TYPE-REF>
-                      </SW-DATA-DEF-PROPS-CONDITIONAL>
-                    </SW-DATA-DEF-PROPS-VARIANTS>
-                  </SW-DATA-DEF-PROPS>
-                </IMPLEMENTATION-DATA-TYPE-ELEMENT>
-                <IMPLEMENTATION-DATA-TYPE-ELEMENT UUID="c5cf5998-f445-40e4-8c23-e12958e74e56">
-                  <SHORT-NAME>Counter8</SHORT-NAME>
-                  <SW-DATA-DEF-PROPS>
-                    <SW-DATA-DEF-PROPS-VARIANTS>
-                      <SW-DATA-DEF-PROPS-CONDITIONAL>
-                        <BASE-TYPE-REF DEST="SW-BASE-TYPE">/AUTOSAR/SwBaseTypes/uint8</BASE-TYPE-REF>
-                      </SW-DATA-DEF-PROPS-CONDITIONAL>
-                    </SW-DATA-DEF-PROPS-VARIANTS>
-                  </SW-DATA-DEF-PROPS>
-                </IMPLEMENTATION-DATA-TYPE-ELEMENT>
-                <IMPLEMENTATION-DATA-TYPE-ELEMENT UUID="05e13eaa-95c3-4d7e-8e74-d2d86de81685">
-                  <SHORT-NAME>Data8</SHORT-NAME>
                   <SW-DATA-DEF-PROPS>
                     <SW-DATA-DEF-PROPS-VARIANTS>
                       <SW-DATA-DEF-PROPS-CONDITIONAL>

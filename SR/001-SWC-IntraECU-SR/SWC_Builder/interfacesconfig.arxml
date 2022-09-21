@@ -8,11 +8,19 @@
           <SHORT-NAME>Interfaces</SHORT-NAME>
           <ELEMENTS>
             <SENDER-RECEIVER-INTERFACE UUID="ddba4449-0973-4816-abac-01a65c9b42f4">
-              <SHORT-NAME>Explicit_SrIF</SHORT-NAME>
+              <SHORT-NAME>SRIF_Explicit</SHORT-NAME>
               <IS-SERVICE>false</IS-SERVICE>
               <DATA-ELEMENTS>
                 <VARIABLE-DATA-PROTOTYPE UUID="df3ac511-ee0e-429d-8198-baa05134a54b">
-                  <SHORT-NAME>structDE</SHORT-NAME>
+                  <SHORT-NAME>dataElementPrimitive</SHORT-NAME>
+                  <TYPE-TREF DEST="IMPLEMENTATION-DATA-TYPE">/AUTOSAR/DataTypes/PrimitiveUint16</TYPE-TREF>
+                </VARIABLE-DATA-PROTOTYPE>
+                <VARIABLE-DATA-PROTOTYPE UUID="b9a946d5-5bfa-48b0-b222-5520bb59c5fe">
+                  <SHORT-NAME>dataElementArray</SHORT-NAME>
+                  <TYPE-TREF DEST="IMPLEMENTATION-DATA-TYPE">/AUTOSAR/DataTypes/ArrayUint8</TYPE-TREF>
+                </VARIABLE-DATA-PROTOTYPE>
+                <VARIABLE-DATA-PROTOTYPE UUID="ef92d88b-3fe8-4179-865a-36f8f1f98278">
+                  <SHORT-NAME>dataElementStruct</SHORT-NAME>
                   <TYPE-TREF DEST="IMPLEMENTATION-DATA-TYPE">/AUTOSAR/DataTypes/StructA</TYPE-TREF>
                 </VARIABLE-DATA-PROTOTYPE>
               </DATA-ELEMENTS>

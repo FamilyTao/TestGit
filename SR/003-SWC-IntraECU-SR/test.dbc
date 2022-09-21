@@ -36,11 +36,11 @@ BS_:
 BU_: ECUA ECUB
 
 
-BO_ 770 Msg_StructA: 8 ECUA
- SG_ Signal_DATA8 : 32|8@1- (1,0) [0|0] "" Vector__XXX
- SG_ Signal_DATA16 : 23|16@0+ (1,0) [0|0] ""  ECUB
- SG_ Signal_Counter : 15|4@0+ (1,0) [0|0] ""  ECUB
- SG_ Signal_CRC : 7|8@0+ (1,0) [0|0] ""  ECUB
+BO_ 770 E2E_Msg_Profile1: 8 ECUA
+ SG_ E2E_Signal_DATA8 : 32|8@1- (1,0) [0|0] "" Vector__XXX
+ SG_ E2E_Signal_DATA16 : 23|16@0+ (1,0) [0|0] ""  ECUB
+ SG_ E2E_Signal_Counter : 15|4@0+ (1,0) [0|0] ""  ECUB
+ SG_ E2E_Signal_CRC : 7|8@0+ (1,0) [0|0] ""  ECUB
 
 
 
@@ -72,7 +72,7 @@ BA_DEF_DEF_  "CANoeDrift" 0;
 BA_DEF_DEF_  "CANoeStartDelay" 0;
 BA_ "DBName" "ECUAB";
 BA_ "NmStationAddress" BU_ ECUA 1;
-BA_ "GenMsgSendType" BO_ 770 0;
 BA_ "GenMsgCycleTime" BO_ 770 100;
-SIG_GROUP_ 770 Group_StructA 1 : Signal_DATA8 Signal_Counter Signal_CRC Signal_DATA16;
+BA_ "GenMsgSendType" BO_ 770 0;
+SIG_GROUP_ 770 E2E_Demo_Group1 1 : E2E_Signal_DATA8 E2E_Signal_Counter E2E_Signal_CRC E2E_Signal_DATA16;
 

@@ -8,7 +8,7 @@
           <SHORT-NAME>Interfaces</SHORT-NAME>
           <ELEMENTS>
             <SENDER-RECEIVER-INTERFACE UUID="ddba4449-0973-4816-abac-01a65c9b42f4">
-              <SHORT-NAME>SRIF_ComplexData</SHORT-NAME>
+              <SHORT-NAME>SRIF_Data</SHORT-NAME>
               <IS-SERVICE>false</IS-SERVICE>
               <DATA-ELEMENTS>
                 <VARIABLE-DATA-PROTOTYPE UUID="df3ac511-ee0e-429d-8198-baa05134a54b">
@@ -26,16 +26,6 @@
                 <VARIABLE-DATA-PROTOTYPE UUID="b5c00568-d1c5-4907-b0ad-1f3de61eb403">
                   <SHORT-NAME>dataElementStructArray</SHORT-NAME>
                   <TYPE-TREF DEST="IMPLEMENTATION-DATA-TYPE">/AUTOSAR/DataTypes/StructArray</TYPE-TREF>
-                </VARIABLE-DATA-PROTOTYPE>
-              </DATA-ELEMENTS>
-            </SENDER-RECEIVER-INTERFACE>
-            <SENDER-RECEIVER-INTERFACE UUID="685f6f6a-7be2-44a3-9bb9-f929e1a1da4d">
-              <SHORT-NAME>SRIF_Struct</SHORT-NAME>
-              <IS-SERVICE>false</IS-SERVICE>
-              <DATA-ELEMENTS>
-                <VARIABLE-DATA-PROTOTYPE>
-                  <SHORT-NAME>dataElementsStructA</SHORT-NAME>
-                  <TYPE-TREF DEST="IMPLEMENTATION-DATA-TYPE">/AUTOSAR/DataTypes/StructA</TYPE-TREF>
                 </VARIABLE-DATA-PROTOTYPE>
               </DATA-ELEMENTS>
             </SENDER-RECEIVER-INTERFACE>

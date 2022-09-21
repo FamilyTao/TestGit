@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AUTOSAR xmlns="http://autosar.org/schema/r4.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://autosar.org/schema/r4.0 autosar_4-2-2.xsd">
+  <AR-PACKAGES>
+    <AR-PACKAGE>
+      <SHORT-NAME>SystemInfo</SHORT-NAME>
+      <AR-PACKAGES>
+        <AR-PACKAGE UUID="74cbcb59-ddfe-4362-bbb3-c92129dada21">
+          <SHORT-NAME>CanClusters</SHORT-NAME>
+        </AR-PACKAGE>
+        <AR-PACKAGE UUID="eefba90a-61db-4315-9336-b0d582e009cf">
+          <SHORT-NAME>ISignalIPdus</SHORT-NAME>
+        </AR-PACKAGE>
+        <AR-PACKAGE UUID="9f0a3e70-153f-41ce-957f-8255a9d3a49d">
+          <SHORT-NAME>SystemSignals</SHORT-NAME>
+        </AR-PACKAGE>
+        <AR-PACKAGE UUID="6b5f9575-bbe2-4f4e-8642-56bdba29fd28">
+          <SHORT-NAME>ISignals</SHORT-NAME>
+        </AR-PACKAGE>
+        <AR-PACKAGE UUID="bc051084-713c-4a24-8cf4-ef6a039928db">
+          <SHORT-NAME>DataTypePackage</SHORT-NAME>
+        </AR-PACKAGE>
+        <AR-PACKAGE UUID="f8e4a35c-1196-4c47-9db2-be44e7cbdf73">
+          <SHORT-NAME>CanFrames</SHORT-NAME>
+        </AR-PACKAGE>
+        <AR-PACKAGE UUID="a0be523b-9a0f-4903-ae10-fc87aace8532">
+          <SHORT-NAME>UnitPackage</SHORT-NAME>
+          <ELEMENTS>
+            <UNIT UUID="305e6362-35b2-4b77-946e-884fe4f7a997">
+              <SHORT-NAME>NoUnit</SHORT-NAME>
+            </UNIT>
+          </ELEMENTS>
+        </AR-PACKAGE>
+        <AR-PACKAGE UUID="894fcaf5-fa39-4c26-8ad1-3a178fe8af18">
+          <SHORT-NAME>EcuInstances</SHORT-NAME>
+          <ELEMENTS>
+            <ECU-INSTANCE UUID="f0a539d7-166a-49c8-a9b7-5343e5373f66">
+              <SHORT-NAME>ECUA</SHORT-NAME>
+              <COM-CONFIGURATION-GW-TIME-BASE>0.005</COM-CONFIGURATION-GW-TIME-BASE>
+              <COM-CONFIGURATION-RX-TIME-BASE>0.005</COM-CONFIGURATION-RX-TIME-BASE>
+              <COM-CONFIGURATION-TX-TIME-BASE>0.005</COM-CONFIGURATION-TX-TIME-BASE>
+              <SLEEP-MODE-SUPPORTED>false</SLEEP-MODE-SUPPORTED>
+              <WAKE-UP-OVER-BUS-SUPPORTED>false</WAKE-UP-OVER-BUS-SUPPORTED>
+            </ECU-INSTANCE>
+          </ELEMENTS>
+        </AR-PACKAGE>
+      </AR-PACKAGES>
+    </AR-PACKAGE>
+  </AR-PACKAGES>
+</AUTOSAR>

@@ -93,11 +93,11 @@
                   <SHORT-NAME>assemblyConnect_1</SHORT-NAME>
                   <PROVIDER-IREF>
                     <CONTEXT-COMPONENT-REF DEST="SW-COMPONENT-PROTOTYPE">/AUTOSAR/Compositions/BottomComposition/CptSenderPrototype</CONTEXT-COMPONENT-REF>
-                    <TARGET-P-PORT-REF DEST="P-PORT-PROTOTYPE">/AUTOSAR/Components/CptCtrl/PpExplict</TARGET-P-PORT-REF>
+                    <TARGET-P-PORT-REF DEST="P-PORT-PROTOTYPE">/AUTOSAR/Components/CptCtrl/PpData</TARGET-P-PORT-REF>
                   </PROVIDER-IREF>
                   <REQUESTER-IREF>
                     <CONTEXT-COMPONENT-REF DEST="SW-COMPONENT-PROTOTYPE">/AUTOSAR/Compositions/BottomComposition/CptReceiverPrototype</CONTEXT-COMPONENT-REF>
-                    <TARGET-R-PORT-REF DEST="R-PORT-PROTOTYPE">/AUTOSAR/Components/CptObs/RpExplicit</TARGET-R-PORT-REF>
+                    <TARGET-R-PORT-REF DEST="R-PORT-PROTOTYPE">/AUTOSAR/Components/CptObs/RpData</TARGET-R-PORT-REF>
                   </REQUESTER-IREF>
                 </ASSEMBLY-SW-CONNECTOR>
               </CONNECTORS>

@@ -1,0 +1,1199 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AUTOSAR xmlns="http://autosar.org/schema/r4.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://autosar.org/schema/r4.0 AUTOSAR_4-2-2.xsd">
+	<AR-PACKAGES>
+		<AR-PACKAGE>
+			<SHORT-NAME>AUTOSAR</SHORT-NAME>
+			<ELEMENTS>
+				<ECUC-MODULE-DEF UUID="ECUC:2e6263f8-c461-5abc-ba24-cd51feab06dd">
+					<SHORT-NAME>IoHwAb</SHORT-NAME>
+					<DESC>
+						<L-2 L="EN">Configuration if IO Hardware Abstraction</L-2>
+					</DESC>
+					<LOWER-MULTIPLICITY>0</LOWER-MULTIPLICITY>
+					<UPPER-MULTIPLICITY>1</UPPER-MULTIPLICITY>
+					<SUPPORTED-CONFIG-VARIANTS>
+						<SUPPORTED-CONFIG-VARIANT>VARIANT-PRE-COMPILE</SUPPORTED-CONFIG-VARIANT>
+						<SUPPORTED-CONFIG-VARIANT>VARIANT-LINK-TIME</SUPPORTED-CONFIG-VARIANT>
+						<SUPPORTED-CONFIG-VARIANT>VARIANT-POST-BUILD</SUPPORTED-CONFIG-VARIANT>
+					</SUPPORTED-CONFIG-VARIANTS>
+					<CONTAINERS>
+
+						<ECUC-PARAM-CONF-CONTAINER-DEF UUID="ECUC:3ec874cd-3c63-4f98-82b5-37be28a92b41">
+							<SHORT-NAME>IoHwAbGeneral</SHORT-NAME>
+							<LOWER-MULTIPLICITY>1</LOWER-MULTIPLICITY>
+							<UPPER-MULTIPLICITY>1</UPPER-MULTIPLICITY>
+							<PARAMETERS>
+								<ECUC-BOOLEAN-PARAM-DEF UUID="ECUC:8f49c3a6-16c4-4e80-a2ab-9f00281dfc35">
+									<SHORT-NAME>IoHwAbUseDioDev</SHORT-NAME>
+									<DESC>
+						<L-2 L="EN">Switch used to enable or disable I/O hardware abstraction for DIO component.</L-2>
+					</DESC>
+									<LOWER-MULTIPLICITY>1</LOWER-MULTIPLICITY>
+									<UPPER-MULTIPLICITY>1</UPPER-MULTIPLICITY>
+									<DEFAULT-VALUE>false</DEFAULT-VALUE>
+								</ECUC-BOOLEAN-PARAM-DEF>
+								<ECUC-BOOLEAN-PARAM-DEF UUID="ECUC:64ee55d9-af84-4329-bc35-f4ba56d478e1">
+									<SHORT-NAME>IoHwAbUseAdcDev</SHORT-NAME>
+									<DESC>
+						<L-2 L="EN">Switch used to enable or disable I/O hardware abstraction for ADC component.</L-2>
+					</DESC>
+									<LOWER-MULTIPLICITY>1</LOWER-MULTIPLICITY>
+									<UPPER-MULTIPLICITY>1</UPPER-MULTIPLICITY>
+									<DEFAULT-VALUE>false</DEFAULT-VALUE>
+								</ECUC-BOOLEAN-PARAM-DEF>
+								<ECUC-BOOLEAN-PARAM-DEF UUID="ECUC:64ee55d9-af84-4329-bc35-f4ba56d478e1">
+									<SHORT-NAME>IoHwAbUsePwmDev</SHORT-NAME>
+									<DESC>
+						<L-2 L="EN">Switch used to enable or disable I/O hardware abstraction for PWM component.</L-2>
+					</DESC>
+									<LOWER-MULTIPLICITY>1</LOWER-MULTIPLICITY>
+									<UPPER-MULTIPLICITY>1</UPPER-MULTIPLICITY>
+									<DEFAULT-VALUE>false</DEFAULT-VALUE>
+								</ECUC-BOOLEAN-PARAM-DEF>
+								<ECUC-BOOLEAN-PARAM-DEF UUID="ECUC:64ee55d9-af84-4329-bc35-f4ba56d478e1">
+									<SHORT-NAME>IoHwAbUseIcuDev</SHORT-NAME>
+									<DESC>
+						<L-2 L="EN">Switch used to enable or disable I/O hardware abstraction for ICU component.</L-2>
+					</DESC>
+									<LOWER-MULTIPLICITY>1</LOWER-MULTIPLICITY>
+									<UPPER-MULTIPLICITY>1</UPPER-MULTIPLICITY>
+									<DEFAULT-VALUE>false</DEFAULT-VALUE>
+								</ECUC-BOOLEAN-PARAM-DEF>
+									<ECUC-BOOLEAN-PARAM-DEF UUID="ECUC:64ee55d9-af84-4329-bc35-f4ba56d478e1">
+									<SHORT-NAME>IoHwAbUseOcuDev</SHORT-NAME>
+									<DESC>
+						<L-2 L="EN">Switch used to enable or disable I/O hardware abstraction for OCU component.</L-2>
+					</DESC>
+									<ADMIN-DATA>
+																<SDGS>
+																	<SDG GID="iSoft::IdentifiableOptions">
+																			
+																		<SD GID="FIX_FLAG">true</SD>													
+																	</SDG>
+																</SDGS>
+															</ADMIN-DATA>
+									<LOWER-MULTIPLICITY>1</LOWER-MULTIPLICITY>
+									<UPPER-MULTIPLICITY>1</UPPER-MULTIPLICITY>
+									<DEFAULT-VALUE>false</DEFAULT-VALUE>
+								</ECUC-BOOLEAN-PARAM-DEF>
+								<ECUC-BOOLEAN-PARAM-DEF UUID="ECUC:64ee55d9-af84-4329-bc35-f4ba56d478e1">
+									<SHORT-NAME>IoHwAbUseSpiDev</SHORT-NAME>
+									<DESC>
+						<L-2 L="EN">Switch used to enable or disable I/O hardware abstraction for SPI component.</L-2>
+					</DESC>
+									<ADMIN-DATA>
+																<SDGS>
+																	<SDG GID="iSoft::IdentifiableOptions">
+																			
+																		<SD GID="FIX_FLAG">true</SD>													
+																	</SDG>
+																</SDGS>
+															</ADMIN-DATA>
+									<LOWER-MULTIPLICITY>1</LOWER-MULTIPLICITY>
+									<UPPER-MULTIPLICITY>1</UPPER-MULTIPLICITY>
+									<DEFAULT-VALUE>false</DEFAULT-VALUE>
+								</ECUC-BOOLEAN-PARAM-DEF>
+								<ECUC-BOOLEAN-PARAM-DEF UUID="ECUC:64ee55d9-af84-4329-bc35-f4ba56d478e1">
+									<SHORT-NAME>IoHwAbUseGptDev</SHORT-NAME>
+									<DESC>
+						<L-2 L="EN">Switch used to enable or disable I/O hardware abstraction for GPT component.</L-2>
+					</DESC>
+									<ADMIN-DATA>
+																<SDGS>
+																	<SDG GID="iSoft::IdentifiableOptions">
+																			
+																		<SD GID="FIX_FLAG">true</SD>													
+																	</SDG>
+																</SDGS>
+															</ADMIN-DATA>
+									<LOWER-MULTIPLICITY>1</LOWER-MULTIPLICITY>
+									<UPPER-MULTIPLICITY>1</UPPER-MULTIPLICITY>
+									<DEFAULT-VALUE>false</DEFAULT-VALUE>
+								</ECUC-BOOLEAN-PARAM-DEF>
+									<ECUC-BOOLEAN-PARAM-DEF UUID="ECUC:64ee55d9-af84-4329-bc35-f4ba56d478e1">
+									<SHORT-NAME>IoHwAbUseExtDev</SHORT-NAME>
+									<DESC>
+						<L-2 L="EN">Switch used to enable or disable I/O hardware abstraction for CDD(Extern Device)component.</L-2>
+					</DESC>
+									<ADMIN-DATA>
+																<SDGS>
+																	<SDG GID="iSoft::IdentifiableOptions">
+																			
+																		<SD GID="FIX_FLAG">true</SD>													
+																	</SDG>
+																</SDGS>
+															</ADMIN-DATA>
+									<LOWER-MULTIPLICITY>1</LOWER-MULTIPLICITY>
+									<UPPER-MULTIPLICITY>1</UPPER-MULTIPLICITY>
+									<DEFAULT-VALUE>false</DEFAULT-VALUE>
+								</ECUC-BOOLEAN-PARAM-DEF>
+								
+														<ECUC-BOOLEAN-PARAM-DEF UUID="ECUC:64ee55d9-af84-4329-bc35-f4ba56d478e1">
+									<SHORT-NAME>IoHwAbVersionInfoApi</SHORT-NAME>
+									<DESC>
+						<L-2 L="EN">Switch used to enable or disable API of read software version information.</L-2>
+					</DESC>
+									<LOWER-MULTIPLICITY>1</LOWER-MULTIPLICITY>
+									<UPPER-MULTIPLICITY>1</UPPER-MULTIPLICITY>
+									<DEFAULT-VALUE>false</DEFAULT-VALUE>
+								</ECUC-BOOLEAN-PARAM-DEF>
+								<ECUC-BOOLEAN-PARAM-DEF UUID="ECUC:64ee55d9-af84-4329-bc35-f4ba56d478e1">
+									<SHORT-NAME>IoHwAbDevErrorDetect</SHORT-NAME>
+									<DESC>
+						<L-2 L="EN">Switch used to enable or disable API of report development error.</L-2>
+					</DESC>
+									<ADMIN-DATA>
+										<SDGS>
+											<SDG GID="iSoft::IdentifiableOptions">
+												<SD GID="TRIGGER_FLAG">true</SD>												
+											</SDG>
+										</SDGS>
+									</ADMIN-DATA>
+									<LOWER-MULTIPLICITY>1</LOWER-MULTIPLICITY>
+									<UPPER-MULTIPLICITY>1</UPPER-MULTIPLICITY>
+									<DEFAULT-VALUE>true</DEFAULT-VALUE>
+								</ECUC-BOOLEAN-PARAM-DEF>
+								<ECUC-BOOLEAN-PARAM-DEF UUID="ECUC:64ee55d9-af84-4329-bc35-f4ba56d478e1">
+									<SHORT-NAME>IoHwAb_CfgUseServiceComponent</SHORT-NAME>
+									<DESC>
+						<L-2 L="EN">Switch used to enables or disallows API of create I/O hardware abstraction service.</L-2>
+					</DESC>
+									<LOWER-MULTIPLICITY>1</LOWER-MULTIPLICITY>
+									<UPPER-MULTIPLICITY>1</UPPER-MULTIPLICITY>
+									<DEFAULT-VALUE>false</DEFAULT-VALUE>
+								</ECUC-BOOLEAN-PARAM-DEF>
+										<ECUC-ENUMERATION-PARAM-DEF UUID="ECUC:7c6684e6-b0d8-44a5-985e-9c0dc180fce5">
+									<SHORT-NAME>McuPlatformAdaptationType</SHORT-NAME>
+									<DESC>
+						<L-2 L="EN">Switch used to adapt the specified processor platform from the drop - down dialog box.</L-2>
+					</DESC>
+									<ADMIN-DATA>
+										<SDGS>
+											<SDG GID="iSoft::IdentifiableOptions">
+												<SD GID="TRIGGER_FLAG">true</SD>												
+											</SDG>
+										</SDGS>
+									</ADMIN-DATA>
+									<LOWER-MULTIPLICITY>1</LOWER-MULTIPLICITY>
+									<UPPER-MULTIPLICITY>1</UPPER-MULTIPLICITY>
+											<SCOPE>LOCAL</SCOPE>
+																<ORIGIN>AUTOSAR_ECUC</ORIGIN>
+																<POST-BUILD-VARIANT-VALUE>false</POST-BUILD-VARIANT-VALUE>
+																<VALUE-CONFIG-CLASSES>
+																	<ECUC-VALUE-CONFIGURATION-CLASS>
+																		<CONFIG-CLASS>LINK</CONFIG-CLASS>
+																		<CONFIG-VARIANT>VARIANT-LINK-TIME</CONFIG-VARIANT>
+																	</ECUC-VALUE-CONFIGURATION-CLASS>
+																	<ECUC-VALUE-CONFIGURATION-CLASS>
+																		<CONFIG-CLASS>LINK</CONFIG-CLASS>
+																		<CONFIG-VARIANT>VARIANT-POST-BUILD</CONFIG-VARIANT>
+																	</ECUC-VALUE-CONFIGURATION-CLASS>
+																	<ECUC-VALUE-CONFIGURATION-CLASS>
+																		<CONFIG-CLASS>PRE-COMPILE</CONFIG-CLASS>
+																		<CONFIG-VARIANT>VARIANT-PRE-COMPILE</CONFIG-VARIANT>
+																	</ECUC-VALUE-CONFIGURATION-CLASS>
+																</VALUE-CONFIG-CLASSES>
+									<SYMBOLIC-NAME-VALUE>false</SYMBOLIC-NAME-VALUE>
+										<DEFAULT-VALUE>UNKNOWN</DEFAULT-VALUE>
+									<LITERALS>
+										<ECUC-ENUMERATION-LITERAL-DEF UUID="ECUC:f36aaca6-a0cc-955d-58a1-4862fed97f58">
+											<SHORT-NAME>UNKNOWN</SHORT-NAME>
+											<ORIGIN>AUTOSAR_ECUC</ORIGIN>
+										</ECUC-ENUMERATION-LITERAL-DEF>
+										<ECUC-ENUMERATION-LITERAL-DEF UUID="ECUC:c45941d2-2cca-92f2-5062-070ec82de00a">
+											<SHORT-NAME>TRICORE_TC3XX</SHORT-NAME>
+											<ORIGIN>AUTOSAR_ECUC</ORIGIN>
+										</ECUC-ENUMERATION-LITERAL-DEF>
+										<ECUC-ENUMERATION-LITERAL-DEF UUID="ECUC:c45941d2-2cca-92f2-5062-070ec82de00a">
+											<SHORT-NAME>ARM_S32K14X</SHORT-NAME>
+			
+											<ORIGIN>AUTOSAR_ECUC</ORIGIN>
+										</ECUC-ENUMERATION-LITERAL-DEF>
+					
+												<ECUC-ENUMERATION-LITERAL-DEF UUID="ECUC:c45941d2-2cca-92f2-5062-070ec82de00a">
+											<SHORT-NAME>ARM_S32K324</SHORT-NAME>
+			
+											<ORIGIN>AUTOSAR_ECUC</ORIGIN>
+										</ECUC-ENUMERATION-LITERAL-DEF>
+													<ECUC-ENUMERATION-LITERAL-DEF UUID="ECUC:c45941d2-2cca-92f2-5062-070ec82de00a">
+											<SHORT-NAME>RES_RH850</SHORT-NAME>
+			
+											<ORIGIN>AUTOSAR_ECUC</ORIGIN>
+										</ECUC-ENUMERATION-LITERAL-DEF>
+										<ECUC-ENUMERATION-LITERAL-DEF UUID="ECUC:c45941d2-2cca-92f2-5062-070ec82de00a">
+											<SHORT-NAME>RES_RL78</SHORT-NAME>
+			
+											<ORIGIN>AUTOSAR_ECUC</ORIGIN>
+										</ECUC-ENUMERATION-LITERAL-DEF>
+												<ECUC-ENUMERATION-LITERAL-DEF UUID="ECUC:c45941d2-2cca-92f2-5062-070ec82de00a">
+											<SHORT-NAME>SEM_G9X</SHORT-NAME>
+											<ORIGIN>AUTOSAR_ECUC</ORIGIN>
+										</ECUC-ENUMERATION-LITERAL-DEF>
+				<ECUC-ENUMERATION-LITERAL-DEF UUID="ECUC:c45941d2-2cca-92f2-5062-070ec82de00a">
+											<SHORT-NAME>SEM_E3110</SHORT-NAME>
+											<ORIGIN>AUTOSAR_ECUC</ORIGIN>
+										</ECUC-ENUMERATION-LITERAL-DEF>
+											</LITERALS>
+								</ECUC-ENUMERATION-PARAM-DEF>
+							</PARAMETERS>
+													<SUB-CONTAINERS>
+															<!-- Container Definition: IoHwAb_AnalogGroupDescriptor -->
+								<ECUC-PARAM-CONF-CONTAINER-DEF UUID="ECUC:2541ff9b-ca8a-4388-b3e9-4e893a369d4e">
+									<SHORT-NAME>AdcConfig</SHORT-NAME>
+									
+									
+									<DESC>
+										<L-2 L="EN"></L-2>
+									</DESC>
+									<RELATED-TRACE-ITEM-REF DEST="TRACEABLE">ECUC_CanIf_00832</RELATED-TRACE-ITEM-REF>
+									<LOWER-MULTIPLICITY>1</LOWER-MULTIPLICITY>
+									<UPPER-MULTIPLICITY>1</UPPER-MULTIPLICITY>
+									<MULTIPLICITY-CONFIG-CLASSES>
+										<ECUC-MULTIPLICITY-CONFIGURATION-CLASS>
+											<CONFIG-CLASS>LINK</CONFIG-CLASS>
+											<CONFIG-VARIANT>VARIANT-LINK-TIME</CONFIG-VARIANT>
+										</ECUC-MULTIPLICITY-CONFIGURATION-CLASS>
+										<ECUC-MULTIPLICITY-CONFIGURATION-CLASS>
+											<CONFIG-CLASS>POST-BUILD</CONFIG-CLASS>
+											<CONFIG-VARIANT>VARIANT-POST-BUILD</CONFIG-VARIANT>
+										</ECUC-MULTIPLICITY-CONFIGURATION-CLASS>
+										<ECUC-MULTIPLICITY-CONFIGURATION-CLASS>
+											<CONFIG-CLASS>PRE-COMPILE</CONFIG-CLASS>
+											<CONFIG-VARIANT>VARIANT-PRE-COMPILE</CONFIG-VARIANT>
+										</ECUC-MULTIPLICITY-CONFIGURATION-CLASS>
+									</MULTIPLICITY-CONFIG-CLASSES>
+									<POST-BUILD-VARIANT-MULTIPLICITY>true</POST-BUILD-VARIANT-MULTIPLICITY>
+										
+												<PARAMETERS>
+								<ECUC-BOOLEAN-PARAM-DEF UUID="ECUC:64ee55d9-af84-4329-bc35-f4ba56d478e1">
+									<SHORT-NAME>AdcGrpNotifCapablity</SHORT-NAME>
+									<DESC>
+										<L-2 L="EN">Switch used to allow or disallow access Interrupt notification of ADC component by IoHwAb.</L-2>
+									</DESC>
+									<LOWER-MULTIPLICITY>1</LOWER-MULTIPLICITY>
+									<UPPER-MULTIPLICITY>1</UPPER-MULTIPLICITY>
+									<DEFAULT-VALUE>false</DEFAULT-VALUE>
+								</ECUC-BOOLEAN-PARAM-DEF>
+									
+									</PARAMETERS>
+								</ECUC-PARAM-CONF-CONTAINER-DEF>			
+											<!-- Container Definition: IoHwAb_AnalogGroupDescriptor -->
+								<ECUC-PARAM-CONF-CONTAINER-DEF UUID="ECUC:2541ff9b-ca8a-4388-b3e9-4e893a369d4e">
+									<SHORT-NAME>PwmConfig</SHORT-NAME>
+									
+									
+									<DESC>
+										<L-2 L="EN"></L-2>
+									</DESC>
+									<RELATED-TRACE-ITEM-REF DEST="TRACEABLE">ECUC_CanIf_00832</RELATED-TRACE-ITEM-REF>
+									<LOWER-MULTIPLICITY>1</LOWER-MULTIPLICITY>
+									<UPPER-MULTIPLICITY>1</UPPER-MULTIPLICITY>
+									<MULTIPLICITY-CONFIG-CLASSES>
+										<ECUC-MULTIPLICITY-CONFIGURATION-CLASS>
+											<CONFIG-CLASS>LINK</CONFIG-CLASS>
+											<CONFIG-VARIANT>VARIANT-LINK-TIME</CONFIG-VARIANT>
+										</ECUC-MULTIPLICITY-CONFIGURATION-CLASS>
+										<ECUC-MULTIPLICITY-CONFIGURATION-CLASS>
+											<CONFIG-CLASS>POST-BUILD</CONFIG-CLASS>
+											<CONFIG-VARIANT>VARIANT-POST-BUILD</CONFIG-VARIANT>
+										</ECUC-MULTIPLICITY-CONFIGURATION-CLASS>
+										<ECUC-MULTIPLICITY-CONFIGURATION-CLASS>
+											<CONFIG-CLASS>PRE-COMPILE</CONFIG-CLASS>
+											<CONFIG-VARIANT>VARIANT-PRE-COMPILE</CONFIG-VARIANT>
+										</ECUC-MULTIPLICITY-CONFIGURATION-CLASS>
+									</MULTIPLICITY-CONFIG-CLASSES>
+									<POST-BUILD-VARIANT-MULTIPLICITY>true</POST-BUILD-VARIANT-MULTIPLICITY>
+										
+												<PARAMETERS>
+														<ECUC-BOOLEAN-PARAM-DEF UUID="ECUC:64ee55d9-af84-4329-bc35-f4ba56d478e1">
+									<SHORT-NAME>PWMEnableNotification</SHORT-NAME>
+									<DESC>
+										<L-2 L="EN">Switch used to allow access enable Interrupt notification of PWM component by IoHwAb.</L-2>
+									</DESC>
+									<LOWER-MULTIPLICITY>1</LOWER-MULTIPLICITY>
+									<UPPER-MULTIPLICITY>1</UPPER-MULTIPLICITY>
+									<DEFAULT-VALUE>false</DEFAULT-VALUE>
+								</ECUC-BOOLEAN-PARAM-DEF>
+									<ECUC-BOOLEAN-PARAM-DEF UUID="ECUC:64ee55d9-af84-4329-bc35-f4ba56d478e1">
+									<SHORT-NAME>PWMDisableNotification</SHORT-NAME>
+									<DESC>
+										<L-2 L="EN">Switch used to disallow access disable Interrupt notification of PWM component by IoHwAb.</L-2>
+									</DESC>
+									<LOWER-MULTIPLICITY>1</LOWER-MULTIPLICITY>
+									<UPPER-MULTIPLICITY>1</UPPER-MULTIPLICITY>
+									<DEFAULT-VALUE>false</DEFAULT-VALUE>
+								</ECUC-BOOLEAN-PARAM-DEF>
+										<ECUC-BOOLEAN-PARAM-DEF UUID="ECUC:64ee55d9-af84-4329-bc35-f4ba56d478e1">
+									<SHORT-NAME>PWMSetOutPutToIdle</SHORT-NAME>
+									<DESC>
+										<L-2 L="EN">Switch used to disallow access set output is idle of PWM component by IoHwAb.</L-2>
+									</DESC>
+									<LOWER-MULTIPLICITY>1</LOWER-MULTIPLICITY>
+									<UPPER-MULTIPLICITY>1</UPPER-MULTIPLICITY>
+									<DEFAULT-VALUE>false</DEFAULT-VALUE>
+								</ECUC-BOOLEAN-PARAM-DEF>
+										<ECUC-BOOLEAN-PARAM-DEF UUID="ECUC:64ee55d9-af84-4329-bc35-f4ba56d478e1">
+									<SHORT-NAME>PWMGetOutPutState</SHORT-NAME>
+									<DESC>
+										<L-2 L="EN">Switch used to disallow access get output state of PWM component by IoHwAb.</L-2>
+									</DESC>
+									<LOWER-MULTIPLICITY>1</LOWER-MULTIPLICITY>
+									<UPPER-MULTIPLICITY>1</UPPER-MULTIPLICITY>
+									<DEFAULT-VALUE>false</DEFAULT-VALUE>
+								</ECUC-BOOLEAN-PARAM-DEF>
+								<ECUC-BOOLEAN-PARAM-DEF UUID="ECUC:64ee55d9-af84-4329-bc35-f4ba56d478e1">
+									<SHORT-NAME>PWMSetDutycycle</SHORT-NAME>
+									<DESC>
+										<L-2 L="EN">Switch used to disallow access set duty cycle of PWM component by IoHwAb.</L-2>
+									</DESC>
+									<LOWER-MULTIPLICITY>1</LOWER-MULTIPLICITY>
+									<UPPER-MULTIPLICITY>1</UPPER-MULTIPLICITY>
+									<DEFAULT-VALUE>false</DEFAULT-VALUE>
+								</ECUC-BOOLEAN-PARAM-DEF>
+								<ECUC-BOOLEAN-PARAM-DEF UUID="ECUC:64ee55d9-af84-4329-bc35-f4ba56d478e1">
+									<SHORT-NAME>PWMGetPeriodAndDuty</SHORT-NAME>
+									<DESC>
+										<L-2 L="EN">Switch used to disallow access set period and duty cycle of PWM component by IoHwAb.</L-2>
+									</DESC>
+									<LOWER-MULTIPLICITY>1</LOWER-MULTIPLICITY>
+									<UPPER-MULTIPLICITY>1</UPPER-MULTIPLICITY>
+									<DEFAULT-VALUE>false</DEFAULT-VALUE>
+								</ECUC-BOOLEAN-PARAM-DEF>
+									</PARAMETERS>
+								</ECUC-PARAM-CONF-CONTAINER-DEF>				
+							</SUB-CONTAINERS>
+						</ECUC-PARAM-CONF-CONTAINER-DEF>
+						<ECUC-PARAM-CONF-CONTAINER-DEF UUID="ECUC:1ec2016d-dec1-4a8b-b9b7-b88bbd83fe0c">
+							<SHORT-NAME>IoHwAbConfigSet</SHORT-NAME>
+							<LOWER-MULTIPLICITY>1</LOWER-MULTIPLICITY>
+							<UPPER-MULTIPLICITY>1</UPPER-MULTIPLICITY>
+					<SUB-CONTAINERS>
+											<!-- Container Definition: IoHwAb_AnalogGroupDescriptor -->
+								<ECUC-PARAM-CONF-CONTAINER-DEF UUID="ECUC:2541ff9b-ca8a-4388-b3e9-4e893a369d4e">
+									<SHORT-NAME>IoHwAb_AnalogGroupDescriptor</SHORT-NAME>
+									
+									<ADMIN-DATA>
+										<SDGS>
+											<SDG GID="iSoft::IdentifiableOptions">
+												<SD GID="ACTION_FLAG">true</SD>
+											</SDG>
+										</SDGS>
+									</ADMIN-DATA>
+									<DESC>
+										<L-2 L="EN">Used to I/O hardware abstract configuration container in ADC component.</L-2>
+									</DESC>
+									<RELATED-TRACE-ITEM-REF DEST="TRACEABLE">ECUC_CanIf_00832</RELATED-TRACE-ITEM-REF>
+									<LOWER-MULTIPLICITY>0</LOWER-MULTIPLICITY>
+									<UPPER-MULTIPLICITY-INFINITE>true</UPPER-MULTIPLICITY-INFINITE>
+									<MULTIPLICITY-CONFIG-CLASSES>
+										<ECUC-MULTIPLICITY-CONFIGURATION-CLASS>
+											<CONFIG-CLASS>LINK</CONFIG-CLASS>
+											<CONFIG-VARIANT>VARIANT-LINK-TIME</CONFIG-VARIANT>
+										</ECUC-MULTIPLICITY-CONFIGURATION-CLASS>
+										<ECUC-MULTIPLICITY-CONFIGURATION-CLASS>
+											<CONFIG-CLASS>POST-BUILD</CONFIG-CLASS>
+											<CONFIG-VARIANT>VARIANT-POST-BUILD</CONFIG-VARIANT>
+										</ECUC-MULTIPLICITY-CONFIGURATION-CLASS>
+										<ECUC-MULTIPLICITY-CONFIGURATION-CLASS>
+											<CONFIG-CLASS>PRE-COMPILE</CONFIG-CLASS>
+											<CONFIG-VARIANT>VARIANT-PRE-COMPILE</CONFIG-VARIANT>
+										</ECUC-MULTIPLICITY-CONFIGURATION-CLASS>
+									</MULTIPLICITY-CONFIG-CLASSES>
+									<POST-BUILD-VARIANT-MULTIPLICITY>true</POST-BUILD-VARIANT-MULTIPLICITY>
+									<!-- PARAMETER DEFINITION: IoHwAb_SignalChannelKind -->
+										
+												<PARAMETERS>
+												<ECUC-STRING-PARAM-DEF UUID="ECUC:e143bfad-485e-49f5-9c9e-76afc19ac707">
+															<SHORT-NAME>IoHwAb_SignalChannelKind</SHORT-NAME>
+																<ADMIN-DATA>
+																<SDGS>
+																	<SDG GID="iSoft::IdentifiableOptions">
+																			
+																		<SD GID="FIX_FLAG">true</SD>													
+																	</SDG>
+																</SDGS>
+															</ADMIN-DATA>
+															<DESC>
+																<L-2 L="EN">Used to configure the signal type of the given signal description channel in the ADC component.</L-2>
+															</DESC>
+																<RELATED-TRACE-ITEM-REF DEST="TRACEABLE">ECUC_WdgM_00348</RELATED-TRACE-ITEM-REF>
+																	<LOWER-MULTIPLICITY>1</LOWER-MULTIPLICITY>
+																	<UPPER-MULTIPLICITY>1</UPPER-MULTIPLICITY>
+																	<SCOPE>LOCAL</SCOPE>
+																		<ORIGIN>AUTOSAR_ECUC</ORIGIN>
+																	<POST-BUILD-VARIANT-VALUE>false</POST-BUILD-VARIANT-VALUE>
+																<VALUE-CONFIG-CLASSES>
+																		<ECUC-VALUE-CONFIGURATION-CLASS>
+																			<CONFIG-CLASS>PRE-COMPILE</CONFIG-CLASS>
+																			<CONFIG-VARIANT>VARIANT-POST-BUILD</CONFIG-VARIANT>
+																		</ECUC-VALUE-CONFIGURATION-CLASS>
+																			<ECUC-VALUE-CONFIGURATION-CLASS>
+																				<CONFIG-CLASS>PRE-COMPILE</CONFIG-CLASS>
+																				<CONFIG-VARIANT>VARIANT-PRE-COMPILE</CONFIG-VARIANT>
+																			</ECUC-VALUE-CONFIGURATION-CLASS>
+																</VALUE-CONFIG-CLASSES>
+																	<SYMBOLIC-NAME-VALUE>true</SYMBOLIC-NAME-VALUE>
+																	<ECUC-STRING-PARAM-DEF-VARIANTS>
+																	<ECUC-STRING-PARAM-DEF-CONDITIONAL>
+																	<DEFAULT-VALUE>IOHWAB_ANALOG_INPUT_SIGNAL</DEFAULT-VALUE>
+																	</ECUC-STRING-PARAM-DEF-CONDITIONAL>
+																</ECUC-STRING-PARAM-DEF-VARIANTS>
+														</ECUC-STRING-PARAM-DEF>
+														<ECUC-STRING-PARAM-DEF UUID="ECUC:e143bfad-485e-49f5-9c9e-76afc19ac707">
+															<SHORT-NAME>IoHwAb_AdcGroupTriggSrc</SHORT-NAME>
+																<ADMIN-DATA>
+																<SDGS>
+																	<SDG GID="iSoft::IdentifiableOptions">
+																			<SD GID="DERIVED_FLAG">true</SD>
+																		<SD GID="FIX_FLAG">true</SD>													
+																	</SDG>
+																</SDGS>
+															</ADMIN-DATA>
+															<DESC>
+																<L-2 L="EN">Used to configure the trigger source type of the given scan group in the ADC component.</L-2>
+															</DESC>
+																<RELATED-TRACE-ITEM-REF DEST="TRACEABLE">ECUC_WdgM_00348</RELATED-TRACE-ITEM-REF>
+																	<LOWER-MULTIPLICITY>1</LOWER-MULTIPLICITY>
+																	<UPPER-MULTIPLICITY>1</UPPER-MULTIPLICITY>
+																	<SCOPE>LOCAL</SCOPE>
+																		<ORIGIN>AUTOSAR_ECUC</ORIGIN>
+																	<POST-BUILD-VARIANT-VALUE>false</POST-BUILD-VARIANT-VALUE>
+																<VALUE-CONFIG-CLASSES>
+																		<ECUC-VALUE-CONFIGURATION-CLASS>
+																			<CONFIG-CLASS>PRE-COMPILE</CONFIG-CLASS>
+																			<CONFIG-VARIANT>VARIANT-POST-BUILD</CONFIG-VARIANT>
+																		</ECUC-VALUE-CONFIGURATION-CLASS>
+																			<ECUC-VALUE-CONFIGURATION-CLASS>
+																				<CONFIG-CLASS>PRE-COMPILE</CONFIG-CLASS>
+																				<CONFIG-VARIANT>VARIANT-PRE-COMPILE</CONFIG-VARIANT>
+																			</ECUC-VALUE-CONFIGURATION-CLASS>
+																</VALUE-CONFIG-CLASSES>
+																	<SYMBOLIC-NAME-VALUE>true</SYMBOLIC-NAME-VALUE>
+																	<ECUC-STRING-PARAM-DEF-VARIANTS>
+																	<ECUC-STRING-PARAM-DEF-CONDITIONAL>
+																	</ECUC-STRING-PARAM-DEF-CONDITIONAL>
+																</ECUC-STRING-PARAM-DEF-VARIANTS>
+														</ECUC-STRING-PARAM-DEF>
+														<ECUC-STRING-PARAM-DEF UUID="ECUC:e143bfad-485e-49f5-9c9e-76afc19ac707">
+															<SHORT-NAME>IoHwAb_AdcGroupConversionMode</SHORT-NAME>
+																<ADMIN-DATA>
+																<SDGS>
+																	<SDG GID="iSoft::IdentifiableOptions">
+																			<SD GID="DERIVED_FLAG">true</SD>
+																		<SD GID="FIX_FLAG">true</SD>													
+																	</SDG>
+																</SDGS>
+															</ADMIN-DATA>
+															<DESC>
+																<L-2 L="EN">Used to configure the conversion type of the given scan group in the ADC component.</L-2>
+															</DESC>
+																<RELATED-TRACE-ITEM-REF DEST="TRACEABLE">ECUC_WdgM_00348</RELATED-TRACE-ITEM-REF>
+																	<LOWER-MULTIPLICITY>1</LOWER-MULTIPLICITY>
+																	<UPPER-MULTIPLICITY>1</UPPER-MULTIPLICITY>
+																	<SCOPE>LOCAL</SCOPE>
+																		<ORIGIN>AUTOSAR_ECUC</ORIGIN>
+																	<POST-BUILD-VARIANT-VALUE>false</POST-BUILD-VARIANT-VALUE>
+																<VALUE-CONFIG-CLASSES>
+																		<ECUC-VALUE-CONFIGURATION-CLASS>
+																			<CONFIG-CLASS>PRE-COMPILE</CONFIG-CLASS>
+																			<CONFIG-VARIANT>VARIANT-POST-BUILD</CONFIG-VARIANT>
+																		</ECUC-VALUE-CONFIGURATION-CLASS>
+																			<ECUC-VALUE-CONFIGURATION-CLASS>
+																				<CONFIG-CLASS>PRE-COMPILE</CONFIG-CLASS>
+																				<CONFIG-VARIANT>VARIANT-PRE-COMPILE</CONFIG-VARIANT>
+																			</ECUC-VALUE-CONFIGURATION-CLASS>
+																</VALUE-CONFIG-CLASSES>
+																	<SYMBOLIC-NAME-VALUE>true</SYMBOLIC-NAME-VALUE>
+																	<ECUC-STRING-PARAM-DEF-VARIANTS>
+																	<ECUC-STRING-PARAM-DEF-CONDITIONAL>
+																	</ECUC-STRING-PARAM-DEF-CONDITIONAL>
+																</ECUC-STRING-PARAM-DEF-VARIANTS>
+														</ECUC-STRING-PARAM-DEF>
+																			<ECUC-ENUMERATION-PARAM-DEF UUID="ECUC:7c6684e6-b0d8-44a5-985e-9c0dc180fce5">
+									<SHORT-NAME>AdcConvResultHandlingMode</SHORT-NAME>
+									<ADMIN-DATA>
+										<SDGS>
+											<SDG GID="iSoft::IdentifiableOptions">
+												<SD GID="TRIGGER_FLAG">true</SD>												
+											</SDG>
+										</SDGS>
+									</ADMIN-DATA>
+									<DESC>
+									<L-2 L="EN">Used to configure the conversion result handling mode of the given scan group in the ADC component.</L-2>
+															</DESC>
+									<LOWER-MULTIPLICITY>1</LOWER-MULTIPLICITY>
+									<UPPER-MULTIPLICITY>1</UPPER-MULTIPLICITY>
+											<SCOPE>LOCAL</SCOPE>
+																<ORIGIN>AUTOSAR_ECUC</ORIGIN>
+																<POST-BUILD-VARIANT-VALUE>false</POST-BUILD-VARIANT-VALUE>
+																<VALUE-CONFIG-CLASSES>
+																	<ECUC-VALUE-CONFIGURATION-CLASS>
+																		<CONFIG-CLASS>LINK</CONFIG-CLASS>
+																		<CONFIG-VARIANT>VARIANT-LINK-TIME</CONFIG-VARIANT>
+																	</ECUC-VALUE-CONFIGURATION-CLASS>
+																	<ECUC-VALUE-CONFIGURATION-CLASS>
+																		<CONFIG-CLASS>LINK</CONFIG-CLASS>
+																		<CONFIG-VARIANT>VARIANT-POST-BUILD</CONFIG-VARIANT>
+																	</ECUC-VALUE-CONFIGURATION-CLASS>
+																	<ECUC-VALUE-CONFIGURATION-CLASS>
+																		<CONFIG-CLASS>PRE-COMPILE</CONFIG-CLASS>
+																		<CONFIG-VARIANT>VARIANT-PRE-COMPILE</CONFIG-VARIANT>
+																	</ECUC-VALUE-CONFIGURATION-CLASS>
+																</VALUE-CONFIG-CLASSES>
+									<SYMBOLIC-NAME-VALUE>false</SYMBOLIC-NAME-VALUE>
+																<DEFAULT-VALUE>POLLING</DEFAULT-VALUE>
+									<LITERALS>
+										<ECUC-ENUMERATION-LITERAL-DEF UUID="ECUC:f36aaca6-a0cc-955d-58a1-4862fed97f58">
+											<SHORT-NAME>INTERRUPT</SHORT-NAME>
+											<ORIGIN>AUTOSAR_ECUC</ORIGIN>
+										</ECUC-ENUMERATION-LITERAL-DEF>
+										<ECUC-ENUMERATION-LITERAL-DEF UUID="ECUC:c45941d2-2cca-92f2-5062-070ec82de00a">
+											<SHORT-NAME>DMA</SHORT-NAME>
+											<ORIGIN>AUTOSAR_ECUC</ORIGIN>
+										</ECUC-ENUMERATION-LITERAL-DEF>
+														<ECUC-ENUMERATION-LITERAL-DEF UUID="ECUC:c45941d2-2cca-92f2-5062-070ec82de00a">
+											<SHORT-NAME>POLLING</SHORT-NAME>
+			
+											<ORIGIN>AUTOSAR_ECUC</ORIGIN>
+										</ECUC-ENUMERATION-LITERAL-DEF>
+											
+										
+									</LITERALS>
+								</ECUC-ENUMERATION-PARAM-DEF>
+														<ECUC-INTEGER-PARAM-DEF UUID="ECUC:75cc5147-5255-4b18-ae07-d333e462e901">
+									<SHORT-NAME>IoHwAb_AdcEstimatedConvTime</SHORT-NAME>
+							<ADMIN-DATA>
+																<SDGS>
+																	<SDG GID="iSoft::IdentifiableOptions">
+																			<SD GID="DERIVED_FLAG">true</SD>
+																	</SDG>
+																</SDGS>
+															</ADMIN-DATA>
+									<DESC>
+										<L-2 L="EN">Used to configure the conversion estimated threshold value of the given scan group in the ADC component.</L-2>
+									</DESC>
+									<RELATED-TRACE-ITEM-REF DEST="TRACEABLE">ECUC_J1939Dcm_00040</RELATED-TRACE-ITEM-REF>
+									<LOWER-MULTIPLICITY>0</LOWER-MULTIPLICITY>
+									<UPPER-MULTIPLICITY>1</UPPER-MULTIPLICITY>
+									<SCOPE>LOCAL</SCOPE>
+									<ORIGIN>AUTOSAR_ECUC</ORIGIN>
+									<POST-BUILD-VARIANT-VALUE>false</POST-BUILD-VARIANT-VALUE>
+									<VALUE-CONFIG-CLASSES>
+										<ECUC-VALUE-CONFIGURATION-CLASS>
+											<CONFIG-CLASS>PRE-COMPILE</CONFIG-CLASS>
+											<CONFIG-VARIANT>VARIANT-LINK-TIME</CONFIG-VARIANT>
+										</ECUC-VALUE-CONFIGURATION-CLASS>
+										<ECUC-VALUE-CONFIGURATION-CLASS>
+											<CONFIG-CLASS>PRE-COMPILE</CONFIG-CLASS>
+											<CONFIG-VARIANT>VARIANT-POST-BUILD</CONFIG-VARIANT>
+										</ECUC-VALUE-CONFIGURATION-CLASS>
+										<ECUC-VALUE-CONFIGURATION-CLASS>
+											<CONFIG-CLASS>PRE-COMPILE</CONFIG-CLASS>
+											<CONFIG-VARIANT>VARIANT-PRE-COMPILE</CONFIG-VARIANT>
+										</ECUC-VALUE-CONFIGURATION-CLASS>
+									</VALUE-CONFIG-CLASSES>
+									<SYMBOLIC-NAME-VALUE>false</SYMBOLIC-NAME-VALUE>
+									<MAX>4294967295</MAX>
+									<MIN>0</MIN>
+									<DEFAULT-VALUE>0</DEFAULT-VALUE>
+								</ECUC-INTEGER-PARAM-DEF>
+					
+											
+										
+									</PARAMETERS>
+									<REFERENCES>
+									<ECUC-REFERENCE-DEF UUID="ECUC:b8efcb58-ce38-4d88-ba8d-68d20a4d554f">
+									<SHORT-NAME>IoHwAb_AdcGroupId</SHORT-NAME>
+											<DESC>
+										<L-2 L="EN">Used to configure the associated identifier of the given scan group in the ADC component.</L-2>
+									</DESC>													
+										<ADMIN-DATA>
+											<SDGS>
+												<SDG GID="iSoft::IdentifiableOptions">
+													<SD GID="TRIGGER_FLAG">true</SD>
+												</SDG>
+											</SDGS>
+										</ADMIN-DATA>
+									<LOWER-MULTIPLICITY>1</LOWER-MULTIPLICITY>
+									<UPPER-MULTIPLICITY>1</UPPER-MULTIPLICITY>
+									<DESTINATION-REF DEST="ECUC-PARAM-CONF-CONTAINER-DEF">/AUTOSAR/Adc/AdcConfigSet/AdcHwUnit/AdcGroup</DESTINATION-REF>
+								</ECUC-REFERENCE-DEF>
+											<ECUC-REFERENCE-DEF UUID="ECUC:b8efcb58-ce38-4d88-ba8d-68d20a4d554f">
+									<SHORT-NAME>IoHwAb_AdcChannelId</SHORT-NAME>
+											<DESC>
+										<L-2 L="EN">Used to configure the associated identifier of the given the signal description channel in the ADC component.
+</L-2>
+									</DESC>															
+										<ADMIN-DATA>
+											<SDGS>
+												<SDG GID="iSoft::IdentifiableOptions">
+													<SD GID="DERIVED_FLAG">true</SD>
+													<SD GID="TRIGGER_FLAG">true</SD>
+												</SDG>
+											</SDGS>
+										</ADMIN-DATA>
+									<LOWER-MULTIPLICITY>1</LOWER-MULTIPLICITY>
+									<UPPER-MULTIPLICITY>1</UPPER-MULTIPLICITY>
+									<DESTINATION-REF DEST="ECUC-PARAM-CONF-CONTAINER-DEF">/AUTOSAR/Adc/AdcConfigSet/AdcHwUnit/AdcChannel</DESTINATION-REF>
+								</ECUC-REFERENCE-DEF>
+							
+						
+							</REFERENCES>
+						
+						</ECUC-PARAM-CONF-CONTAINER-DEF>
+			
+			
+								<!-- Container Definition: IoHwAb_IcuChannelDescriptor -->
+								<ECUC-PARAM-CONF-CONTAINER-DEF UUID="ECUC:2541ff9b-ca8a-4388-b3e9-4e893a369d4e">
+									<SHORT-NAME>IoHwAb_IcuChannelDescriptor</SHORT-NAME>
+									
+									<ADMIN-DATA>
+										<SDGS>
+											<SDG GID="iSoft::IdentifiableOptions">
+												<SD GID="ACTION_FLAG">true</SD>
+											</SDG>
+										</SDGS>
+									</ADMIN-DATA>
+									<DESC>
+										<L-2 L="EN">Used to I/O hardware abstract configuration container in ICU component.</L-2>
+									</DESC>
+									<RELATED-TRACE-ITEM-REF DEST="TRACEABLE">ECUC_CanIf_00832</RELATED-TRACE-ITEM-REF>
+									<LOWER-MULTIPLICITY>0</LOWER-MULTIPLICITY>
+									<UPPER-MULTIPLICITY-INFINITE>true</UPPER-MULTIPLICITY-INFINITE>
+									<MULTIPLICITY-CONFIG-CLASSES>
+										<ECUC-MULTIPLICITY-CONFIGURATION-CLASS>
+											<CONFIG-CLASS>LINK</CONFIG-CLASS>
+											<CONFIG-VARIANT>VARIANT-LINK-TIME</CONFIG-VARIANT>
+										</ECUC-MULTIPLICITY-CONFIGURATION-CLASS>
+										<ECUC-MULTIPLICITY-CONFIGURATION-CLASS>
+											<CONFIG-CLASS>POST-BUILD</CONFIG-CLASS>
+											<CONFIG-VARIANT>VARIANT-POST-BUILD</CONFIG-VARIANT>
+										</ECUC-MULTIPLICITY-CONFIGURATION-CLASS>
+										<ECUC-MULTIPLICITY-CONFIGURATION-CLASS>
+											<CONFIG-CLASS>PRE-COMPILE</CONFIG-CLASS>
+											<CONFIG-VARIANT>VARIANT-PRE-COMPILE</CONFIG-VARIANT>
+										</ECUC-MULTIPLICITY-CONFIGURATION-CLASS>
+									</MULTIPLICITY-CONFIG-CLASSES>
+									<POST-BUILD-VARIANT-MULTIPLICITY>true</POST-BUILD-VARIANT-MULTIPLICITY>
+									<!-- PARAMETER DEFINITION: IoHwAb_SignalChannelKind -->
+										
+												<PARAMETERS>
+												<ECUC-STRING-PARAM-DEF UUID="ECUC:e143bfad-485e-49f5-9c9e-76afc19ac707">
+															<SHORT-NAME>IoHwAb_SignalChannelKind</SHORT-NAME>
+																<ADMIN-DATA>
+																<SDGS>
+																	<SDG GID="iSoft::IdentifiableOptions">
+																			
+																		<SD GID="FIX_FLAG">true</SD>													
+																	</SDG>
+																</SDGS>
+															</ADMIN-DATA>
+															<DESC>
+																<L-2 L="EN">Used to configure the signal type of the given channel in the ICU component.</L-2>
+															</DESC>
+																<RELATED-TRACE-ITEM-REF DEST="TRACEABLE">ECUC_WdgM_00348</RELATED-TRACE-ITEM-REF>
+																	<LOWER-MULTIPLICITY>1</LOWER-MULTIPLICITY>
+																	<UPPER-MULTIPLICITY>1</UPPER-MULTIPLICITY>
+																	<SCOPE>LOCAL</SCOPE>
+																		<ORIGIN>AUTOSAR_ECUC</ORIGIN>
+																	<POST-BUILD-VARIANT-VALUE>false</POST-BUILD-VARIANT-VALUE>
+																<VALUE-CONFIG-CLASSES>
+																		<ECUC-VALUE-CONFIGURATION-CLASS>
+																			<CONFIG-CLASS>PRE-COMPILE</CONFIG-CLASS>
+																			<CONFIG-VARIANT>VARIANT-POST-BUILD</CONFIG-VARIANT>
+																		</ECUC-VALUE-CONFIGURATION-CLASS>
+																			<ECUC-VALUE-CONFIGURATION-CLASS>
+																				<CONFIG-CLASS>PRE-COMPILE</CONFIG-CLASS>
+																				<CONFIG-VARIANT>VARIANT-PRE-COMPILE</CONFIG-VARIANT>
+																			</ECUC-VALUE-CONFIGURATION-CLASS>
+																</VALUE-CONFIG-CLASSES>
+																	<SYMBOLIC-NAME-VALUE>true</SYMBOLIC-NAME-VALUE>
+																	<ECUC-STRING-PARAM-DEF-VARIANTS>
+																	<ECUC-STRING-PARAM-DEF-CONDITIONAL>
+																	<DEFAULT-VALUE>IOHWAB_INPUT_CAPTURE_SIGNAL</DEFAULT-VALUE>
+																	</ECUC-STRING-PARAM-DEF-CONDITIONAL>
+																</ECUC-STRING-PARAM-DEF-VARIANTS>
+														</ECUC-STRING-PARAM-DEF>
+														
+														
+														<ECUC-INTEGER-PARAM-DEF UUID="ECUC:75cc5147-5255-4b18-ae07-d333e462e901">
+									<SHORT-NAME>IoHwAb_InputCaptureSamplingFrequency</SHORT-NAME>
+									<ADMIN-DATA>
+										<SDGS>
+											<SDG GID="iSoft::IdentifiableOptions">
+												<SD GID="FIX_FLAG">true</SD>
+											</SDG>
+										</SDGS>
+									</ADMIN-DATA>
+									<DESC>
+										<L-2 L="EN">Used to configure the sampling frequency of the given signal description channel in the ICU component.</L-2>
+									</DESC>
+									<RELATED-TRACE-ITEM-REF DEST="TRACEABLE">ECUC_J1939Dcm_00040</RELATED-TRACE-ITEM-REF>
+									<LOWER-MULTIPLICITY>1</LOWER-MULTIPLICITY>
+									<UPPER-MULTIPLICITY>1</UPPER-MULTIPLICITY>
+									<SCOPE>LOCAL</SCOPE>
+									<ORIGIN>AUTOSAR_ECUC</ORIGIN>
+									<POST-BUILD-VARIANT-VALUE>false</POST-BUILD-VARIANT-VALUE>
+									<VALUE-CONFIG-CLASSES>
+										<ECUC-VALUE-CONFIGURATION-CLASS>
+											<CONFIG-CLASS>PRE-COMPILE</CONFIG-CLASS>
+											<CONFIG-VARIANT>VARIANT-LINK-TIME</CONFIG-VARIANT>
+										</ECUC-VALUE-CONFIGURATION-CLASS>
+										<ECUC-VALUE-CONFIGURATION-CLASS>
+											<CONFIG-CLASS>PRE-COMPILE</CONFIG-CLASS>
+											<CONFIG-VARIANT>VARIANT-POST-BUILD</CONFIG-VARIANT>
+										</ECUC-VALUE-CONFIGURATION-CLASS>
+										<ECUC-VALUE-CONFIGURATION-CLASS>
+											<CONFIG-CLASS>PRE-COMPILE</CONFIG-CLASS>
+											<CONFIG-VARIANT>VARIANT-PRE-COMPILE</CONFIG-VARIANT>
+										</ECUC-VALUE-CONFIGURATION-CLASS>
+									</VALUE-CONFIG-CLASSES>
+									<SYMBOLIC-NAME-VALUE>false</SYMBOLIC-NAME-VALUE>
+									<MAX>65535</MAX>
+									<MIN>0</MIN>
+									<DEFAULT-VALUE>0</DEFAULT-VALUE>
+								</ECUC-INTEGER-PARAM-DEF>
+											<ECUC-STRING-PARAM-DEF UUID="ECUC:8986f06e-9232-4f20-aec6-x8dcd936d1e8">
+													<SHORT-NAME>IoHwAb_MeasurementMode</SHORT-NAME>
+													<ADMIN-DATA>
+														<SDGS>
+															<SDG GID="iSoft::IdentifiableOptions">
+																<SD GID="FIX_FLAG">true</SD>
+																<SD GID="DERIVED_FLAG">true</SD>
+															</SDG>
+														</SDGS>
+													</ADMIN-DATA>
+													<DESC>
+														<L-2 L="EN">Used to configure the measurement mode of the given signal description channel in the ICU component.</L-2>
+													</DESC>
+													<RELATED-TRACE-ITEM-REF DEST="TRACEABLE">ECUC_Os_01524</RELATED-TRACE-ITEM-REF>
+													<LOWER-MULTIPLICITY>1</LOWER-MULTIPLICITY>
+													<UPPER-MULTIPLICITY>1</UPPER-MULTIPLICITY>
+													
+												</ECUC-STRING-PARAM-DEF>
+															<ECUC-STRING-PARAM-DEF UUID="ECUC:8986f06e-9232-4f20-aec6-a8dcd936d1e8">
+													<SHORT-NAME>IoHwAb_DefaultStartEdge</SHORT-NAME>
+													<ADMIN-DATA>
+														<SDGS>
+															<SDG GID="iSoft::IdentifiableOptions">
+																<SD GID="FIX_FLAG">true</SD>
+																<SD GID="DERIVED_FLAG">true</SD>
+															</SDG>
+														</SDGS>
+													</ADMIN-DATA>
+													<DESC>
+														<L-2 L="EN">Used to configure the default start edge of the given signal description channel in the ICU component.</L-2>
+													</DESC>
+													<RELATED-TRACE-ITEM-REF DEST="TRACEABLE">ECUC_Os_01024</RELATED-TRACE-ITEM-REF>
+													<LOWER-MULTIPLICITY>1</LOWER-MULTIPLICITY>
+													<UPPER-MULTIPLICITY>1</UPPER-MULTIPLICITY>
+													
+												</ECUC-STRING-PARAM-DEF>
+									</PARAMETERS>
+									<REFERENCES>
+								<ECUC-REFERENCE-DEF UUID="ECUC:b8efcb58-ce38-4d88-ba8d-68d20a4d554f">
+									<SHORT-NAME>IoHwAb_InputCaptureChannel</SHORT-NAME>
+										<DESC>
+										<L-2 L="EN">Used to configure the associated identifier of the given signal description channel in the ICU component.</L-2>
+									</DESC>														
+										<ADMIN-DATA>
+											<SDGS>
+												<SDG GID="iSoft::IdentifiableOptions">
+													<SD GID="TRIGGER_FLAG">true</SD>
+												</SDG>
+											</SDGS>
+										</ADMIN-DATA>
+									<LOWER-MULTIPLICITY>1</LOWER-MULTIPLICITY>
+									<UPPER-MULTIPLICITY>1</UPPER-MULTIPLICITY>
+									<DESTINATION-REF DEST="ECUC-PARAM-CONF-CONTAINER-DEF">/AUTOSAR/Icu/IcuConfigSet/IcuChannel</DESTINATION-REF>
+								</ECUC-REFERENCE-DEF>
+						
+							</REFERENCES>
+						
+						</ECUC-PARAM-CONF-CONTAINER-DEF>
+						
+						
+						<!-- Container Definition: IoHwAb_DioChannelDescriptor -->
+								<ECUC-PARAM-CONF-CONTAINER-DEF UUID="ECUC:2541ff9b-ca8a-4388-b3e9-4e893a369d4e">
+									<SHORT-NAME>IoHwAb_DioChannelDescriptor</SHORT-NAME>
+									
+									<ADMIN-DATA>
+										<SDGS>
+											<SDG GID="iSoft::IdentifiableOptions">
+												<SD GID="ACTION_FLAG">true</SD>
+											</SDG>
+										</SDGS>
+									</ADMIN-DATA>
+									<DESC>
+										<L-2 L="EN">Used to I/O hardware abstract configuration container in DIO component.</L-2>
+									</DESC>
+									<RELATED-TRACE-ITEM-REF DEST="TRACEABLE">ECUC_CanIf_00832</RELATED-TRACE-ITEM-REF>
+									<LOWER-MULTIPLICITY>0</LOWER-MULTIPLICITY>
+									<UPPER-MULTIPLICITY-INFINITE>true</UPPER-MULTIPLICITY-INFINITE>
+									<MULTIPLICITY-CONFIG-CLASSES>
+										<ECUC-MULTIPLICITY-CONFIGURATION-CLASS>
+											<CONFIG-CLASS>LINK</CONFIG-CLASS>
+											<CONFIG-VARIANT>VARIANT-LINK-TIME</CONFIG-VARIANT>
+										</ECUC-MULTIPLICITY-CONFIGURATION-CLASS>
+										<ECUC-MULTIPLICITY-CONFIGURATION-CLASS>
+											<CONFIG-CLASS>POST-BUILD</CONFIG-CLASS>
+											<CONFIG-VARIANT>VARIANT-POST-BUILD</CONFIG-VARIANT>
+										</ECUC-MULTIPLICITY-CONFIGURATION-CLASS>
+										<ECUC-MULTIPLICITY-CONFIGURATION-CLASS>
+											<CONFIG-CLASS>PRE-COMPILE</CONFIG-CLASS>
+											<CONFIG-VARIANT>VARIANT-PRE-COMPILE</CONFIG-VARIANT>
+										</ECUC-MULTIPLICITY-CONFIGURATION-CLASS>
+									</MULTIPLICITY-CONFIG-CLASSES>
+									<POST-BUILD-VARIANT-MULTIPLICITY>true</POST-BUILD-VARIANT-MULTIPLICITY>
+									<!-- PARAMETER DEFINITION: IoHwAb_SignalChannelKind -->
+										
+												<PARAMETERS>
+												<ECUC-STRING-PARAM-DEF UUID="ECUC:e143bfad-485e-49f5-9c9e-76afc19ac707">
+															<SHORT-NAME>IoHwAb_SignalChannelKind</SHORT-NAME>
+																<ADMIN-DATA>
+																<SDGS>
+																	<SDG GID="iSoft::IdentifiableOptions">
+																			
+																		<SD GID="FIX_FLAG">true</SD>													
+																	</SDG>
+																</SDGS>
+															</ADMIN-DATA>
+															<DESC>
+																<L-2 L="EN">Used to configure the signal type of the given channel in the DIO component.</L-2>
+															</DESC>
+																<RELATED-TRACE-ITEM-REF DEST="TRACEABLE">ECUC_WdgM_00348</RELATED-TRACE-ITEM-REF>
+																	<LOWER-MULTIPLICITY>1</LOWER-MULTIPLICITY>
+																	<UPPER-MULTIPLICITY>1</UPPER-MULTIPLICITY>
+																	<SCOPE>LOCAL</SCOPE>
+																		<ORIGIN>AUTOSAR_ECUC</ORIGIN>
+																	<POST-BUILD-VARIANT-VALUE>false</POST-BUILD-VARIANT-VALUE>
+																<VALUE-CONFIG-CLASSES>
+																		<ECUC-VALUE-CONFIGURATION-CLASS>
+																			<CONFIG-CLASS>PRE-COMPILE</CONFIG-CLASS>
+																			<CONFIG-VARIANT>VARIANT-POST-BUILD</CONFIG-VARIANT>
+																		</ECUC-VALUE-CONFIGURATION-CLASS>
+																			<ECUC-VALUE-CONFIGURATION-CLASS>
+																				<CONFIG-CLASS>PRE-COMPILE</CONFIG-CLASS>
+																				<CONFIG-VARIANT>VARIANT-PRE-COMPILE</CONFIG-VARIANT>
+																			</ECUC-VALUE-CONFIGURATION-CLASS>
+																</VALUE-CONFIG-CLASSES>
+																	<SYMBOLIC-NAME-VALUE>true</SYMBOLIC-NAME-VALUE>
+																	<ECUC-STRING-PARAM-DEF-VARIANTS>
+																	<ECUC-STRING-PARAM-DEF-CONDITIONAL>
+																	<DEFAULT-VALUE>IOHWAB_DIGITAL_INOUT_SIGNAL</DEFAULT-VALUE>
+																	</ECUC-STRING-PARAM-DEF-CONDITIONAL>
+																</ECUC-STRING-PARAM-DEF-VARIANTS>
+														</ECUC-STRING-PARAM-DEF>
+																					<ECUC-ENUMERATION-PARAM-DEF UUID="ECUC:7c6684e6-b0d8-44a5-985e-9c0dc180fce5">
+									<SHORT-NAME>IoHwAb_PinControlDirection</SHORT-NAME>
+									<DESC>
+																<L-2 L="EN">Used to configure the PIN control direction of the given signal description channel in the DIO component.</L-2>
+															</DESC>
+									<LOWER-MULTIPLICITY>1</LOWER-MULTIPLICITY>
+									<UPPER-MULTIPLICITY>1</UPPER-MULTIPLICITY>
+									<ORIGIN/>
+									<SYMBOLIC-NAME-VALUE>false</SYMBOLIC-NAME-VALUE>
+									<LITERALS>
+										<ECUC-ENUMERATION-LITERAL-DEF UUID="ECUC:f36aaca6-a0cc-955d-58a1-4862fed97f58">
+											<SHORT-NAME>IOHWAB_INPUT</SHORT-NAME>
+											<ORIGIN>AUTOSAR_ECUC</ORIGIN>
+										</ECUC-ENUMERATION-LITERAL-DEF>
+										<ECUC-ENUMERATION-LITERAL-DEF UUID="ECUC:c45941d2-2cca-92f2-5062-070ec82de00a">
+											<SHORT-NAME>IOHWAB_OUTPUT</SHORT-NAME>
+											<ORIGIN>AUTOSAR_ECUC</ORIGIN>
+										</ECUC-ENUMERATION-LITERAL-DEF>
+									</LITERALS>
+								</ECUC-ENUMERATION-PARAM-DEF>
+															<ECUC-ENUMERATION-PARAM-DEF UUID="ECUC:7c6684e6-b0d8-44a5-985e-9c0dc180fce5">
+									<SHORT-NAME>IoHwAb_DefaultLevelOutput</SHORT-NAME>
+									<DESC>
+																<L-2 L="EN">Used to configure the default level output of the given signal description channel in the DIO component.</L-2>
+															</DESC>
+									<LOWER-MULTIPLICITY>1</LOWER-MULTIPLICITY>
+									<UPPER-MULTIPLICITY>1</UPPER-MULTIPLICITY>
+									<ORIGIN/>
+									<SYMBOLIC-NAME-VALUE>false</SYMBOLIC-NAME-VALUE>
+									<LITERALS>
+										<ECUC-ENUMERATION-LITERAL-DEF UUID="ECUC:f36aaca6-a0cc-955d-58a1-4862fed97f58">
+											<SHORT-NAME>IOHWAB_LOW</SHORT-NAME>
+											<ORIGIN>AUTOSAR_ECUC</ORIGIN>
+										</ECUC-ENUMERATION-LITERAL-DEF>
+										<ECUC-ENUMERATION-LITERAL-DEF UUID="ECUC:c45941d2-2cca-92f2-5062-070ec82de00a">
+											<SHORT-NAME>IOHWAB_HIGH</SHORT-NAME>
+											<ORIGIN>AUTOSAR_ECUC</ORIGIN>
+										</ECUC-ENUMERATION-LITERAL-DEF>
+									</LITERALS>
+								</ECUC-ENUMERATION-PARAM-DEF>
+									
+														
+			
+									
+																		<ECUC-INTEGER-PARAM-DEF UUID="ECUC:75cc5147-5255-4b18-ae07-d333e462e901">
+									<SHORT-NAME>IoHwAb_DioGroupOffsetPosition</SHORT-NAME>
+									<ADMIN-DATA>
+										<SDGS>
+											<SDG GID="iSoft::IdentifiableOptions">
+												<SD GID="FIX_FLAG">true</SD>
+													<SD GID="DERIVED_FLAG">true</SD>
+											</SDG>
+										</SDGS>
+									</ADMIN-DATA>
+									<DESC>
+										<L-2 L="EN">Used to configure the group offset position of the given signal description channel in the DIO component.</L-2>
+									</DESC>
+									<RELATED-TRACE-ITEM-REF DEST="TRACEABLE">ECUC_J1939Dcm_00040</RELATED-TRACE-ITEM-REF>
+									<LOWER-MULTIPLICITY>1</LOWER-MULTIPLICITY>
+									<UPPER-MULTIPLICITY>1</UPPER-MULTIPLICITY>
+									<SCOPE>LOCAL</SCOPE>
+									<ORIGIN>AUTOSAR_ECUC</ORIGIN>
+									<POST-BUILD-VARIANT-VALUE>false</POST-BUILD-VARIANT-VALUE>
+									<VALUE-CONFIG-CLASSES>
+										<ECUC-VALUE-CONFIGURATION-CLASS>
+											<CONFIG-CLASS>PRE-COMPILE</CONFIG-CLASS>
+											<CONFIG-VARIANT>VARIANT-LINK-TIME</CONFIG-VARIANT>
+										</ECUC-VALUE-CONFIGURATION-CLASS>
+										<ECUC-VALUE-CONFIGURATION-CLASS>
+											<CONFIG-CLASS>PRE-COMPILE</CONFIG-CLASS>
+											<CONFIG-VARIANT>VARIANT-POST-BUILD</CONFIG-VARIANT>
+										</ECUC-VALUE-CONFIGURATION-CLASS>
+										<ECUC-VALUE-CONFIGURATION-CLASS>
+											<CONFIG-CLASS>PRE-COMPILE</CONFIG-CLASS>
+											<CONFIG-VARIANT>VARIANT-PRE-COMPILE</CONFIG-VARIANT>
+										</ECUC-VALUE-CONFIGURATION-CLASS>
+									</VALUE-CONFIG-CLASSES>
+									<SYMBOLIC-NAME-VALUE>false</SYMBOLIC-NAME-VALUE>
+									<MAX>255</MAX>
+									<MIN>0</MIN>
+									<DEFAULT-VALUE>0</DEFAULT-VALUE>
+								</ECUC-INTEGER-PARAM-DEF>
+																	<ECUC-INTEGER-PARAM-DEF UUID="ECUC:75cc5147-5255-4b18-ae07-d333e462e901">
+									<SHORT-NAME>IoHwAb_DioChannelGroupPositionMask</SHORT-NAME>
+									<ADMIN-DATA>
+										<SDGS>
+											<SDG GID="iSoft::IdentifiableOptions">
+												<SD GID="FIX_FLAG">true</SD>
+													<SD GID="DERIVED_FLAG">true</SD>
+											</SDG>
+										</SDGS>
+									</ADMIN-DATA>
+									<DESC>
+										<L-2 L="EN">Used to configure the group-channel position mask of the given signal description channel in the DIO component.</L-2>
+									</DESC>
+									<RELATED-TRACE-ITEM-REF DEST="TRACEABLE">ECUC_J1939Dcm_00040</RELATED-TRACE-ITEM-REF>
+									<LOWER-MULTIPLICITY>1</LOWER-MULTIPLICITY>
+									<UPPER-MULTIPLICITY>1</UPPER-MULTIPLICITY>
+									<SCOPE>LOCAL</SCOPE>
+									<ORIGIN>AUTOSAR_ECUC</ORIGIN>
+									<POST-BUILD-VARIANT-VALUE>false</POST-BUILD-VARIANT-VALUE>
+									<VALUE-CONFIG-CLASSES>
+										<ECUC-VALUE-CONFIGURATION-CLASS>
+											<CONFIG-CLASS>PRE-COMPILE</CONFIG-CLASS>
+											<CONFIG-VARIANT>VARIANT-LINK-TIME</CONFIG-VARIANT>
+										</ECUC-VALUE-CONFIGURATION-CLASS>
+										<ECUC-VALUE-CONFIGURATION-CLASS>
+											<CONFIG-CLASS>PRE-COMPILE</CONFIG-CLASS>
+											<CONFIG-VARIANT>VARIANT-POST-BUILD</CONFIG-VARIANT>
+										</ECUC-VALUE-CONFIGURATION-CLASS>
+										<ECUC-VALUE-CONFIGURATION-CLASS>
+											<CONFIG-CLASS>PRE-COMPILE</CONFIG-CLASS>
+											<CONFIG-VARIANT>VARIANT-PRE-COMPILE</CONFIG-VARIANT>
+										</ECUC-VALUE-CONFIGURATION-CLASS>
+									</VALUE-CONFIG-CLASSES>
+									<SYMBOLIC-NAME-VALUE>false</SYMBOLIC-NAME-VALUE>
+									<MAX>255</MAX>
+									<MIN>0</MIN>
+									<DEFAULT-VALUE>0</DEFAULT-VALUE>
+								</ECUC-INTEGER-PARAM-DEF>		
+									</PARAMETERS>
+									<REFERENCES>
+								<ECUC-REFERENCE-DEF UUID="ECUC:b8efcb58-ce38-4d88-ba8d-68d20a4d554f">
+									<SHORT-NAME>IoHwAb_DigitalChannelGroupPortId</SHORT-NAME>
+												<DESC>
+										<L-2 L="EN">Used to configure the associated port identifier of the given channel group in the DIO component.</L-2>
+									</DESC>												
+										<ADMIN-DATA>
+											<SDGS>
+												<SDG GID="iSoft::IdentifiableOptions">
+													<SD GID="TRIGGER_FLAG">true</SD>
+												</SDG>
+											</SDGS>
+										</ADMIN-DATA>
+									<LOWER-MULTIPLICITY>1</LOWER-MULTIPLICITY>
+									<UPPER-MULTIPLICITY>1</UPPER-MULTIPLICITY>
+									<DESTINATION-REF DEST="ECUC-PARAM-CONF-CONTAINER-DEF">/AUTOSAR/Dio/DioConfig/DioPort</DESTINATION-REF>
+								</ECUC-REFERENCE-DEF>
+											<ECUC-REFERENCE-DEF UUID="ECUC:b8efcb58-ce38-4d88-ba8d-68d20a4d554f">
+									<SHORT-NAME>IoHwAb_DigitalInputOutputChannel</SHORT-NAME>
+													<DESC>
+										<L-2 L="EN">Used to configure the associated identifier of the given the signal description channel in the DIO component.</L-2>
+									</DESC>															
+										<ADMIN-DATA>
+											<SDGS>
+												<SDG GID="iSoft::IdentifiableOptions">
+													<SD GID="DERIVED_FLAG">true</SD>
+													<SD GID="TRIGGER_FLAG">true</SD>
+												</SDG>
+											</SDGS>
+										</ADMIN-DATA>
+									<LOWER-MULTIPLICITY>1</LOWER-MULTIPLICITY>
+									<UPPER-MULTIPLICITY>1</UPPER-MULTIPLICITY>
+									<DESTINATION-REF DEST="ECUC-PARAM-CONF-CONTAINER-DEF">/AUTOSAR/Dio/DioConfig/DioPort/DioChannel</DESTINATION-REF>
+								</ECUC-REFERENCE-DEF>
+							</REFERENCES>
+						
+						</ECUC-PARAM-CONF-CONTAINER-DEF>
+						
+						
+						<!-- Container Definition: IoHwAb_PwmChannelDescriptor -->
+								<ECUC-PARAM-CONF-CONTAINER-DEF UUID="ECUC:2541ff9b-ca8a-4388-b3e9-4e893a369d4e">
+									<SHORT-NAME>IoHwAb_PwmChannelDescriptor</SHORT-NAME>
+									
+									<ADMIN-DATA>
+										<SDGS>
+											<SDG GID="iSoft::IdentifiableOptions">
+												<SD GID="ACTION_FLAG">true</SD>
+											</SDG>
+										</SDGS>
+									</ADMIN-DATA>
+									<DESC>
+										<L-2 L="EN">Used to I/O hardware abstract configuration container in PWM component.</L-2>
+									</DESC>
+									<RELATED-TRACE-ITEM-REF DEST="TRACEABLE">ECUC_CanIf_00832</RELATED-TRACE-ITEM-REF>
+									<LOWER-MULTIPLICITY>0</LOWER-MULTIPLICITY>
+									<UPPER-MULTIPLICITY-INFINITE>true</UPPER-MULTIPLICITY-INFINITE>
+									<MULTIPLICITY-CONFIG-CLASSES>
+										<ECUC-MULTIPLICITY-CONFIGURATION-CLASS>
+											<CONFIG-CLASS>LINK</CONFIG-CLASS>
+											<CONFIG-VARIANT>VARIANT-LINK-TIME</CONFIG-VARIANT>
+										</ECUC-MULTIPLICITY-CONFIGURATION-CLASS>
+										<ECUC-MULTIPLICITY-CONFIGURATION-CLASS>
+											<CONFIG-CLASS>POST-BUILD</CONFIG-CLASS>
+											<CONFIG-VARIANT>VARIANT-POST-BUILD</CONFIG-VARIANT>
+										</ECUC-MULTIPLICITY-CONFIGURATION-CLASS>
+										<ECUC-MULTIPLICITY-CONFIGURATION-CLASS>
+											<CONFIG-CLASS>PRE-COMPILE</CONFIG-CLASS>
+											<CONFIG-VARIANT>VARIANT-PRE-COMPILE</CONFIG-VARIANT>
+										</ECUC-MULTIPLICITY-CONFIGURATION-CLASS>
+									</MULTIPLICITY-CONFIG-CLASSES>
+									<POST-BUILD-VARIANT-MULTIPLICITY>true</POST-BUILD-VARIANT-MULTIPLICITY>
+									<!-- PARAMETER DEFINITION: IoHwAb_SignalChannelKind -->
+										
+												<PARAMETERS>
+												<ECUC-STRING-PARAM-DEF UUID="ECUC:e143bfad-485e-49f5-9c9e-76afc19ac707">
+															<SHORT-NAME>IoHwAb_SignalChannelKind</SHORT-NAME>
+																<ADMIN-DATA>
+																<SDGS>
+																	<SDG GID="iSoft::IdentifiableOptions">
+																			
+																		<SD GID="FIX_FLAG">true</SD>													
+																	</SDG>
+																</SDGS>
+															</ADMIN-DATA>
+															<DESC>
+																<L-2 L="EN">Used to configure the signal type of the given channel in the PWM component.</L-2>
+															</DESC>
+																<RELATED-TRACE-ITEM-REF DEST="TRACEABLE">ECUC_WdgM_00348</RELATED-TRACE-ITEM-REF>
+																	<LOWER-MULTIPLICITY>1</LOWER-MULTIPLICITY>
+																	<UPPER-MULTIPLICITY>1</UPPER-MULTIPLICITY>
+																	<SCOPE>LOCAL</SCOPE>
+																		<ORIGIN>AUTOSAR_ECUC</ORIGIN>
+																	<POST-BUILD-VARIANT-VALUE>false</POST-BUILD-VARIANT-VALUE>
+																<VALUE-CONFIG-CLASSES>
+																		<ECUC-VALUE-CONFIGURATION-CLASS>
+																			<CONFIG-CLASS>PRE-COMPILE</CONFIG-CLASS>
+																			<CONFIG-VARIANT>VARIANT-POST-BUILD</CONFIG-VARIANT>
+																		</ECUC-VALUE-CONFIGURATION-CLASS>
+																			<ECUC-VALUE-CONFIGURATION-CLASS>
+																				<CONFIG-CLASS>PRE-COMPILE</CONFIG-CLASS>
+																				<CONFIG-VARIANT>VARIANT-PRE-COMPILE</CONFIG-VARIANT>
+																			</ECUC-VALUE-CONFIGURATION-CLASS>
+																</VALUE-CONFIG-CLASSES>
+																	<SYMBOLIC-NAME-VALUE>true</SYMBOLIC-NAME-VALUE>
+																	<ECUC-STRING-PARAM-DEF-VARIANTS>
+																	<ECUC-STRING-PARAM-DEF-CONDITIONAL>
+																	<DEFAULT-VALUE>IOHWAB_PWM_OUTPUT_SIGNAL</DEFAULT-VALUE>
+																	</ECUC-STRING-PARAM-DEF-CONDITIONAL>
+																</ECUC-STRING-PARAM-DEF-VARIANTS>
+														</ECUC-STRING-PARAM-DEF>
+														
+														
+														
+											<ECUC-STRING-PARAM-DEF UUID="ECUC:8986f06e-9232-4f20-aec6-x8dcd936d1e8">
+													<SHORT-NAME>IoHwAb_PwmOutputPeriodPolicy</SHORT-NAME>
+													<ADMIN-DATA>
+														<SDGS>
+															<SDG GID="iSoft::IdentifiableOptions">
+																<SD GID="FIX_FLAG">true</SD>
+																<SD GID="DERIVED_FLAG">true</SD>
+															</SDG>
+														</SDGS>
+													</ADMIN-DATA>
+													<DESC>
+														<L-2 L="EN">Used to configure the output period policy of the given signal description channel in the PWM component.</L-2>
+													</DESC>
+													<RELATED-TRACE-ITEM-REF DEST="TRACEABLE">ECUC_Os_01524</RELATED-TRACE-ITEM-REF>
+													<LOWER-MULTIPLICITY>1</LOWER-MULTIPLICITY>
+													<UPPER-MULTIPLICITY>1</UPPER-MULTIPLICITY>
+													
+												</ECUC-STRING-PARAM-DEF>
+											<ECUC-ENUMERATION-PARAM-DEF UUID="ECUC:7c6684e6-b0d8-44a5-985e-9c0dc180fce5">
+									<SHORT-NAME>IoHwAb_PwmOutputEdgeNotify</SHORT-NAME>
+									<DESC>
+									<L-2 L="EN">Used to configure the output edge notify of the given signal description channel in the PWM component.</L-2>
+								</DESC>
+									<LOWER-MULTIPLICITY>1</LOWER-MULTIPLICITY>
+									<UPPER-MULTIPLICITY>1</UPPER-MULTIPLICITY>
+									<ORIGIN/>
+									<SYMBOLIC-NAME-VALUE>false</SYMBOLIC-NAME-VALUE>
+									<LITERALS>
+										<ECUC-ENUMERATION-LITERAL-DEF UUID="ECUC:f36aaca6-a0cc-955d-58a1-4862fed97f58">
+											<SHORT-NAME>PWM_NONE_EDGE</SHORT-NAME>
+											<ORIGIN>AUTOSAR_ECUC</ORIGIN>
+										</ECUC-ENUMERATION-LITERAL-DEF>
+										<ECUC-ENUMERATION-LITERAL-DEF UUID="ECUC:c45941d2-2cca-92f2-5062-070ec82de00a">
+											<SHORT-NAME>PWM_RISING_EDGE</SHORT-NAME>
+											<ORIGIN>AUTOSAR_ECUC</ORIGIN>
+										</ECUC-ENUMERATION-LITERAL-DEF>
+											<ECUC-ENUMERATION-LITERAL-DEF UUID="ECUC:c45941d2-2cca-92f2-5062-070ec82de00a">
+											<SHORT-NAME>PWM_FALLING_EDGE</SHORT-NAME>
+											<ORIGIN>AUTOSAR_ECUC</ORIGIN>
+										</ECUC-ENUMERATION-LITERAL-DEF>
+											<ECUC-ENUMERATION-LITERAL-DEF UUID="ECUC:c45941d2-2cca-92f2-5062-070ec82de00a">
+											<SHORT-NAME>PWM_BOTH_EDGE</SHORT-NAME>
+											<ORIGIN>AUTOSAR_ECUC</ORIGIN>
+										</ECUC-ENUMERATION-LITERAL-DEF>
+									</LITERALS>
+								</ECUC-ENUMERATION-PARAM-DEF>
+			
+									</PARAMETERS>
+									<REFERENCES>
+								<ECUC-REFERENCE-DEF UUID="ECUC:b8efcb58-ce38-4d88-ba8d-68d20a4d554f">
+									<SHORT-NAME>IoHwAb_PwmChannel</SHORT-NAME>
+											<DESC>
+									<L-2 L="EN">Used to configure the associated identifier of the given the signal description channel in the PWM component.</L-2>
+								</DESC>													
+										<ADMIN-DATA>
+											<SDGS>
+												<SDG GID="iSoft::IdentifiableOptions">
+													<SD GID="TRIGGER_FLAG">true</SD>
+												</SDG>
+											</SDGS>
+										</ADMIN-DATA>
+									<LOWER-MULTIPLICITY>1</LOWER-MULTIPLICITY>
+									<UPPER-MULTIPLICITY>1</UPPER-MULTIPLICITY>
+									<DESTINATION-REF DEST="ECUC-PARAM-CONF-CONTAINER-DEF">/AUTOSAR/Pwm/PwmChannelConfigSet/PwmChannel</DESTINATION-REF>
+								</ECUC-REFERENCE-DEF>
+						
+							</REFERENCES>
+						
+						</ECUC-PARAM-CONF-CONTAINER-DEF>
+						
+						</SUB-CONTAINERS>
+						</ECUC-PARAM-CONF-CONTAINER-DEF>
+					</CONTAINERS>
+				</ECUC-MODULE-DEF>
+			</ELEMENTS>
+		</AR-PACKAGE>
+	</AR-PACKAGES>
+</AUTOSAR>
+<!-- ISoft-Module-Version:2.0.1 -->

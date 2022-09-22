@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<notation:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://autosar.org/schema/r4.0" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xsi:schemaLocation="http://autosar.org/schema/r4.0 http://autosar.org/schema/r4.0/autosar40/swc/composition" xmi:id="_tamawCQjEe2PE8PawDkEmw" type="autosar4x" name="BottomComposition.arxmldiag" measurementUnit="Pixel">
+  <children xmi:type="notation:Shape" xmi:id="_YWd40DpMEe26vpYb52tzig" type="2001" fontName="Microsoft YaHei UI">
+    <children xmi:type="notation:DecorationNode" xmi:id="_YWd40jpMEe26vpYb52tzig" type="5001"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="_YWd40zpMEe26vpYb52tzig" type="5002"/>
+    <children xmi:type="notation:Node" xmi:id="_YWlNkDpMEe26vpYb52tzig" type="2006">
+      <children xmi:type="notation:DecorationNode" xmi:id="_YWl0ozpMEe26vpYb52tzig" type="5007">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_YWl0pDpMEe26vpYb52tzig" y="5"/>
+      </children>
+      <styles xmi:type="notation:DescriptionStyle" xmi:id="_YWlNkTpMEe26vpYb52tzig"/>
+      <styles xmi:type="notation:FontStyle" xmi:id="_YWl0oDpMEe26vpYb52tzig" fontName="Microsoft YaHei UI"/>
+      <styles xmi:type="notation:FillStyle" xmi:id="_YWl0oTpMEe26vpYb52tzig"/>
+      <element xmi:type="R-PORT-PROTOTYPE" href="componentsconfig.arxml#/AUTOSAR/Components/Cpt_Obs1A/RpData?type=RPortPrototype"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_YWl0ojpMEe26vpYb52tzig" x="263" y="60"/>
+    </children>
+    <children xmi:type="notation:Node" xmi:id="_YWl0pTpMEe26vpYb52tzig" type="2006">
+      <children xmi:type="notation:DecorationNode" xmi:id="_YWl0qjpMEe26vpYb52tzig" type="5007">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_YWl0qzpMEe26vpYb52tzig" y="5"/>
+      </children>
+      <styles xmi:type="notation:DescriptionStyle" xmi:id="_YWl0pjpMEe26vpYb52tzig"/>
+      <styles xmi:type="notation:FontStyle" xmi:id="_YWl0pzpMEe26vpYb52tzig" fontName="Microsoft YaHei UI"/>
+      <styles xmi:type="notation:FillStyle" xmi:id="_YWl0qDpMEe26vpYb52tzig"/>
+      <element xmi:type="R-PORT-PROTOTYPE" href="componentsconfig.arxml#/AUTOSAR/Components/Cpt_Obs1A/RpStruct?type=RPortPrototype"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_YWl0qTpMEe26vpYb52tzig" x="263" y="95"/>
+    </children>
+    <element xmi:type="SW-COMPONENT-PROTOTYPE" href="swcconfig.arxml#/AUTOSAR/Compositions/BottomComposition/Cpt_Obs1A_Prototype?type=SwComponentPrototype"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_YWd40TpMEe26vpYb52tzig" x="155" y="285"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_YWd41DpMEe26vpYb52tzig" type="2001" fontName="Microsoft YaHei UI">
+    <children xmi:type="notation:DecorationNode" xmi:id="_YWd41jpMEe26vpYb52tzig" type="5001"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="_YWd41zpMEe26vpYb52tzig" type="5002"/>
+    <children xmi:type="notation:Node" xmi:id="_YW26YDpMEe26vpYb52tzig" type="2005">
+      <children xmi:type="notation:DecorationNode" xmi:id="_YW26ZTpMEe26vpYb52tzig" type="5006">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_YW26ZjpMEe26vpYb52tzig" y="5"/>
+      </children>
+      <styles xmi:type="notation:DescriptionStyle" xmi:id="_YW26YTpMEe26vpYb52tzig"/>
+      <styles xmi:type="notation:FontStyle" xmi:id="_YW26YjpMEe26vpYb52tzig" fontName="Microsoft YaHei UI"/>
+      <styles xmi:type="notation:FillStyle" xmi:id="_YW26YzpMEe26vpYb52tzig"/>
+      <element xmi:type="P-PORT-PROTOTYPE" href="componentsconfig.arxml#/AUTOSAR/Components/Cpt_Ctrl1A/PpComplexData?type=PPortPrototype"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_YW26ZDpMEe26vpYb52tzig"/>
+    </children>
+    <children xmi:type="notation:Node" xmi:id="_YW3hcDpMEe26vpYb52tzig" type="2005">
+      <children xmi:type="notation:DecorationNode" xmi:id="_YW3hdTpMEe26vpYb52tzig" type="5006">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_YW3hdjpMEe26vpYb52tzig" y="5"/>
+      </children>
+      <styles xmi:type="notation:DescriptionStyle" xmi:id="_YW3hcTpMEe26vpYb52tzig"/>
+      <styles xmi:type="notation:FontStyle" xmi:id="_YW3hcjpMEe26vpYb52tzig" fontName="Microsoft YaHei UI"/>
+      <styles xmi:type="notation:FillStyle" xmi:id="_YW3hczpMEe26vpYb52tzig"/>
+      <element xmi:type="P-PORT-PROTOTYPE" href="componentsconfig.arxml#/AUTOSAR/Components/Cpt_Ctrl1A/PpStructA?type=PPortPrototype"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_YW3hdDpMEe26vpYb52tzig"/>
+    </children>
+    <element xmi:type="SW-COMPONENT-PROTOTYPE" href="swcconfig.arxml#/AUTOSAR/Compositions/BottomComposition/Cpt_Ctrl1A_Prototype?type=SwComponentPrototype"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_YWd41TpMEe26vpYb52tzig" x="162"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_YWd42DpMEe26vpYb52tzig" type="2001" fontName="Microsoft YaHei UI">
+    <children xmi:type="notation:DecorationNode" xmi:id="_YWd42jpMEe26vpYb52tzig" type="5001"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="_YWd42zpMEe26vpYb52tzig" type="5002"/>
+    <children xmi:type="notation:Node" xmi:id="_YXDHoDpMEe26vpYb52tzig" type="2006">
+      <children xmi:type="notation:DecorationNode" xmi:id="_YXDHpTpMEe26vpYb52tzig" type="5007">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_YXDHpjpMEe26vpYb52tzig" y="5"/>
+      </children>
+      <styles xmi:type="notation:DescriptionStyle" xmi:id="_YXDHoTpMEe26vpYb52tzig"/>
+      <styles xmi:type="notation:FontStyle" xmi:id="_YXDHojpMEe26vpYb52tzig" fontName="Microsoft YaHei UI"/>
+      <styles xmi:type="notation:FillStyle" xmi:id="_YXDHozpMEe26vpYb52tzig"/>
+      <element xmi:type="R-PORT-PROTOTYPE" href="componentsconfig.arxml#/AUTOSAR/Components/Cpt_Obs1B/RpStruct?type=RPortPrototype"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_YXDHpDpMEe26vpYb52tzig"/>
+    </children>
+    <element xmi:type="SW-COMPONENT-PROTOTYPE" href="swcconfig.arxml#/AUTOSAR/Compositions/BottomComposition/Cpt_Obs1B_Prototype?type=SwComponentPrototype"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_YWd42TpMEe26vpYb52tzig" x="725" y="15"/>
+  </children>
+  <styles xmi:type="notation:DiagramStyle" xmi:id="_tanB0CQjEe2PE8PawDkEmw"/>
+  <element xmi:type="COMPOSITION-SW-COMPONENT-TYPE" href="swcconfig.arxml#/AUTOSAR/Compositions/BottomComposition?type=CompositionSwComponentType"/>
+  <edges xmi:type="notation:Edge" xmi:id="_YXJOQDpMEe26vpYb52tzig" type="4001" source="_YW26YDpMEe26vpYb52tzig" target="_YWlNkDpMEe26vpYb52tzig">
+    <styles xmi:type="notation:RoutingStyle" xmi:id="_YXJOQTpMEe26vpYb52tzig" routing="Rectilinear"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_YXJOQjpMEe26vpYb52tzig" fontName="Microsoft YaHei UI"/>
+    <element xmi:type="ASSEMBLY-SW-CONNECTOR" href="swcconfig.arxml#/AUTOSAR/Compositions/BottomComposition/assemblyConnect_1?type=AssemblySwConnector"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_YXJOQzpMEe26vpYb52tzig" points="[-2, 8, -10, -235]$[-2, 118, -10, -125]$[3, 118, -5, -125]$[3, 131, -5, -112]$[7, 131, -1, -112]$[7, 236, -1, -7]"/>
+  </edges>
+  <edges xmi:type="notation:Edge" xmi:id="_YXXQsDpMEe26vpYb52tzig" type="4001" source="_YW3hcDpMEe26vpYb52tzig" target="_YXDHoDpMEe26vpYb52tzig">
+    <styles xmi:type="notation:RoutingStyle" xmi:id="_YXXQsTpMEe26vpYb52tzig" routing="Rectilinear"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_YXXQsjpMEe26vpYb52tzig" fontName="Microsoft YaHei UI"/>
+    <element xmi:type="ASSEMBLY-SW-CONNECTOR" href="swcconfig.arxml#/AUTOSAR/Compositions/BottomComposition/assemblyConnect_2?type=AssemblySwConnector"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_YXXQszpMEe26vpYb52tzig" points="[0, -7, -281, -125]$[0, -26, -281, -144]$[104, -26, -177, -144]$[104, 116, -177, -2]$[274, 116, -7, -2]"/>
+  </edges>
+  <edges xmi:type="notation:Edge" xmi:id="_fqkYkDpMEe26vpYb52tzig" type="4001" source="_YW3hcDpMEe26vpYb52tzig" target="_YWl0pTpMEe26vpYb52tzig">
+    <styles xmi:type="notation:RoutingStyle" xmi:id="_fqkYkTpMEe26vpYb52tzig" routing="Rectilinear"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_fqkYkjpMEe26vpYb52tzig" fontName="Microsoft YaHei UI"/>
+    <element xmi:type="ASSEMBLY-SW-CONNECTOR" href="swcconfig.arxml#/AUTOSAR/Compositions/BottomComposition/assemblyConnect_3?type=AssemblySwConnector"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_fqkYkzpMEe26vpYb52tzig" points="[8, 0, 15, -301]$[63, 0, 70, -301]$[63, 301, 70, 0]$[1, 301, 8, 0]"/>
+  </edges>
+</notation:Diagram>

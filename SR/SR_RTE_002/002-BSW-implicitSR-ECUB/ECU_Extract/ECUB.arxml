@@ -1,0 +1,675 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AUTOSAR xmlns="http://autosar.org/schema/r4.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://autosar.org/schema/r4.0 autosar_4-2-2.xsd">
+  <AR-PACKAGES>
+    <AR-PACKAGE UUID="802174d8-b816-4f4a-8e44-2e45885560e4">
+      <SHORT-NAME>AUTOSAR</SHORT-NAME>
+      <AR-PACKAGES>
+        <AR-PACKAGE UUID="84dded21-a5db-4ffe-8e29-6583e750a19d">
+          <SHORT-NAME>Components</SHORT-NAME>
+          <ELEMENTS>
+            <APPLICATION-SW-COMPONENT-TYPE UUID="b58c867a-7c35-4813-ac30-1b77b43d426d">
+              <SHORT-NAME>Cpt_Obs1B</SHORT-NAME>
+              <PORTS>
+                <R-PORT-PROTOTYPE UUID="bdbc4d11-a9f2-474f-b444-25efbe1731ad">
+                  <SHORT-NAME>RpStruct</SHORT-NAME>
+                  <REQUIRED-COM-SPECS>
+                    <NONQUEUED-RECEIVER-COM-SPEC>
+                      <DATA-ELEMENT-REF DEST="VARIABLE-DATA-PROTOTYPE">/AUTOSAR/Interfaces/SRIF_Struct/dataElementsStructA</DATA-ELEMENT-REF>
+                      <INIT-VALUE>
+                        <RECORD-VALUE-SPECIFICATION>
+                          <FIELDS>
+                            <NUMERICAL-VALUE-SPECIFICATION>
+                              <VALUE>0</VALUE>
+                            </NUMERICAL-VALUE-SPECIFICATION>
+                            <NUMERICAL-VALUE-SPECIFICATION>
+                              <VALUE>1</VALUE>
+                            </NUMERICAL-VALUE-SPECIFICATION>
+                            <NUMERICAL-VALUE-SPECIFICATION>
+                              <VALUE>2</VALUE>
+                            </NUMERICAL-VALUE-SPECIFICATION>
+                            <NUMERICAL-VALUE-SPECIFICATION>
+                              <VALUE>0</VALUE>
+                            </NUMERICAL-VALUE-SPECIFICATION>
+                          </FIELDS>
+                        </RECORD-VALUE-SPECIFICATION>
+                      </INIT-VALUE>
+                    </NONQUEUED-RECEIVER-COM-SPEC>
+                  </REQUIRED-COM-SPECS>
+                  <REQUIRED-INTERFACE-TREF DEST="SENDER-RECEIVER-INTERFACE">/AUTOSAR/Interfaces/SRIF_Struct</REQUIRED-INTERFACE-TREF>
+                </R-PORT-PROTOTYPE>
+              </PORTS>
+              <INTERNAL-BEHAVIORS>
+                <SWC-INTERNAL-BEHAVIOR UUID="5b9c9578-6b3b-4546-8ea6-4b93d295487d">
+                  <SHORT-NAME>IbObs1B</SHORT-NAME>
+                  <EVENTS>
+                    <TIMING-EVENT UUID="672054ce-2202-4c81-96b6-7954cdf7e382">
+                      <SHORT-NAME>timingEvent_10</SHORT-NAME>
+                      <START-ON-EVENT-REF DEST="RUNNABLE-ENTITY">/AUTOSAR/Components/Cpt_Obs1B/IbObs1B/Runnable_Obs1B</START-ON-EVENT-REF>
+                      <PERIOD>0.01</PERIOD>
+                    </TIMING-EVENT>
+                  </EVENTS>
+                  <RUNNABLES>
+                    <RUNNABLE-ENTITY UUID="91dcc638-eec3-4c19-b242-9ac3a2400a17">
+                      <SHORT-NAME>Runnable_Obs1B</SHORT-NAME>
+                      <DATA-READ-ACCESSS>
+                        <VARIABLE-ACCESS>
+                          <SHORT-NAME>dataReadAccess_StructA</SHORT-NAME>
+                          <ACCESSED-VARIABLE>
+                            <AUTOSAR-VARIABLE-IREF>
+                              <PORT-PROTOTYPE-REF DEST="R-PORT-PROTOTYPE">/AUTOSAR/Components/Cpt_Obs1B/RpStruct</PORT-PROTOTYPE-REF>
+                              <TARGET-DATA-PROTOTYPE-REF DEST="VARIABLE-DATA-PROTOTYPE">/AUTOSAR/Interfaces/SRIF_Struct/dataElementsStructA</TARGET-DATA-PROTOTYPE-REF>
+                            </AUTOSAR-VARIABLE-IREF>
+                          </ACCESSED-VARIABLE>
+                        </VARIABLE-ACCESS>
+                      </DATA-READ-ACCESSS>
+                      <SYMBOL>AppRunnable_Obs1</SYMBOL>
+                    </RUNNABLE-ENTITY>
+                  </RUNNABLES>
+                </SWC-INTERNAL-BEHAVIOR>
+              </INTERNAL-BEHAVIORS>
+            </APPLICATION-SW-COMPONENT-TYPE>
+          </ELEMENTS>
+        </AR-PACKAGE>
+      </AR-PACKAGES>
+    </AR-PACKAGE>
+    <AR-PACKAGE UUID="802174d8-b816-4f4a-8e44-2e45885560e4">
+      <SHORT-NAME>AUTOSAR</SHORT-NAME>
+      <AR-PACKAGES>
+        <AR-PACKAGE UUID="ab456873-19f5-4022-8483-e211f1655d27">
+          <SHORT-NAME>Compositions</SHORT-NAME>
+          <ELEMENTS>
+            <COMPOSITION-SW-COMPONENT-TYPE UUID="1ba19ef2-9752-4ba7-a815-cee7781e9b73">
+              <SHORT-NAME>BottomComposition</SHORT-NAME>
+              <COMPONENTS>
+                <SW-COMPONENT-PROTOTYPE>
+                  <SHORT-NAME>Cpt_Obs1B_Prototype</SHORT-NAME>
+                  <TYPE-TREF DEST="APPLICATION-SW-COMPONENT-TYPE">/AUTOSAR/Components/Cpt_Obs1B</TYPE-TREF>
+                </SW-COMPONENT-PROTOTYPE>
+              </COMPONENTS>
+            </COMPOSITION-SW-COMPONENT-TYPE>
+            <COMPOSITION-SW-COMPONENT-TYPE UUID="9a6d4c3b-e9f3-4a79-b259-0a8aa16f333f">
+              <SHORT-NAME>TopComposition</SHORT-NAME>
+              <COMPONENTS>
+                <SW-COMPONENT-PROTOTYPE UUID="e0c58264-c6ca-4ea8-ae3e-434049c85dbc">
+                  <SHORT-NAME>BottomComposition</SHORT-NAME>
+                  <TYPE-TREF DEST="COMPOSITION-SW-COMPONENT-TYPE">/AUTOSAR/Compositions/BottomComposition</TYPE-TREF>
+                </SW-COMPONENT-PROTOTYPE>
+              </COMPONENTS>
+            </COMPOSITION-SW-COMPONENT-TYPE>
+          </ELEMENTS>
+        </AR-PACKAGE>
+        <AR-PACKAGE UUID="1bbc21ed-9ee8-4422-9b27-c0537f8f6e83">
+          <SHORT-NAME>SwcImplementations</SHORT-NAME>
+          <ELEMENTS>
+            <SWC-IMPLEMENTATION UUID="a5f0c63d-a795-402b-a0e2-7b01dea4b9e1">
+              <SHORT-NAME>swcImplementation_CptObs1B</SHORT-NAME>
+              <BEHAVIOR-REF DEST="SWC-INTERNAL-BEHAVIOR">/AUTOSAR/Components/Cpt_Obs1B/IbObs1B</BEHAVIOR-REF>
+            </SWC-IMPLEMENTATION>
+          </ELEMENTS>
+        </AR-PACKAGE>
+        <AR-PACKAGE UUID="90c46d55-d911-48d4-8469-3ba644f056b5">
+          <SHORT-NAME>System</SHORT-NAME>
+          <ELEMENTS>
+            <SYSTEM UUID="35c87bb7-f50f-4405-a6cf-9767576e243d">
+              <SHORT-NAME>system_0</SHORT-NAME>
+              <FIBEX-ELEMENTS>
+                <FIBEX-ELEMENT-REF-CONDITIONAL>
+                  <FIBEX-ELEMENT-REF DEST="ECU-INSTANCE">/SystemInfo/EcuInstances/ECUB</FIBEX-ELEMENT-REF>
+                </FIBEX-ELEMENT-REF-CONDITIONAL>
+                <FIBEX-ELEMENT-REF-CONDITIONAL>
+                  <FIBEX-ELEMENT-REF DEST="I-SIGNAL-I-PDU">/SystemInfo/ISignalIPdus/Msg_StructA</FIBEX-ELEMENT-REF>
+                </FIBEX-ELEMENT-REF-CONDITIONAL>
+                <FIBEX-ELEMENT-REF-CONDITIONAL>
+                  <FIBEX-ELEMENT-REF DEST="I-SIGNAL">/SystemInfo/ISignals/Signal_DATA8_Msg_StructA</FIBEX-ELEMENT-REF>
+                </FIBEX-ELEMENT-REF-CONDITIONAL>
+                <FIBEX-ELEMENT-REF-CONDITIONAL>
+                  <FIBEX-ELEMENT-REF DEST="CAN-CLUSTER">/SystemInfo/CanClusters/CanCluster_0</FIBEX-ELEMENT-REF>
+                </FIBEX-ELEMENT-REF-CONDITIONAL>
+                <FIBEX-ELEMENT-REF-CONDITIONAL>
+                  <FIBEX-ELEMENT-REF DEST="I-SIGNAL">/SystemInfo/ISignals/Signal_CRC_Msg_StructA</FIBEX-ELEMENT-REF>
+                </FIBEX-ELEMENT-REF-CONDITIONAL>
+                <FIBEX-ELEMENT-REF-CONDITIONAL>
+                  <FIBEX-ELEMENT-REF DEST="I-SIGNAL">/SystemInfo/ISignals/Signal_Counter_Msg_StructA</FIBEX-ELEMENT-REF>
+                </FIBEX-ELEMENT-REF-CONDITIONAL>
+                <FIBEX-ELEMENT-REF-CONDITIONAL>
+                  <FIBEX-ELEMENT-REF DEST="I-SIGNAL-GROUP">/SystemInfo/ISignals/Group_StructA_Msg_StructA</FIBEX-ELEMENT-REF>
+                </FIBEX-ELEMENT-REF-CONDITIONAL>
+                <FIBEX-ELEMENT-REF-CONDITIONAL>
+                  <FIBEX-ELEMENT-REF DEST="CAN-FRAME">/SystemInfo/CanFrames/Msg_StructA</FIBEX-ELEMENT-REF>
+                </FIBEX-ELEMENT-REF-CONDITIONAL>
+                <FIBEX-ELEMENT-REF-CONDITIONAL>
+                  <FIBEX-ELEMENT-REF DEST="I-SIGNAL">/SystemInfo/ISignals/Signal_DATA16_Msg_StructA</FIBEX-ELEMENT-REF>
+                </FIBEX-ELEMENT-REF-CONDITIONAL>
+              </FIBEX-ELEMENTS>
+              <MAPPINGS>
+                <SYSTEM-MAPPING UUID="05fa689b-96a8-4b4c-8342-ecfe817b8146">
+                  <SHORT-NAME>SystemMapping_0</SHORT-NAME>
+                  <DATA-MAPPINGS>
+                    <SENDER-RECEIVER-TO-SIGNAL-GROUP-MAPPING>
+                      <DATA-ELEMENT-IREF>
+                        <CONTEXT-COMPONENT-REF DEST="SW-COMPONENT-PROTOTYPE">/AUTOSAR/Compositions/TopComposition/BottomComposition</CONTEXT-COMPONENT-REF>
+                        <CONTEXT-COMPONENT-REF DEST="SW-COMPONENT-PROTOTYPE">/AUTOSAR/Compositions/BottomComposition/Cpt_Obs1B_Prototype</CONTEXT-COMPONENT-REF>
+                        <CONTEXT-COMPOSITION-REF DEST="ROOT-SW-COMPOSITION-PROTOTYPE">/AUTOSAR/System/system_0/rootSwCompositionPrototype_0</CONTEXT-COMPOSITION-REF>
+                        <CONTEXT-PORT-REF DEST="R-PORT-PROTOTYPE">/AUTOSAR/Components/Cpt_Obs1B/RpStruct</CONTEXT-PORT-REF>
+                        <TARGET-DATA-PROTOTYPE-REF DEST="VARIABLE-DATA-PROTOTYPE">/AUTOSAR/Interfaces/SRIF_Struct/dataElementsStructA</TARGET-DATA-PROTOTYPE-REF>
+                      </DATA-ELEMENT-IREF>
+                      <SIGNAL-GROUP-REF DEST="SYSTEM-SIGNAL-GROUP">/SystemInfo/SystemSignals/Group_StructA_Msg_StructA</SIGNAL-GROUP-REF>
+                      <TYPE-MAPPING>
+                        <SENDER-REC-RECORD-TYPE-MAPPING>
+                          <RECORD-ELEMENT-MAPPINGS>
+                            <SENDER-REC-RECORD-ELEMENT-MAPPING>
+                              <IMPLEMENTATION-RECORD-ELEMENT-REF DEST="IMPLEMENTATION-DATA-TYPE-ELEMENT">/AUTOSAR/DataTypes/StructA/Crc_Uint8</IMPLEMENTATION-RECORD-ELEMENT-REF>
+                              <SYSTEM-SIGNAL-REF DEST="SYSTEM-SIGNAL">/SystemInfo/SystemSignals/Signal_DATA8_Msg_StructA</SYSTEM-SIGNAL-REF>
+                            </SENDER-REC-RECORD-ELEMENT-MAPPING>
+                            <SENDER-REC-RECORD-ELEMENT-MAPPING>
+                              <IMPLEMENTATION-RECORD-ELEMENT-REF DEST="IMPLEMENTATION-DATA-TYPE-ELEMENT">/AUTOSAR/DataTypes/StructA/Data_Uint16</IMPLEMENTATION-RECORD-ELEMENT-REF>
+                              <SYSTEM-SIGNAL-REF DEST="SYSTEM-SIGNAL">/SystemInfo/SystemSignals/Signal_Counter_Msg_StructA</SYSTEM-SIGNAL-REF>
+                            </SENDER-REC-RECORD-ELEMENT-MAPPING>
+                            <SENDER-REC-RECORD-ELEMENT-MAPPING>
+                              <IMPLEMENTATION-RECORD-ELEMENT-REF DEST="IMPLEMENTATION-DATA-TYPE-ELEMENT">/AUTOSAR/DataTypes/StructA/Counter_Uint8</IMPLEMENTATION-RECORD-ELEMENT-REF>
+                              <SYSTEM-SIGNAL-REF DEST="SYSTEM-SIGNAL">/SystemInfo/SystemSignals/Signal_CRC_Msg_StructA</SYSTEM-SIGNAL-REF>
+                            </SENDER-REC-RECORD-ELEMENT-MAPPING>
+                            <SENDER-REC-RECORD-ELEMENT-MAPPING>
+                              <IMPLEMENTATION-RECORD-ELEMENT-REF DEST="IMPLEMENTATION-DATA-TYPE-ELEMENT">/AUTOSAR/DataTypes/StructA/Data_Uint8</IMPLEMENTATION-RECORD-ELEMENT-REF>
+                              <SYSTEM-SIGNAL-REF DEST="SYSTEM-SIGNAL">/SystemInfo/SystemSignals/Signal_DATA16_Msg_StructA</SYSTEM-SIGNAL-REF>
+                            </SENDER-REC-RECORD-ELEMENT-MAPPING>
+                          </RECORD-ELEMENT-MAPPINGS>
+                        </SENDER-REC-RECORD-TYPE-MAPPING>
+                      </TYPE-MAPPING>
+                    </SENDER-RECEIVER-TO-SIGNAL-GROUP-MAPPING>
+                  </DATA-MAPPINGS>
+                  <SW-IMPL-MAPPINGS>
+                    <SWC-TO-IMPL-MAPPING UUID="23b8fd8f-c628-4c3f-b622-ad63b2cec435">
+                      <SHORT-NAME>CptObs1PrototypeImplMapping</SHORT-NAME>
+                      <COMPONENT-IMPLEMENTATION-REF DEST="SWC-IMPLEMENTATION">/AUTOSAR/SwcImplementations/swcImplementation_CptObs1B</COMPONENT-IMPLEMENTATION-REF>
+                      <COMPONENT-IREFS>
+                        <COMPONENT-IREF>
+                          <CONTEXT-COMPOSITION-REF DEST="ROOT-SW-COMPOSITION-PROTOTYPE">/AUTOSAR/System/system_0/rootSwCompositionPrototype_0</CONTEXT-COMPOSITION-REF>
+                          <CONTEXT-COMPONENT-REF DEST="SW-COMPONENT-PROTOTYPE">/AUTOSAR/Compositions/TopComposition/BottomComposition</CONTEXT-COMPONENT-REF>
+                          <CONTEXT-COMPONENT-REF DEST="SW-COMPONENT-PROTOTYPE">/AUTOSAR/Compositions/BottomComposition/Cpt_Obs1B_Prototype</CONTEXT-COMPONENT-REF>
+                          <TARGET-COMPONENT-REF DEST="SW-COMPONENT-PROTOTYPE">/AUTOSAR/Compositions/BottomComposition/Cpt_Obs1B_Prototype</TARGET-COMPONENT-REF>
+                        </COMPONENT-IREF>
+                      </COMPONENT-IREFS>
+                    </SWC-TO-IMPL-MAPPING>
+                  </SW-IMPL-MAPPINGS>
+                  <SW-MAPPINGS>
+                    <SWC-TO-ECU-MAPPING UUID="a925eb98-e731-416d-b376-20aef84b2ec4">
+                      <SHORT-NAME>ECUB_SwcToEcuMapping</SHORT-NAME>
+                      <COMPONENT-IREFS>
+                        <COMPONENT-IREF>
+                          <CONTEXT-COMPOSITION-REF DEST="ROOT-SW-COMPOSITION-PROTOTYPE">/AUTOSAR/System/system_0/rootSwCompositionPrototype_0</CONTEXT-COMPOSITION-REF>
+                          <CONTEXT-COMPONENT-REF DEST="SW-COMPONENT-PROTOTYPE">/AUTOSAR/Compositions/TopComposition/BottomComposition</CONTEXT-COMPONENT-REF>
+                          <CONTEXT-COMPONENT-REF DEST="SW-COMPONENT-PROTOTYPE">/AUTOSAR/Compositions/BottomComposition/Cpt_Obs1B_Prototype</CONTEXT-COMPONENT-REF>
+                          <TARGET-COMPONENT-REF DEST="SW-COMPONENT-PROTOTYPE">/AUTOSAR/Compositions/BottomComposition/Cpt_Obs1B_Prototype</TARGET-COMPONENT-REF>
+                        </COMPONENT-IREF>
+                      </COMPONENT-IREFS>
+                      <ECU-INSTANCE-REF DEST="ECU-INSTANCE">/SystemInfo/EcuInstances/ECUB</ECU-INSTANCE-REF>
+                    </SWC-TO-ECU-MAPPING>
+                  </SW-MAPPINGS>
+                </SYSTEM-MAPPING>
+              </MAPPINGS>
+              <ROOT-SOFTWARE-COMPOSITIONS>
+                <ROOT-SW-COMPOSITION-PROTOTYPE UUID="00f91088-571a-4138-9a6c-9acac59a4915">
+                  <SHORT-NAME>rootSwCompositionPrototype_0</SHORT-NAME>
+                  <SOFTWARE-COMPOSITION-TREF DEST="COMPOSITION-SW-COMPONENT-TYPE">/AUTOSAR/Compositions/TopComposition</SOFTWARE-COMPOSITION-TREF>
+                </ROOT-SW-COMPOSITION-PROTOTYPE>
+              </ROOT-SOFTWARE-COMPOSITIONS>
+            </SYSTEM>
+          </ELEMENTS>
+        </AR-PACKAGE>
+      </AR-PACKAGES>
+    </AR-PACKAGE>
+    <AR-PACKAGE UUID="802174d8-b816-4f4a-8e44-2e45885560e4">
+      <SHORT-NAME>AUTOSAR</SHORT-NAME>
+      <AR-PACKAGES>
+        <AR-PACKAGE UUID="710489c8-debd-4226-adcb-bea2ce765f4b">
+          <SHORT-NAME>Interfaces</SHORT-NAME>
+          <ELEMENTS>
+            <SENDER-RECEIVER-INTERFACE UUID="685f6f6a-7be2-44a3-9bb9-f929e1a1da4d">
+              <SHORT-NAME>SRIF_Struct</SHORT-NAME>
+              <IS-SERVICE>false</IS-SERVICE>
+              <DATA-ELEMENTS>
+                <VARIABLE-DATA-PROTOTYPE>
+                  <SHORT-NAME>dataElementsStructA</SHORT-NAME>
+                  <TYPE-TREF DEST="IMPLEMENTATION-DATA-TYPE">/AUTOSAR/DataTypes/StructA</TYPE-TREF>
+                </VARIABLE-DATA-PROTOTYPE>
+              </DATA-ELEMENTS>
+            </SENDER-RECEIVER-INTERFACE>
+          </ELEMENTS>
+        </AR-PACKAGE>
+      </AR-PACKAGES>
+    </AR-PACKAGE>
+    <AR-PACKAGE UUID="802174d8-b816-4f4a-8e44-2e45885560e4">
+      <SHORT-NAME>AUTOSAR</SHORT-NAME>
+      <AR-PACKAGES>
+        <AR-PACKAGE UUID="98e8e7ae-10b4-4391-8f0f-7566207d1268">
+          <SHORT-NAME>DataTypes</SHORT-NAME>
+          <ELEMENTS>
+            <IMPLEMENTATION-DATA-TYPE UUID="dc1a5538-da5d-4adb-8c11-ddbcaa850373">
+              <SHORT-NAME>StructA</SHORT-NAME>
+              <CATEGORY>STRUCTURE</CATEGORY>
+              <SUB-ELEMENTS>
+                <IMPLEMENTATION-DATA-TYPE-ELEMENT UUID="ff072ab2-1aa4-4bfb-bbb6-97b31d004910">
+                  <SHORT-NAME>Crc_Uint8</SHORT-NAME>
+                  <CATEGORY>VALUE</CATEGORY>
+                  <SW-DATA-DEF-PROPS>
+                    <SW-DATA-DEF-PROPS-VARIANTS>
+                      <SW-DATA-DEF-PROPS-CONDITIONAL>
+                        <BASE-TYPE-REF DEST="SW-BASE-TYPE">/AUTOSAR/SwBaseTypes/uint8</BASE-TYPE-REF>
+                      </SW-DATA-DEF-PROPS-CONDITIONAL>
+                    </SW-DATA-DEF-PROPS-VARIANTS>
+                  </SW-DATA-DEF-PROPS>
+                </IMPLEMENTATION-DATA-TYPE-ELEMENT>
+                <IMPLEMENTATION-DATA-TYPE-ELEMENT UUID="1c7bff5a-61b9-4183-85ff-f29a1b4eb34c">
+                  <SHORT-NAME>Data_Uint16</SHORT-NAME>
+                  <CATEGORY>VALUE</CATEGORY>
+                  <SW-DATA-DEF-PROPS>
+                    <SW-DATA-DEF-PROPS-VARIANTS>
+                      <SW-DATA-DEF-PROPS-CONDITIONAL>
+                        <BASE-TYPE-REF DEST="SW-BASE-TYPE">/AUTOSAR/SwBaseTypes/uint16</BASE-TYPE-REF>
+                      </SW-DATA-DEF-PROPS-CONDITIONAL>
+                    </SW-DATA-DEF-PROPS-VARIANTS>
+                  </SW-DATA-DEF-PROPS>
+                </IMPLEMENTATION-DATA-TYPE-ELEMENT>
+                <IMPLEMENTATION-DATA-TYPE-ELEMENT UUID="c73f85bf-a93a-49a6-a40c-85e00895769b">
+                  <SHORT-NAME>Counter_Uint8</SHORT-NAME>
+                  <CATEGORY>VALUE</CATEGORY>
+                  <SW-DATA-DEF-PROPS>
+                    <SW-DATA-DEF-PROPS-VARIANTS>
+                      <SW-DATA-DEF-PROPS-CONDITIONAL>
+                        <BASE-TYPE-REF DEST="SW-BASE-TYPE">/AUTOSAR/SwBaseTypes/uint8</BASE-TYPE-REF>
+                      </SW-DATA-DEF-PROPS-CONDITIONAL>
+                    </SW-DATA-DEF-PROPS-VARIANTS>
+                  </SW-DATA-DEF-PROPS>
+                </IMPLEMENTATION-DATA-TYPE-ELEMENT>
+                <IMPLEMENTATION-DATA-TYPE-ELEMENT UUID="feeb4a4e-4f3a-4a1a-9c62-391cf82a4312">
+                  <SHORT-NAME>Data_Uint8</SHORT-NAME>
+                  <CATEGORY>VALUE</CATEGORY>
+                  <SW-DATA-DEF-PROPS>
+                    <SW-DATA-DEF-PROPS-VARIANTS>
+                      <SW-DATA-DEF-PROPS-CONDITIONAL>
+                        <BASE-TYPE-REF DEST="SW-BASE-TYPE">/AUTOSAR/SwBaseTypes/uint8</BASE-TYPE-REF>
+                      </SW-DATA-DEF-PROPS-CONDITIONAL>
+                    </SW-DATA-DEF-PROPS-VARIANTS>
+                  </SW-DATA-DEF-PROPS>
+                </IMPLEMENTATION-DATA-TYPE-ELEMENT>
+              </SUB-ELEMENTS>
+            </IMPLEMENTATION-DATA-TYPE>
+          </ELEMENTS>
+        </AR-PACKAGE>
+        <AR-PACKAGE UUID="2da8d8a8-4fb7-429a-802f-24bbc7d7c350">
+          <SHORT-NAME>SwBaseTypes</SHORT-NAME>
+          <ELEMENTS>
+            <SW-BASE-TYPE>
+              <SHORT-NAME>uint8</SHORT-NAME>
+              <CATEGORY>FIXED_LENGTH</CATEGORY>
+              <BASE-TYPE-SIZE>8</BASE-TYPE-SIZE>
+              <BASE-TYPE-ENCODING>NONE</BASE-TYPE-ENCODING>
+              <NATIVE-DECLARATION>uint8</NATIVE-DECLARATION>
+            </SW-BASE-TYPE>
+            <SW-BASE-TYPE>
+              <SHORT-NAME>uint16</SHORT-NAME>
+              <CATEGORY>FIXED_LENGTH</CATEGORY>
+              <BASE-TYPE-SIZE>16</BASE-TYPE-SIZE>
+              <BASE-TYPE-ENCODING>NONE</BASE-TYPE-ENCODING>
+              <NATIVE-DECLARATION>uint16</NATIVE-DECLARATION>
+            </SW-BASE-TYPE>
+            <SW-BASE-TYPE>
+              <SHORT-NAME>sint8</SHORT-NAME>
+              <CATEGORY>FIXED_LENGTH</CATEGORY>
+              <BASE-TYPE-SIZE>8</BASE-TYPE-SIZE>
+              <BASE-TYPE-ENCODING>VOID</BASE-TYPE-ENCODING>
+              <NATIVE-DECLARATION>sint8</NATIVE-DECLARATION>
+            </SW-BASE-TYPE>
+          </ELEMENTS>
+        </AR-PACKAGE>
+      </AR-PACKAGES>
+    </AR-PACKAGE>
+    <AR-PACKAGE>
+      <SHORT-NAME>SystemInfo</SHORT-NAME>
+      <AR-PACKAGES>
+        <AR-PACKAGE UUID="894fcaf5-fa39-4c26-8ad1-3a178fe8af18">
+          <SHORT-NAME>EcuInstances</SHORT-NAME>
+          <ELEMENTS>
+            <ECU-INSTANCE UUID="5a7d3e6b-266f-4d8d-b7da-c558a9b00e82">
+              <SHORT-NAME>ECUB</SHORT-NAME>
+              <COM-CONFIGURATION-GW-TIME-BASE>0.005</COM-CONFIGURATION-GW-TIME-BASE>
+              <COM-CONFIGURATION-RX-TIME-BASE>0.005</COM-CONFIGURATION-RX-TIME-BASE>
+              <COM-CONFIGURATION-TX-TIME-BASE>0.005</COM-CONFIGURATION-TX-TIME-BASE>
+              <COMM-CONTROLLERS>
+                <CAN-COMMUNICATION-CONTROLLER UUID="02bd4927-cae0-4917-8308-4fa914b8ec53">
+                  <SHORT-NAME>CanChannel_0_ECUB</SHORT-NAME>
+                  <CAN-COMMUNICATION-CONTROLLER-VARIANTS>
+                    <CAN-COMMUNICATION-CONTROLLER-CONDITIONAL>
+                      <WAKE-UP-BY-CONTROLLER-SUPPORTED>false</WAKE-UP-BY-CONTROLLER-SUPPORTED>
+                      <CAN-CONTROLLER-ATTRIBUTES>
+                        <CAN-CONTROLLER-CONFIGURATION>
+                          <SYNC-JUMP-WIDTH>0</SYNC-JUMP-WIDTH>
+                          <TIME-SEG-1>20</TIME-SEG-1>
+                          <TIME-SEG-2>10</TIME-SEG-2>
+                        </CAN-CONTROLLER-CONFIGURATION>
+                      </CAN-CONTROLLER-ATTRIBUTES>
+                    </CAN-COMMUNICATION-CONTROLLER-CONDITIONAL>
+                  </CAN-COMMUNICATION-CONTROLLER-VARIANTS>
+                </CAN-COMMUNICATION-CONTROLLER>
+              </COMM-CONTROLLERS>
+              <CONNECTORS>
+                <CAN-COMMUNICATION-CONNECTOR UUID="bfd37b8c-c7b1-4bad-9390-3340d9dba450">
+                  <SHORT-NAME>CanChannel_0_ECUB_conn</SHORT-NAME>
+                  <COMM-CONTROLLER-REF DEST="CAN-COMMUNICATION-CONTROLLER">/SystemInfo/EcuInstances/ECUB/CanChannel_0_ECUB</COMM-CONTROLLER-REF>
+                  <ECU-COMM-PORT-INSTANCES>
+                    <I-SIGNAL-PORT UUID="b886e306-5467-4476-8362-f76080e860cb">
+                      <SHORT-NAME>SP_Signal_DATA8_Msg_StructA_ECUB_Rx</SHORT-NAME>
+                      <COMMUNICATION-DIRECTION>IN</COMMUNICATION-DIRECTION>
+                    </I-SIGNAL-PORT>
+                    <FRAME-PORT UUID="bc3618e8-ae74-403c-a9c3-50a5401af5d0">
+                      <SHORT-NAME>FP_Msg_StructA_ECUB_Rx</SHORT-NAME>
+                      <COMMUNICATION-DIRECTION>IN</COMMUNICATION-DIRECTION>
+                    </FRAME-PORT>
+                    <I-SIGNAL-PORT UUID="965da120-03af-49e6-8b56-adc3289e2226">
+                      <SHORT-NAME>SP_Signal_DATA16_Msg_StructA_ECUB_Rx</SHORT-NAME>
+                      <COMMUNICATION-DIRECTION>IN</COMMUNICATION-DIRECTION>
+                    </I-SIGNAL-PORT>
+                    <I-PDU-PORT UUID="a442e384-4f05-4413-a98e-92dcaa7f485c">
+                      <SHORT-NAME>PP_Msg_StructA_ECUB_Rx</SHORT-NAME>
+                      <COMMUNICATION-DIRECTION>IN</COMMUNICATION-DIRECTION>
+                    </I-PDU-PORT>
+                    <I-SIGNAL-PORT UUID="fa03f75c-cad8-4372-be0a-083f7eddf602">
+                      <SHORT-NAME>SP_Signal_CRC_Msg_StructA_ECUB_Rx</SHORT-NAME>
+                      <COMMUNICATION-DIRECTION>IN</COMMUNICATION-DIRECTION>
+                    </I-SIGNAL-PORT>
+                    <I-SIGNAL-PORT UUID="d0765689-2de5-44e8-9ba0-faab1fef9f08">
+                      <SHORT-NAME>SP_Signal_Counter_Msg_StructA_ECUB_Rx</SHORT-NAME>
+                      <COMMUNICATION-DIRECTION>IN</COMMUNICATION-DIRECTION>
+                    </I-SIGNAL-PORT>
+                  </ECU-COMM-PORT-INSTANCES>
+                </CAN-COMMUNICATION-CONNECTOR>
+              </CONNECTORS>
+              <SLEEP-MODE-SUPPORTED>false</SLEEP-MODE-SUPPORTED>
+              <WAKE-UP-OVER-BUS-SUPPORTED>false</WAKE-UP-OVER-BUS-SUPPORTED>
+            </ECU-INSTANCE>
+          </ELEMENTS>
+        </AR-PACKAGE>
+        <AR-PACKAGE UUID="9f0a3e70-153f-41ce-957f-8255a9d3a49d">
+          <SHORT-NAME>SystemSignals</SHORT-NAME>
+          <ELEMENTS>
+            <SYSTEM-SIGNAL UUID="57c9a7cb-669f-49a9-90c5-33bd9e8881d7">
+              <SHORT-NAME>Signal_CRC_Msg_StructA</SHORT-NAME>
+              <DYNAMIC-LENGTH>false</DYNAMIC-LENGTH>
+            </SYSTEM-SIGNAL>
+            <SYSTEM-SIGNAL UUID="f54bf401-5d55-44ce-a425-79c1eaf4fded">
+              <SHORT-NAME>Signal_DATA16_Msg_StructA</SHORT-NAME>
+              <DYNAMIC-LENGTH>false</DYNAMIC-LENGTH>
+            </SYSTEM-SIGNAL>
+            <SYSTEM-SIGNAL UUID="6b7d7752-0dcc-4737-aad9-a4c9fc2c01a0">
+              <SHORT-NAME>Signal_Counter_Msg_StructA</SHORT-NAME>
+              <DYNAMIC-LENGTH>false</DYNAMIC-LENGTH>
+            </SYSTEM-SIGNAL>
+            <SYSTEM-SIGNAL-GROUP UUID="af1bb2e0-46cd-4755-bb20-e3d5fb5c6507">
+              <SHORT-NAME>Group_StructA_Msg_StructA</SHORT-NAME>
+              <SYSTEM-SIGNAL-REFS>
+                <SYSTEM-SIGNAL-REF DEST="SYSTEM-SIGNAL">/SystemInfo/SystemSignals/Signal_DATA8_Msg_StructA</SYSTEM-SIGNAL-REF>
+                <SYSTEM-SIGNAL-REF DEST="SYSTEM-SIGNAL">/SystemInfo/SystemSignals/Signal_Counter_Msg_StructA</SYSTEM-SIGNAL-REF>
+                <SYSTEM-SIGNAL-REF DEST="SYSTEM-SIGNAL">/SystemInfo/SystemSignals/Signal_CRC_Msg_StructA</SYSTEM-SIGNAL-REF>
+                <SYSTEM-SIGNAL-REF DEST="SYSTEM-SIGNAL">/SystemInfo/SystemSignals/Signal_DATA16_Msg_StructA</SYSTEM-SIGNAL-REF>
+              </SYSTEM-SIGNAL-REFS>
+            </SYSTEM-SIGNAL-GROUP>
+            <SYSTEM-SIGNAL UUID="3f871944-5544-4d92-b0f0-2ec1af333fee">
+              <SHORT-NAME>Signal_DATA8_Msg_StructA</SHORT-NAME>
+              <DYNAMIC-LENGTH>false</DYNAMIC-LENGTH>
+            </SYSTEM-SIGNAL>
+          </ELEMENTS>
+        </AR-PACKAGE>
+        <AR-PACKAGE UUID="eefba90a-61db-4315-9336-b0d582e009cf">
+          <SHORT-NAME>ISignalIPdus</SHORT-NAME>
+          <ELEMENTS>
+            <I-SIGNAL-I-PDU UUID="ce85a203-a218-4f5e-a7f1-63348407ac3e">
+              <SHORT-NAME>Msg_StructA</SHORT-NAME>
+              <LENGTH>8</LENGTH>
+              <I-PDU-TIMING-SPECIFICATIONS>
+                <I-PDU-TIMING>
+                  <TRANSMISSION-MODE-DECLARATION>
+                    <TRANSMISSION-MODE-CONDITIONS>
+                      <TRANSMISSION-MODE-CONDITION>
+                        <I-SIGNAL-IN-I-PDU-REF DEST="I-SIGNAL-TO-I-PDU-MAPPING">/SystemInfo/ISignalIPdus/Msg_StructA/Signal_DATA8_Msg_StructA</I-SIGNAL-IN-I-PDU-REF>
+                      </TRANSMISSION-MODE-CONDITION>
+                      <TRANSMISSION-MODE-CONDITION>
+                        <I-SIGNAL-IN-I-PDU-REF DEST="I-SIGNAL-TO-I-PDU-MAPPING">/SystemInfo/ISignalIPdus/Msg_StructA/Signal_DATA16_Msg_StructA</I-SIGNAL-IN-I-PDU-REF>
+                      </TRANSMISSION-MODE-CONDITION>
+                      <TRANSMISSION-MODE-CONDITION>
+                        <I-SIGNAL-IN-I-PDU-REF DEST="I-SIGNAL-TO-I-PDU-MAPPING">/SystemInfo/ISignalIPdus/Msg_StructA/Signal_Counter_Msg_StructA</I-SIGNAL-IN-I-PDU-REF>
+                      </TRANSMISSION-MODE-CONDITION>
+                      <TRANSMISSION-MODE-CONDITION>
+                        <I-SIGNAL-IN-I-PDU-REF DEST="I-SIGNAL-TO-I-PDU-MAPPING">/SystemInfo/ISignalIPdus/Msg_StructA/Signal_CRC_Msg_StructA</I-SIGNAL-IN-I-PDU-REF>
+                      </TRANSMISSION-MODE-CONDITION>
+                    </TRANSMISSION-MODE-CONDITIONS>
+                    <TRANSMISSION-MODE-TRUE-TIMING>
+                      <CYCLIC-TIMING>
+                        <TIME-PERIOD>
+                          <VALUE>0.1</VALUE>
+                        </TIME-PERIOD>
+                      </CYCLIC-TIMING>
+                    </TRANSMISSION-MODE-TRUE-TIMING>
+                  </TRANSMISSION-MODE-DECLARATION>
+                </I-PDU-TIMING>
+              </I-PDU-TIMING-SPECIFICATIONS>
+              <I-SIGNAL-TO-PDU-MAPPINGS>
+                <I-SIGNAL-TO-I-PDU-MAPPING UUID="83bf5249-0ff8-4d6a-8699-cbe66ec881a0">
+                  <SHORT-NAME>Group_StructA_Msg_StructA</SHORT-NAME>
+                  <I-SIGNAL-GROUP-REF DEST="I-SIGNAL-GROUP">/SystemInfo/ISignals/Group_StructA_Msg_StructA</I-SIGNAL-GROUP-REF>
+                  <UPDATE-INDICATION-BIT-POSITION>-1</UPDATE-INDICATION-BIT-POSITION>
+                </I-SIGNAL-TO-I-PDU-MAPPING>
+                <I-SIGNAL-TO-I-PDU-MAPPING UUID="87ed0d6e-e500-449c-9dd3-dd49ba56b472">
+                  <SHORT-NAME>Signal_DATA16_Msg_StructA</SHORT-NAME>
+                  <I-SIGNAL-REF DEST="I-SIGNAL">/SystemInfo/ISignals/Signal_DATA16_Msg_StructA</I-SIGNAL-REF>
+                  <PACKING-BYTE-ORDER>MOST-SIGNIFICANT-BYTE-FIRST</PACKING-BYTE-ORDER>
+                  <START-POSITION>24</START-POSITION>
+                  <UPDATE-INDICATION-BIT-POSITION>-1</UPDATE-INDICATION-BIT-POSITION>
+                </I-SIGNAL-TO-I-PDU-MAPPING>
+                <I-SIGNAL-TO-I-PDU-MAPPING UUID="8f6986bc-c452-4171-81fe-fa6e9fdb6735">
+                  <SHORT-NAME>Signal_Counter_Msg_StructA</SHORT-NAME>
+                  <I-SIGNAL-REF DEST="I-SIGNAL">/SystemInfo/ISignals/Signal_Counter_Msg_StructA</I-SIGNAL-REF>
+                  <PACKING-BYTE-ORDER>MOST-SIGNIFICANT-BYTE-FIRST</PACKING-BYTE-ORDER>
+                  <START-POSITION>12</START-POSITION>
+                  <UPDATE-INDICATION-BIT-POSITION>-1</UPDATE-INDICATION-BIT-POSITION>
+                </I-SIGNAL-TO-I-PDU-MAPPING>
+                <I-SIGNAL-TO-I-PDU-MAPPING UUID="49c03abd-e873-481f-a326-d595f56bc48f">
+                  <SHORT-NAME>Signal_DATA8_Msg_StructA</SHORT-NAME>
+                  <I-SIGNAL-REF DEST="I-SIGNAL">/SystemInfo/ISignals/Signal_DATA8_Msg_StructA</I-SIGNAL-REF>
+                  <PACKING-BYTE-ORDER>MOST-SIGNIFICANT-BYTE-LAST</PACKING-BYTE-ORDER>
+                  <START-POSITION>32</START-POSITION>
+                  <UPDATE-INDICATION-BIT-POSITION>-1</UPDATE-INDICATION-BIT-POSITION>
+                </I-SIGNAL-TO-I-PDU-MAPPING>
+                <I-SIGNAL-TO-I-PDU-MAPPING UUID="8eba9b33-6805-4320-96cf-23e0eedfa478">
+                  <SHORT-NAME>Signal_CRC_Msg_StructA</SHORT-NAME>
+                  <I-SIGNAL-REF DEST="I-SIGNAL">/SystemInfo/ISignals/Signal_CRC_Msg_StructA</I-SIGNAL-REF>
+                  <PACKING-BYTE-ORDER>MOST-SIGNIFICANT-BYTE-FIRST</PACKING-BYTE-ORDER>
+                  <START-POSITION>0</START-POSITION>
+                  <UPDATE-INDICATION-BIT-POSITION>-1</UPDATE-INDICATION-BIT-POSITION>
+                </I-SIGNAL-TO-I-PDU-MAPPING>
+              </I-SIGNAL-TO-PDU-MAPPINGS>
+            </I-SIGNAL-I-PDU>
+          </ELEMENTS>
+        </AR-PACKAGE>
+        <AR-PACKAGE UUID="6b5f9575-bbe2-4f4e-8642-56bdba29fd28">
+          <SHORT-NAME>ISignals</SHORT-NAME>
+          <ELEMENTS>
+            <I-SIGNAL UUID="c84f0bdd-dcc8-4be9-aea6-0481058dd642">
+              <SHORT-NAME>Signal_DATA8_Msg_StructA</SHORT-NAME>
+              <DATA-TYPE-POLICY>LEGACY</DATA-TYPE-POLICY>
+              <LENGTH>8</LENGTH>
+              <NETWORK-REPRESENTATION-PROPS>
+                <SW-DATA-DEF-PROPS-VARIANTS>
+                  <SW-DATA-DEF-PROPS-CONDITIONAL>
+                    <BASE-TYPE-REF DEST="SW-BASE-TYPE">/AUTOSAR/SwBaseTypes/sint8</BASE-TYPE-REF>
+                  </SW-DATA-DEF-PROPS-CONDITIONAL>
+                </SW-DATA-DEF-PROPS-VARIANTS>
+              </NETWORK-REPRESENTATION-PROPS>
+              <SYSTEM-SIGNAL-REF DEST="SYSTEM-SIGNAL">/SystemInfo/SystemSignals/Signal_DATA8_Msg_StructA</SYSTEM-SIGNAL-REF>
+            </I-SIGNAL>
+            <I-SIGNAL UUID="1329e90a-664b-40ee-8093-88d1d161ffc1">
+              <SHORT-NAME>Signal_CRC_Msg_StructA</SHORT-NAME>
+              <DATA-TYPE-POLICY>LEGACY</DATA-TYPE-POLICY>
+              <LENGTH>8</LENGTH>
+              <NETWORK-REPRESENTATION-PROPS>
+                <SW-DATA-DEF-PROPS-VARIANTS>
+                  <SW-DATA-DEF-PROPS-CONDITIONAL>
+                    <BASE-TYPE-REF DEST="SW-BASE-TYPE">/AUTOSAR/SwBaseTypes/uint8</BASE-TYPE-REF>
+                  </SW-DATA-DEF-PROPS-CONDITIONAL>
+                </SW-DATA-DEF-PROPS-VARIANTS>
+              </NETWORK-REPRESENTATION-PROPS>
+              <SYSTEM-SIGNAL-REF DEST="SYSTEM-SIGNAL">/SystemInfo/SystemSignals/Signal_CRC_Msg_StructA</SYSTEM-SIGNAL-REF>
+            </I-SIGNAL>
+            <I-SIGNAL UUID="915b6540-b108-4fc7-ae1e-1f9548f56c54">
+              <SHORT-NAME>Signal_Counter_Msg_StructA</SHORT-NAME>
+              <DATA-TYPE-POLICY>LEGACY</DATA-TYPE-POLICY>
+              <LENGTH>4</LENGTH>
+              <NETWORK-REPRESENTATION-PROPS>
+                <SW-DATA-DEF-PROPS-VARIANTS>
+                  <SW-DATA-DEF-PROPS-CONDITIONAL>
+                    <BASE-TYPE-REF DEST="SW-BASE-TYPE">/AUTOSAR/SwBaseTypes/uint8</BASE-TYPE-REF>
+                  </SW-DATA-DEF-PROPS-CONDITIONAL>
+                </SW-DATA-DEF-PROPS-VARIANTS>
+              </NETWORK-REPRESENTATION-PROPS>
+              <SYSTEM-SIGNAL-REF DEST="SYSTEM-SIGNAL">/SystemInfo/SystemSignals/Signal_Counter_Msg_StructA</SYSTEM-SIGNAL-REF>
+            </I-SIGNAL>
+            <I-SIGNAL-GROUP UUID="cd3d4d2c-9e9e-4b34-b18a-6953b9f40e82">
+              <SHORT-NAME>Group_StructA_Msg_StructA</SHORT-NAME>
+              <I-SIGNAL-REFS>
+                <I-SIGNAL-REF DEST="I-SIGNAL">/SystemInfo/ISignals/Signal_DATA8_Msg_StructA</I-SIGNAL-REF>
+                <I-SIGNAL-REF DEST="I-SIGNAL">/SystemInfo/ISignals/Signal_Counter_Msg_StructA</I-SIGNAL-REF>
+                <I-SIGNAL-REF DEST="I-SIGNAL">/SystemInfo/ISignals/Signal_CRC_Msg_StructA</I-SIGNAL-REF>
+                <I-SIGNAL-REF DEST="I-SIGNAL">/SystemInfo/ISignals/Signal_DATA16_Msg_StructA</I-SIGNAL-REF>
+              </I-SIGNAL-REFS>
+              <SYSTEM-SIGNAL-GROUP-REF DEST="SYSTEM-SIGNAL-GROUP">/SystemInfo/SystemSignals/Group_StructA_Msg_StructA</SYSTEM-SIGNAL-GROUP-REF>
+            </I-SIGNAL-GROUP>
+            <I-SIGNAL UUID="087928f4-eeb3-4763-ae4a-eb27f300733e">
+              <SHORT-NAME>Signal_DATA16_Msg_StructA</SHORT-NAME>
+              <DATA-TYPE-POLICY>LEGACY</DATA-TYPE-POLICY>
+              <LENGTH>16</LENGTH>
+              <NETWORK-REPRESENTATION-PROPS>
+                <SW-DATA-DEF-PROPS-VARIANTS>
+                  <SW-DATA-DEF-PROPS-CONDITIONAL>
+                    <BASE-TYPE-REF DEST="SW-BASE-TYPE">/AUTOSAR/SwBaseTypes/uint16</BASE-TYPE-REF>
+                  </SW-DATA-DEF-PROPS-CONDITIONAL>
+                </SW-DATA-DEF-PROPS-VARIANTS>
+              </NETWORK-REPRESENTATION-PROPS>
+              <SYSTEM-SIGNAL-REF DEST="SYSTEM-SIGNAL">/SystemInfo/SystemSignals/Signal_DATA16_Msg_StructA</SYSTEM-SIGNAL-REF>
+            </I-SIGNAL>
+          </ELEMENTS>
+        </AR-PACKAGE>
+        <AR-PACKAGE UUID="74cbcb59-ddfe-4362-bbb3-c92129dada21">
+          <SHORT-NAME>CanClusters</SHORT-NAME>
+          <ELEMENTS>
+            <CAN-CLUSTER UUID="dea6d0e5-1801-4dcf-85bb-906fbe2dd35b">
+              <SHORT-NAME>CanCluster_0</SHORT-NAME>
+              <CAN-CLUSTER-VARIANTS>
+                <CAN-CLUSTER-CONDITIONAL>
+                  <PHYSICAL-CHANNELS>
+                    <CAN-PHYSICAL-CHANNEL UUID="cdf629d6-e927-41c4-80cb-8f70ce2086de">
+                      <SHORT-NAME>CanChannel_0</SHORT-NAME>
+                      <COMM-CONNECTORS>
+                        <COMMUNICATION-CONNECTOR-REF-CONDITIONAL>
+                          <COMMUNICATION-CONNECTOR-REF DEST="CAN-COMMUNICATION-CONNECTOR">/SystemInfo/EcuInstances/ECUB/CanChannel_0_ECUB_conn</COMMUNICATION-CONNECTOR-REF>
+                        </COMMUNICATION-CONNECTOR-REF-CONDITIONAL>
+                      </COMM-CONNECTORS>
+                      <FRAME-TRIGGERINGS>
+                        <CAN-FRAME-TRIGGERING UUID="eeaf9e6b-ee1b-4f74-8922-09b44cea0c56">
+                          <SHORT-NAME>FT_Msg_StructA</SHORT-NAME>
+                          <FRAME-PORT-REFS>
+                            <FRAME-PORT-REF DEST="FRAME-PORT">/SystemInfo/EcuInstances/ECUB/CanChannel_0_ECUB_conn/FP_Msg_StructA_ECUB_Rx</FRAME-PORT-REF>
+                          </FRAME-PORT-REFS>
+                          <FRAME-REF DEST="CAN-FRAME">/SystemInfo/CanFrames/Msg_StructA</FRAME-REF>
+                          <PDU-TRIGGERINGS>
+                            <PDU-TRIGGERING-REF-CONDITIONAL>
+                              <PDU-TRIGGERING-REF DEST="PDU-TRIGGERING">/SystemInfo/CanClusters/CanCluster_0/CanChannel_0/PT_Msg_StructA</PDU-TRIGGERING-REF>
+                            </PDU-TRIGGERING-REF-CONDITIONAL>
+                          </PDU-TRIGGERINGS>
+                          <CAN-ADDRESSING-MODE>STANDARD</CAN-ADDRESSING-MODE>
+                          <IDENTIFIER>770</IDENTIFIER>
+                        </CAN-FRAME-TRIGGERING>
+                      </FRAME-TRIGGERINGS>
+                      <I-SIGNAL-TRIGGERINGS>
+                        <I-SIGNAL-TRIGGERING UUID="62b3bc97-32b1-452f-925e-d5520e7278bd">
+                          <SHORT-NAME>ST_Signal_DATA16_Msg_StructA</SHORT-NAME>
+                          <I-SIGNAL-PORT-REFS>
+                            <I-SIGNAL-PORT-REF DEST="I-SIGNAL-PORT">/SystemInfo/EcuInstances/ECUB/CanChannel_0_ECUB_conn/SP_Signal_DATA16_Msg_StructA_ECUB_Rx</I-SIGNAL-PORT-REF>
+                          </I-SIGNAL-PORT-REFS>
+                          <I-SIGNAL-REF DEST="I-SIGNAL">/SystemInfo/ISignals/Signal_DATA16_Msg_StructA</I-SIGNAL-REF>
+                        </I-SIGNAL-TRIGGERING>
+                        <I-SIGNAL-TRIGGERING UUID="80775fb1-7a14-43ad-8abd-f7b579804de4">
+                          <SHORT-NAME>ST_Signal_Counter_Msg_StructA</SHORT-NAME>
+                          <I-SIGNAL-PORT-REFS>
+                            <I-SIGNAL-PORT-REF DEST="I-SIGNAL-PORT">/SystemInfo/EcuInstances/ECUB/CanChannel_0_ECUB_conn/SP_Signal_Counter_Msg_StructA_ECUB_Rx</I-SIGNAL-PORT-REF>
+                          </I-SIGNAL-PORT-REFS>
+                          <I-SIGNAL-REF DEST="I-SIGNAL">/SystemInfo/ISignals/Signal_Counter_Msg_StructA</I-SIGNAL-REF>
+                        </I-SIGNAL-TRIGGERING>
+                        <I-SIGNAL-TRIGGERING UUID="db28f2ec-9df9-40a1-ae4d-101277da74a1">
+                          <SHORT-NAME>ST_Signal_CRC_Msg_StructA</SHORT-NAME>
+                          <I-SIGNAL-PORT-REFS>
+                            <I-SIGNAL-PORT-REF DEST="I-SIGNAL-PORT">/SystemInfo/EcuInstances/ECUB/CanChannel_0_ECUB_conn/SP_Signal_CRC_Msg_StructA_ECUB_Rx</I-SIGNAL-PORT-REF>
+                          </I-SIGNAL-PORT-REFS>
+                          <I-SIGNAL-REF DEST="I-SIGNAL">/SystemInfo/ISignals/Signal_CRC_Msg_StructA</I-SIGNAL-REF>
+                        </I-SIGNAL-TRIGGERING>
+                        <I-SIGNAL-TRIGGERING UUID="0226277e-cbaf-4d01-bc17-634c2cb1b01e">
+                          <SHORT-NAME>ST_Signal_DATA8_Msg_StructA</SHORT-NAME>
+                          <I-SIGNAL-PORT-REFS>
+                            <I-SIGNAL-PORT-REF DEST="I-SIGNAL-PORT">/SystemInfo/EcuInstances/ECUB/CanChannel_0_ECUB_conn/SP_Signal_DATA8_Msg_StructA_ECUB_Rx</I-SIGNAL-PORT-REF>
+                          </I-SIGNAL-PORT-REFS>
+                          <I-SIGNAL-REF DEST="I-SIGNAL">/SystemInfo/ISignals/Signal_DATA8_Msg_StructA</I-SIGNAL-REF>
+                        </I-SIGNAL-TRIGGERING>
+                      </I-SIGNAL-TRIGGERINGS>
+                      <PDU-TRIGGERINGS>
+                        <PDU-TRIGGERING UUID="20370014-493a-496f-897f-7af469751560">
+                          <SHORT-NAME>PT_Msg_StructA</SHORT-NAME>
+                          <I-PDU-PORT-REFS>
+                            <I-PDU-PORT-REF DEST="I-PDU-PORT">/SystemInfo/EcuInstances/ECUB/CanChannel_0_ECUB_conn/PP_Msg_StructA_ECUB_Rx</I-PDU-PORT-REF>
+                          </I-PDU-PORT-REFS>
+                          <I-PDU-REF DEST="I-SIGNAL-I-PDU">/SystemInfo/ISignalIPdus/Msg_StructA</I-PDU-REF>
+                          <I-SIGNAL-TRIGGERINGS>
+                            <I-SIGNAL-TRIGGERING-REF-CONDITIONAL>
+                              <I-SIGNAL-TRIGGERING-REF DEST="I-SIGNAL-TRIGGERING">/SystemInfo/CanClusters/CanCluster_0/CanChannel_0/ST_Signal_DATA8_Msg_StructA</I-SIGNAL-TRIGGERING-REF>
+                            </I-SIGNAL-TRIGGERING-REF-CONDITIONAL>
+                            <I-SIGNAL-TRIGGERING-REF-CONDITIONAL>
+                              <I-SIGNAL-TRIGGERING-REF DEST="I-SIGNAL-TRIGGERING">/SystemInfo/CanClusters/CanCluster_0/CanChannel_0/ST_Signal_DATA16_Msg_StructA</I-SIGNAL-TRIGGERING-REF>
+                            </I-SIGNAL-TRIGGERING-REF-CONDITIONAL>
+                            <I-SIGNAL-TRIGGERING-REF-CONDITIONAL>
+                              <I-SIGNAL-TRIGGERING-REF DEST="I-SIGNAL-TRIGGERING">/SystemInfo/CanClusters/CanCluster_0/CanChannel_0/ST_Signal_Counter_Msg_StructA</I-SIGNAL-TRIGGERING-REF>
+                            </I-SIGNAL-TRIGGERING-REF-CONDITIONAL>
+                            <I-SIGNAL-TRIGGERING-REF-CONDITIONAL>
+                              <I-SIGNAL-TRIGGERING-REF DEST="I-SIGNAL-TRIGGERING">/SystemInfo/CanClusters/CanCluster_0/CanChannel_0/ST_Signal_CRC_Msg_StructA</I-SIGNAL-TRIGGERING-REF>
+                            </I-SIGNAL-TRIGGERING-REF-CONDITIONAL>
+                            <I-SIGNAL-TRIGGERING-REF-CONDITIONAL/>
+                          </I-SIGNAL-TRIGGERINGS>
+                        </PDU-TRIGGERING>
+                      </PDU-TRIGGERINGS>
+                    </CAN-PHYSICAL-CHANNEL>
+                  </PHYSICAL-CHANNELS>
+                  <PROTOCOL-NAME>CAN</PROTOCOL-NAME>
+                  <PROTOCOL-VERSION></PROTOCOL-VERSION>
+                </CAN-CLUSTER-CONDITIONAL>
+              </CAN-CLUSTER-VARIANTS>
+            </CAN-CLUSTER>
+          </ELEMENTS>
+        </AR-PACKAGE>
+        <AR-PACKAGE UUID="f8e4a35c-1196-4c47-9db2-be44e7cbdf73">
+          <SHORT-NAME>CanFrames</SHORT-NAME>
+          <ELEMENTS>
+            <CAN-FRAME UUID="f06c272f-bedf-4f9d-8ebf-76250a5f285f">
+              <SHORT-NAME>Msg_StructA</SHORT-NAME>
+              <FRAME-LENGTH>8</FRAME-LENGTH>
+              <PDU-TO-FRAME-MAPPINGS>
+                <PDU-TO-FRAME-MAPPING UUID="c80d95db-ee94-42d5-8a41-2d14eea974a5">
+                  <SHORT-NAME>Msg_StructA</SHORT-NAME>
+                  <PACKING-BYTE-ORDER>MOST-SIGNIFICANT-BYTE-FIRST</PACKING-BYTE-ORDER>
+                  <PDU-REF DEST="I-SIGNAL-I-PDU">/SystemInfo/ISignalIPdus/Msg_StructA</PDU-REF>
+                  <START-POSITION>0</START-POSITION>
+                </PDU-TO-FRAME-MAPPING>
+              </PDU-TO-FRAME-MAPPINGS>
+            </CAN-FRAME>
+          </ELEMENTS>
+        </AR-PACKAGE>
+      </AR-PACKAGES>
+    </AR-PACKAGE>
+  </AR-PACKAGES>
+</AUTOSAR>

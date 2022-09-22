@@ -1,0 +1,314 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AUTOSAR xmlns="http://autosar.org/schema/r4.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://autosar.org/schema/r4.0 autosar_4-2-2.xsd">
+  <AR-PACKAGES>
+    <AR-PACKAGE UUID="802174d8-b816-4f4a-8e44-2e45885560e4">
+      <SHORT-NAME>AUTOSAR</SHORT-NAME>
+      <AR-PACKAGES>
+        <AR-PACKAGE UUID="84dded21-a5db-4ffe-8e29-6583e750a19d">
+          <SHORT-NAME>Components</SHORT-NAME>
+          <ELEMENTS>
+            <APPLICATION-SW-COMPONENT-TYPE UUID="62a8f0b8-b3d1-4232-b085-ccc058659086">
+              <SHORT-NAME>Cpt_Ctrl1A</SHORT-NAME>
+              <PORTS>
+                <P-PORT-PROTOTYPE UUID="90b20a76-9c4f-418e-b6f2-0bb8b6d48801">
+                  <SHORT-NAME>PpComplexData</SHORT-NAME>
+                  <PROVIDED-INTERFACE-TREF DEST="SENDER-RECEIVER-INTERFACE">/AUTOSAR/Interfaces/SRIF_ComplexData</PROVIDED-INTERFACE-TREF>
+                </P-PORT-PROTOTYPE>
+                <P-PORT-PROTOTYPE UUID="8d51da8c-eb5b-4cd0-ba0c-7085e4477975">
+                  <SHORT-NAME>PpStructA</SHORT-NAME>
+                  <PROVIDED-INTERFACE-TREF DEST="SENDER-RECEIVER-INTERFACE">/AUTOSAR/Interfaces/SRIF_Struct</PROVIDED-INTERFACE-TREF>
+                </P-PORT-PROTOTYPE>
+              </PORTS>
+              <INTERNAL-BEHAVIORS>
+                <SWC-INTERNAL-BEHAVIOR UUID="bfb168f4-b05e-4f33-ba73-5b7697abc509">
+                  <SHORT-NAME>IbCtrl</SHORT-NAME>
+                  <EVENTS>
+                    <TIMING-EVENT UUID="2d9b7ddf-2424-4fc2-a9a5-f6ea395c434a">
+                      <SHORT-NAME>timingEvent_10</SHORT-NAME>
+                      <START-ON-EVENT-REF DEST="RUNNABLE-ENTITY">/AUTOSAR/Components/Cpt_Ctrl1A/IbCtrl/RunnableCtrl1A</START-ON-EVENT-REF>
+                      <PERIOD>0.01</PERIOD>
+                    </TIMING-EVENT>
+                  </EVENTS>
+                  <RUNNABLES>
+                    <RUNNABLE-ENTITY UUID="37ea11c1-66bf-46c5-a353-d22d7e7008c4">
+                      <SHORT-NAME>RunnableCtrl1A</SHORT-NAME>
+                      <DATA-WRITE-ACCESSS>
+                        <VARIABLE-ACCESS UUID="5cbb768a-6b51-4fe5-968e-67264f213438">
+                          <SHORT-NAME>dataWriteAccess_Primitive</SHORT-NAME>
+                          <ACCESSED-VARIABLE>
+                            <AUTOSAR-VARIABLE-IREF>
+                              <PORT-PROTOTYPE-REF DEST="P-PORT-PROTOTYPE">/AUTOSAR/Components/Cpt_Ctrl1A/PpComplexData</PORT-PROTOTYPE-REF>
+                              <TARGET-DATA-PROTOTYPE-REF DEST="VARIABLE-DATA-PROTOTYPE">/AUTOSAR/Interfaces/SRIF_ComplexData/dataElementPrimitive</TARGET-DATA-PROTOTYPE-REF>
+                            </AUTOSAR-VARIABLE-IREF>
+                          </ACCESSED-VARIABLE>
+                        </VARIABLE-ACCESS>
+                        <VARIABLE-ACCESS>
+                          <SHORT-NAME>dataWriteAccess_Array</SHORT-NAME>
+                          <ACCESSED-VARIABLE>
+                            <AUTOSAR-VARIABLE-IREF>
+                              <PORT-PROTOTYPE-REF DEST="P-PORT-PROTOTYPE">/AUTOSAR/Components/Cpt_Ctrl1A/PpComplexData</PORT-PROTOTYPE-REF>
+                              <TARGET-DATA-PROTOTYPE-REF DEST="VARIABLE-DATA-PROTOTYPE">/AUTOSAR/Interfaces/SRIF_ComplexData/dataElementArray</TARGET-DATA-PROTOTYPE-REF>
+                            </AUTOSAR-VARIABLE-IREF>
+                          </ACCESSED-VARIABLE>
+                        </VARIABLE-ACCESS>
+                        <VARIABLE-ACCESS>
+                          <SHORT-NAME>dataWriteAccess_Struct</SHORT-NAME>
+                          <ACCESSED-VARIABLE>
+                            <AUTOSAR-VARIABLE-IREF>
+                              <PORT-PROTOTYPE-REF DEST="P-PORT-PROTOTYPE">/AUTOSAR/Components/Cpt_Ctrl1A/PpComplexData</PORT-PROTOTYPE-REF>
+                              <TARGET-DATA-PROTOTYPE-REF DEST="VARIABLE-DATA-PROTOTYPE">/AUTOSAR/Interfaces/SRIF_ComplexData/dataElementStruct</TARGET-DATA-PROTOTYPE-REF>
+                            </AUTOSAR-VARIABLE-IREF>
+                          </ACCESSED-VARIABLE>
+                        </VARIABLE-ACCESS>
+                        <VARIABLE-ACCESS>
+                          <SHORT-NAME>dataWriteAccess_StructArray</SHORT-NAME>
+                          <ACCESSED-VARIABLE>
+                            <AUTOSAR-VARIABLE-IREF>
+                              <PORT-PROTOTYPE-REF DEST="P-PORT-PROTOTYPE">/AUTOSAR/Components/Cpt_Ctrl1A/PpComplexData</PORT-PROTOTYPE-REF>
+                              <TARGET-DATA-PROTOTYPE-REF DEST="VARIABLE-DATA-PROTOTYPE">/AUTOSAR/Interfaces/SRIF_ComplexData/dataElementStructArray</TARGET-DATA-PROTOTYPE-REF>
+                            </AUTOSAR-VARIABLE-IREF>
+                          </ACCESSED-VARIABLE>
+                        </VARIABLE-ACCESS>
+                        <VARIABLE-ACCESS>
+                          <SHORT-NAME>dataWriteAccess_StructA</SHORT-NAME>
+                          <ACCESSED-VARIABLE>
+                            <AUTOSAR-VARIABLE-IREF>
+                              <PORT-PROTOTYPE-REF DEST="P-PORT-PROTOTYPE">/AUTOSAR/Components/Cpt_Ctrl1A/PpStructA</PORT-PROTOTYPE-REF>
+                              <TARGET-DATA-PROTOTYPE-REF DEST="VARIABLE-DATA-PROTOTYPE">/AUTOSAR/Interfaces/SRIF_Struct/dataElementsStructA</TARGET-DATA-PROTOTYPE-REF>
+                            </AUTOSAR-VARIABLE-IREF>
+                          </ACCESSED-VARIABLE>
+                        </VARIABLE-ACCESS>
+                      </DATA-WRITE-ACCESSS>
+                      <SYMBOL>AppRunnableCtrl1A</SYMBOL>
+                    </RUNNABLE-ENTITY>
+                  </RUNNABLES>
+                </SWC-INTERNAL-BEHAVIOR>
+              </INTERNAL-BEHAVIORS>
+            </APPLICATION-SW-COMPONENT-TYPE>
+            <APPLICATION-SW-COMPONENT-TYPE UUID="a639d64a-6294-4df1-88df-6b5e4ecc5a84">
+              <SHORT-NAME>Cpt_Obs1A</SHORT-NAME>
+              <PORTS>
+                <R-PORT-PROTOTYPE UUID="bdbc4d11-a9f2-474f-b444-25efbe1731ad">
+                  <SHORT-NAME>RpData</SHORT-NAME>
+                  <REQUIRED-COM-SPECS>
+                    <NONQUEUED-RECEIVER-COM-SPEC>
+                      <DATA-ELEMENT-REF DEST="VARIABLE-DATA-PROTOTYPE">/AUTOSAR/Interfaces/SRIF_ComplexData/dataElementPrimitive</DATA-ELEMENT-REF>
+                      <EXTERNAL-REPLACEMENT-REF DEST="VARIABLE-DATA-PROTOTYPE">/AUTOSAR/Interfaces/SRIF_ComplexData/dataElementPrimitive</EXTERNAL-REPLACEMENT-REF>
+                      <HANDLE-OUT-OF-RANGE>NONE</HANDLE-OUT-OF-RANGE>
+                      <HANDLE-TIMEOUT-TYPE>NONE</HANDLE-TIMEOUT-TYPE>
+                      <INIT-VALUE>
+                        <NUMERICAL-VALUE-SPECIFICATION>
+                          <VALUE>0</VALUE>
+                        </NUMERICAL-VALUE-SPECIFICATION>
+                      </INIT-VALUE>
+                    </NONQUEUED-RECEIVER-COM-SPEC>
+                    <NONQUEUED-RECEIVER-COM-SPEC>
+                      <DATA-ELEMENT-REF DEST="VARIABLE-DATA-PROTOTYPE">/AUTOSAR/Interfaces/SRIF_ComplexData/dataElementStruct</DATA-ELEMENT-REF>
+                      <INIT-VALUE>
+                        <RECORD-VALUE-SPECIFICATION>
+                          <FIELDS>
+                            <NUMERICAL-VALUE-SPECIFICATION>
+                              <VALUE>0</VALUE>
+                            </NUMERICAL-VALUE-SPECIFICATION>
+                            <NUMERICAL-VALUE-SPECIFICATION>
+                              <VALUE>1</VALUE>
+                            </NUMERICAL-VALUE-SPECIFICATION>
+                            <NUMERICAL-VALUE-SPECIFICATION>
+                              <VALUE>2</VALUE>
+                            </NUMERICAL-VALUE-SPECIFICATION>
+                          </FIELDS>
+                        </RECORD-VALUE-SPECIFICATION>
+                      </INIT-VALUE>
+                    </NONQUEUED-RECEIVER-COM-SPEC>
+                    <NONQUEUED-RECEIVER-COM-SPEC>
+                      <DATA-ELEMENT-REF DEST="VARIABLE-DATA-PROTOTYPE">/AUTOSAR/Interfaces/SRIF_ComplexData/dataElementArray</DATA-ELEMENT-REF>
+                      <INIT-VALUE>
+                        <ARRAY-VALUE-SPECIFICATION>
+                          <ELEMENTS>
+                            <NUMERICAL-VALUE-SPECIFICATION>
+                              <VALUE>0</VALUE>
+                            </NUMERICAL-VALUE-SPECIFICATION>
+                          </ELEMENTS>
+                        </ARRAY-VALUE-SPECIFICATION>
+                      </INIT-VALUE>
+                    </NONQUEUED-RECEIVER-COM-SPEC>
+                    <NONQUEUED-RECEIVER-COM-SPEC>
+                      <DATA-ELEMENT-REF DEST="VARIABLE-DATA-PROTOTYPE">/AUTOSAR/Interfaces/SRIF_ComplexData/dataElementStructArray</DATA-ELEMENT-REF>
+                      <INIT-VALUE>
+                        <RECORD-VALUE-SPECIFICATION>
+                          <FIELDS>
+                            <ARRAY-VALUE-SPECIFICATION>
+                              <ELEMENTS>
+                                <NUMERICAL-VALUE-SPECIFICATION>
+                                  <VALUE>0</VALUE>
+                                </NUMERICAL-VALUE-SPECIFICATION>
+                              </ELEMENTS>
+                            </ARRAY-VALUE-SPECIFICATION>
+                          </FIELDS>
+                        </RECORD-VALUE-SPECIFICATION>
+                      </INIT-VALUE>
+                    </NONQUEUED-RECEIVER-COM-SPEC>
+                  </REQUIRED-COM-SPECS>
+                  <REQUIRED-INTERFACE-TREF DEST="SENDER-RECEIVER-INTERFACE">/AUTOSAR/Interfaces/SRIF_ComplexData</REQUIRED-INTERFACE-TREF>
+                </R-PORT-PROTOTYPE>
+                <R-PORT-PROTOTYPE>
+                  <SHORT-NAME>RpStruct</SHORT-NAME>
+                  <REQUIRED-COM-SPECS>
+                    <NONQUEUED-RECEIVER-COM-SPEC>
+                      <DATA-ELEMENT-REF DEST="VARIABLE-DATA-PROTOTYPE">/AUTOSAR/Interfaces/SRIF_Struct/dataElementsStructA</DATA-ELEMENT-REF>
+                      <INIT-VALUE>
+                        <RECORD-VALUE-SPECIFICATION>
+                          <FIELDS>
+                            <NUMERICAL-VALUE-SPECIFICATION>
+                              <VALUE>0</VALUE>
+                            </NUMERICAL-VALUE-SPECIFICATION>
+                            <NUMERICAL-VALUE-SPECIFICATION>
+                              <VALUE>0</VALUE>
+                            </NUMERICAL-VALUE-SPECIFICATION>
+                            <NUMERICAL-VALUE-SPECIFICATION>
+                              <VALUE>0</VALUE>
+                            </NUMERICAL-VALUE-SPECIFICATION>
+                            <NUMERICAL-VALUE-SPECIFICATION>
+                              <VALUE>0</VALUE>
+                            </NUMERICAL-VALUE-SPECIFICATION>
+                          </FIELDS>
+                        </RECORD-VALUE-SPECIFICATION>
+                      </INIT-VALUE>
+                    </NONQUEUED-RECEIVER-COM-SPEC>
+                  </REQUIRED-COM-SPECS>
+                  <REQUIRED-INTERFACE-TREF DEST="SENDER-RECEIVER-INTERFACE">/AUTOSAR/Interfaces/SRIF_Struct</REQUIRED-INTERFACE-TREF>
+                </R-PORT-PROTOTYPE>
+              </PORTS>
+              <INTERNAL-BEHAVIORS>
+                <SWC-INTERNAL-BEHAVIOR UUID="5b9c9578-6b3b-4546-8ea6-4b93d295487d">
+                  <SHORT-NAME>IbObs</SHORT-NAME>
+                  <EVENTS>
+                    <TIMING-EVENT UUID="672054ce-2202-4c81-96b6-7954cdf7e382">
+                      <SHORT-NAME>timingEvent_10</SHORT-NAME>
+                      <START-ON-EVENT-REF DEST="RUNNABLE-ENTITY">/AUTOSAR/Components/Cpt_Obs1A/IbObs/Runnable_Obs1A</START-ON-EVENT-REF>
+                      <PERIOD>0.01</PERIOD>
+                    </TIMING-EVENT>
+                  </EVENTS>
+                  <RUNNABLES>
+                    <RUNNABLE-ENTITY UUID="91dcc638-eec3-4c19-b242-9ac3a2400a17">
+                      <SHORT-NAME>Runnable_Obs1A</SHORT-NAME>
+                      <DATA-READ-ACCESSS>
+                        <VARIABLE-ACCESS>
+                          <SHORT-NAME>dataReadAccess_Primitive</SHORT-NAME>
+                          <ACCESSED-VARIABLE>
+                            <AUTOSAR-VARIABLE-IREF>
+                              <PORT-PROTOTYPE-REF DEST="R-PORT-PROTOTYPE">/AUTOSAR/Components/Cpt_Obs1A/RpData</PORT-PROTOTYPE-REF>
+                              <TARGET-DATA-PROTOTYPE-REF DEST="VARIABLE-DATA-PROTOTYPE">/AUTOSAR/Interfaces/SRIF_ComplexData/dataElementPrimitive</TARGET-DATA-PROTOTYPE-REF>
+                            </AUTOSAR-VARIABLE-IREF>
+                          </ACCESSED-VARIABLE>
+                        </VARIABLE-ACCESS>
+                        <VARIABLE-ACCESS>
+                          <SHORT-NAME>dataReadAccess_Array</SHORT-NAME>
+                          <ACCESSED-VARIABLE>
+                            <AUTOSAR-VARIABLE-IREF>
+                              <PORT-PROTOTYPE-REF DEST="R-PORT-PROTOTYPE">/AUTOSAR/Components/Cpt_Obs1A/RpData</PORT-PROTOTYPE-REF>
+                              <TARGET-DATA-PROTOTYPE-REF DEST="VARIABLE-DATA-PROTOTYPE">/AUTOSAR/Interfaces/SRIF_ComplexData/dataElementArray</TARGET-DATA-PROTOTYPE-REF>
+                            </AUTOSAR-VARIABLE-IREF>
+                          </ACCESSED-VARIABLE>
+                        </VARIABLE-ACCESS>
+                        <VARIABLE-ACCESS>
+                          <SHORT-NAME>dataReadAccess_Struct</SHORT-NAME>
+                          <ACCESSED-VARIABLE>
+                            <AUTOSAR-VARIABLE-IREF>
+                              <PORT-PROTOTYPE-REF DEST="R-PORT-PROTOTYPE">/AUTOSAR/Components/Cpt_Obs1A/RpData</PORT-PROTOTYPE-REF>
+                              <TARGET-DATA-PROTOTYPE-REF DEST="VARIABLE-DATA-PROTOTYPE">/AUTOSAR/Interfaces/SRIF_ComplexData/dataElementStruct</TARGET-DATA-PROTOTYPE-REF>
+                            </AUTOSAR-VARIABLE-IREF>
+                          </ACCESSED-VARIABLE>
+                        </VARIABLE-ACCESS>
+                        <VARIABLE-ACCESS>
+                          <SHORT-NAME>dataReadAccess_StructArray</SHORT-NAME>
+                          <ACCESSED-VARIABLE>
+                            <AUTOSAR-VARIABLE-IREF>
+                              <PORT-PROTOTYPE-REF DEST="R-PORT-PROTOTYPE">/AUTOSAR/Components/Cpt_Obs1A/RpData</PORT-PROTOTYPE-REF>
+                              <TARGET-DATA-PROTOTYPE-REF DEST="VARIABLE-DATA-PROTOTYPE">/AUTOSAR/Interfaces/SRIF_ComplexData/dataElementStructArray</TARGET-DATA-PROTOTYPE-REF>
+                            </AUTOSAR-VARIABLE-IREF>
+                          </ACCESSED-VARIABLE>
+                        </VARIABLE-ACCESS>
+                        <VARIABLE-ACCESS>
+                          <SHORT-NAME>dataReadAccess_StructA</SHORT-NAME>
+                          <ACCESSED-VARIABLE>
+                            <AUTOSAR-VARIABLE-IREF>
+                              <PORT-PROTOTYPE-REF DEST="R-PORT-PROTOTYPE">/AUTOSAR/Components/Cpt_Obs1A/RpStruct</PORT-PROTOTYPE-REF>
+                              <TARGET-DATA-PROTOTYPE-REF DEST="VARIABLE-DATA-PROTOTYPE">/AUTOSAR/Interfaces/SRIF_Struct/dataElementsStructA</TARGET-DATA-PROTOTYPE-REF>
+                            </AUTOSAR-VARIABLE-IREF>
+                          </ACCESSED-VARIABLE>
+                        </VARIABLE-ACCESS>
+                      </DATA-READ-ACCESSS>
+                      <SYMBOL>AppRunnable_Obs1A</SYMBOL>
+                    </RUNNABLE-ENTITY>
+                  </RUNNABLES>
+                </SWC-INTERNAL-BEHAVIOR>
+              </INTERNAL-BEHAVIORS>
+            </APPLICATION-SW-COMPONENT-TYPE>
+            <APPLICATION-SW-COMPONENT-TYPE UUID="b58c867a-7c35-4813-ac30-1b77b43d426d">
+              <SHORT-NAME>Cpt_Obs1B</SHORT-NAME>
+              <PORTS>
+                <R-PORT-PROTOTYPE UUID="bdbc4d11-a9f2-474f-b444-25efbe1731ad">
+                  <SHORT-NAME>RpStruct</SHORT-NAME>
+                  <REQUIRED-COM-SPECS>
+                    <NONQUEUED-RECEIVER-COM-SPEC>
+                      <DATA-ELEMENT-REF DEST="VARIABLE-DATA-PROTOTYPE">/AUTOSAR/Interfaces/SRIF_Struct/dataElementsStructA</DATA-ELEMENT-REF>
+                      <INIT-VALUE>
+                        <RECORD-VALUE-SPECIFICATION>
+                          <FIELDS>
+                            <NUMERICAL-VALUE-SPECIFICATION>
+                              <VALUE>0</VALUE>
+                            </NUMERICAL-VALUE-SPECIFICATION>
+                            <NUMERICAL-VALUE-SPECIFICATION>
+                              <VALUE>1</VALUE>
+                            </NUMERICAL-VALUE-SPECIFICATION>
+                            <NUMERICAL-VALUE-SPECIFICATION>
+                              <VALUE>2</VALUE>
+                            </NUMERICAL-VALUE-SPECIFICATION>
+                            <NUMERICAL-VALUE-SPECIFICATION>
+                              <VALUE>0</VALUE>
+                            </NUMERICAL-VALUE-SPECIFICATION>
+                          </FIELDS>
+                        </RECORD-VALUE-SPECIFICATION>
+                      </INIT-VALUE>
+                    </NONQUEUED-RECEIVER-COM-SPEC>
+                  </REQUIRED-COM-SPECS>
+                  <REQUIRED-INTERFACE-TREF DEST="SENDER-RECEIVER-INTERFACE">/AUTOSAR/Interfaces/SRIF_Struct</REQUIRED-INTERFACE-TREF>
+                </R-PORT-PROTOTYPE>
+              </PORTS>
+              <INTERNAL-BEHAVIORS>
+                <SWC-INTERNAL-BEHAVIOR UUID="5b9c9578-6b3b-4546-8ea6-4b93d295487d">
+                  <SHORT-NAME>IbObs1B</SHORT-NAME>
+                  <EVENTS>
+                    <TIMING-EVENT UUID="672054ce-2202-4c81-96b6-7954cdf7e382">
+                      <SHORT-NAME>timingEvent_10</SHORT-NAME>
+                      <START-ON-EVENT-REF DEST="RUNNABLE-ENTITY">/AUTOSAR/Components/Cpt_Obs1B/IbObs1B/Runnable_Obs1B</START-ON-EVENT-REF>
+                      <PERIOD>0.01</PERIOD>
+                    </TIMING-EVENT>
+                  </EVENTS>
+                  <RUNNABLES>
+                    <RUNNABLE-ENTITY UUID="91dcc638-eec3-4c19-b242-9ac3a2400a17">
+                      <SHORT-NAME>Runnable_Obs1B</SHORT-NAME>
+                      <DATA-READ-ACCESSS>
+                        <VARIABLE-ACCESS>
+                          <SHORT-NAME>dataReadAccess_StructA</SHORT-NAME>
+                          <ACCESSED-VARIABLE>
+                            <AUTOSAR-VARIABLE-IREF>
+                              <PORT-PROTOTYPE-REF DEST="R-PORT-PROTOTYPE">/AUTOSAR/Components/Cpt_Obs1B/RpStruct</PORT-PROTOTYPE-REF>
+                              <TARGET-DATA-PROTOTYPE-REF DEST="VARIABLE-DATA-PROTOTYPE">/AUTOSAR/Interfaces/SRIF_Struct/dataElementsStructA</TARGET-DATA-PROTOTYPE-REF>
+                            </AUTOSAR-VARIABLE-IREF>
+                          </ACCESSED-VARIABLE>
+                        </VARIABLE-ACCESS>
+                      </DATA-READ-ACCESSS>
+                      <SYMBOL>AppRunnable_Obs1B</SYMBOL>
+                    </RUNNABLE-ENTITY>
+                  </RUNNABLES>
+                </SWC-INTERNAL-BEHAVIOR>
+              </INTERNAL-BEHAVIORS>
+            </APPLICATION-SW-COMPONENT-TYPE>
+          </ELEMENTS>
+        </AR-PACKAGE>
+      </AR-PACKAGES>
+    </AR-PACKAGE>
+  </AR-PACKAGES>
+</AUTOSAR>

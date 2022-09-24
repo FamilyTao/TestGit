@@ -8,33 +8,33 @@
           <SHORT-NAME>Components</SHORT-NAME>
           <ELEMENTS>
             <APPLICATION-SW-COMPONENT-TYPE UUID="62a8f0b8-b3d1-4232-b085-ccc058659086">
-              <SHORT-NAME>CptCtrl</SHORT-NAME>
+              <SHORT-NAME>CptCtrl_A</SHORT-NAME>
               <PORTS>
                 <P-PORT-PROTOTYPE UUID="90b20a76-9c4f-418e-b6f2-0bb8b6d48801">
                   <SHORT-NAME>PpExplict</SHORT-NAME>
-                  <PROVIDED-INTERFACE-TREF DEST="SENDER-RECEIVER-INTERFACE">/AUTOSAR/Interfaces/SRIF_Explicit</PROVIDED-INTERFACE-TREF>
+                  <PROVIDED-INTERFACE-TREF DEST="SENDER-RECEIVER-INTERFACE">/AUTOSAR/Interfaces/SRIF_AllDataType</PROVIDED-INTERFACE-TREF>
                 </P-PORT-PROTOTYPE>
               </PORTS>
               <INTERNAL-BEHAVIORS>
                 <SWC-INTERNAL-BEHAVIOR UUID="bfb168f4-b05e-4f33-ba73-5b7697abc509">
-                  <SHORT-NAME>IbCtrl</SHORT-NAME>
+                  <SHORT-NAME>IbCtrl_A</SHORT-NAME>
                   <EVENTS>
                     <TIMING-EVENT UUID="2d9b7ddf-2424-4fc2-a9a5-f6ea395c434a">
                       <SHORT-NAME>timingEvent_10</SHORT-NAME>
-                      <START-ON-EVENT-REF DEST="RUNNABLE-ENTITY">/AUTOSAR/Components/CptCtrl/IbCtrl/RunnableCtrl</START-ON-EVENT-REF>
+                      <START-ON-EVENT-REF DEST="RUNNABLE-ENTITY">/AUTOSAR/Components/CptCtrl_A/IbCtrl_A/RunnableCtrl_A</START-ON-EVENT-REF>
                       <PERIOD>0.01</PERIOD>
                     </TIMING-EVENT>
                   </EVENTS>
                   <RUNNABLES>
                     <RUNNABLE-ENTITY UUID="37ea11c1-66bf-46c5-a353-d22d7e7008c4">
-                      <SHORT-NAME>RunnableCtrl</SHORT-NAME>
+                      <SHORT-NAME>RunnableCtrl_A</SHORT-NAME>
                       <DATA-SEND-POINTS>
                         <VARIABLE-ACCESS UUID="164bd994-0734-4a57-86b0-65d219176893">
                           <SHORT-NAME>DataSendPointsPrimitive</SHORT-NAME>
                           <ACCESSED-VARIABLE>
                             <AUTOSAR-VARIABLE-IREF>
-                              <PORT-PROTOTYPE-REF DEST="P-PORT-PROTOTYPE">/AUTOSAR/Components/CptCtrl/PpExplict</PORT-PROTOTYPE-REF>
-                              <TARGET-DATA-PROTOTYPE-REF DEST="VARIABLE-DATA-PROTOTYPE">/AUTOSAR/Interfaces/SRIF_Explicit/dataElementPrimitive</TARGET-DATA-PROTOTYPE-REF>
+                              <PORT-PROTOTYPE-REF DEST="P-PORT-PROTOTYPE">/AUTOSAR/Components/CptCtrl_A/PpExplict</PORT-PROTOTYPE-REF>
+                              <TARGET-DATA-PROTOTYPE-REF DEST="VARIABLE-DATA-PROTOTYPE">/AUTOSAR/Interfaces/SRIF_AllDataType/dataElementPrimitive</TARGET-DATA-PROTOTYPE-REF>
                             </AUTOSAR-VARIABLE-IREF>
                           </ACCESSED-VARIABLE>
                         </VARIABLE-ACCESS>
@@ -42,8 +42,8 @@
                           <SHORT-NAME>dataSendPointsArray</SHORT-NAME>
                           <ACCESSED-VARIABLE>
                             <AUTOSAR-VARIABLE-IREF>
-                              <PORT-PROTOTYPE-REF DEST="P-PORT-PROTOTYPE">/AUTOSAR/Components/CptCtrl/PpExplict</PORT-PROTOTYPE-REF>
-                              <TARGET-DATA-PROTOTYPE-REF DEST="VARIABLE-DATA-PROTOTYPE">/AUTOSAR/Interfaces/SRIF_Explicit/dataElementArray</TARGET-DATA-PROTOTYPE-REF>
+                              <PORT-PROTOTYPE-REF DEST="P-PORT-PROTOTYPE">/AUTOSAR/Components/CptCtrl_A/PpExplict</PORT-PROTOTYPE-REF>
+                              <TARGET-DATA-PROTOTYPE-REF DEST="VARIABLE-DATA-PROTOTYPE">/AUTOSAR/Interfaces/SRIF_AllDataType/dataElementArray</TARGET-DATA-PROTOTYPE-REF>
                             </AUTOSAR-VARIABLE-IREF>
                           </ACCESSED-VARIABLE>
                         </VARIABLE-ACCESS>
@@ -51,8 +51,8 @@
                           <SHORT-NAME>dataSendPointsStruct</SHORT-NAME>
                           <ACCESSED-VARIABLE>
                             <AUTOSAR-VARIABLE-IREF>
-                              <PORT-PROTOTYPE-REF DEST="P-PORT-PROTOTYPE">/AUTOSAR/Components/CptCtrl/PpExplict</PORT-PROTOTYPE-REF>
-                              <TARGET-DATA-PROTOTYPE-REF DEST="VARIABLE-DATA-PROTOTYPE">/AUTOSAR/Interfaces/SRIF_Explicit/dataElementStruct</TARGET-DATA-PROTOTYPE-REF>
+                              <PORT-PROTOTYPE-REF DEST="P-PORT-PROTOTYPE">/AUTOSAR/Components/CptCtrl_A/PpExplict</PORT-PROTOTYPE-REF>
+                              <TARGET-DATA-PROTOTYPE-REF DEST="VARIABLE-DATA-PROTOTYPE">/AUTOSAR/Interfaces/SRIF_AllDataType/dataElementStruct</TARGET-DATA-PROTOTYPE-REF>
                             </AUTOSAR-VARIABLE-IREF>
                           </ACCESSED-VARIABLE>
                         </VARIABLE-ACCESS>
@@ -64,14 +64,14 @@
               </INTERNAL-BEHAVIORS>
             </APPLICATION-SW-COMPONENT-TYPE>
             <APPLICATION-SW-COMPONENT-TYPE UUID="a639d64a-6294-4df1-88df-6b5e4ecc5a84">
-              <SHORT-NAME>CptObs</SHORT-NAME>
+              <SHORT-NAME>CptObs_A</SHORT-NAME>
               <PORTS>
                 <R-PORT-PROTOTYPE UUID="bdbc4d11-a9f2-474f-b444-25efbe1731ad">
                   <SHORT-NAME>RpExplicit</SHORT-NAME>
                   <REQUIRED-COM-SPECS>
                     <NONQUEUED-RECEIVER-COM-SPEC>
-                      <DATA-ELEMENT-REF DEST="VARIABLE-DATA-PROTOTYPE">/AUTOSAR/Interfaces/SRIF_Explicit/dataElementPrimitive</DATA-ELEMENT-REF>
-                      <EXTERNAL-REPLACEMENT-REF DEST="VARIABLE-DATA-PROTOTYPE">/AUTOSAR/Interfaces/SRIF_Explicit/dataElementPrimitive</EXTERNAL-REPLACEMENT-REF>
+                      <DATA-ELEMENT-REF DEST="VARIABLE-DATA-PROTOTYPE">/AUTOSAR/Interfaces/SRIF_AllDataType/dataElementPrimitive</DATA-ELEMENT-REF>
+                      <EXTERNAL-REPLACEMENT-REF DEST="VARIABLE-DATA-PROTOTYPE">/AUTOSAR/Interfaces/SRIF_AllDataType/dataElementPrimitive</EXTERNAL-REPLACEMENT-REF>
                       <HANDLE-OUT-OF-RANGE>NONE</HANDLE-OUT-OF-RANGE>
                       <ALIVE-TIMEOUT>0.0</ALIVE-TIMEOUT>
                       <HANDLE-TIMEOUT-TYPE>NONE</HANDLE-TIMEOUT-TYPE>
@@ -82,7 +82,7 @@
                       </INIT-VALUE>
                     </NONQUEUED-RECEIVER-COM-SPEC>
                     <NONQUEUED-RECEIVER-COM-SPEC>
-                      <DATA-ELEMENT-REF DEST="VARIABLE-DATA-PROTOTYPE">/AUTOSAR/Interfaces/SRIF_Explicit/dataElementStruct</DATA-ELEMENT-REF>
+                      <DATA-ELEMENT-REF DEST="VARIABLE-DATA-PROTOTYPE">/AUTOSAR/Interfaces/SRIF_AllDataType/dataElementStruct</DATA-ELEMENT-REF>
                       <INIT-VALUE>
                         <RECORD-VALUE-SPECIFICATION>
                           <FIELDS>
@@ -100,7 +100,7 @@
                       </INIT-VALUE>
                     </NONQUEUED-RECEIVER-COM-SPEC>
                     <NONQUEUED-RECEIVER-COM-SPEC>
-                      <DATA-ELEMENT-REF DEST="VARIABLE-DATA-PROTOTYPE">/AUTOSAR/Interfaces/SRIF_Explicit/dataElementArray</DATA-ELEMENT-REF>
+                      <DATA-ELEMENT-REF DEST="VARIABLE-DATA-PROTOTYPE">/AUTOSAR/Interfaces/SRIF_AllDataType/dataElementArray</DATA-ELEMENT-REF>
                       <INIT-VALUE>
                         <ARRAY-VALUE-SPECIFICATION>
                           <ELEMENTS>
@@ -112,29 +112,29 @@
                       </INIT-VALUE>
                     </NONQUEUED-RECEIVER-COM-SPEC>
                   </REQUIRED-COM-SPECS>
-                  <REQUIRED-INTERFACE-TREF DEST="SENDER-RECEIVER-INTERFACE">/AUTOSAR/Interfaces/SRIF_Explicit</REQUIRED-INTERFACE-TREF>
+                  <REQUIRED-INTERFACE-TREF DEST="SENDER-RECEIVER-INTERFACE">/AUTOSAR/Interfaces/SRIF_AllDataType</REQUIRED-INTERFACE-TREF>
                 </R-PORT-PROTOTYPE>
               </PORTS>
               <INTERNAL-BEHAVIORS>
                 <SWC-INTERNAL-BEHAVIOR UUID="5b9c9578-6b3b-4546-8ea6-4b93d295487d">
-                  <SHORT-NAME>IbObs</SHORT-NAME>
+                  <SHORT-NAME>IbObs_A</SHORT-NAME>
                   <EVENTS>
                     <TIMING-EVENT UUID="672054ce-2202-4c81-96b6-7954cdf7e382">
                       <SHORT-NAME>timingEvent_10</SHORT-NAME>
-                      <START-ON-EVENT-REF DEST="RUNNABLE-ENTITY">/AUTOSAR/Components/CptObs/IbObs/Runnable_Obs</START-ON-EVENT-REF>
+                      <START-ON-EVENT-REF DEST="RUNNABLE-ENTITY">/AUTOSAR/Components/CptObs_A/IbObs_A/RunnableObs_A</START-ON-EVENT-REF>
                       <PERIOD>0.01</PERIOD>
                     </TIMING-EVENT>
                   </EVENTS>
                   <RUNNABLES>
                     <RUNNABLE-ENTITY UUID="91dcc638-eec3-4c19-b242-9ac3a2400a17">
-                      <SHORT-NAME>Runnable_Obs</SHORT-NAME>
+                      <SHORT-NAME>RunnableObs_A</SHORT-NAME>
                       <DATA-RECEIVE-POINT-BY-ARGUMENTS>
                         <VARIABLE-ACCESS UUID="0fbb08e3-294f-4f54-9555-639d4fcdb8b4">
                           <SHORT-NAME>DataReceiveByArgPrimitive</SHORT-NAME>
                           <ACCESSED-VARIABLE>
                             <AUTOSAR-VARIABLE-IREF>
-                              <PORT-PROTOTYPE-REF DEST="R-PORT-PROTOTYPE">/AUTOSAR/Components/CptObs/RpExplicit</PORT-PROTOTYPE-REF>
-                              <TARGET-DATA-PROTOTYPE-REF DEST="VARIABLE-DATA-PROTOTYPE">/AUTOSAR/Interfaces/SRIF_Explicit/dataElementPrimitive</TARGET-DATA-PROTOTYPE-REF>
+                              <PORT-PROTOTYPE-REF DEST="R-PORT-PROTOTYPE">/AUTOSAR/Components/CptObs_A/RpExplicit</PORT-PROTOTYPE-REF>
+                              <TARGET-DATA-PROTOTYPE-REF DEST="VARIABLE-DATA-PROTOTYPE">/AUTOSAR/Interfaces/SRIF_AllDataType/dataElementPrimitive</TARGET-DATA-PROTOTYPE-REF>
                             </AUTOSAR-VARIABLE-IREF>
                           </ACCESSED-VARIABLE>
                         </VARIABLE-ACCESS>
@@ -142,8 +142,8 @@
                           <SHORT-NAME>DataReceiveByArgArray</SHORT-NAME>
                           <ACCESSED-VARIABLE>
                             <AUTOSAR-VARIABLE-IREF>
-                              <PORT-PROTOTYPE-REF DEST="R-PORT-PROTOTYPE">/AUTOSAR/Components/CptObs/RpExplicit</PORT-PROTOTYPE-REF>
-                              <TARGET-DATA-PROTOTYPE-REF DEST="VARIABLE-DATA-PROTOTYPE">/AUTOSAR/Interfaces/SRIF_Explicit/dataElementArray</TARGET-DATA-PROTOTYPE-REF>
+                              <PORT-PROTOTYPE-REF DEST="R-PORT-PROTOTYPE">/AUTOSAR/Components/CptObs_A/RpExplicit</PORT-PROTOTYPE-REF>
+                              <TARGET-DATA-PROTOTYPE-REF DEST="VARIABLE-DATA-PROTOTYPE">/AUTOSAR/Interfaces/SRIF_AllDataType/dataElementArray</TARGET-DATA-PROTOTYPE-REF>
                             </AUTOSAR-VARIABLE-IREF>
                           </ACCESSED-VARIABLE>
                         </VARIABLE-ACCESS>
@@ -151,8 +151,8 @@
                           <SHORT-NAME>DataReceiveByArgStruct</SHORT-NAME>
                           <ACCESSED-VARIABLE>
                             <AUTOSAR-VARIABLE-IREF>
-                              <PORT-PROTOTYPE-REF DEST="R-PORT-PROTOTYPE">/AUTOSAR/Components/CptObs/RpExplicit</PORT-PROTOTYPE-REF>
-                              <TARGET-DATA-PROTOTYPE-REF DEST="VARIABLE-DATA-PROTOTYPE">/AUTOSAR/Interfaces/SRIF_Explicit/dataElementStruct</TARGET-DATA-PROTOTYPE-REF>
+                              <PORT-PROTOTYPE-REF DEST="R-PORT-PROTOTYPE">/AUTOSAR/Components/CptObs_A/RpExplicit</PORT-PROTOTYPE-REF>
+                              <TARGET-DATA-PROTOTYPE-REF DEST="VARIABLE-DATA-PROTOTYPE">/AUTOSAR/Interfaces/SRIF_AllDataType/dataElementStruct</TARGET-DATA-PROTOTYPE-REF>
                             </AUTOSAR-VARIABLE-IREF>
                           </ACCESSED-VARIABLE>
                         </VARIABLE-ACCESS>
@@ -163,15 +163,14 @@
                 </SWC-INTERNAL-BEHAVIOR>
               </INTERNAL-BEHAVIORS>
             </APPLICATION-SW-COMPONENT-TYPE>
-            <APPLICATION-SW-COMPONENT-TYPE UUID="08ac0c27-a022-42f3-8040-36172b6ec8b2">
-              <SHORT-NAME>CptObs2</SHORT-NAME>
+            <APPLICATION-SW-COMPONENT-TYPE UUID="4580d347-8414-48b8-87ab-c381d0119fd3">
+              <SHORT-NAME>CptObs_B</SHORT-NAME>
               <PORTS>
                 <R-PORT-PROTOTYPE UUID="bdbc4d11-a9f2-474f-b444-25efbe1731ad">
                   <SHORT-NAME>RpExplicit</SHORT-NAME>
                   <REQUIRED-COM-SPECS>
                     <NONQUEUED-RECEIVER-COM-SPEC>
-                      <DATA-ELEMENT-REF DEST="VARIABLE-DATA-PROTOTYPE">/AUTOSAR/Interfaces/SRIF_Explicit/dataElementPrimitive</DATA-ELEMENT-REF>
-                      <EXTERNAL-REPLACEMENT-REF DEST="VARIABLE-DATA-PROTOTYPE">/AUTOSAR/Interfaces/SRIF_Explicit/dataElementPrimitive</EXTERNAL-REPLACEMENT-REF>
+                      <DATA-ELEMENT-REF DEST="VARIABLE-DATA-PROTOTYPE">/AUTOSAR/Interfaces/SRIF_AllDataType/dataElementPrimitive</DATA-ELEMENT-REF>
                       <HANDLE-OUT-OF-RANGE>NONE</HANDLE-OUT-OF-RANGE>
                       <ALIVE-TIMEOUT>0.0</ALIVE-TIMEOUT>
                       <HANDLE-TIMEOUT-TYPE>NONE</HANDLE-TIMEOUT-TYPE>
@@ -182,7 +181,7 @@
                       </INIT-VALUE>
                     </NONQUEUED-RECEIVER-COM-SPEC>
                     <NONQUEUED-RECEIVER-COM-SPEC>
-                      <DATA-ELEMENT-REF DEST="VARIABLE-DATA-PROTOTYPE">/AUTOSAR/Interfaces/SRIF_Explicit/dataElementStruct</DATA-ELEMENT-REF>
+                      <DATA-ELEMENT-REF DEST="VARIABLE-DATA-PROTOTYPE">/AUTOSAR/Interfaces/SRIF_AllDataType/dataElementStruct</DATA-ELEMENT-REF>
                       <INIT-VALUE>
                         <RECORD-VALUE-SPECIFICATION>
                           <FIELDS>
@@ -199,31 +198,42 @@
                         </RECORD-VALUE-SPECIFICATION>
                       </INIT-VALUE>
                     </NONQUEUED-RECEIVER-COM-SPEC>
+                    <NONQUEUED-RECEIVER-COM-SPEC>
+                      <DATA-ELEMENT-REF DEST="VARIABLE-DATA-PROTOTYPE">/AUTOSAR/Interfaces/SRIF_AllDataType/dataElementArray</DATA-ELEMENT-REF>
+                      <INIT-VALUE>
+                        <ARRAY-VALUE-SPECIFICATION>
+                          <ELEMENTS>
+                            <NUMERICAL-VALUE-SPECIFICATION>
+                              <VALUE>0</VALUE>
+                            </NUMERICAL-VALUE-SPECIFICATION>
+                          </ELEMENTS>
+                        </ARRAY-VALUE-SPECIFICATION>
+                      </INIT-VALUE>
+                    </NONQUEUED-RECEIVER-COM-SPEC>
                   </REQUIRED-COM-SPECS>
-                  <REQUIRED-INTERFACE-TREF DEST="SENDER-RECEIVER-INTERFACE">/AUTOSAR/Interfaces/SRIF_Explicit</REQUIRED-INTERFACE-TREF>
+                  <REQUIRED-INTERFACE-TREF DEST="SENDER-RECEIVER-INTERFACE">/AUTOSAR/Interfaces/SRIF_AllDataType</REQUIRED-INTERFACE-TREF>
                 </R-PORT-PROTOTYPE>
               </PORTS>
               <INTERNAL-BEHAVIORS>
                 <SWC-INTERNAL-BEHAVIOR UUID="5b9c9578-6b3b-4546-8ea6-4b93d295487d">
-                  <SHORT-NAME>IbObs2</SHORT-NAME>
+                  <SHORT-NAME>IbObs_B</SHORT-NAME>
                   <EVENTS>
                     <TIMING-EVENT UUID="672054ce-2202-4c81-96b6-7954cdf7e382">
                       <SHORT-NAME>timingEvent_10</SHORT-NAME>
-                      <START-ON-EVENT-REF DEST="RUNNABLE-ENTITY">/AUTOSAR/Components/CptObs2/IbObs2/Runnable_Obs2</START-ON-EVENT-REF>
+                      <START-ON-EVENT-REF DEST="RUNNABLE-ENTITY">/AUTOSAR/Components/CptObs_B/IbObs_B/RunnableObs_B</START-ON-EVENT-REF>
                       <PERIOD>0.01</PERIOD>
                     </TIMING-EVENT>
                   </EVENTS>
                   <RUNNABLES>
                     <RUNNABLE-ENTITY UUID="91dcc638-eec3-4c19-b242-9ac3a2400a17">
-                      <SHORT-NAME>Runnable_Obs2</SHORT-NAME>
-                      <REENTRANCY-LEVEL>NON-REENTRANT</REENTRANCY-LEVEL>
+                      <SHORT-NAME>RunnableObs_B</SHORT-NAME>
                       <DATA-RECEIVE-POINT-BY-ARGUMENTS>
                         <VARIABLE-ACCESS UUID="0fbb08e3-294f-4f54-9555-639d4fcdb8b4">
                           <SHORT-NAME>DataReceiveByArgPrimitive</SHORT-NAME>
                           <ACCESSED-VARIABLE>
                             <AUTOSAR-VARIABLE-IREF>
-                              <PORT-PROTOTYPE-REF DEST="R-PORT-PROTOTYPE">/AUTOSAR/Components/CptObs2/RpExplicit</PORT-PROTOTYPE-REF>
-                              <TARGET-DATA-PROTOTYPE-REF DEST="VARIABLE-DATA-PROTOTYPE">/AUTOSAR/Interfaces/SRIF_Explicit/dataElementPrimitive</TARGET-DATA-PROTOTYPE-REF>
+                              <PORT-PROTOTYPE-REF DEST="R-PORT-PROTOTYPE">/AUTOSAR/Components/CptObs_B/RpExplicit</PORT-PROTOTYPE-REF>
+                              <TARGET-DATA-PROTOTYPE-REF DEST="VARIABLE-DATA-PROTOTYPE">/AUTOSAR/Interfaces/SRIF_AllDataType/dataElementPrimitive</TARGET-DATA-PROTOTYPE-REF>
                             </AUTOSAR-VARIABLE-IREF>
                           </ACCESSED-VARIABLE>
                         </VARIABLE-ACCESS>
@@ -231,8 +241,8 @@
                           <SHORT-NAME>DataReceiveByArgArray</SHORT-NAME>
                           <ACCESSED-VARIABLE>
                             <AUTOSAR-VARIABLE-IREF>
-                              <PORT-PROTOTYPE-REF DEST="R-PORT-PROTOTYPE">/AUTOSAR/Components/CptObs2/RpExplicit</PORT-PROTOTYPE-REF>
-                              <TARGET-DATA-PROTOTYPE-REF DEST="VARIABLE-DATA-PROTOTYPE">/AUTOSAR/Interfaces/SRIF_Explicit/dataElementArray</TARGET-DATA-PROTOTYPE-REF>
+                              <PORT-PROTOTYPE-REF DEST="R-PORT-PROTOTYPE">/AUTOSAR/Components/CptObs_B/RpExplicit</PORT-PROTOTYPE-REF>
+                              <TARGET-DATA-PROTOTYPE-REF DEST="VARIABLE-DATA-PROTOTYPE">/AUTOSAR/Interfaces/SRIF_AllDataType/dataElementArray</TARGET-DATA-PROTOTYPE-REF>
                             </AUTOSAR-VARIABLE-IREF>
                           </ACCESSED-VARIABLE>
                         </VARIABLE-ACCESS>
@@ -240,13 +250,13 @@
                           <SHORT-NAME>DataReceiveByArgStruct</SHORT-NAME>
                           <ACCESSED-VARIABLE>
                             <AUTOSAR-VARIABLE-IREF>
-                              <PORT-PROTOTYPE-REF DEST="R-PORT-PROTOTYPE">/AUTOSAR/Components/CptObs2/RpExplicit</PORT-PROTOTYPE-REF>
-                              <TARGET-DATA-PROTOTYPE-REF DEST="VARIABLE-DATA-PROTOTYPE">/AUTOSAR/Interfaces/SRIF_Explicit/dataElementStruct</TARGET-DATA-PROTOTYPE-REF>
+                              <PORT-PROTOTYPE-REF DEST="R-PORT-PROTOTYPE">/AUTOSAR/Components/CptObs_B/RpExplicit</PORT-PROTOTYPE-REF>
+                              <TARGET-DATA-PROTOTYPE-REF DEST="VARIABLE-DATA-PROTOTYPE">/AUTOSAR/Interfaces/SRIF_AllDataType/dataElementStruct</TARGET-DATA-PROTOTYPE-REF>
                             </AUTOSAR-VARIABLE-IREF>
                           </ACCESSED-VARIABLE>
                         </VARIABLE-ACCESS>
                       </DATA-RECEIVE-POINT-BY-ARGUMENTS>
-                      <SYMBOL>AppRunnable_Obs2</SYMBOL>
+                      <SYMBOL>AppRunnableObs_1B</SYMBOL>
                     </RUNNABLE-ENTITY>
                   </RUNNABLES>
                 </SWC-INTERNAL-BEHAVIOR>

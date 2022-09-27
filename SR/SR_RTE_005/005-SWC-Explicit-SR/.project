@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<projectDescription>
+	<name>005-SWC-无Transform-SR数据编排</name>
+	<comment></comment>
+	<projects>
+	</projects>
+	<buildSpec>
+	</buildSpec>
+	<natures>
+		<nature>org.artop.aal.workspace.autosarnature</nature>
+		<nature>cn.com.isoft.workspace.swcbuildernature</nature>
+	</natures>
+</projectDescription>

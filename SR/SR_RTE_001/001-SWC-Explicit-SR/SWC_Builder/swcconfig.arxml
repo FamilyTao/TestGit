@@ -126,6 +126,9 @@
             </SWC-IMPLEMENTATION>
           </ELEMENTS>
         </AR-PACKAGE>
+        <AR-PACKAGE UUID="fc473307-3bcf-4197-a7e5-38c96a455ed4">
+          <SHORT-NAME>CompuMethods</SHORT-NAME>
+        </AR-PACKAGE>
       </AR-PACKAGES>
     </AR-PACKAGE>
   </AR-PACKAGES>

@@ -73,12 +73,19 @@
                     </SW-DATA-DEF-PROPS-VARIANTS>
                   </SW-DATA-DEF-PROPS>
                 </IMPLEMENTATION-DATA-TYPE-ELEMENT>
+                <IMPLEMENTATION-DATA-TYPE-ELEMENT>
+                  <SHORT-NAME>Data_Uint8</SHORT-NAME>
+                  <CATEGORY>VALUE</CATEGORY>
+                  <SW-DATA-DEF-PROPS>
+                    <SW-DATA-DEF-PROPS-VARIANTS>
+                      <SW-DATA-DEF-PROPS-CONDITIONAL>
+                        <BASE-TYPE-REF DEST="SW-BASE-TYPE">/AUTOSAR/SwBaseTypes/uint8</BASE-TYPE-REF>
+                      </SW-DATA-DEF-PROPS-CONDITIONAL>
+                    </SW-DATA-DEF-PROPS-VARIANTS>
+                  </SW-DATA-DEF-PROPS>
+                </IMPLEMENTATION-DATA-TYPE-ELEMENT>
               </SUB-ELEMENTS>
             </IMPLEMENTATION-DATA-TYPE>
-            <APPLICATION-PRIMITIVE-DATA-TYPE UUID="a40ecdba-d962-495a-bdfe-714484cafe97">
-              <SHORT-NAME>applicationPrimitiveDataType_0</SHORT-NAME>
-              <CATEGORY>VALUE</CATEGORY>
-            </APPLICATION-PRIMITIVE-DATA-TYPE>
           </ELEMENTS>
           <AR-PACKAGES>
             <AR-PACKAGE UUID="63d8bf09-5e6f-4cdc-bf9e-6ac5292e1012">

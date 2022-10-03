@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<notation:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://autosar.org/schema/r4.0" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xsi:schemaLocation="http://autosar.org/schema/r4.0 http://autosar.org/schema/r4.0/autosar40/swc/composition" xmi:id="_9hX0kD7_Ee2HRZ_P-XVCDg" type="autosar4x" name="TopComposition.arxmldiag" measurementUnit="Pixel">
+  <children xmi:type="notation:Shape" xmi:id="_9wB7oD7_Ee2HRZ_P-XVCDg" type="2001" fontName="Microsoft YaHei UI">
+    <children xmi:type="notation:DecorationNode" xmi:id="_9wB7oj7_Ee2HRZ_P-XVCDg" type="5001"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="_9wB7oz7_Ee2HRZ_P-XVCDg" type="5002"/>
+    <element xmi:type="SW-COMPONENT-PROTOTYPE" href="swcconfig.arxml#/AUTOSAR/Compositions/TopComposition/BottomComposition?type=SwComponentPrototype"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_9wB7oT7_Ee2HRZ_P-XVCDg" x="460" y="170" height="120"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_-Y4rYD7_Ee2HRZ_P-XVCDg" type="2001" fontName="Microsoft YaHei UI">
+    <children xmi:type="notation:DecorationNode" xmi:id="_-Y4rYj7_Ee2HRZ_P-XVCDg" type="5001"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="_-Y4rYz7_Ee2HRZ_P-XVCDg" type="5002"/>
+    <element xmi:type="SW-COMPONENT-PROTOTYPE" href="swcconfig.arxml#/AUTOSAR/Compositions/TopComposition/compositionSwComponentType_0Prototype?type=SwComponentPrototype"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_-Y4rYT7_Ee2HRZ_P-XVCDg" x="65" y="150" width="260" height="120"/>
+  </children>
+  <styles xmi:type="notation:DiagramStyle" xmi:id="_9hX0kT7_Ee2HRZ_P-XVCDg"/>
+  <element xmi:type="COMPOSITION-SW-COMPONENT-TYPE" href="swcconfig.arxml#/AUTOSAR/Compositions/TopComposition?type=CompositionSwComponentType"/>
+</notation:Diagram>

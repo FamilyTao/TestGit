@@ -12,6 +12,14 @@
               <PORTS>
                 <P-PORT-PROTOTYPE UUID="90b20a76-9c4f-418e-b6f2-0bb8b6d48801">
                   <SHORT-NAME>PpExplict</SHORT-NAME>
+                  <PROVIDED-COM-SPECS>
+                    <QUEUED-SENDER-COM-SPEC>
+                      <DATA-ELEMENT-REF DEST="VARIABLE-DATA-PROTOTYPE">/AUTOSAR/Interfaces/SRIF_AllDataType/dataElementPrimitive</DATA-ELEMENT-REF>
+                    </QUEUED-SENDER-COM-SPEC>
+                    <QUEUED-SENDER-COM-SPEC>
+                      <DATA-ELEMENT-REF DEST="VARIABLE-DATA-PROTOTYPE">/AUTOSAR/Interfaces/SRIF_AllDataType/dataElementArray</DATA-ELEMENT-REF>
+                    </QUEUED-SENDER-COM-SPEC>
+                  </PROVIDED-COM-SPECS>
                   <PROVIDED-INTERFACE-TREF DEST="SENDER-RECEIVER-INTERFACE">/AUTOSAR/Interfaces/SRIF_AllDataType</PROVIDED-INTERFACE-TREF>
                 </P-PORT-PROTOTYPE>
               </PORTS>
@@ -97,6 +105,7 @@
                   <RUNNABLES>
                     <RUNNABLE-ENTITY UUID="91dcc638-eec3-4c19-b242-9ac3a2400a17">
                       <SHORT-NAME>RunnableObs_A</SHORT-NAME>
+                      <REENTRANCY-LEVEL>MULTICORE-REENTRANT</REENTRANCY-LEVEL>
                       <DATA-RECEIVE-POINT-BY-ARGUMENTS>
                         <VARIABLE-ACCESS UUID="0fbb08e3-294f-4f54-9555-639d4fcdb8b4">
                           <SHORT-NAME>DataReceiveByArgPrimitive</SHORT-NAME>
@@ -126,7 +135,7 @@
                           </ACCESSED-VARIABLE>
                         </VARIABLE-ACCESS>
                       </DATA-RECEIVE-POINT-BY-ARGUMENTS>
-                      <SYMBOL>AppRunnable_Obs</SYMBOL>
+                      <SYMBOL>AppRunnable_ObsA</SYMBOL>
                     </RUNNABLE-ENTITY>
                   </RUNNABLES>
                 </SWC-INTERNAL-BEHAVIOR>
@@ -193,7 +202,7 @@
                           </ACCESSED-VARIABLE>
                         </VARIABLE-ACCESS>
                       </DATA-RECEIVE-POINT-BY-ARGUMENTS>
-                      <SYMBOL>AppRunnableObs_1B</SYMBOL>
+                      <SYMBOL>AppRunnableObs_B</SYMBOL>
                     </RUNNABLE-ENTITY>
                   </RUNNABLES>
                 </SWC-INTERNAL-BEHAVIOR>

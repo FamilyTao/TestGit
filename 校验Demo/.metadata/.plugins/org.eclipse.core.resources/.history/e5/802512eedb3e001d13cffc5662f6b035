@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AUTOSAR xmlns="http://autosar.org/schema/r4.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://autosar.org/schema/r4.0 autosar_4-2-2.xsd">
+  <AR-PACKAGES>
+    <AR-PACKAGE UUID="802174d8-b816-4f4a-8e44-2e45885560e4">
+      <SHORT-NAME>AUTOSAR</SHORT-NAME>
+      <AR-PACKAGES>
+        <AR-PACKAGE UUID="710489c8-debd-4226-adcb-bea2ce765f4b">
+          <SHORT-NAME>Interfaces</SHORT-NAME>
+          <ELEMENTS>
+            <SENDER-RECEIVER-INTERFACE UUID="ddba4449-0973-4816-abac-01a65c9b42f4">
+              <SHORT-NAME>SRIF_Explicit</SHORT-NAME>
+              <IS-SERVICE>false</IS-SERVICE>
+              <DATA-ELEMENTS>
+                <VARIABLE-DATA-PROTOTYPE UUID="df3ac511-ee0e-429d-8198-baa05134a54b">
+                  <SHORT-NAME>dataElementPrimitive</SHORT-NAME>
+                  <TYPE-TREF DEST="APPLICATION-PRIMITIVE-DATA-TYPE">/AUTOSAR/DataTypes/AdtPrimitiveU16</TYPE-TREF>
+                </VARIABLE-DATA-PROTOTYPE>
+                <VARIABLE-DATA-PROTOTYPE UUID="b9a946d5-5bfa-48b0-b222-5520bb59c5fe">
+                  <SHORT-NAME>dataElementArray</SHORT-NAME>
+                  <TYPE-TREF DEST="IMPLEMENTATION-DATA-TYPE">/AUTOSAR/DataTypes/ArrayUint8</TYPE-TREF>
+                </VARIABLE-DATA-PROTOTYPE>
+                <VARIABLE-DATA-PROTOTYPE UUID="ef92d88b-3fe8-4179-865a-36f8f1f98278">
+                  <SHORT-NAME>dataElementStruct</SHORT-NAME>
+                  <TYPE-TREF DEST="IMPLEMENTATION-DATA-TYPE">/AUTOSAR/DataTypes/StructA</TYPE-TREF>
+                </VARIABLE-DATA-PROTOTYPE>
+              </DATA-ELEMENTS>
+            </SENDER-RECEIVER-INTERFACE>
+          </ELEMENTS>
+        </AR-PACKAGE>
+        <AR-PACKAGE UUID="19e902ed-0a4b-4ee5-b92c-358c82113d8e">
+          <SHORT-NAME>PortInterfaceMappingSets</SHORT-NAME>
+          <ELEMENTS>
+            <PORT-INTERFACE-MAPPING-SET UUID="0b85b462-1082-489b-8c96-95e52b835ed7">
+              <SHORT-NAME>portInterfaceMappingSet_0</SHORT-NAME>
+              <PORT-INTERFACE-MAPPINGS>
+                <CLIENT-SERVER-INTERFACE-MAPPING UUID="445413f4-9297-49e8-8f95-27d5fad87cad">
+                  <SHORT-NAME>clientServerInterfaceMapping_0</SHORT-NAME>
+                </CLIENT-SERVER-INTERFACE-MAPPING>
+              </PORT-INTERFACE-MAPPINGS>
+            </PORT-INTERFACE-MAPPING-SET>
+          </ELEMENTS>
+        </AR-PACKAGE>
+      </AR-PACKAGES>
+    </AR-PACKAGE>
+  </AR-PACKAGES>
+</AUTOSAR>

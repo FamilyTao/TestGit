@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<list key="installedFeatures">
+	</list>
+	<section name="NewWizardAction">
+		<item value="cn.com.isoft.pal.wizards.BswProjectWizard" key="NewWizardSelectionPage.STORE_SELECTED_ID"/>
+		<list key="NewWizardSelectionPage.STORE_EXPANDED_CATEGORIES_ID">
+			<item value="org.artop.aal.examples.common.ui.newWizards.category.artopExampleWizards"/>
+			<item value="cn.com.isoft.pal.newAutosarProjectWizards"/>
+		</list>
+	</section>
+</section>

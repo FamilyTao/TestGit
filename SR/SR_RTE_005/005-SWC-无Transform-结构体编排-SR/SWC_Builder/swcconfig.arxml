@@ -16,9 +16,9 @@
                     <SENDER-RECEIVER-TO-SIGNAL-GROUP-MAPPING>
                       <DATA-ELEMENT-IREF>
                         <CONTEXT-COMPONENT-REF DEST="SW-COMPONENT-PROTOTYPE">/AUTOSAR/Compositions/TopComposition/BottomComposition</CONTEXT-COMPONENT-REF>
-                        <CONTEXT-COMPONENT-REF DEST="SW-COMPONENT-PROTOTYPE">/AUTOSAR/Compositions/BottomComposition/CptObs_BPrototype</CONTEXT-COMPONENT-REF>
+                        <CONTEXT-COMPONENT-REF DEST="SW-COMPONENT-PROTOTYPE">/AUTOSAR/Compositions/BottomComposition/CptObs_1BPrototype</CONTEXT-COMPONENT-REF>
                         <CONTEXT-COMPOSITION-REF DEST="ROOT-SW-COMPOSITION-PROTOTYPE">/AUTOSAR/System/system_0/rootSwCompositionPrototype_0</CONTEXT-COMPOSITION-REF>
-                        <CONTEXT-PORT-REF DEST="R-PORT-PROTOTYPE">/AUTOSAR/Components/CptObs_B/RpExplicit</CONTEXT-PORT-REF>
+                        <CONTEXT-PORT-REF DEST="R-PORT-PROTOTYPE">/AUTOSAR/Components/CptObs_1B/RpExplicit</CONTEXT-PORT-REF>
                         <TARGET-DATA-PROTOTYPE-REF DEST="VARIABLE-DATA-PROTOTYPE">/AUTOSAR/Interfaces/SRIF_AllDataType/dataElementStruct</TARGET-DATA-PROTOTYPE-REF>
                       </DATA-ELEMENT-IREF>
                       <SIGNAL-GROUP-REF DEST="SYSTEM-SIGNAL-GROUP">/SystemInfo/SystemSignals/SignalGroupStructA36_MsgStructA</SIGNAL-GROUP-REF>
@@ -26,20 +26,20 @@
                         <SENDER-REC-RECORD-TYPE-MAPPING>
                           <RECORD-ELEMENT-MAPPINGS>
                             <SENDER-REC-RECORD-ELEMENT-MAPPING>
-                              <IMPLEMENTATION-RECORD-ELEMENT-REF DEST="IMPLEMENTATION-DATA-TYPE-ELEMENT">/AUTOSAR/DataTypes/StructA/Data_Uint8</IMPLEMENTATION-RECORD-ELEMENT-REF>
-                              <SYSTEM-SIGNAL-REF DEST="SYSTEM-SIGNAL">/SystemInfo/SystemSignals/SignalData8_MsgStructA</SYSTEM-SIGNAL-REF>
-                            </SENDER-REC-RECORD-ELEMENT-MAPPING>
-                            <SENDER-REC-RECORD-ELEMENT-MAPPING>
-                              <IMPLEMENTATION-RECORD-ELEMENT-REF DEST="IMPLEMENTATION-DATA-TYPE-ELEMENT">/AUTOSAR/DataTypes/StructA/Counter_Uint8</IMPLEMENTATION-RECORD-ELEMENT-REF>
-                              <SYSTEM-SIGNAL-REF DEST="SYSTEM-SIGNAL">/SystemInfo/SystemSignals/SignalCounter4_MsgStructA</SYSTEM-SIGNAL-REF>
-                            </SENDER-REC-RECORD-ELEMENT-MAPPING>
-                            <SENDER-REC-RECORD-ELEMENT-MAPPING>
                               <IMPLEMENTATION-RECORD-ELEMENT-REF DEST="IMPLEMENTATION-DATA-TYPE-ELEMENT">/AUTOSAR/DataTypes/StructA/Crc_Uint8</IMPLEMENTATION-RECORD-ELEMENT-REF>
                               <SYSTEM-SIGNAL-REF DEST="SYSTEM-SIGNAL">/SystemInfo/SystemSignals/SignalCrc8_MsgStructA</SYSTEM-SIGNAL-REF>
                             </SENDER-REC-RECORD-ELEMENT-MAPPING>
                             <SENDER-REC-RECORD-ELEMENT-MAPPING>
                               <IMPLEMENTATION-RECORD-ELEMENT-REF DEST="IMPLEMENTATION-DATA-TYPE-ELEMENT">/AUTOSAR/DataTypes/StructA/Data_Uint16</IMPLEMENTATION-RECORD-ELEMENT-REF>
                               <SYSTEM-SIGNAL-REF DEST="SYSTEM-SIGNAL">/SystemInfo/SystemSignals/SignalData16_MsgStructA</SYSTEM-SIGNAL-REF>
+                            </SENDER-REC-RECORD-ELEMENT-MAPPING>
+                            <SENDER-REC-RECORD-ELEMENT-MAPPING>
+                              <IMPLEMENTATION-RECORD-ELEMENT-REF DEST="IMPLEMENTATION-DATA-TYPE-ELEMENT">/AUTOSAR/DataTypes/StructA/Counter_Uint8</IMPLEMENTATION-RECORD-ELEMENT-REF>
+                              <SYSTEM-SIGNAL-REF DEST="SYSTEM-SIGNAL">/SystemInfo/SystemSignals/SignalCounter4_MsgStructA</SYSTEM-SIGNAL-REF>
+                            </SENDER-REC-RECORD-ELEMENT-MAPPING>
+                            <SENDER-REC-RECORD-ELEMENT-MAPPING>
+                              <IMPLEMENTATION-RECORD-ELEMENT-REF DEST="IMPLEMENTATION-DATA-TYPE-ELEMENT">/AUTOSAR/DataTypes/StructA/Data_Uint8</IMPLEMENTATION-RECORD-ELEMENT-REF>
+                              <SYSTEM-SIGNAL-REF DEST="SYSTEM-SIGNAL">/SystemInfo/SystemSignals/SignalData8_MsgStructA</SYSTEM-SIGNAL-REF>
                             </SENDER-REC-RECORD-ELEMENT-MAPPING>
                           </RECORD-ELEMENT-MAPPINGS>
                         </SENDER-REC-RECORD-TYPE-MAPPING>
@@ -49,37 +49,37 @@
                   <SW-IMPL-MAPPINGS>
                     <SWC-TO-IMPL-MAPPING UUID="a8bcd8a1-2b05-46aa-a735-b2b6561e6c8a">
                       <SHORT-NAME>CptReceiverPrototypeImplMapping</SHORT-NAME>
-                      <COMPONENT-IMPLEMENTATION-REF DEST="SWC-IMPLEMENTATION">/AUTOSAR/SwcImplementations/swcImplementation_CptObs_A</COMPONENT-IMPLEMENTATION-REF>
+                      <COMPONENT-IMPLEMENTATION-REF DEST="SWC-IMPLEMENTATION">/AUTOSAR/SwcImplementations/swcImplementation_CptObs_1A</COMPONENT-IMPLEMENTATION-REF>
                       <COMPONENT-IREFS>
                         <COMPONENT-IREF>
                           <CONTEXT-COMPOSITION-REF DEST="ROOT-SW-COMPOSITION-PROTOTYPE">/AUTOSAR/System/system_0/rootSwCompositionPrototype_0</CONTEXT-COMPOSITION-REF>
                           <CONTEXT-COMPONENT-REF DEST="SW-COMPONENT-PROTOTYPE">/AUTOSAR/Compositions/TopComposition/BottomComposition</CONTEXT-COMPONENT-REF>
-                          <CONTEXT-COMPONENT-REF DEST="SW-COMPONENT-PROTOTYPE">/AUTOSAR/Compositions/BottomComposition/CptObs_APrototype</CONTEXT-COMPONENT-REF>
-                          <TARGET-COMPONENT-REF DEST="SW-COMPONENT-PROTOTYPE">/AUTOSAR/Compositions/BottomComposition/CptObs_APrototype</TARGET-COMPONENT-REF>
+                          <CONTEXT-COMPONENT-REF DEST="SW-COMPONENT-PROTOTYPE">/AUTOSAR/Compositions/BottomComposition/CptObs_1APrototype</CONTEXT-COMPONENT-REF>
+                          <TARGET-COMPONENT-REF DEST="SW-COMPONENT-PROTOTYPE">/AUTOSAR/Compositions/BottomComposition/CptObs_1APrototype</TARGET-COMPONENT-REF>
                         </COMPONENT-IREF>
                       </COMPONENT-IREFS>
                     </SWC-TO-IMPL-MAPPING>
                     <SWC-TO-IMPL-MAPPING UUID="d1cd0e3a-b17d-482f-8144-654fff9f5bc8">
                       <SHORT-NAME>CptSenderPrototypeImplMapping</SHORT-NAME>
-                      <COMPONENT-IMPLEMENTATION-REF DEST="SWC-IMPLEMENTATION">/AUTOSAR/SwcImplementations/swcImplementation_CptCtrl_A</COMPONENT-IMPLEMENTATION-REF>
+                      <COMPONENT-IMPLEMENTATION-REF DEST="SWC-IMPLEMENTATION">/AUTOSAR/SwcImplementations/swcImplementation_CptCtrl_1A</COMPONENT-IMPLEMENTATION-REF>
                       <COMPONENT-IREFS>
                         <COMPONENT-IREF>
                           <CONTEXT-COMPOSITION-REF DEST="ROOT-SW-COMPOSITION-PROTOTYPE">/AUTOSAR/System/system_0/rootSwCompositionPrototype_0</CONTEXT-COMPOSITION-REF>
                           <CONTEXT-COMPONENT-REF DEST="SW-COMPONENT-PROTOTYPE">/AUTOSAR/Compositions/TopComposition/BottomComposition</CONTEXT-COMPONENT-REF>
-                          <CONTEXT-COMPONENT-REF DEST="SW-COMPONENT-PROTOTYPE">/AUTOSAR/Compositions/BottomComposition/CptCtrl_APrototype</CONTEXT-COMPONENT-REF>
-                          <TARGET-COMPONENT-REF DEST="SW-COMPONENT-PROTOTYPE">/AUTOSAR/Compositions/BottomComposition/CptCtrl_APrototype</TARGET-COMPONENT-REF>
+                          <CONTEXT-COMPONENT-REF DEST="SW-COMPONENT-PROTOTYPE">/AUTOSAR/Compositions/BottomComposition/CptCtrl_1APrototype</CONTEXT-COMPONENT-REF>
+                          <TARGET-COMPONENT-REF DEST="SW-COMPONENT-PROTOTYPE">/AUTOSAR/Compositions/BottomComposition/CptCtrl_1APrototype</TARGET-COMPONENT-REF>
                         </COMPONENT-IREF>
                       </COMPONENT-IREFS>
                     </SWC-TO-IMPL-MAPPING>
                     <SWC-TO-IMPL-MAPPING UUID="671892b3-a7cb-4d34-b56b-094f3d7d1a29">
                       <SHORT-NAME>CptObs_BPrototypeImplMapping</SHORT-NAME>
-                      <COMPONENT-IMPLEMENTATION-REF DEST="SWC-IMPLEMENTATION">/AUTOSAR/SwcImplementations/swcImplementation_CptObs_B</COMPONENT-IMPLEMENTATION-REF>
+                      <COMPONENT-IMPLEMENTATION-REF DEST="SWC-IMPLEMENTATION">/AUTOSAR/SwcImplementations/swcImplementation_CptObs_1B</COMPONENT-IMPLEMENTATION-REF>
                       <COMPONENT-IREFS>
                         <COMPONENT-IREF>
                           <CONTEXT-COMPOSITION-REF DEST="ROOT-SW-COMPOSITION-PROTOTYPE">/AUTOSAR/System/system_0/rootSwCompositionPrototype_0</CONTEXT-COMPOSITION-REF>
                           <CONTEXT-COMPONENT-REF DEST="SW-COMPONENT-PROTOTYPE">/AUTOSAR/Compositions/TopComposition/BottomComposition</CONTEXT-COMPONENT-REF>
-                          <CONTEXT-COMPONENT-REF DEST="SW-COMPONENT-PROTOTYPE">/AUTOSAR/Compositions/BottomComposition/CptObs_BPrototype</CONTEXT-COMPONENT-REF>
-                          <TARGET-COMPONENT-REF DEST="SW-COMPONENT-PROTOTYPE">/AUTOSAR/Compositions/BottomComposition/CptObs_BPrototype</TARGET-COMPONENT-REF>
+                          <CONTEXT-COMPONENT-REF DEST="SW-COMPONENT-PROTOTYPE">/AUTOSAR/Compositions/BottomComposition/CptObs_1BPrototype</CONTEXT-COMPONENT-REF>
+                          <TARGET-COMPONENT-REF DEST="SW-COMPONENT-PROTOTYPE">/AUTOSAR/Compositions/BottomComposition/CptObs_1BPrototype</TARGET-COMPONENT-REF>
                         </COMPONENT-IREF>
                       </COMPONENT-IREFS>
                     </SWC-TO-IMPL-MAPPING>
@@ -91,14 +91,8 @@
                         <COMPONENT-IREF>
                           <CONTEXT-COMPOSITION-REF DEST="ROOT-SW-COMPOSITION-PROTOTYPE">/AUTOSAR/System/system_0/rootSwCompositionPrototype_0</CONTEXT-COMPOSITION-REF>
                           <CONTEXT-COMPONENT-REF DEST="SW-COMPONENT-PROTOTYPE">/AUTOSAR/Compositions/TopComposition/BottomComposition</CONTEXT-COMPONENT-REF>
-                          <CONTEXT-COMPONENT-REF DEST="SW-COMPONENT-PROTOTYPE">/AUTOSAR/Compositions/BottomComposition/CptObs_APrototype</CONTEXT-COMPONENT-REF>
-                          <TARGET-COMPONENT-REF DEST="SW-COMPONENT-PROTOTYPE">/AUTOSAR/Compositions/BottomComposition/CptObs_APrototype</TARGET-COMPONENT-REF>
-                        </COMPONENT-IREF>
-                        <COMPONENT-IREF>
-                          <CONTEXT-COMPOSITION-REF DEST="ROOT-SW-COMPOSITION-PROTOTYPE">/AUTOSAR/System/system_0/rootSwCompositionPrototype_0</CONTEXT-COMPOSITION-REF>
-                          <CONTEXT-COMPONENT-REF DEST="SW-COMPONENT-PROTOTYPE">/AUTOSAR/Compositions/TopComposition/BottomComposition</CONTEXT-COMPONENT-REF>
-                          <CONTEXT-COMPONENT-REF DEST="SW-COMPONENT-PROTOTYPE">/AUTOSAR/Compositions/BottomComposition/CptCtrl_APrototype</CONTEXT-COMPONENT-REF>
-                          <TARGET-COMPONENT-REF DEST="SW-COMPONENT-PROTOTYPE">/AUTOSAR/Compositions/BottomComposition/CptCtrl_APrototype</TARGET-COMPONENT-REF>
+                          <CONTEXT-COMPONENT-REF DEST="SW-COMPONENT-PROTOTYPE">/AUTOSAR/Compositions/BottomComposition/CptCtrl_1APrototype</CONTEXT-COMPONENT-REF>
+                          <TARGET-COMPONENT-REF DEST="SW-COMPONENT-PROTOTYPE">/AUTOSAR/Compositions/BottomComposition/CptCtrl_1APrototype</TARGET-COMPONENT-REF>
                         </COMPONENT-IREF>
                       </COMPONENT-IREFS>
                       <ECU-INSTANCE-REF DEST="ECU-INSTANCE">/SystemInfo/EcuInstances/ECUA</ECU-INSTANCE-REF>
@@ -109,8 +103,8 @@
                         <COMPONENT-IREF>
                           <CONTEXT-COMPOSITION-REF DEST="ROOT-SW-COMPOSITION-PROTOTYPE">/AUTOSAR/System/system_0/rootSwCompositionPrototype_0</CONTEXT-COMPOSITION-REF>
                           <CONTEXT-COMPONENT-REF DEST="SW-COMPONENT-PROTOTYPE">/AUTOSAR/Compositions/TopComposition/BottomComposition</CONTEXT-COMPONENT-REF>
-                          <CONTEXT-COMPONENT-REF DEST="SW-COMPONENT-PROTOTYPE">/AUTOSAR/Compositions/BottomComposition/CptObs_APrototype</CONTEXT-COMPONENT-REF>
-                          <TARGET-COMPONENT-REF DEST="SW-COMPONENT-PROTOTYPE">/AUTOSAR/Compositions/BottomComposition/CptObs_APrototype</TARGET-COMPONENT-REF>
+                          <CONTEXT-COMPONENT-REF DEST="SW-COMPONENT-PROTOTYPE">/AUTOSAR/Compositions/BottomComposition/CptObs_1APrototype</CONTEXT-COMPONENT-REF>
+                          <TARGET-COMPONENT-REF DEST="SW-COMPONENT-PROTOTYPE">/AUTOSAR/Compositions/BottomComposition/CptObs_1APrototype</TARGET-COMPONENT-REF>
                         </COMPONENT-IREF>
                       </COMPONENT-IREFS>
                     </SWC-TO-ECU-MAPPING>
@@ -120,8 +114,8 @@
                         <COMPONENT-IREF>
                           <CONTEXT-COMPOSITION-REF DEST="ROOT-SW-COMPOSITION-PROTOTYPE">/AUTOSAR/System/system_0/rootSwCompositionPrototype_0</CONTEXT-COMPOSITION-REF>
                           <CONTEXT-COMPONENT-REF DEST="SW-COMPONENT-PROTOTYPE">/AUTOSAR/Compositions/TopComposition/BottomComposition</CONTEXT-COMPONENT-REF>
-                          <CONTEXT-COMPONENT-REF DEST="SW-COMPONENT-PROTOTYPE">/AUTOSAR/Compositions/BottomComposition/CptObs_BPrototype</CONTEXT-COMPONENT-REF>
-                          <TARGET-COMPONENT-REF DEST="SW-COMPONENT-PROTOTYPE">/AUTOSAR/Compositions/BottomComposition/CptObs_BPrototype</TARGET-COMPONENT-REF>
+                          <CONTEXT-COMPONENT-REF DEST="SW-COMPONENT-PROTOTYPE">/AUTOSAR/Compositions/BottomComposition/CptObs_1BPrototype</CONTEXT-COMPONENT-REF>
+                          <TARGET-COMPONENT-REF DEST="SW-COMPONENT-PROTOTYPE">/AUTOSAR/Compositions/BottomComposition/CptObs_1BPrototype</TARGET-COMPONENT-REF>
                         </COMPONENT-IREF>
                       </COMPONENT-IREFS>
                       <ECU-INSTANCE-REF DEST="ECU-INSTANCE">/SystemInfo/EcuInstances/ECUB</ECU-INSTANCE-REF>
@@ -145,39 +139,39 @@
               <SHORT-NAME>BottomComposition</SHORT-NAME>
               <COMPONENTS>
                 <SW-COMPONENT-PROTOTYPE>
-                  <SHORT-NAME>CptObs_APrototype</SHORT-NAME>
-                  <TYPE-TREF DEST="APPLICATION-SW-COMPONENT-TYPE">/AUTOSAR/Components/CptObs_A</TYPE-TREF>
+                  <SHORT-NAME>CptObs_1APrototype</SHORT-NAME>
+                  <TYPE-TREF DEST="APPLICATION-SW-COMPONENT-TYPE">/AUTOSAR/Components/CptObs_1A</TYPE-TREF>
                 </SW-COMPONENT-PROTOTYPE>
                 <SW-COMPONENT-PROTOTYPE>
-                  <SHORT-NAME>CptCtrl_APrototype</SHORT-NAME>
-                  <TYPE-TREF DEST="APPLICATION-SW-COMPONENT-TYPE">/AUTOSAR/Components/CptCtrl_A</TYPE-TREF>
+                  <SHORT-NAME>CptCtrl_1APrototype</SHORT-NAME>
+                  <TYPE-TREF DEST="APPLICATION-SW-COMPONENT-TYPE">/AUTOSAR/Components/CptCtrl_1A</TYPE-TREF>
                 </SW-COMPONENT-PROTOTYPE>
                 <SW-COMPONENT-PROTOTYPE>
-                  <SHORT-NAME>CptObs_BPrototype</SHORT-NAME>
-                  <TYPE-TREF DEST="APPLICATION-SW-COMPONENT-TYPE">/AUTOSAR/Components/CptObs_B</TYPE-TREF>
+                  <SHORT-NAME>CptObs_1BPrototype</SHORT-NAME>
+                  <TYPE-TREF DEST="APPLICATION-SW-COMPONENT-TYPE">/AUTOSAR/Components/CptObs_1B</TYPE-TREF>
                 </SW-COMPONENT-PROTOTYPE>
               </COMPONENTS>
               <CONNECTORS>
                 <ASSEMBLY-SW-CONNECTOR>
                   <SHORT-NAME>assemblyConnect_1</SHORT-NAME>
                   <PROVIDER-IREF>
-                    <CONTEXT-COMPONENT-REF DEST="SW-COMPONENT-PROTOTYPE">/AUTOSAR/Compositions/BottomComposition/CptCtrl_APrototype</CONTEXT-COMPONENT-REF>
-                    <TARGET-P-PORT-REF DEST="P-PORT-PROTOTYPE">/AUTOSAR/Components/CptCtrl_A/PpExplict</TARGET-P-PORT-REF>
+                    <CONTEXT-COMPONENT-REF DEST="SW-COMPONENT-PROTOTYPE">/AUTOSAR/Compositions/BottomComposition/CptCtrl_1APrototype</CONTEXT-COMPONENT-REF>
+                    <TARGET-P-PORT-REF DEST="P-PORT-PROTOTYPE">/AUTOSAR/Components/CptCtrl_1A/PpExplict</TARGET-P-PORT-REF>
                   </PROVIDER-IREF>
                   <REQUESTER-IREF>
-                    <CONTEXT-COMPONENT-REF DEST="SW-COMPONENT-PROTOTYPE">/AUTOSAR/Compositions/BottomComposition/CptObs_APrototype</CONTEXT-COMPONENT-REF>
-                    <TARGET-R-PORT-REF DEST="R-PORT-PROTOTYPE">/AUTOSAR/Components/CptObs_A/RpExplicit</TARGET-R-PORT-REF>
+                    <CONTEXT-COMPONENT-REF DEST="SW-COMPONENT-PROTOTYPE">/AUTOSAR/Compositions/BottomComposition/CptObs_1BPrototype</CONTEXT-COMPONENT-REF>
+                    <TARGET-R-PORT-REF DEST="R-PORT-PROTOTYPE">/AUTOSAR/Components/CptObs_1B/RpExplicit</TARGET-R-PORT-REF>
                   </REQUESTER-IREF>
                 </ASSEMBLY-SW-CONNECTOR>
                 <ASSEMBLY-SW-CONNECTOR>
                   <SHORT-NAME>assemblyConnect_2</SHORT-NAME>
                   <PROVIDER-IREF>
-                    <CONTEXT-COMPONENT-REF DEST="SW-COMPONENT-PROTOTYPE">/AUTOSAR/Compositions/BottomComposition/CptCtrl_APrototype</CONTEXT-COMPONENT-REF>
-                    <TARGET-P-PORT-REF DEST="P-PORT-PROTOTYPE">/AUTOSAR/Components/CptCtrl_A/PpExplict</TARGET-P-PORT-REF>
+                    <CONTEXT-COMPONENT-REF DEST="SW-COMPONENT-PROTOTYPE">/AUTOSAR/Compositions/BottomComposition/CptCtrl_1APrototype</CONTEXT-COMPONENT-REF>
+                    <TARGET-P-PORT-REF DEST="P-PORT-PROTOTYPE">/AUTOSAR/Components/CptCtrl_1A/PpExplict</TARGET-P-PORT-REF>
                   </PROVIDER-IREF>
                   <REQUESTER-IREF>
-                    <CONTEXT-COMPONENT-REF DEST="SW-COMPONENT-PROTOTYPE">/AUTOSAR/Compositions/BottomComposition/CptObs_BPrototype</CONTEXT-COMPONENT-REF>
-                    <TARGET-R-PORT-REF DEST="R-PORT-PROTOTYPE">/AUTOSAR/Components/CptObs_B/RpExplicit</TARGET-R-PORT-REF>
+                    <CONTEXT-COMPONENT-REF DEST="SW-COMPONENT-PROTOTYPE">/AUTOSAR/Compositions/BottomComposition/CptObs_1APrototype</CONTEXT-COMPONENT-REF>
+                    <TARGET-R-PORT-REF DEST="R-PORT-PROTOTYPE">/AUTOSAR/Components/CptObs_1A/RpExplicit</TARGET-R-PORT-REF>
                   </REQUESTER-IREF>
                 </ASSEMBLY-SW-CONNECTOR>
               </CONNECTORS>
@@ -197,16 +191,16 @@
           <SHORT-NAME>SwcImplementations</SHORT-NAME>
           <ELEMENTS>
             <SWC-IMPLEMENTATION UUID="78b6970e-7df9-46f7-87c5-77f271f55a2f">
-              <SHORT-NAME>swcImplementation_CptCtrl_A</SHORT-NAME>
-              <BEHAVIOR-REF DEST="SWC-INTERNAL-BEHAVIOR">/AUTOSAR/Components/CptCtrl_A/IbCtrl_A</BEHAVIOR-REF>
+              <SHORT-NAME>swcImplementation_CptCtrl_1A</SHORT-NAME>
+              <BEHAVIOR-REF DEST="SWC-INTERNAL-BEHAVIOR">/AUTOSAR/Components/CptCtrl_1A/IbCtrl_1A</BEHAVIOR-REF>
             </SWC-IMPLEMENTATION>
             <SWC-IMPLEMENTATION UUID="fc40bc36-259a-4761-936c-1139e013f8b2">
-              <SHORT-NAME>swcImplementation_CptObs_A</SHORT-NAME>
-              <BEHAVIOR-REF DEST="SWC-INTERNAL-BEHAVIOR">/AUTOSAR/Components/CptObs_A/IbObs_A</BEHAVIOR-REF>
+              <SHORT-NAME>swcImplementation_CptObs_1A</SHORT-NAME>
+              <BEHAVIOR-REF DEST="SWC-INTERNAL-BEHAVIOR">/AUTOSAR/Components/CptObs_1A/IbObs_1A</BEHAVIOR-REF>
             </SWC-IMPLEMENTATION>
             <SWC-IMPLEMENTATION UUID="cd51f8ff-bd0d-41f1-8590-bb7c5a45696b">
-              <SHORT-NAME>swcImplementation_CptObs_B</SHORT-NAME>
-              <BEHAVIOR-REF DEST="SWC-INTERNAL-BEHAVIOR">/AUTOSAR/Components/CptObs_B/IbObs_B</BEHAVIOR-REF>
+              <SHORT-NAME>swcImplementation_CptObs_1B</SHORT-NAME>
+              <BEHAVIOR-REF DEST="SWC-INTERNAL-BEHAVIOR">/AUTOSAR/Components/CptObs_1B/IbObs_1B</BEHAVIOR-REF>
             </SWC-IMPLEMENTATION>
           </ELEMENTS>
         </AR-PACKAGE>

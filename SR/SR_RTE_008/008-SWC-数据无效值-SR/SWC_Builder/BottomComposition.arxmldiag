@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<notation:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://autosar.org/schema/r4.0" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xsi:schemaLocation="http://autosar.org/schema/r4.0 http://autosar.org/schema/r4.0/autosar40/swc/composition" xmi:id="_tamawCQjEe2PE8PawDkEmw" type="autosar4x" name="BottomComposition.arxmldiag" measurementUnit="Pixel">
+  <children xmi:type="notation:Shape" xmi:id="_nO3h8D-mEe2_pLYOUQuAaw" type="2001" fontName="Microsoft YaHei UI">
+    <children xmi:type="notation:DecorationNode" xmi:id="_nO4JAD-mEe2_pLYOUQuAaw" type="5001"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="_nO4JAT-mEe2_pLYOUQuAaw" type="5002"/>
+    <children xmi:type="notation:Node" xmi:id="_nPIAoD-mEe2_pLYOUQuAaw" type="2006">
+      <children xmi:type="notation:DecorationNode" xmi:id="_nPInsD-mEe2_pLYOUQuAaw" type="5007">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_nPInsT-mEe2_pLYOUQuAaw" y="5"/>
+      </children>
+      <styles xmi:type="notation:DescriptionStyle" xmi:id="_nPIAoT-mEe2_pLYOUQuAaw"/>
+      <styles xmi:type="notation:FontStyle" xmi:id="_nPIAoj-mEe2_pLYOUQuAaw" fontName="Microsoft YaHei UI"/>
+      <styles xmi:type="notation:FillStyle" xmi:id="_nPIAoz-mEe2_pLYOUQuAaw"/>
+      <element xmi:type="R-PORT-PROTOTYPE" href="componentsconfig.arxml#/AUTOSAR/Components/CptObs_1A/RpExplicit?type=RPortPrototype"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_nPIApD-mEe2_pLYOUQuAaw"/>
+    </children>
+    <element xmi:type="SW-COMPONENT-PROTOTYPE" href="swcconfig.arxml#/AUTOSAR/Compositions/BottomComposition/CptObs_1APrototype?type=SwComponentPrototype"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_nO3h8T-mEe2_pLYOUQuAaw" x="670" y="300"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_nO4JAj-mEe2_pLYOUQuAaw" type="2001" fontName="Microsoft YaHei UI">
+    <children xmi:type="notation:DecorationNode" xmi:id="_nO4JBD-mEe2_pLYOUQuAaw" type="5001"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="_nO4JBT-mEe2_pLYOUQuAaw" type="5002"/>
+    <children xmi:type="notation:Node" xmi:id="_nPLrAD-mEe2_pLYOUQuAaw" type="2005">
+      <children xmi:type="notation:DecorationNode" xmi:id="_nPMSED-mEe2_pLYOUQuAaw" type="5006">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_nPMSET-mEe2_pLYOUQuAaw" y="5"/>
+      </children>
+      <styles xmi:type="notation:DescriptionStyle" xmi:id="_nPLrAT-mEe2_pLYOUQuAaw"/>
+      <styles xmi:type="notation:FontStyle" xmi:id="_nPLrAj-mEe2_pLYOUQuAaw" fontName="Microsoft YaHei UI"/>
+      <styles xmi:type="notation:FillStyle" xmi:id="_nPLrAz-mEe2_pLYOUQuAaw"/>
+      <element xmi:type="P-PORT-PROTOTYPE" href="componentsconfig.arxml#/AUTOSAR/Components/CptCtrl_1A/PpExplict?type=PPortPrototype"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_nPLrBD-mEe2_pLYOUQuAaw"/>
+    </children>
+    <element xmi:type="SW-COMPONENT-PROTOTYPE" href="swcconfig.arxml#/AUTOSAR/Compositions/BottomComposition/CptCtrl_1APrototype?type=SwComponentPrototype"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_nO4JAz-mEe2_pLYOUQuAaw" x="65" y="130"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_nO4wED-mEe2_pLYOUQuAaw" type="2001" fontName="Microsoft YaHei UI">
+    <children xmi:type="notation:DecorationNode" xmi:id="_nO4wEj-mEe2_pLYOUQuAaw" type="5001"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="_nO4wEz-mEe2_pLYOUQuAaw" type="5002"/>
+    <children xmi:type="notation:Node" xmi:id="_nPM5ID-mEe2_pLYOUQuAaw" type="2006">
+      <children xmi:type="notation:DecorationNode" xmi:id="_nPM5JT-mEe2_pLYOUQuAaw" type="5007">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_nPM5Jj-mEe2_pLYOUQuAaw" y="5"/>
+      </children>
+      <styles xmi:type="notation:DescriptionStyle" xmi:id="_nPM5IT-mEe2_pLYOUQuAaw"/>
+      <styles xmi:type="notation:FontStyle" xmi:id="_nPM5Ij-mEe2_pLYOUQuAaw" fontName="Microsoft YaHei UI"/>
+      <styles xmi:type="notation:FillStyle" xmi:id="_nPM5Iz-mEe2_pLYOUQuAaw"/>
+      <element xmi:type="R-PORT-PROTOTYPE" href="componentsconfig.arxml#/AUTOSAR/Components/CptObs_1B/RpExplicit?type=RPortPrototype"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_nPM5JD-mEe2_pLYOUQuAaw"/>
+    </children>
+    <element xmi:type="SW-COMPONENT-PROTOTYPE" href="swcconfig.arxml#/AUTOSAR/Compositions/BottomComposition/CptObs_1BPrototype?type=SwComponentPrototype"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_nO4wET-mEe2_pLYOUQuAaw" x="650" y="55"/>
+  </children>
+  <styles xmi:type="notation:DiagramStyle" xmi:id="_tanB0CQjEe2PE8PawDkEmw"/>
+  <element xmi:type="COMPOSITION-SW-COMPONENT-TYPE" href="swcconfig.arxml#/AUTOSAR/Compositions/BottomComposition?type=CompositionSwComponentType"/>
+  <edges xmi:type="notation:Edge" xmi:id="_2zFrsD_QEe2_pLYOUQuAaw" type="4001" source="_nPLrAD-mEe2_pLYOUQuAaw" target="_nPM5ID-mEe2_pLYOUQuAaw">
+    <styles xmi:type="notation:RoutingStyle" xmi:id="_2zFrsT_QEe2_pLYOUQuAaw" routing="Rectilinear"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_2zGSwD_QEe2_pLYOUQuAaw" fontName="Microsoft YaHei UI"/>
+    <element xmi:type="ASSEMBLY-SW-CONNECTOR" href="swcconfig.arxml#/AUTOSAR/Compositions/BottomComposition/assemblyConnect_1?type=AssemblySwConnector"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_2zGSwT_QEe2_pLYOUQuAaw" points="[8, -2, -300, 73]$[312, -82, 4, -7]"/>
+  </edges>
+  <edges xmi:type="notation:Edge" xmi:id="_MLBpoELyEe2PeNNTiFTxcA" type="4001" source="_nPLrAD-mEe2_pLYOUQuAaw" target="_nPIAoD-mEe2_pLYOUQuAaw">
+    <styles xmi:type="notation:RoutingStyle" xmi:id="_MLBpoULyEe2PeNNTiFTxcA" routing="Rectilinear"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_MLBpokLyEe2PeNNTiFTxcA" fontName="Microsoft YaHei UI"/>
+    <element xmi:type="ASSEMBLY-SW-CONNECTOR" href="swcconfig.arxml#/AUTOSAR/Compositions/BottomComposition/assemblyConnect_2?type=AssemblySwConnector"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_MLBpo0LyEe2PeNNTiFTxcA" points="[8, 4, -316, -166]$[321, 169, -3, -1]"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_MLEF4ELyEe2PeNNTiFTxcA" id="(0.2,0.4666666666666667)"/>
+  </edges>
+</notation:Diagram>

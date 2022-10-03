@@ -1,0 +1,434 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AUTOSAR xmlns="http://autosar.org/schema/r4.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://autosar.org/schema/r4.0 autosar_4-2-2.xsd">
+  <AR-PACKAGES>
+    <AR-PACKAGE>
+      <SHORT-NAME>SystemInfo</SHORT-NAME>
+      <AR-PACKAGES>
+        <AR-PACKAGE UUID="74cbcb59-ddfe-4362-bbb3-c92129dada21">
+          <SHORT-NAME>CanClusters</SHORT-NAME>
+          <ELEMENTS>
+            <CAN-CLUSTER UUID="4141cc0b-9883-4b73-aa6d-712da17b438e">
+              <SHORT-NAME>CanCluster_0</SHORT-NAME>
+              <CAN-CLUSTER-VARIANTS>
+                <CAN-CLUSTER-CONDITIONAL>
+                  <PHYSICAL-CHANNELS>
+                    <CAN-PHYSICAL-CHANNEL UUID="441790ac-9979-466e-8412-4382d3d746e4">
+                      <SHORT-NAME>CanChannel_0</SHORT-NAME>
+                      <COMM-CONNECTORS>
+                        <COMMUNICATION-CONNECTOR-REF-CONDITIONAL>
+                          <COMMUNICATION-CONNECTOR-REF DEST="CAN-COMMUNICATION-CONNECTOR">/SystemInfo/EcuInstances/ECUA/CanChannel_0_ECUA_conn</COMMUNICATION-CONNECTOR-REF>
+                        </COMMUNICATION-CONNECTOR-REF-CONDITIONAL>
+                        <COMMUNICATION-CONNECTOR-REF-CONDITIONAL>
+                          <COMMUNICATION-CONNECTOR-REF DEST="CAN-COMMUNICATION-CONNECTOR">/SystemInfo/EcuInstances/ECUB/CanChannel_0_ECUB_conn</COMMUNICATION-CONNECTOR-REF>
+                        </COMMUNICATION-CONNECTOR-REF-CONDITIONAL>
+                      </COMM-CONNECTORS>
+                      <FRAME-TRIGGERINGS>
+                        <CAN-FRAME-TRIGGERING UUID="e2131928-7168-4c9a-89e2-07e6e17e8af7">
+                          <SHORT-NAME>FT_MsgStructA</SHORT-NAME>
+                          <FRAME-PORT-REFS>
+                            <FRAME-PORT-REF DEST="FRAME-PORT">/SystemInfo/EcuInstances/ECUA/CanChannel_0_ECUA_conn/FP_MsgStructA_ECUA_Tx</FRAME-PORT-REF>
+                            <FRAME-PORT-REF DEST="FRAME-PORT">/SystemInfo/EcuInstances/ECUB/CanChannel_0_ECUB_conn/FP_MsgStructA_ECUB_Rx</FRAME-PORT-REF>
+                          </FRAME-PORT-REFS>
+                          <FRAME-REF DEST="CAN-FRAME">/SystemInfo/CanFrames/MsgStructA</FRAME-REF>
+                          <PDU-TRIGGERINGS>
+                            <PDU-TRIGGERING-REF-CONDITIONAL>
+                              <PDU-TRIGGERING-REF DEST="PDU-TRIGGERING">/SystemInfo/CanClusters/CanCluster_0/CanChannel_0/PT_MsgStructA</PDU-TRIGGERING-REF>
+                            </PDU-TRIGGERING-REF-CONDITIONAL>
+                          </PDU-TRIGGERINGS>
+                          <CAN-ADDRESSING-MODE>STANDARD</CAN-ADDRESSING-MODE>
+                          <IDENTIFIER>770</IDENTIFIER>
+                        </CAN-FRAME-TRIGGERING>
+                      </FRAME-TRIGGERINGS>
+                      <I-SIGNAL-TRIGGERINGS>
+                        <I-SIGNAL-TRIGGERING UUID="3fafef28-e94f-41ea-b107-5ab7510db36a">
+                          <SHORT-NAME>ST_SignalData8_MsgStructA</SHORT-NAME>
+                          <I-SIGNAL-PORT-REFS>
+                            <I-SIGNAL-PORT-REF DEST="I-SIGNAL-PORT">/SystemInfo/EcuInstances/ECUA/CanChannel_0_ECUA_conn/SP_SignalData8_MsgStructA_ECUA_Tx</I-SIGNAL-PORT-REF>
+                            <I-SIGNAL-PORT-REF DEST="I-SIGNAL-PORT">/SystemInfo/EcuInstances/ECUB/CanChannel_0_ECUB_conn/SP_SignalData8_MsgStructA_ECUB_Rx</I-SIGNAL-PORT-REF>
+                          </I-SIGNAL-PORT-REFS>
+                          <I-SIGNAL-REF DEST="I-SIGNAL">/SystemInfo/ISignals/SignalData8_MsgStructA</I-SIGNAL-REF>
+                        </I-SIGNAL-TRIGGERING>
+                        <I-SIGNAL-TRIGGERING UUID="0a62e3fb-07e1-4269-b4df-af4380678232">
+                          <SHORT-NAME>ST_SignalData16_MsgStructA</SHORT-NAME>
+                          <I-SIGNAL-PORT-REFS>
+                            <I-SIGNAL-PORT-REF DEST="I-SIGNAL-PORT">/SystemInfo/EcuInstances/ECUA/CanChannel_0_ECUA_conn/SP_SignalData16_MsgStructA_ECUA_Tx</I-SIGNAL-PORT-REF>
+                            <I-SIGNAL-PORT-REF DEST="I-SIGNAL-PORT">/SystemInfo/EcuInstances/ECUB/CanChannel_0_ECUB_conn/SP_SignalData16_MsgStructA_ECUB_Rx</I-SIGNAL-PORT-REF>
+                          </I-SIGNAL-PORT-REFS>
+                          <I-SIGNAL-REF DEST="I-SIGNAL">/SystemInfo/ISignals/SignalData16_MsgStructA</I-SIGNAL-REF>
+                        </I-SIGNAL-TRIGGERING>
+                        <I-SIGNAL-TRIGGERING UUID="266ac7da-a970-49f7-bf8d-6682a6d4bd05">
+                          <SHORT-NAME>ST_SignalCounter4_MsgStructA</SHORT-NAME>
+                          <I-SIGNAL-PORT-REFS>
+                            <I-SIGNAL-PORT-REF DEST="I-SIGNAL-PORT">/SystemInfo/EcuInstances/ECUA/CanChannel_0_ECUA_conn/SP_SignalCounter4_MsgStructA_ECUA_Tx</I-SIGNAL-PORT-REF>
+                            <I-SIGNAL-PORT-REF DEST="I-SIGNAL-PORT">/SystemInfo/EcuInstances/ECUB/CanChannel_0_ECUB_conn/SP_SignalCounter4_MsgStructA_ECUB_Rx</I-SIGNAL-PORT-REF>
+                          </I-SIGNAL-PORT-REFS>
+                          <I-SIGNAL-REF DEST="I-SIGNAL">/SystemInfo/ISignals/SignalCounter4_MsgStructA</I-SIGNAL-REF>
+                        </I-SIGNAL-TRIGGERING>
+                        <I-SIGNAL-TRIGGERING UUID="4f044805-d151-4ceb-83e7-3f32af1cddd4">
+                          <SHORT-NAME>ST_SignalCrc8_MsgStructA</SHORT-NAME>
+                          <I-SIGNAL-PORT-REFS>
+                            <I-SIGNAL-PORT-REF DEST="I-SIGNAL-PORT">/SystemInfo/EcuInstances/ECUA/CanChannel_0_ECUA_conn/SP_SignalCrc8_MsgStructA_ECUA_Tx</I-SIGNAL-PORT-REF>
+                            <I-SIGNAL-PORT-REF DEST="I-SIGNAL-PORT">/SystemInfo/EcuInstances/ECUB/CanChannel_0_ECUB_conn/SP_SignalCrc8_MsgStructA_ECUB_Rx</I-SIGNAL-PORT-REF>
+                          </I-SIGNAL-PORT-REFS>
+                          <I-SIGNAL-REF DEST="I-SIGNAL">/SystemInfo/ISignals/SignalCrc8_MsgStructA</I-SIGNAL-REF>
+                        </I-SIGNAL-TRIGGERING>
+                        <I-SIGNAL-TRIGGERING UUID="3631c26c-a45c-454f-87d9-1ee8eb5cd03c">
+                          <SHORT-NAME>ST_SignalGroupStructA36_MsgStructA</SHORT-NAME>
+                          <I-SIGNAL-GROUP-REF DEST="I-SIGNAL-GROUP">/SystemInfo/ISignals/SignalGroupStructA36_MsgStructA</I-SIGNAL-GROUP-REF>
+                        </I-SIGNAL-TRIGGERING>
+                      </I-SIGNAL-TRIGGERINGS>
+                      <PDU-TRIGGERINGS>
+                        <PDU-TRIGGERING UUID="8bc5a32e-2e30-4f74-806a-3e9e29140a44">
+                          <SHORT-NAME>PT_MsgStructA</SHORT-NAME>
+                          <I-PDU-PORT-REFS>
+                            <I-PDU-PORT-REF DEST="I-PDU-PORT">/SystemInfo/EcuInstances/ECUA/CanChannel_0_ECUA_conn/PP_MsgStructA_ECUA_Tx</I-PDU-PORT-REF>
+                            <I-PDU-PORT-REF DEST="I-PDU-PORT">/SystemInfo/EcuInstances/ECUB/CanChannel_0_ECUB_conn/PP_MsgStructA_ECUB_Rx</I-PDU-PORT-REF>
+                          </I-PDU-PORT-REFS>
+                          <I-PDU-REF DEST="I-SIGNAL-I-PDU">/SystemInfo/ISignalIPdus/MsgStructA</I-PDU-REF>
+                          <I-SIGNAL-TRIGGERINGS>
+                            <I-SIGNAL-TRIGGERING-REF-CONDITIONAL>
+                              <I-SIGNAL-TRIGGERING-REF DEST="I-SIGNAL-TRIGGERING">/SystemInfo/CanClusters/CanCluster_0/CanChannel_0/ST_SignalData8_MsgStructA</I-SIGNAL-TRIGGERING-REF>
+                            </I-SIGNAL-TRIGGERING-REF-CONDITIONAL>
+                            <I-SIGNAL-TRIGGERING-REF-CONDITIONAL>
+                              <I-SIGNAL-TRIGGERING-REF DEST="I-SIGNAL-TRIGGERING">/SystemInfo/CanClusters/CanCluster_0/CanChannel_0/ST_SignalData16_MsgStructA</I-SIGNAL-TRIGGERING-REF>
+                            </I-SIGNAL-TRIGGERING-REF-CONDITIONAL>
+                            <I-SIGNAL-TRIGGERING-REF-CONDITIONAL>
+                              <I-SIGNAL-TRIGGERING-REF DEST="I-SIGNAL-TRIGGERING">/SystemInfo/CanClusters/CanCluster_0/CanChannel_0/ST_SignalCounter4_MsgStructA</I-SIGNAL-TRIGGERING-REF>
+                            </I-SIGNAL-TRIGGERING-REF-CONDITIONAL>
+                            <I-SIGNAL-TRIGGERING-REF-CONDITIONAL>
+                              <I-SIGNAL-TRIGGERING-REF DEST="I-SIGNAL-TRIGGERING">/SystemInfo/CanClusters/CanCluster_0/CanChannel_0/ST_SignalCrc8_MsgStructA</I-SIGNAL-TRIGGERING-REF>
+                            </I-SIGNAL-TRIGGERING-REF-CONDITIONAL>
+                            <I-SIGNAL-TRIGGERING-REF-CONDITIONAL>
+                              <I-SIGNAL-TRIGGERING-REF DEST="I-SIGNAL-TRIGGERING">/SystemInfo/CanClusters/CanCluster_0/CanChannel_0/ST_SignalGroupStructA36_MsgStructA</I-SIGNAL-TRIGGERING-REF>
+                            </I-SIGNAL-TRIGGERING-REF-CONDITIONAL>
+                          </I-SIGNAL-TRIGGERINGS>
+                        </PDU-TRIGGERING>
+                      </PDU-TRIGGERINGS>
+                    </CAN-PHYSICAL-CHANNEL>
+                  </PHYSICAL-CHANNELS>
+                  <PROTOCOL-NAME>CAN</PROTOCOL-NAME>
+                  <PROTOCOL-VERSION></PROTOCOL-VERSION>
+                </CAN-CLUSTER-CONDITIONAL>
+              </CAN-CLUSTER-VARIANTS>
+            </CAN-CLUSTER>
+          </ELEMENTS>
+        </AR-PACKAGE>
+        <AR-PACKAGE UUID="eefba90a-61db-4315-9336-b0d582e009cf">
+          <SHORT-NAME>ISignalIPdus</SHORT-NAME>
+          <ELEMENTS>
+            <I-SIGNAL-I-PDU UUID="4662307c-f552-4015-8263-c9397d1646e6">
+              <SHORT-NAME>MsgStructA</SHORT-NAME>
+              <LENGTH>8</LENGTH>
+              <I-PDU-TIMING-SPECIFICATIONS>
+                <I-PDU-TIMING>
+                  <TRANSMISSION-MODE-DECLARATION>
+                    <TRANSMISSION-MODE-CONDITIONS>
+                      <TRANSMISSION-MODE-CONDITION>
+                        <I-SIGNAL-IN-I-PDU-REF DEST="I-SIGNAL-TO-I-PDU-MAPPING">/SystemInfo/ISignalIPdus/MsgStructA/SignalData8_MsgStructA</I-SIGNAL-IN-I-PDU-REF>
+                      </TRANSMISSION-MODE-CONDITION>
+                      <TRANSMISSION-MODE-CONDITION>
+                        <I-SIGNAL-IN-I-PDU-REF DEST="I-SIGNAL-TO-I-PDU-MAPPING">/SystemInfo/ISignalIPdus/MsgStructA/SignalData16_MsgStructA</I-SIGNAL-IN-I-PDU-REF>
+                      </TRANSMISSION-MODE-CONDITION>
+                      <TRANSMISSION-MODE-CONDITION>
+                        <I-SIGNAL-IN-I-PDU-REF DEST="I-SIGNAL-TO-I-PDU-MAPPING">/SystemInfo/ISignalIPdus/MsgStructA/SignalCounter4_MsgStructA</I-SIGNAL-IN-I-PDU-REF>
+                      </TRANSMISSION-MODE-CONDITION>
+                      <TRANSMISSION-MODE-CONDITION>
+                        <I-SIGNAL-IN-I-PDU-REF DEST="I-SIGNAL-TO-I-PDU-MAPPING">/SystemInfo/ISignalIPdus/MsgStructA/SignalCrc8_MsgStructA</I-SIGNAL-IN-I-PDU-REF>
+                      </TRANSMISSION-MODE-CONDITION>
+                    </TRANSMISSION-MODE-CONDITIONS>
+                    <TRANSMISSION-MODE-TRUE-TIMING>
+                      <CYCLIC-TIMING>
+                        <TIME-PERIOD>
+                          <VALUE>0.1</VALUE>
+                        </TIME-PERIOD>
+                      </CYCLIC-TIMING>
+                    </TRANSMISSION-MODE-TRUE-TIMING>
+                  </TRANSMISSION-MODE-DECLARATION>
+                </I-PDU-TIMING>
+              </I-PDU-TIMING-SPECIFICATIONS>
+              <I-SIGNAL-TO-PDU-MAPPINGS>
+                <I-SIGNAL-TO-I-PDU-MAPPING UUID="93671f10-caf6-4d31-8e98-7a46f76457a4">
+                  <SHORT-NAME>SignalData8_MsgStructA</SHORT-NAME>
+                  <I-SIGNAL-REF DEST="I-SIGNAL">/SystemInfo/ISignals/SignalData8_MsgStructA</I-SIGNAL-REF>
+                  <PACKING-BYTE-ORDER>MOST-SIGNIFICANT-BYTE-LAST</PACKING-BYTE-ORDER>
+                  <START-POSITION>32</START-POSITION>
+                  <UPDATE-INDICATION-BIT-POSITION>-1</UPDATE-INDICATION-BIT-POSITION>
+                </I-SIGNAL-TO-I-PDU-MAPPING>
+                <I-SIGNAL-TO-I-PDU-MAPPING UUID="bd35aa50-3378-40e2-9a3a-5611362cf47c">
+                  <SHORT-NAME>SignalData16_MsgStructA</SHORT-NAME>
+                  <I-SIGNAL-REF DEST="I-SIGNAL">/SystemInfo/ISignals/SignalData16_MsgStructA</I-SIGNAL-REF>
+                  <PACKING-BYTE-ORDER>MOST-SIGNIFICANT-BYTE-FIRST</PACKING-BYTE-ORDER>
+                  <START-POSITION>24</START-POSITION>
+                  <UPDATE-INDICATION-BIT-POSITION>-1</UPDATE-INDICATION-BIT-POSITION>
+                </I-SIGNAL-TO-I-PDU-MAPPING>
+                <I-SIGNAL-TO-I-PDU-MAPPING UUID="5bda15c2-5b08-48f3-a918-8b24072d211e">
+                  <SHORT-NAME>SignalCounter4_MsgStructA</SHORT-NAME>
+                  <I-SIGNAL-REF DEST="I-SIGNAL">/SystemInfo/ISignals/SignalCounter4_MsgStructA</I-SIGNAL-REF>
+                  <PACKING-BYTE-ORDER>MOST-SIGNIFICANT-BYTE-FIRST</PACKING-BYTE-ORDER>
+                  <START-POSITION>12</START-POSITION>
+                  <UPDATE-INDICATION-BIT-POSITION>-1</UPDATE-INDICATION-BIT-POSITION>
+                </I-SIGNAL-TO-I-PDU-MAPPING>
+                <I-SIGNAL-TO-I-PDU-MAPPING UUID="2b6eba9c-be9f-479a-80c6-12ce30ff97c6">
+                  <SHORT-NAME>SignalCrc8_MsgStructA</SHORT-NAME>
+                  <I-SIGNAL-REF DEST="I-SIGNAL">/SystemInfo/ISignals/SignalCrc8_MsgStructA</I-SIGNAL-REF>
+                  <PACKING-BYTE-ORDER>MOST-SIGNIFICANT-BYTE-FIRST</PACKING-BYTE-ORDER>
+                  <START-POSITION>0</START-POSITION>
+                  <UPDATE-INDICATION-BIT-POSITION>-1</UPDATE-INDICATION-BIT-POSITION>
+                </I-SIGNAL-TO-I-PDU-MAPPING>
+                <I-SIGNAL-TO-I-PDU-MAPPING UUID="7b2ad83b-a0ca-4f2b-a4b3-da77464acb26">
+                  <SHORT-NAME>SignalGroupStructA36_MsgStructA</SHORT-NAME>
+                  <I-SIGNAL-GROUP-REF DEST="I-SIGNAL-GROUP">/SystemInfo/ISignals/SignalGroupStructA36_MsgStructA</I-SIGNAL-GROUP-REF>
+                  <UPDATE-INDICATION-BIT-POSITION>-1</UPDATE-INDICATION-BIT-POSITION>
+                </I-SIGNAL-TO-I-PDU-MAPPING>
+              </I-SIGNAL-TO-PDU-MAPPINGS>
+            </I-SIGNAL-I-PDU>
+          </ELEMENTS>
+        </AR-PACKAGE>
+        <AR-PACKAGE UUID="9f0a3e70-153f-41ce-957f-8255a9d3a49d">
+          <SHORT-NAME>SystemSignals</SHORT-NAME>
+          <ELEMENTS>
+            <SYSTEM-SIGNAL UUID="b4209c5b-48c0-4aab-a3f7-4468fd659fc2">
+              <SHORT-NAME>SignalData8_MsgStructA</SHORT-NAME>
+              <DYNAMIC-LENGTH>false</DYNAMIC-LENGTH>
+            </SYSTEM-SIGNAL>
+            <SYSTEM-SIGNAL UUID="9c7cebad-def9-4ff3-a516-940c8c9df202">
+              <SHORT-NAME>SignalData16_MsgStructA</SHORT-NAME>
+              <DYNAMIC-LENGTH>false</DYNAMIC-LENGTH>
+            </SYSTEM-SIGNAL>
+            <SYSTEM-SIGNAL UUID="bffe804e-867a-4725-ab37-2e53f44980d0">
+              <SHORT-NAME>SignalCounter4_MsgStructA</SHORT-NAME>
+              <DYNAMIC-LENGTH>false</DYNAMIC-LENGTH>
+            </SYSTEM-SIGNAL>
+            <SYSTEM-SIGNAL UUID="515727fa-1dd3-4cb0-9947-96c184e155c4">
+              <SHORT-NAME>SignalCrc8_MsgStructA</SHORT-NAME>
+              <DYNAMIC-LENGTH>false</DYNAMIC-LENGTH>
+            </SYSTEM-SIGNAL>
+            <SYSTEM-SIGNAL-GROUP UUID="edbe5ad5-6872-4f52-b785-c1b6bdeb8d75">
+              <SHORT-NAME>SignalGroupStructA36_MsgStructA</SHORT-NAME>
+              <SYSTEM-SIGNAL-REFS>
+                <SYSTEM-SIGNAL-REF DEST="SYSTEM-SIGNAL">/SystemInfo/SystemSignals/SignalData8_MsgStructA</SYSTEM-SIGNAL-REF>
+                <SYSTEM-SIGNAL-REF DEST="SYSTEM-SIGNAL">/SystemInfo/SystemSignals/SignalCounter4_MsgStructA</SYSTEM-SIGNAL-REF>
+                <SYSTEM-SIGNAL-REF DEST="SYSTEM-SIGNAL">/SystemInfo/SystemSignals/SignalCrc8_MsgStructA</SYSTEM-SIGNAL-REF>
+                <SYSTEM-SIGNAL-REF DEST="SYSTEM-SIGNAL">/SystemInfo/SystemSignals/SignalData16_MsgStructA</SYSTEM-SIGNAL-REF>
+              </SYSTEM-SIGNAL-REFS>
+            </SYSTEM-SIGNAL-GROUP>
+          </ELEMENTS>
+        </AR-PACKAGE>
+        <AR-PACKAGE UUID="6b5f9575-bbe2-4f4e-8642-56bdba29fd28">
+          <SHORT-NAME>ISignals</SHORT-NAME>
+          <ELEMENTS>
+            <I-SIGNAL UUID="0d47e5bd-e212-400e-82e0-8c9ac8e48067">
+              <SHORT-NAME>SignalData8_MsgStructA</SHORT-NAME>
+              <DATA-TYPE-POLICY>LEGACY</DATA-TYPE-POLICY>
+              <LENGTH>8</LENGTH>
+              <NETWORK-REPRESENTATION-PROPS>
+                <SW-DATA-DEF-PROPS-VARIANTS>
+                  <SW-DATA-DEF-PROPS-CONDITIONAL>
+                    <BASE-TYPE-REF DEST="SW-BASE-TYPE">/AUTOSAR/SwBaseTypes/sint8</BASE-TYPE-REF>
+                  </SW-DATA-DEF-PROPS-CONDITIONAL>
+                </SW-DATA-DEF-PROPS-VARIANTS>
+              </NETWORK-REPRESENTATION-PROPS>
+              <SYSTEM-SIGNAL-REF DEST="SYSTEM-SIGNAL">/SystemInfo/SystemSignals/SignalData8_MsgStructA</SYSTEM-SIGNAL-REF>
+            </I-SIGNAL>
+            <I-SIGNAL UUID="2f59b815-fe4c-49d3-b640-340e5d6e199d">
+              <SHORT-NAME>SignalData16_MsgStructA</SHORT-NAME>
+              <DATA-TYPE-POLICY>LEGACY</DATA-TYPE-POLICY>
+              <LENGTH>16</LENGTH>
+              <NETWORK-REPRESENTATION-PROPS>
+                <SW-DATA-DEF-PROPS-VARIANTS>
+                  <SW-DATA-DEF-PROPS-CONDITIONAL>
+                    <BASE-TYPE-REF DEST="SW-BASE-TYPE">/AUTOSAR/SwBaseTypes/uint16</BASE-TYPE-REF>
+                  </SW-DATA-DEF-PROPS-CONDITIONAL>
+                </SW-DATA-DEF-PROPS-VARIANTS>
+              </NETWORK-REPRESENTATION-PROPS>
+              <SYSTEM-SIGNAL-REF DEST="SYSTEM-SIGNAL">/SystemInfo/SystemSignals/SignalData16_MsgStructA</SYSTEM-SIGNAL-REF>
+            </I-SIGNAL>
+            <I-SIGNAL UUID="bb325621-a262-45a9-addf-d60b7201ac19">
+              <SHORT-NAME>SignalCounter4_MsgStructA</SHORT-NAME>
+              <DATA-TYPE-POLICY>LEGACY</DATA-TYPE-POLICY>
+              <LENGTH>4</LENGTH>
+              <NETWORK-REPRESENTATION-PROPS>
+                <SW-DATA-DEF-PROPS-VARIANTS>
+                  <SW-DATA-DEF-PROPS-CONDITIONAL>
+                    <BASE-TYPE-REF DEST="SW-BASE-TYPE">/AUTOSAR/SwBaseTypes/uint8</BASE-TYPE-REF>
+                  </SW-DATA-DEF-PROPS-CONDITIONAL>
+                </SW-DATA-DEF-PROPS-VARIANTS>
+              </NETWORK-REPRESENTATION-PROPS>
+              <SYSTEM-SIGNAL-REF DEST="SYSTEM-SIGNAL">/SystemInfo/SystemSignals/SignalCounter4_MsgStructA</SYSTEM-SIGNAL-REF>
+            </I-SIGNAL>
+            <I-SIGNAL UUID="bf1fb075-2619-4ae7-943e-dd4f9f26bd28">
+              <SHORT-NAME>SignalCrc8_MsgStructA</SHORT-NAME>
+              <DATA-TYPE-POLICY>LEGACY</DATA-TYPE-POLICY>
+              <LENGTH>8</LENGTH>
+              <NETWORK-REPRESENTATION-PROPS>
+                <SW-DATA-DEF-PROPS-VARIANTS>
+                  <SW-DATA-DEF-PROPS-CONDITIONAL>
+                    <BASE-TYPE-REF DEST="SW-BASE-TYPE">/AUTOSAR/SwBaseTypes/uint8</BASE-TYPE-REF>
+                  </SW-DATA-DEF-PROPS-CONDITIONAL>
+                </SW-DATA-DEF-PROPS-VARIANTS>
+              </NETWORK-REPRESENTATION-PROPS>
+              <SYSTEM-SIGNAL-REF DEST="SYSTEM-SIGNAL">/SystemInfo/SystemSignals/SignalCrc8_MsgStructA</SYSTEM-SIGNAL-REF>
+            </I-SIGNAL>
+            <I-SIGNAL-GROUP UUID="59e31475-7be1-4741-9998-63fb8c22e8ff">
+              <SHORT-NAME>SignalGroupStructA36_MsgStructA</SHORT-NAME>
+              <I-SIGNAL-REFS>
+                <I-SIGNAL-REF DEST="I-SIGNAL">/SystemInfo/ISignals/SignalData8_MsgStructA</I-SIGNAL-REF>
+                <I-SIGNAL-REF DEST="I-SIGNAL">/SystemInfo/ISignals/SignalCounter4_MsgStructA</I-SIGNAL-REF>
+                <I-SIGNAL-REF DEST="I-SIGNAL">/SystemInfo/ISignals/SignalCrc8_MsgStructA</I-SIGNAL-REF>
+                <I-SIGNAL-REF DEST="I-SIGNAL">/SystemInfo/ISignals/SignalData16_MsgStructA</I-SIGNAL-REF>
+              </I-SIGNAL-REFS>
+              <SYSTEM-SIGNAL-GROUP-REF DEST="SYSTEM-SIGNAL-GROUP">/SystemInfo/SystemSignals/SignalGroupStructA36_MsgStructA</SYSTEM-SIGNAL-GROUP-REF>
+            </I-SIGNAL-GROUP>
+          </ELEMENTS>
+        </AR-PACKAGE>
+        <AR-PACKAGE UUID="bc051084-713c-4a24-8cf4-ef6a039928db">
+          <SHORT-NAME>DataTypePackage</SHORT-NAME>
+        </AR-PACKAGE>
+        <AR-PACKAGE UUID="f8e4a35c-1196-4c47-9db2-be44e7cbdf73">
+          <SHORT-NAME>CanFrames</SHORT-NAME>
+          <ELEMENTS>
+            <CAN-FRAME UUID="d314a062-f338-4b9b-8881-e12ea488be5d">
+              <SHORT-NAME>MsgStructA</SHORT-NAME>
+              <FRAME-LENGTH>8</FRAME-LENGTH>
+              <PDU-TO-FRAME-MAPPINGS>
+                <PDU-TO-FRAME-MAPPING UUID="22034899-9f29-4cfc-b380-fd509425c4e5">
+                  <SHORT-NAME>MsgStructA</SHORT-NAME>
+                  <PACKING-BYTE-ORDER>MOST-SIGNIFICANT-BYTE-FIRST</PACKING-BYTE-ORDER>
+                  <PDU-REF DEST="I-SIGNAL-I-PDU">/SystemInfo/ISignalIPdus/MsgStructA</PDU-REF>
+                  <START-POSITION>0</START-POSITION>
+                </PDU-TO-FRAME-MAPPING>
+              </PDU-TO-FRAME-MAPPINGS>
+            </CAN-FRAME>
+          </ELEMENTS>
+        </AR-PACKAGE>
+        <AR-PACKAGE UUID="a0be523b-9a0f-4903-ae10-fc87aace8532">
+          <SHORT-NAME>UnitPackage</SHORT-NAME>
+          <ELEMENTS>
+            <UNIT UUID="305e6362-35b2-4b77-946e-884fe4f7a997">
+              <SHORT-NAME>NoUnit</SHORT-NAME>
+            </UNIT>
+          </ELEMENTS>
+        </AR-PACKAGE>
+        <AR-PACKAGE UUID="894fcaf5-fa39-4c26-8ad1-3a178fe8af18">
+          <SHORT-NAME>EcuInstances</SHORT-NAME>
+          <ELEMENTS>
+            <ECU-INSTANCE UUID="f0a539d7-166a-49c8-a9b7-5343e5373f66">
+              <SHORT-NAME>ECUA</SHORT-NAME>
+              <COM-CONFIGURATION-GW-TIME-BASE>0.005</COM-CONFIGURATION-GW-TIME-BASE>
+              <COM-CONFIGURATION-RX-TIME-BASE>0.005</COM-CONFIGURATION-RX-TIME-BASE>
+              <COM-CONFIGURATION-TX-TIME-BASE>0.005</COM-CONFIGURATION-TX-TIME-BASE>
+              <COMM-CONTROLLERS>
+                <CAN-COMMUNICATION-CONTROLLER UUID="784ba00f-0b55-4e69-9542-0215186afb07">
+                  <SHORT-NAME>CanChannel_0_ECUA</SHORT-NAME>
+                  <CAN-COMMUNICATION-CONTROLLER-VARIANTS>
+                    <CAN-COMMUNICATION-CONTROLLER-CONDITIONAL>
+                      <WAKE-UP-BY-CONTROLLER-SUPPORTED>false</WAKE-UP-BY-CONTROLLER-SUPPORTED>
+                      <CAN-CONTROLLER-ATTRIBUTES>
+                        <CAN-CONTROLLER-CONFIGURATION>
+                          <SYNC-JUMP-WIDTH>0</SYNC-JUMP-WIDTH>
+                          <TIME-SEG-1>20</TIME-SEG-1>
+                          <TIME-SEG-2>10</TIME-SEG-2>
+                        </CAN-CONTROLLER-CONFIGURATION>
+                      </CAN-CONTROLLER-ATTRIBUTES>
+                    </CAN-COMMUNICATION-CONTROLLER-CONDITIONAL>
+                  </CAN-COMMUNICATION-CONTROLLER-VARIANTS>
+                </CAN-COMMUNICATION-CONTROLLER>
+              </COMM-CONTROLLERS>
+              <CONNECTORS>
+                <CAN-COMMUNICATION-CONNECTOR UUID="facd74e6-6a64-40a8-8c03-f49d9c40afa9">
+                  <SHORT-NAME>CanChannel_0_ECUA_conn</SHORT-NAME>
+                  <COMM-CONTROLLER-REF DEST="CAN-COMMUNICATION-CONTROLLER">/SystemInfo/EcuInstances/ECUA/CanChannel_0_ECUA</COMM-CONTROLLER-REF>
+                  <ECU-COMM-PORT-INSTANCES>
+                    <FRAME-PORT UUID="df4905cc-e894-4947-8574-db858c86e6d5">
+                      <SHORT-NAME>FP_MsgStructA_ECUA_Tx</SHORT-NAME>
+                      <COMMUNICATION-DIRECTION>OUT</COMMUNICATION-DIRECTION>
+                    </FRAME-PORT>
+                    <I-PDU-PORT UUID="d385ac22-ec24-4cf8-b4bc-c41b27758218">
+                      <SHORT-NAME>PP_MsgStructA_ECUA_Tx</SHORT-NAME>
+                      <COMMUNICATION-DIRECTION>OUT</COMMUNICATION-DIRECTION>
+                    </I-PDU-PORT>
+                    <I-SIGNAL-PORT UUID="281d99b3-6fba-465d-9663-3bd27170de45">
+                      <SHORT-NAME>SP_SignalData8_MsgStructA_ECUA_Tx</SHORT-NAME>
+                      <COMMUNICATION-DIRECTION>OUT</COMMUNICATION-DIRECTION>
+                    </I-SIGNAL-PORT>
+                    <I-SIGNAL-PORT UUID="95d120e6-beaf-4ed6-bde4-817155e73fa0">
+                      <SHORT-NAME>SP_SignalData16_MsgStructA_ECUA_Tx</SHORT-NAME>
+                      <COMMUNICATION-DIRECTION>OUT</COMMUNICATION-DIRECTION>
+                    </I-SIGNAL-PORT>
+                    <I-SIGNAL-PORT UUID="95c32ed8-e554-493f-a027-121b1551cc05">
+                      <SHORT-NAME>SP_SignalCounter4_MsgStructA_ECUA_Tx</SHORT-NAME>
+                      <COMMUNICATION-DIRECTION>OUT</COMMUNICATION-DIRECTION>
+                    </I-SIGNAL-PORT>
+                    <I-SIGNAL-PORT UUID="30c16f24-d559-4d3b-9db0-387cb2db2d0f">
+                      <SHORT-NAME>SP_SignalCrc8_MsgStructA_ECUA_Tx</SHORT-NAME>
+                      <COMMUNICATION-DIRECTION>OUT</COMMUNICATION-DIRECTION>
+                    </I-SIGNAL-PORT>
+                  </ECU-COMM-PORT-INSTANCES>
+                </CAN-COMMUNICATION-CONNECTOR>
+              </CONNECTORS>
+              <SLEEP-MODE-SUPPORTED>false</SLEEP-MODE-SUPPORTED>
+              <WAKE-UP-OVER-BUS-SUPPORTED>false</WAKE-UP-OVER-BUS-SUPPORTED>
+            </ECU-INSTANCE>
+            <ECU-INSTANCE UUID="f0de8efb-bf0f-4cc0-9adf-99aedaeafb74">
+              <SHORT-NAME>ECUB</SHORT-NAME>
+              <COM-CONFIGURATION-GW-TIME-BASE>0.005</COM-CONFIGURATION-GW-TIME-BASE>
+              <COM-CONFIGURATION-RX-TIME-BASE>0.005</COM-CONFIGURATION-RX-TIME-BASE>
+              <COM-CONFIGURATION-TX-TIME-BASE>0.005</COM-CONFIGURATION-TX-TIME-BASE>
+              <COMM-CONTROLLERS>
+                <CAN-COMMUNICATION-CONTROLLER UUID="5a38ccac-c9f5-4839-8743-401c0aec7103">
+                  <SHORT-NAME>CanChannel_0_ECUB</SHORT-NAME>
+                  <CAN-COMMUNICATION-CONTROLLER-VARIANTS>
+                    <CAN-COMMUNICATION-CONTROLLER-CONDITIONAL>
+                      <WAKE-UP-BY-CONTROLLER-SUPPORTED>false</WAKE-UP-BY-CONTROLLER-SUPPORTED>
+                      <CAN-CONTROLLER-ATTRIBUTES>
+                        <CAN-CONTROLLER-CONFIGURATION>
+                          <SYNC-JUMP-WIDTH>0</SYNC-JUMP-WIDTH>
+                          <TIME-SEG-1>20</TIME-SEG-1>
+                          <TIME-SEG-2>10</TIME-SEG-2>
+                        </CAN-CONTROLLER-CONFIGURATION>
+                      </CAN-CONTROLLER-ATTRIBUTES>
+                    </CAN-COMMUNICATION-CONTROLLER-CONDITIONAL>
+                  </CAN-COMMUNICATION-CONTROLLER-VARIANTS>
+                </CAN-COMMUNICATION-CONTROLLER>
+              </COMM-CONTROLLERS>
+              <CONNECTORS>
+                <CAN-COMMUNICATION-CONNECTOR UUID="c20941ad-f161-4550-8773-195939f31443">
+                  <SHORT-NAME>CanChannel_0_ECUB_conn</SHORT-NAME>
+                  <COMM-CONTROLLER-REF DEST="CAN-COMMUNICATION-CONTROLLER">/SystemInfo/EcuInstances/ECUB/CanChannel_0_ECUB</COMM-CONTROLLER-REF>
+                  <ECU-COMM-PORT-INSTANCES>
+                    <FRAME-PORT UUID="7b08c75c-152f-45b2-8de3-c3342c86fa3a">
+                      <SHORT-NAME>FP_MsgStructA_ECUB_Rx</SHORT-NAME>
+                      <COMMUNICATION-DIRECTION>IN</COMMUNICATION-DIRECTION>
+                    </FRAME-PORT>
+                    <I-PDU-PORT UUID="4d1ec8d3-7851-4483-909e-0a6d82646e15">
+                      <SHORT-NAME>PP_MsgStructA_ECUB_Rx</SHORT-NAME>
+                      <COMMUNICATION-DIRECTION>IN</COMMUNICATION-DIRECTION>
+                    </I-PDU-PORT>
+                    <I-SIGNAL-PORT UUID="8935ea7b-ad8c-4daa-ae00-081e0a09a44c">
+                      <SHORT-NAME>SP_SignalData8_MsgStructA_ECUB_Rx</SHORT-NAME>
+                      <COMMUNICATION-DIRECTION>IN</COMMUNICATION-DIRECTION>
+                    </I-SIGNAL-PORT>
+                    <I-SIGNAL-PORT UUID="e9000252-1eba-42f9-b3c1-6085658c8b73">
+                      <SHORT-NAME>SP_SignalData16_MsgStructA_ECUB_Rx</SHORT-NAME>
+                      <COMMUNICATION-DIRECTION>IN</COMMUNICATION-DIRECTION>
+                    </I-SIGNAL-PORT>
+                    <I-SIGNAL-PORT UUID="00d91f86-852d-4361-ab9e-59606ef61d8f">
+                      <SHORT-NAME>SP_SignalCounter4_MsgStructA_ECUB_Rx</SHORT-NAME>
+                      <COMMUNICATION-DIRECTION>IN</COMMUNICATION-DIRECTION>
+                    </I-SIGNAL-PORT>
+                    <I-SIGNAL-PORT UUID="5e14fca9-5dda-429b-80e4-1f78c618db4a">
+                      <SHORT-NAME>SP_SignalCrc8_MsgStructA_ECUB_Rx</SHORT-NAME>
+                      <COMMUNICATION-DIRECTION>IN</COMMUNICATION-DIRECTION>
+                    </I-SIGNAL-PORT>
+                  </ECU-COMM-PORT-INSTANCES>
+                </CAN-COMMUNICATION-CONNECTOR>
+              </CONNECTORS>
+              <SLEEP-MODE-SUPPORTED>false</SLEEP-MODE-SUPPORTED>
+              <WAKE-UP-OVER-BUS-SUPPORTED>false</WAKE-UP-OVER-BUS-SUPPORTED>
+            </ECU-INSTANCE>
+          </ELEMENTS>
+        </AR-PACKAGE>
+      </AR-PACKAGES>
+    </AR-PACKAGE>
+  </AR-PACKAGES>
+</AUTOSAR>

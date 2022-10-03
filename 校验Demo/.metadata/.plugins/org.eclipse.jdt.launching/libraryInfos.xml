@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<libraryInfos>
+<libraryInfo home="E:\SWC\v4.2-2.0.8\install\ORIENTAIS SWC Builder V4.2" version="1.8.0_333">
+<bootpath>
+<entry path="E:\SWC\v4.2-2.0.8\install\ORIENTAIS SWC Builder V4.2\jre\lib\resources.jar"/>
+<entry path="E:\SWC\v4.2-2.0.8\install\ORIENTAIS SWC Builder V4.2\jre\lib\rt.jar"/>
+<entry path="E:\SWC\v4.2-2.0.8\install\ORIENTAIS SWC Builder V4.2\jre\lib\sunrsasign.jar"/>
+<entry path="E:\SWC\v4.2-2.0.8\install\ORIENTAIS SWC Builder V4.2\jre\lib\jsse.jar"/>
+<entry path="E:\SWC\v4.2-2.0.8\install\ORIENTAIS SWC Builder V4.2\jre\lib\jce.jar"/>
+<entry path="E:\SWC\v4.2-2.0.8\install\ORIENTAIS SWC Builder V4.2\jre\lib\charsets.jar"/>
+<entry path="E:\SWC\v4.2-2.0.8\install\ORIENTAIS SWC Builder V4.2\jre\lib\jfr.jar"/>
+<entry path="E:\SWC\v4.2-2.0.8\install\ORIENTAIS SWC Builder V4.2\jre\classes"/>
+</bootpath>
+<extensionDirs>
+<entry path="E:\SWC\v4.2-2.0.8\install\ORIENTAIS SWC Builder V4.2\jre\lib\ext"/>
+<entry path="C:\Windows\Sun\Java\lib\ext"/>
+</extensionDirs>
+<endorsedDirs>
+<entry path="E:\SWC\v4.2-2.0.8\install\ORIENTAIS SWC Builder V4.2\jre\lib\endorsed"/>
+</endorsedDirs>
+</libraryInfo>
+<libraryInfo home="E:\SWC\v4.2-2.0.8\install\ORIENTAIS SWC Builder V4.2\jre" version="1.8.0_333">
+<bootpath>
+<entry path="E:\SWC\v4.2-2.0.8\install\ORIENTAIS SWC Builder V4.2\jre\lib\resources.jar"/>
+<entry path="E:\SWC\v4.2-2.0.8\install\ORIENTAIS SWC Builder V4.2\jre\lib\rt.jar"/>
+<entry path="E:\SWC\v4.2-2.0.8\install\ORIENTAIS SWC Builder V4.2\jre\lib\sunrsasign.jar"/>
+<entry path="E:\SWC\v4.2-2.0.8\install\ORIENTAIS SWC Builder V4.2\jre\lib\jsse.jar"/>
+<entry path="E:\SWC\v4.2-2.0.8\install\ORIENTAIS SWC Builder V4.2\jre\lib\jce.jar"/>
+<entry path="E:\SWC\v4.2-2.0.8\install\ORIENTAIS SWC Builder V4.2\jre\lib\charsets.jar"/>
+<entry path="E:\SWC\v4.2-2.0.8\install\ORIENTAIS SWC Builder V4.2\jre\lib\jfr.jar"/>
+<entry path="E:\SWC\v4.2-2.0.8\install\ORIENTAIS SWC Builder V4.2\jre\classes"/>
+</bootpath>
+<extensionDirs>
+<entry path="E:\SWC\v4.2-2.0.8\install\ORIENTAIS SWC Builder V4.2\jre\lib\ext"/>
+<entry path="C:\Windows\Sun\Java\lib\ext"/>
+</extensionDirs>
+<endorsedDirs>
+<entry path="E:\SWC\v4.2-2.0.8\install\ORIENTAIS SWC Builder V4.2\jre\lib\endorsed"/>
+</endorsedDirs>
+</libraryInfo>
+</libraryInfos>

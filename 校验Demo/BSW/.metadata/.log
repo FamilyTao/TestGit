@@ -1,0 +1,3014 @@
+!SESSION 2022-09-27 17:39:56.963 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.8.0_333
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=zh_CN
+Command-line arguments:  -os win32 -ws win32 -arch x86 -data D:\Desktop\私有库\Demo\TestGit\校验Demo\BSW
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-27 17:50:25.949
+!MESSAGE Module with instance Adc is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-27 17:50:25.954
+!MESSAGE Module with instance BswM is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-27 17:50:25.955
+!MESSAGE Module with instance Can is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-27 17:50:25.956
+!MESSAGE Module with instance CanIf is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-27 17:50:25.956
+!MESSAGE Module with instance CanNm is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-27 17:50:25.956
+!MESSAGE Module with instance CanSM is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-27 17:50:25.957
+!MESSAGE Module with instance CanTp is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-27 17:50:25.957
+!MESSAGE Module with instance CanTrcv is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-27 17:50:25.957
+!MESSAGE Module with instance CanTrcv_TLE9255W is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-27 17:50:25.957
+!MESSAGE Module with instance CanTSyn is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-27 17:50:25.958
+!MESSAGE Module with instance CDD_FOTA is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-27 17:50:25.958
+!MESSAGE Module with instance Com is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-27 17:50:25.958
+!MESSAGE Module with instance ComM is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-27 17:50:25.958
+!MESSAGE Module with instance Crc is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-27 17:50:25.959
+!MESSAGE Module with instance CryIf is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-27 17:50:25.959
+!MESSAGE Module with instance Crypto is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-27 17:50:25.959
+!MESSAGE Module with instance Csm is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-27 17:50:25.959
+!MESSAGE Module with instance Dcm is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-27 17:50:25.959
+!MESSAGE Module with instance Dem is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-27 17:50:25.960
+!MESSAGE Module with instance Det is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-27 17:50:25.960
+!MESSAGE Module with instance Dio is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-27 17:50:25.960
+!MESSAGE Module with instance Dlt is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-27 17:50:25.960
+!MESSAGE Module with instance DoIP is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-27 17:50:25.961
+!MESSAGE Module with instance E2E is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-27 17:50:25.961
+!MESSAGE Module with instance Ea is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-27 17:50:25.961
+!MESSAGE Module with instance EcuC is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-27 17:50:25.961
+!MESSAGE Module with instance EcuM is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-27 17:50:25.962
+!MESSAGE Module with instance Eep_M95320 is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-27 17:50:25.962
+!MESSAGE Module with instance Eth is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-27 17:50:25.962
+!MESSAGE Module with instance EthIf is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-27 17:50:25.962
+!MESSAGE Module with instance EthSM is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-27 17:50:25.963
+!MESSAGE Module with instance EthSwt is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-27 17:50:25.963
+!MESSAGE Module with instance EthTrcv is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-27 17:50:25.963
+!MESSAGE Module with instance EthTSyn is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-27 17:50:25.963
+!MESSAGE Module with instance Fee is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-27 17:50:25.964
+!MESSAGE Module with instance FiM is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-27 17:50:25.964
+!MESSAGE Module with instance Fls is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-27 17:50:25.965
+!MESSAGE Module with instance FlsTst is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-27 17:50:25.965
+!MESSAGE Module with instance Fr is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-27 17:50:25.965
+!MESSAGE Module with instance FrArTp is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-27 17:50:25.966
+!MESSAGE Module with instance FrIf is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-27 17:50:25.966
+!MESSAGE Module with instance FrNm is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-27 17:50:25.966
+!MESSAGE Module with instance FrSM is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-27 17:50:25.966
+!MESSAGE Module with instance Gpt is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-27 17:50:25.967
+!MESSAGE Module with instance Icu is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-27 17:50:25.967
+!MESSAGE Module with instance IoHwAb is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-27 17:50:25.967
+!MESSAGE Module with instance IpduM is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-27 17:50:25.967
+!MESSAGE Module with instance J1939Dcm is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-27 17:50:25.968
+!MESSAGE Module with instance J1939Nm is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-27 17:50:25.968
+!MESSAGE Module with instance J1939Rm is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-27 17:50:25.968
+!MESSAGE Module with instance J1939Tp is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-27 17:50:25.968
+!MESSAGE Module with instance KeyM is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-27 17:50:25.969
+!MESSAGE Module with instance LdCom is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-27 17:50:25.969
+!MESSAGE Module with instance Lin is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-27 17:50:25.969
+!MESSAGE Module with instance LinIf is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-27 17:50:25.969
+!MESSAGE Module with instance LinNm is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-27 17:50:25.970
+!MESSAGE Module with instance LinSM is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-27 17:50:25.970
+!MESSAGE Module with instance LinTrcv is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-27 17:50:25.970
+!MESSAGE Module with instance Mcu is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-27 17:50:25.971
+!MESSAGE Module with instance MemIf is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-27 17:50:25.971
+!MESSAGE Module with instance Nm is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-27 17:50:25.971
+!MESSAGE Module with instance NvM is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-27 17:50:25.971
+!MESSAGE Module with instance Os is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-27 17:50:25.972
+!MESSAGE Module with instance OsekNm is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-27 17:50:25.972
+!MESSAGE Module with instance PduR is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-27 17:50:25.972
+!MESSAGE Module with instance Port is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-27 17:50:25.972
+!MESSAGE Module with instance Pwm is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-27 17:50:25.972
+!MESSAGE Module with instance Pwm is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-27 17:50:25.973
+!MESSAGE Module with instance RamTst is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-27 17:50:25.973
+!MESSAGE Module with instance Sd is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-27 17:50:25.973
+!MESSAGE Module with instance SecOC is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-27 17:50:25.974
+!MESSAGE Module with instance SoAd is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-27 17:50:25.974
+!MESSAGE Module with instance SomeIpTp is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-27 17:50:25.974
+!MESSAGE Module with instance Spi is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-27 17:50:25.974
+!MESSAGE Module with instance StbM is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-27 17:50:25.975
+!MESSAGE Module with instance TcpIp is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-27 17:50:25.975
+!MESSAGE Module with instance Tm is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-27 17:50:25.975
+!MESSAGE Module with instance UdpNm is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-27 17:50:25.975
+!MESSAGE Module with instance Wdg is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-27 17:50:25.976
+!MESSAGE Module with instance WdgIf is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-27 17:50:25.976
+!MESSAGE Module with instance WdgM is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-27 17:50:25.976
+!MESSAGE Module with instance Xcp is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-27 17:50:25.976
+!MESSAGE Module with instance Xfrm is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-27 17:50:25.977
+!MESSAGE Module with instance Rte is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-27 17:50:38.966
+!MESSAGE Module with instance Adc is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-27 17:50:38.967
+!MESSAGE Module with instance BswM is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-27 17:50:38.967
+!MESSAGE Module with instance Can is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-27 17:50:38.967
+!MESSAGE Module with instance CanIf is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-27 17:50:38.967
+!MESSAGE Module with instance CanNm is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-27 17:50:38.968
+!MESSAGE Module with instance CanSM is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-27 17:50:38.968
+!MESSAGE Module with instance CanTp is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-27 17:50:38.968
+!MESSAGE Module with instance CanTrcv is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-27 17:50:38.968
+!MESSAGE Module with instance CanTrcv_TLE9255W is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-27 17:50:38.968
+!MESSAGE Module with instance CanTSyn is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-27 17:50:38.969
+!MESSAGE Module with instance CDD_FOTA is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-27 17:50:38.969
+!MESSAGE Module with instance Com is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-27 17:50:38.969
+!MESSAGE Module with instance ComM is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-27 17:50:38.969
+!MESSAGE Module with instance Crc is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-27 17:50:38.969
+!MESSAGE Module with instance CryIf is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-27 17:50:38.970
+!MESSAGE Module with instance Crypto is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-27 17:50:38.970
+!MESSAGE Module with instance Csm is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-27 17:50:38.970
+!MESSAGE Module with instance Dcm is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-27 17:50:38.970
+!MESSAGE Module with instance Dem is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-27 17:50:38.971
+!MESSAGE Module with instance Det is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-27 17:50:38.971
+!MESSAGE Module with instance Dio is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-27 17:50:38.971
+!MESSAGE Module with instance Dlt is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-27 17:50:38.971
+!MESSAGE Module with instance DoIP is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-27 17:50:38.971
+!MESSAGE Module with instance E2E is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-27 17:50:38.972
+!MESSAGE Module with instance Ea is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-27 17:50:38.972
+!MESSAGE Module with instance EcuC is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-27 17:50:38.972
+!MESSAGE Module with instance EcuM is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-27 17:50:38.972
+!MESSAGE Module with instance Eep_M95320 is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-27 17:50:38.972
+!MESSAGE Module with instance Eth is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-27 17:50:38.973
+!MESSAGE Module with instance EthIf is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-27 17:50:38.973
+!MESSAGE Module with instance EthSM is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-27 17:50:38.973
+!MESSAGE Module with instance EthSwt is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-27 17:50:38.973
+!MESSAGE Module with instance EthTrcv is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-27 17:50:38.974
+!MESSAGE Module with instance EthTSyn is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-27 17:50:38.974
+!MESSAGE Module with instance Fee is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-27 17:50:38.974
+!MESSAGE Module with instance FiM is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-27 17:50:38.974
+!MESSAGE Module with instance Fls is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-27 17:50:38.975
+!MESSAGE Module with instance FlsTst is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-27 17:50:38.975
+!MESSAGE Module with instance Fr is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-27 17:50:38.975
+!MESSAGE Module with instance FrArTp is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-27 17:50:38.975
+!MESSAGE Module with instance FrIf is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-27 17:50:38.976
+!MESSAGE Module with instance FrNm is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-27 17:50:38.976
+!MESSAGE Module with instance FrSM is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-27 17:50:38.976
+!MESSAGE Module with instance Gpt is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-27 17:50:38.976
+!MESSAGE Module with instance Icu is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-27 17:50:38.977
+!MESSAGE Module with instance IoHwAb is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-27 17:50:38.977
+!MESSAGE Module with instance IpduM is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-27 17:50:38.977
+!MESSAGE Module with instance J1939Dcm is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-27 17:50:38.977
+!MESSAGE Module with instance J1939Nm is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-27 17:50:38.978
+!MESSAGE Module with instance J1939Rm is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-27 17:50:38.978
+!MESSAGE Module with instance J1939Tp is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-27 17:50:38.978
+!MESSAGE Module with instance KeyM is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-27 17:50:38.979
+!MESSAGE Module with instance LdCom is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-27 17:50:38.979
+!MESSAGE Module with instance Lin is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-27 17:50:38.979
+!MESSAGE Module with instance LinIf is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-27 17:50:38.980
+!MESSAGE Module with instance LinNm is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-27 17:50:38.980
+!MESSAGE Module with instance LinSM is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-27 17:50:38.980
+!MESSAGE Module with instance LinTrcv is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-27 17:50:38.981
+!MESSAGE Module with instance Mcu is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-27 17:50:38.981
+!MESSAGE Module with instance MemIf is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-27 17:50:38.982
+!MESSAGE Module with instance Nm is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-27 17:50:38.982
+!MESSAGE Module with instance NvM is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-27 17:50:38.983
+!MESSAGE Module with instance Os is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-27 17:50:38.983
+!MESSAGE Module with instance OsekNm is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-27 17:50:38.983
+!MESSAGE Module with instance PduR is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-27 17:50:38.984
+!MESSAGE Module with instance Port is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-27 17:50:38.984
+!MESSAGE Module with instance Pwm is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-27 17:50:38.985
+!MESSAGE Module with instance Pwm is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-27 17:50:38.985
+!MESSAGE Module with instance RamTst is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-27 17:50:38.985
+!MESSAGE Module with instance Sd is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-27 17:50:38.985
+!MESSAGE Module with instance SecOC is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-27 17:50:38.986
+!MESSAGE Module with instance SoAd is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-27 17:50:38.986
+!MESSAGE Module with instance SomeIpTp is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-27 17:50:38.986
+!MESSAGE Module with instance Spi is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-27 17:50:38.987
+!MESSAGE Module with instance StbM is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-27 17:50:38.987
+!MESSAGE Module with instance TcpIp is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-27 17:50:38.987
+!MESSAGE Module with instance Tm is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-27 17:50:38.988
+!MESSAGE Module with instance UdpNm is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-27 17:50:38.988
+!MESSAGE Module with instance Wdg is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-27 17:50:38.988
+!MESSAGE Module with instance WdgIf is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-27 17:50:38.989
+!MESSAGE Module with instance WdgM is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-27 17:50:38.989
+!MESSAGE Module with instance Xcp is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-27 17:50:38.989
+!MESSAGE Module with instance Xfrm is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-27 17:50:38.989
+!MESSAGE Module with instance Rte is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-27 17:50:44.449
+!MESSAGE Module with instance Adc is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-27 17:50:44.450
+!MESSAGE Module with instance BswM is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-27 17:50:44.450
+!MESSAGE Module with instance Can is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-27 17:50:44.450
+!MESSAGE Module with instance CanIf is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-27 17:50:44.450
+!MESSAGE Module with instance CanNm is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-27 17:50:44.451
+!MESSAGE Module with instance CanSM is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-27 17:50:44.451
+!MESSAGE Module with instance CanTp is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-27 17:50:44.451
+!MESSAGE Module with instance CanTrcv is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-27 17:50:44.451
+!MESSAGE Module with instance CanTrcv_TLE9255W is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-27 17:50:44.452
+!MESSAGE Module with instance CanTSyn is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-27 17:50:44.452
+!MESSAGE Module with instance CDD_FOTA is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-27 17:50:44.452
+!MESSAGE Module with instance Com is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-27 17:50:44.452
+!MESSAGE Module with instance ComM is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-27 17:50:44.452
+!MESSAGE Module with instance Crc is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-27 17:50:44.453
+!MESSAGE Module with instance CryIf is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-27 17:50:44.453
+!MESSAGE Module with instance Crypto is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-27 17:50:44.453
+!MESSAGE Module with instance Csm is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-27 17:50:44.453
+!MESSAGE Module with instance Dcm is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-27 17:50:44.453
+!MESSAGE Module with instance Dem is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-27 17:50:44.454
+!MESSAGE Module with instance Det is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-27 17:50:44.454
+!MESSAGE Module with instance Dio is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-27 17:50:44.454
+!MESSAGE Module with instance Dlt is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-27 17:50:44.454
+!MESSAGE Module with instance DoIP is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-27 17:50:44.455
+!MESSAGE Module with instance E2E is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-27 17:50:44.455
+!MESSAGE Module with instance Ea is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-27 17:50:44.456
+!MESSAGE Module with instance EcuM is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-27 17:50:44.456
+!MESSAGE Module with instance Eep_M95320 is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-27 17:50:44.456
+!MESSAGE Module with instance Eth is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-27 17:50:44.456
+!MESSAGE Module with instance EthIf is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-27 17:50:44.457
+!MESSAGE Module with instance EthSM is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-27 17:50:44.457
+!MESSAGE Module with instance EthSwt is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-27 17:50:44.457
+!MESSAGE Module with instance EthTrcv is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-27 17:50:44.457
+!MESSAGE Module with instance EthTSyn is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-27 17:50:44.457
+!MESSAGE Module with instance Fee is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-27 17:50:44.458
+!MESSAGE Module with instance FiM is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-27 17:50:44.458
+!MESSAGE Module with instance Fls is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-27 17:50:44.458
+!MESSAGE Module with instance FlsTst is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-27 17:50:44.458
+!MESSAGE Module with instance Fr is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-27 17:50:44.459
+!MESSAGE Module with instance FrArTp is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-27 17:50:44.459
+!MESSAGE Module with instance FrIf is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-27 17:50:44.459
+!MESSAGE Module with instance FrNm is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-27 17:50:44.459
+!MESSAGE Module with instance FrSM is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-27 17:50:44.459
+!MESSAGE Module with instance Gpt is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-27 17:50:44.460
+!MESSAGE Module with instance Icu is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-27 17:50:44.460
+!MESSAGE Module with instance IoHwAb is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-27 17:50:44.460
+!MESSAGE Module with instance IpduM is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-27 17:50:44.460
+!MESSAGE Module with instance J1939Dcm is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-27 17:50:44.460
+!MESSAGE Module with instance J1939Nm is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-27 17:50:44.461
+!MESSAGE Module with instance J1939Rm is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-27 17:50:44.461
+!MESSAGE Module with instance J1939Tp is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-27 17:50:44.461
+!MESSAGE Module with instance KeyM is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-27 17:50:44.461
+!MESSAGE Module with instance LdCom is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-27 17:50:44.462
+!MESSAGE Module with instance Lin is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-27 17:50:44.462
+!MESSAGE Module with instance LinIf is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-27 17:50:44.462
+!MESSAGE Module with instance LinNm is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-27 17:50:44.462
+!MESSAGE Module with instance LinSM is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-27 17:50:44.463
+!MESSAGE Module with instance LinTrcv is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-27 17:50:44.463
+!MESSAGE Module with instance Mcu is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-27 17:50:44.463
+!MESSAGE Module with instance MemIf is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-27 17:50:44.463
+!MESSAGE Module with instance Nm is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-27 17:50:44.464
+!MESSAGE Module with instance NvM is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-27 17:50:44.464
+!MESSAGE Module with instance OsekNm is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-27 17:50:44.464
+!MESSAGE Module with instance Port is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-27 17:50:44.464
+!MESSAGE Module with instance Pwm is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-27 17:50:44.465
+!MESSAGE Module with instance Pwm is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-27 17:50:44.465
+!MESSAGE Module with instance RamTst is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-27 17:50:44.465
+!MESSAGE Module with instance Sd is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-27 17:50:44.465
+!MESSAGE Module with instance SecOC is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-27 17:50:44.466
+!MESSAGE Module with instance SoAd is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-27 17:50:44.466
+!MESSAGE Module with instance SomeIpTp is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-27 17:50:44.466
+!MESSAGE Module with instance Spi is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-27 17:50:44.466
+!MESSAGE Module with instance StbM is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-27 17:50:44.466
+!MESSAGE Module with instance TcpIp is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-27 17:50:44.467
+!MESSAGE Module with instance Tm is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-27 17:50:44.467
+!MESSAGE Module with instance UdpNm is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-27 17:50:44.467
+!MESSAGE Module with instance Wdg is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-27 17:50:44.467
+!MESSAGE Module with instance WdgIf is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-27 17:50:44.467
+!MESSAGE Module with instance WdgM is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-27 17:50:44.468
+!MESSAGE Module with instance Xcp is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-27 17:50:44.468
+!MESSAGE Module with instance Xfrm is not available in the current ECU
+
+!ENTRY org.eclipse.sphinx.emf 2 0 2022-09-27 17:50:48.034
+!MESSAGE RuntimeException occurred when invoking code from plug-in "org.eclipse.sphinx.emf": Meta-model NsURI Pattern "http://autosar\.org/2\.1\.\d(/\w+)+" is not unique..
+!STACK 0
+java.lang.RuntimeException: Meta-model NsURI Pattern "http://autosar\.org/2\.1\.\d(/\w+)+" is not unique.
+	at org.eclipse.sphinx.emf.edit.ResourceLocatorRegistry.readContribution(ResourceLocatorRegistry.java:91)
+	at org.eclipse.sphinx.emf.edit.ResourceLocatorRegistry.readRegistry(ResourceLocatorRegistry.java:74)
+	at org.eclipse.sphinx.emf.edit.ResourceLocatorRegistry.<init>(ResourceLocatorRegistry.java:53)
+	at org.eclipse.sphinx.emf.edit.ResourceLocatorRegistry.<clinit>(ResourceLocatorRegistry.java:38)
+	at autosar40.ecucdescription.providers.EcucModuleConfigurationValuesItemProvider.getImage(EcucModuleConfigurationValuesItemProvider.java:237)
+	at org.eclipse.emf.edit.provider.AdapterFactoryItemDelegator.getImage(AdapterFactoryItemDelegator.java:113)
+	at org.eclipse.sphinx.emf.editors.forms.BasicTransactionalFormEditor.getEditorInputImage(BasicTransactionalFormEditor.java:628)
+	at org.eclipse.sphinx.emf.editors.forms.BasicTransactionalFormEditor.init(BasicTransactionalFormEditor.java:318)
+	at cn.com.isoft.pal.ui.editors.AbstractBuilderForRteEditor.init(AbstractBuilderForRteEditor.java:156)
+	at cn.com.isoft.bswbuilder.ui.editor.BswBuilderRteEditor.init(BswBuilderRteEditor.java:109)
+	at org.eclipse.ui.internal.EditorReference.initialize(EditorReference.java:361)
+	at org.eclipse.ui.internal.e4.compatibility.CompatibilityPart.create(CompatibilityPart.java:319)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:56)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.processAnnotated(InjectorImpl.java:898)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.processAnnotated(InjectorImpl.java:879)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.inject(InjectorImpl.java:121)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.internalMake(InjectorImpl.java:345)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.make(InjectorImpl.java:264)
+	at org.eclipse.e4.core.contexts.ContextInjectionFactory.make(ContextInjectionFactory.java:162)
+	at org.eclipse.e4.ui.internal.workbench.ReflectionContributionFactory.createFromBundle(ReflectionContributionFactory.java:104)
+	at org.eclipse.e4.ui.internal.workbench.ReflectionContributionFactory.doCreate(ReflectionContributionFactory.java:73)
+	at org.eclipse.e4.ui.internal.workbench.ReflectionContributionFactory.create(ReflectionContributionFactory.java:55)
+	at org.eclipse.e4.ui.workbench.renderers.swt.ContributedPartRenderer.createWidget(ContributedPartRenderer.java:129)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createWidget(PartRenderingEngine.java:971)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:640)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:746)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.access$0(PartRenderingEngine.java:717)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:711)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:695)
+	at org.eclipse.e4.ui.internal.workbench.PartServiceImpl$1.handleEvent(PartServiceImpl.java:99)
+	at org.eclipse.e4.ui.services.internal.events.UIEventHandler$1.run(UIEventHandler.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.syncExec(Synchronizer.java:186)
+	at org.eclipse.ui.internal.UISynchronizer.syncExec(UISynchronizer.java:145)
+	at org.eclipse.swt.widgets.Display.syncExec(Display.java:4761)
+	at org.eclipse.e4.ui.internal.workbench.swt.E4Application$1.syncExec(E4Application.java:211)
+	at org.eclipse.e4.ui.services.internal.events.UIEventHandler.handleEvent(UIEventHandler.java:36)
+	at org.eclipse.equinox.internal.event.EventHandlerWrapper.handleEvent(EventHandlerWrapper.java:197)
+	at org.eclipse.equinox.internal.event.EventHandlerTracker.dispatchEvent(EventHandlerTracker.java:197)
+	at org.eclipse.equinox.internal.event.EventHandlerTracker.dispatchEvent(EventHandlerTracker.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.ListenerQueue.dispatchEventSynchronous(ListenerQueue.java:148)
+	at org.eclipse.equinox.internal.event.EventAdminImpl.dispatchEvent(EventAdminImpl.java:135)
+	at org.eclipse.equinox.internal.event.EventAdminImpl.sendEvent(EventAdminImpl.java:78)
+	at org.eclipse.equinox.internal.event.EventComponent.sendEvent(EventComponent.java:39)
+	at org.eclipse.e4.ui.services.internal.events.EventBroker.send(EventBroker.java:85)
+	at org.eclipse.e4.ui.internal.workbench.UIEventPublisher.notifyChanged(UIEventPublisher.java:59)
+	at org.eclipse.emf.common.notify.impl.BasicNotifierImpl.eNotify(BasicNotifierImpl.java:374)
+	at org.eclipse.e4.ui.model.application.ui.impl.ElementContainerImpl.setSelectedElement(ElementContainerImpl.java:171)
+	at org.eclipse.e4.ui.internal.workbench.ModelServiceImpl.showElementInWindow(ModelServiceImpl.java:572)
+	at org.eclipse.e4.ui.internal.workbench.ModelServiceImpl.bringToTop(ModelServiceImpl.java:536)
+	at org.eclipse.e4.ui.internal.workbench.PartServiceImpl.delegateBringToTop(PartServiceImpl.java:724)
+	at org.eclipse.e4.ui.internal.workbench.PartServiceImpl.bringToTop(PartServiceImpl.java:396)
+	at org.eclipse.e4.ui.internal.workbench.PartServiceImpl.showPart(PartServiceImpl.java:1166)
+	at org.eclipse.ui.internal.WorkbenchPage.busyOpenEditor(WorkbenchPage.java:3252)
+	at org.eclipse.ui.internal.WorkbenchPage.access$25(WorkbenchPage.java:3167)
+	at org.eclipse.ui.internal.WorkbenchPage$10.run(WorkbenchPage.java:3149)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:70)
+	at org.eclipse.ui.internal.WorkbenchPage.openEditor(WorkbenchPage.java:3144)
+	at org.eclipse.ui.internal.WorkbenchPage.openEditor(WorkbenchPage.java:3108)
+	at org.eclipse.ui.internal.WorkbenchPage.openEditor(WorkbenchPage.java:3098)
+	at org.eclipse.ui.ide.IDE.openEditor(IDE.java:472)
+	at cn.com.isoft.pal.utils.GUIUtil.openEditor(GUIUtil.java:135)
+	at cn.com.isoft.bswbuilder.ui.actions.OpenRteEditorAction.run(OpenRteEditorAction.java:41)
+	at org.eclipse.jface.action.Action.runWithEvent(Action.java:473)
+	at org.eclipse.jface.action.ActionContributionItem.handleWidgetSelection(ActionContributionItem.java:595)
+	at org.eclipse.jface.action.ActionContributionItem.access$2(ActionContributionItem.java:511)
+	at org.eclipse.jface.action.ActionContributionItem$5.handleEvent(ActionContributionItem.java:420)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4362)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1113)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4180)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3769)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$4.run(PartRenderingEngine.java:1127)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:337)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1018)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:156)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:694)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:337)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:606)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:150)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:139)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:380)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:235)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:669)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:608)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1515)
+!SUBENTRY 1 org.eclipse.sphinx.emf 2 0 2022-09-27 17:50:48.038
+!MESSAGE Meta-model NsURI Pattern "http://autosar\.org/2\.1\.\d(/\w+)+" is not unique.
+!STACK 0
+java.lang.RuntimeException: Meta-model NsURI Pattern "http://autosar\.org/2\.1\.\d(/\w+)+" is not unique.
+	at org.eclipse.sphinx.emf.edit.ResourceLocatorRegistry.readContribution(ResourceLocatorRegistry.java:91)
+	at org.eclipse.sphinx.emf.edit.ResourceLocatorRegistry.readRegistry(ResourceLocatorRegistry.java:74)
+	at org.eclipse.sphinx.emf.edit.ResourceLocatorRegistry.<init>(ResourceLocatorRegistry.java:53)
+	at org.eclipse.sphinx.emf.edit.ResourceLocatorRegistry.<clinit>(ResourceLocatorRegistry.java:38)
+	at autosar40.ecucdescription.providers.EcucModuleConfigurationValuesItemProvider.getImage(EcucModuleConfigurationValuesItemProvider.java:237)
+	at org.eclipse.emf.edit.provider.AdapterFactoryItemDelegator.getImage(AdapterFactoryItemDelegator.java:113)
+	at org.eclipse.sphinx.emf.editors.forms.BasicTransactionalFormEditor.getEditorInputImage(BasicTransactionalFormEditor.java:628)
+	at org.eclipse.sphinx.emf.editors.forms.BasicTransactionalFormEditor.init(BasicTransactionalFormEditor.java:318)
+	at cn.com.isoft.pal.ui.editors.AbstractBuilderForRteEditor.init(AbstractBuilderForRteEditor.java:156)
+	at cn.com.isoft.bswbuilder.ui.editor.BswBuilderRteEditor.init(BswBuilderRteEditor.java:109)
+	at org.eclipse.ui.internal.EditorReference.initialize(EditorReference.java:361)
+	at org.eclipse.ui.internal.e4.compatibility.CompatibilityPart.create(CompatibilityPart.java:319)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:56)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.processAnnotated(InjectorImpl.java:898)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.processAnnotated(InjectorImpl.java:879)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.inject(InjectorImpl.java:121)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.internalMake(InjectorImpl.java:345)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.make(InjectorImpl.java:264)
+	at org.eclipse.e4.core.contexts.ContextInjectionFactory.make(ContextInjectionFactory.java:162)
+	at org.eclipse.e4.ui.internal.workbench.ReflectionContributionFactory.createFromBundle(ReflectionContributionFactory.java:104)
+	at org.eclipse.e4.ui.internal.workbench.ReflectionContributionFactory.doCreate(ReflectionContributionFactory.java:73)
+	at org.eclipse.e4.ui.internal.workbench.ReflectionContributionFactory.create(ReflectionContributionFactory.java:55)
+	at org.eclipse.e4.ui.workbench.renderers.swt.ContributedPartRenderer.createWidget(ContributedPartRenderer.java:129)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createWidget(PartRenderingEngine.java:971)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:640)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:746)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.access$0(PartRenderingEngine.java:717)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:711)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:695)
+	at org.eclipse.e4.ui.internal.workbench.PartServiceImpl$1.handleEvent(PartServiceImpl.java:99)
+	at org.eclipse.e4.ui.services.internal.events.UIEventHandler$1.run(UIEventHandler.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.syncExec(Synchronizer.java:186)
+	at org.eclipse.ui.internal.UISynchronizer.syncExec(UISynchronizer.java:145)
+	at org.eclipse.swt.widgets.Display.syncExec(Display.java:4761)
+	at org.eclipse.e4.ui.internal.workbench.swt.E4Application$1.syncExec(E4Application.java:211)
+	at org.eclipse.e4.ui.services.internal.events.UIEventHandler.handleEvent(UIEventHandler.java:36)
+	at org.eclipse.equinox.internal.event.EventHandlerWrapper.handleEvent(EventHandlerWrapper.java:197)
+	at org.eclipse.equinox.internal.event.EventHandlerTracker.dispatchEvent(EventHandlerTracker.java:197)
+	at org.eclipse.equinox.internal.event.EventHandlerTracker.dispatchEvent(EventHandlerTracker.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.ListenerQueue.dispatchEventSynchronous(ListenerQueue.java:148)
+	at org.eclipse.equinox.internal.event.EventAdminImpl.dispatchEvent(EventAdminImpl.java:135)
+	at org.eclipse.equinox.internal.event.EventAdminImpl.sendEvent(EventAdminImpl.java:78)
+	at org.eclipse.equinox.internal.event.EventComponent.sendEvent(EventComponent.java:39)
+	at org.eclipse.e4.ui.services.internal.events.EventBroker.send(EventBroker.java:85)
+	at org.eclipse.e4.ui.internal.workbench.UIEventPublisher.notifyChanged(UIEventPublisher.java:59)
+	at org.eclipse.emf.common.notify.impl.BasicNotifierImpl.eNotify(BasicNotifierImpl.java:374)
+	at org.eclipse.e4.ui.model.application.ui.impl.ElementContainerImpl.setSelectedElement(ElementContainerImpl.java:171)
+	at org.eclipse.e4.ui.internal.workbench.ModelServiceImpl.showElementInWindow(ModelServiceImpl.java:572)
+	at org.eclipse.e4.ui.internal.workbench.ModelServiceImpl.bringToTop(ModelServiceImpl.java:536)
+	at org.eclipse.e4.ui.internal.workbench.PartServiceImpl.delegateBringToTop(PartServiceImpl.java:724)
+	at org.eclipse.e4.ui.internal.workbench.PartServiceImpl.bringToTop(PartServiceImpl.java:396)
+	at org.eclipse.e4.ui.internal.workbench.PartServiceImpl.showPart(PartServiceImpl.java:1166)
+	at org.eclipse.ui.internal.WorkbenchPage.busyOpenEditor(WorkbenchPage.java:3252)
+	at org.eclipse.ui.internal.WorkbenchPage.access$25(WorkbenchPage.java:3167)
+	at org.eclipse.ui.internal.WorkbenchPage$10.run(WorkbenchPage.java:3149)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:70)
+	at org.eclipse.ui.internal.WorkbenchPage.openEditor(WorkbenchPage.java:3144)
+	at org.eclipse.ui.internal.WorkbenchPage.openEditor(WorkbenchPage.java:3108)
+	at org.eclipse.ui.internal.WorkbenchPage.openEditor(WorkbenchPage.java:3098)
+	at org.eclipse.ui.ide.IDE.openEditor(IDE.java:472)
+	at cn.com.isoft.pal.utils.GUIUtil.openEditor(GUIUtil.java:135)
+	at cn.com.isoft.bswbuilder.ui.actions.OpenRteEditorAction.run(OpenRteEditorAction.java:41)
+	at org.eclipse.jface.action.Action.runWithEvent(Action.java:473)
+	at org.eclipse.jface.action.ActionContributionItem.handleWidgetSelection(ActionContributionItem.java:595)
+	at org.eclipse.jface.action.ActionContributionItem.access$2(ActionContributionItem.java:511)
+	at org.eclipse.jface.action.ActionContributionItem$5.handleEvent(ActionContributionItem.java:420)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4362)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1113)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4180)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3769)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$4.run(PartRenderingEngine.java:1127)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:337)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1018)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:156)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:694)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:337)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:606)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:150)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:139)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:380)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:235)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:669)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:608)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1515)
+
+!ENTRY org.eclipse.sphinx.emf 2 0 2022-09-27 17:50:48.040
+!MESSAGE RuntimeException occurred when invoking code from plug-in "org.eclipse.sphinx.emf": Meta-model NsURI Pattern "http://autosar\.org/3\.1\.\d(/\w+)+" is not unique..
+!STACK 0
+java.lang.RuntimeException: Meta-model NsURI Pattern "http://autosar\.org/3\.1\.\d(/\w+)+" is not unique.
+	at org.eclipse.sphinx.emf.edit.ResourceLocatorRegistry.readContribution(ResourceLocatorRegistry.java:91)
+	at org.eclipse.sphinx.emf.edit.ResourceLocatorRegistry.readRegistry(ResourceLocatorRegistry.java:74)
+	at org.eclipse.sphinx.emf.edit.ResourceLocatorRegistry.<init>(ResourceLocatorRegistry.java:53)
+	at org.eclipse.sphinx.emf.edit.ResourceLocatorRegistry.<clinit>(ResourceLocatorRegistry.java:38)
+	at autosar40.ecucdescription.providers.EcucModuleConfigurationValuesItemProvider.getImage(EcucModuleConfigurationValuesItemProvider.java:237)
+	at org.eclipse.emf.edit.provider.AdapterFactoryItemDelegator.getImage(AdapterFactoryItemDelegator.java:113)
+	at org.eclipse.sphinx.emf.editors.forms.BasicTransactionalFormEditor.getEditorInputImage(BasicTransactionalFormEditor.java:628)
+	at org.eclipse.sphinx.emf.editors.forms.BasicTransactionalFormEditor.init(BasicTransactionalFormEditor.java:318)
+	at cn.com.isoft.pal.ui.editors.AbstractBuilderForRteEditor.init(AbstractBuilderForRteEditor.java:156)
+	at cn.com.isoft.bswbuilder.ui.editor.BswBuilderRteEditor.init(BswBuilderRteEditor.java:109)
+	at org.eclipse.ui.internal.EditorReference.initialize(EditorReference.java:361)
+	at org.eclipse.ui.internal.e4.compatibility.CompatibilityPart.create(CompatibilityPart.java:319)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:56)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.processAnnotated(InjectorImpl.java:898)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.processAnnotated(InjectorImpl.java:879)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.inject(InjectorImpl.java:121)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.internalMake(InjectorImpl.java:345)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.make(InjectorImpl.java:264)
+	at org.eclipse.e4.core.contexts.ContextInjectionFactory.make(ContextInjectionFactory.java:162)
+	at org.eclipse.e4.ui.internal.workbench.ReflectionContributionFactory.createFromBundle(ReflectionContributionFactory.java:104)
+	at org.eclipse.e4.ui.internal.workbench.ReflectionContributionFactory.doCreate(ReflectionContributionFactory.java:73)
+	at org.eclipse.e4.ui.internal.workbench.ReflectionContributionFactory.create(ReflectionContributionFactory.java:55)
+	at org.eclipse.e4.ui.workbench.renderers.swt.ContributedPartRenderer.createWidget(ContributedPartRenderer.java:129)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createWidget(PartRenderingEngine.java:971)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:640)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:746)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.access$0(PartRenderingEngine.java:717)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:711)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:695)
+	at org.eclipse.e4.ui.internal.workbench.PartServiceImpl$1.handleEvent(PartServiceImpl.java:99)
+	at org.eclipse.e4.ui.services.internal.events.UIEventHandler$1.run(UIEventHandler.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.syncExec(Synchronizer.java:186)
+	at org.eclipse.ui.internal.UISynchronizer.syncExec(UISynchronizer.java:145)
+	at org.eclipse.swt.widgets.Display.syncExec(Display.java:4761)
+	at org.eclipse.e4.ui.internal.workbench.swt.E4Application$1.syncExec(E4Application.java:211)
+	at org.eclipse.e4.ui.services.internal.events.UIEventHandler.handleEvent(UIEventHandler.java:36)
+	at org.eclipse.equinox.internal.event.EventHandlerWrapper.handleEvent(EventHandlerWrapper.java:197)
+	at org.eclipse.equinox.internal.event.EventHandlerTracker.dispatchEvent(EventHandlerTracker.java:197)
+	at org.eclipse.equinox.internal.event.EventHandlerTracker.dispatchEvent(EventHandlerTracker.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.ListenerQueue.dispatchEventSynchronous(ListenerQueue.java:148)
+	at org.eclipse.equinox.internal.event.EventAdminImpl.dispatchEvent(EventAdminImpl.java:135)
+	at org.eclipse.equinox.internal.event.EventAdminImpl.sendEvent(EventAdminImpl.java:78)
+	at org.eclipse.equinox.internal.event.EventComponent.sendEvent(EventComponent.java:39)
+	at org.eclipse.e4.ui.services.internal.events.EventBroker.send(EventBroker.java:85)
+	at org.eclipse.e4.ui.internal.workbench.UIEventPublisher.notifyChanged(UIEventPublisher.java:59)
+	at org.eclipse.emf.common.notify.impl.BasicNotifierImpl.eNotify(BasicNotifierImpl.java:374)
+	at org.eclipse.e4.ui.model.application.ui.impl.ElementContainerImpl.setSelectedElement(ElementContainerImpl.java:171)
+	at org.eclipse.e4.ui.internal.workbench.ModelServiceImpl.showElementInWindow(ModelServiceImpl.java:572)
+	at org.eclipse.e4.ui.internal.workbench.ModelServiceImpl.bringToTop(ModelServiceImpl.java:536)
+	at org.eclipse.e4.ui.internal.workbench.PartServiceImpl.delegateBringToTop(PartServiceImpl.java:724)
+	at org.eclipse.e4.ui.internal.workbench.PartServiceImpl.bringToTop(PartServiceImpl.java:396)
+	at org.eclipse.e4.ui.internal.workbench.PartServiceImpl.showPart(PartServiceImpl.java:1166)
+	at org.eclipse.ui.internal.WorkbenchPage.busyOpenEditor(WorkbenchPage.java:3252)
+	at org.eclipse.ui.internal.WorkbenchPage.access$25(WorkbenchPage.java:3167)
+	at org.eclipse.ui.internal.WorkbenchPage$10.run(WorkbenchPage.java:3149)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:70)
+	at org.eclipse.ui.internal.WorkbenchPage.openEditor(WorkbenchPage.java:3144)
+	at org.eclipse.ui.internal.WorkbenchPage.openEditor(WorkbenchPage.java:3108)
+	at org.eclipse.ui.internal.WorkbenchPage.openEditor(WorkbenchPage.java:3098)
+	at org.eclipse.ui.ide.IDE.openEditor(IDE.java:472)
+	at cn.com.isoft.pal.utils.GUIUtil.openEditor(GUIUtil.java:135)
+	at cn.com.isoft.bswbuilder.ui.actions.OpenRteEditorAction.run(OpenRteEditorAction.java:41)
+	at org.eclipse.jface.action.Action.runWithEvent(Action.java:473)
+	at org.eclipse.jface.action.ActionContributionItem.handleWidgetSelection(ActionContributionItem.java:595)
+	at org.eclipse.jface.action.ActionContributionItem.access$2(ActionContributionItem.java:511)
+	at org.eclipse.jface.action.ActionContributionItem$5.handleEvent(ActionContributionItem.java:420)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4362)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1113)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4180)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3769)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$4.run(PartRenderingEngine.java:1127)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:337)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1018)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:156)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:694)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:337)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:606)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:150)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:139)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:380)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:235)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:669)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:608)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1515)
+!SUBENTRY 1 org.eclipse.sphinx.emf 2 0 2022-09-27 17:50:48.041
+!MESSAGE Meta-model NsURI Pattern "http://autosar\.org/3\.1\.\d(/\w+)+" is not unique.
+!STACK 0
+java.lang.RuntimeException: Meta-model NsURI Pattern "http://autosar\.org/3\.1\.\d(/\w+)+" is not unique.
+	at org.eclipse.sphinx.emf.edit.ResourceLocatorRegistry.readContribution(ResourceLocatorRegistry.java:91)
+	at org.eclipse.sphinx.emf.edit.ResourceLocatorRegistry.readRegistry(ResourceLocatorRegistry.java:74)
+	at org.eclipse.sphinx.emf.edit.ResourceLocatorRegistry.<init>(ResourceLocatorRegistry.java:53)
+	at org.eclipse.sphinx.emf.edit.ResourceLocatorRegistry.<clinit>(ResourceLocatorRegistry.java:38)
+	at autosar40.ecucdescription.providers.EcucModuleConfigurationValuesItemProvider.getImage(EcucModuleConfigurationValuesItemProvider.java:237)
+	at org.eclipse.emf.edit.provider.AdapterFactoryItemDelegator.getImage(AdapterFactoryItemDelegator.java:113)
+	at org.eclipse.sphinx.emf.editors.forms.BasicTransactionalFormEditor.getEditorInputImage(BasicTransactionalFormEditor.java:628)
+	at org.eclipse.sphinx.emf.editors.forms.BasicTransactionalFormEditor.init(BasicTransactionalFormEditor.java:318)
+	at cn.com.isoft.pal.ui.editors.AbstractBuilderForRteEditor.init(AbstractBuilderForRteEditor.java:156)
+	at cn.com.isoft.bswbuilder.ui.editor.BswBuilderRteEditor.init(BswBuilderRteEditor.java:109)
+	at org.eclipse.ui.internal.EditorReference.initialize(EditorReference.java:361)
+	at org.eclipse.ui.internal.e4.compatibility.CompatibilityPart.create(CompatibilityPart.java:319)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:56)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.processAnnotated(InjectorImpl.java:898)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.processAnnotated(InjectorImpl.java:879)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.inject(InjectorImpl.java:121)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.internalMake(InjectorImpl.java:345)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.make(InjectorImpl.java:264)
+	at org.eclipse.e4.core.contexts.ContextInjectionFactory.make(ContextInjectionFactory.java:162)
+	at org.eclipse.e4.ui.internal.workbench.ReflectionContributionFactory.createFromBundle(ReflectionContributionFactory.java:104)
+	at org.eclipse.e4.ui.internal.workbench.ReflectionContributionFactory.doCreate(ReflectionContributionFactory.java:73)
+	at org.eclipse.e4.ui.internal.workbench.ReflectionContributionFactory.create(ReflectionContributionFactory.java:55)
+	at org.eclipse.e4.ui.workbench.renderers.swt.ContributedPartRenderer.createWidget(ContributedPartRenderer.java:129)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createWidget(PartRenderingEngine.java:971)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:640)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:746)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.access$0(PartRenderingEngine.java:717)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:711)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:695)
+	at org.eclipse.e4.ui.internal.workbench.PartServiceImpl$1.handleEvent(PartServiceImpl.java:99)
+	at org.eclipse.e4.ui.services.internal.events.UIEventHandler$1.run(UIEventHandler.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.syncExec(Synchronizer.java:186)
+	at org.eclipse.ui.internal.UISynchronizer.syncExec(UISynchronizer.java:145)
+	at org.eclipse.swt.widgets.Display.syncExec(Display.java:4761)
+	at org.eclipse.e4.ui.internal.workbench.swt.E4Application$1.syncExec(E4Application.java:211)
+	at org.eclipse.e4.ui.services.internal.events.UIEventHandler.handleEvent(UIEventHandler.java:36)
+	at org.eclipse.equinox.internal.event.EventHandlerWrapper.handleEvent(EventHandlerWrapper.java:197)
+	at org.eclipse.equinox.internal.event.EventHandlerTracker.dispatchEvent(EventHandlerTracker.java:197)
+	at org.eclipse.equinox.internal.event.EventHandlerTracker.dispatchEvent(EventHandlerTracker.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.ListenerQueue.dispatchEventSynchronous(ListenerQueue.java:148)
+	at org.eclipse.equinox.internal.event.EventAdminImpl.dispatchEvent(EventAdminImpl.java:135)
+	at org.eclipse.equinox.internal.event.EventAdminImpl.sendEvent(EventAdminImpl.java:78)
+	at org.eclipse.equinox.internal.event.EventComponent.sendEvent(EventComponent.java:39)
+	at org.eclipse.e4.ui.services.internal.events.EventBroker.send(EventBroker.java:85)
+	at org.eclipse.e4.ui.internal.workbench.UIEventPublisher.notifyChanged(UIEventPublisher.java:59)
+	at org.eclipse.emf.common.notify.impl.BasicNotifierImpl.eNotify(BasicNotifierImpl.java:374)
+	at org.eclipse.e4.ui.model.application.ui.impl.ElementContainerImpl.setSelectedElement(ElementContainerImpl.java:171)
+	at org.eclipse.e4.ui.internal.workbench.ModelServiceImpl.showElementInWindow(ModelServiceImpl.java:572)
+	at org.eclipse.e4.ui.internal.workbench.ModelServiceImpl.bringToTop(ModelServiceImpl.java:536)
+	at org.eclipse.e4.ui.internal.workbench.PartServiceImpl.delegateBringToTop(PartServiceImpl.java:724)
+	at org.eclipse.e4.ui.internal.workbench.PartServiceImpl.bringToTop(PartServiceImpl.java:396)
+	at org.eclipse.e4.ui.internal.workbench.PartServiceImpl.showPart(PartServiceImpl.java:1166)
+	at org.eclipse.ui.internal.WorkbenchPage.busyOpenEditor(WorkbenchPage.java:3252)
+	at org.eclipse.ui.internal.WorkbenchPage.access$25(WorkbenchPage.java:3167)
+	at org.eclipse.ui.internal.WorkbenchPage$10.run(WorkbenchPage.java:3149)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:70)
+	at org.eclipse.ui.internal.WorkbenchPage.openEditor(WorkbenchPage.java:3144)
+	at org.eclipse.ui.internal.WorkbenchPage.openEditor(WorkbenchPage.java:3108)
+	at org.eclipse.ui.internal.WorkbenchPage.openEditor(WorkbenchPage.java:3098)
+	at org.eclipse.ui.ide.IDE.openEditor(IDE.java:472)
+	at cn.com.isoft.pal.utils.GUIUtil.openEditor(GUIUtil.java:135)
+	at cn.com.isoft.bswbuilder.ui.actions.OpenRteEditorAction.run(OpenRteEditorAction.java:41)
+	at org.eclipse.jface.action.Action.runWithEvent(Action.java:473)
+	at org.eclipse.jface.action.ActionContributionItem.handleWidgetSelection(ActionContributionItem.java:595)
+	at org.eclipse.jface.action.ActionContributionItem.access$2(ActionContributionItem.java:511)
+	at org.eclipse.jface.action.ActionContributionItem$5.handleEvent(ActionContributionItem.java:420)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4362)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1113)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4180)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3769)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$4.run(PartRenderingEngine.java:1127)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:337)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1018)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:156)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:694)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:337)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:606)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:150)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:139)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:380)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:235)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:669)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:608)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1515)
+
+!ENTRY org.eclipse.emf.validation 2 70 2022-09-27 17:51:04.856
+!MESSAGE Constraint "cn.com.isoft.rtebuilder.validator.requiredobjects_4x" could not find target EMF type "ARObject."
+
+!ENTRY PalActivatorPlugin 4 4 2022-09-27 18:54:23.292
+!MESSAGE org.eclipse.swt.SWTException: Invalid thread access
+!STACK 0
+org.eclipse.swt.SWTException: Invalid thread access
+	at org.eclipse.swt.SWT.error(SWT.java:4491)
+	at org.eclipse.swt.SWT.error(SWT.java:4406)
+	at org.eclipse.swt.SWT.error(SWT.java:4377)
+	at org.eclipse.swt.widgets.Widget.error(Widget.java:482)
+	at org.eclipse.swt.widgets.Widget.checkWidget(Widget.java:373)
+	at org.eclipse.swt.widgets.Control.isVisible(Control.java:1953)
+	at cn.com.isoft.pal.ui.editors.pages.AutosarForRteFormPage.operationFinished(AutosarForRteFormPage.java:63)
+	at cn.com.isoft.bswbuilder.ui.editor.pages.RteBuilderEditorPage.operationFinished(RteBuilderEditorPage.java:141)
+	at cn.com.isoft.pal.ui.editors.AbstractBuilderForRteEditor.notifyOperationListeners(AbstractBuilderForRteEditor.java:191)
+	at cn.com.isoft.pal.ui.editors.AbstractBuilderForRteEditor.access$1(AbstractBuilderForRteEditor.java:189)
+	at cn.com.isoft.pal.ui.editors.AbstractBuilderForRteEditor$3.resourceSetChanged(AbstractBuilderForRteEditor.java:177)
+	at org.eclipse.emf.transaction.impl.TransactionalEditingDomainImpl$1.run(TransactionalEditingDomainImpl.java:781)
+	at org.eclipse.emf.transaction.impl.TransactionalEditingDomainImpl.runExclusive(TransactionalEditingDomainImpl.java:328)
+	at org.eclipse.emf.transaction.impl.TransactionalEditingDomainImpl.postcommit(TransactionalEditingDomainImpl.java:771)
+	at org.eclipse.emf.transaction.impl.TransactionalEditingDomainImpl.deactivate(TransactionalEditingDomainImpl.java:543)
+	at org.eclipse.emf.transaction.impl.TransactionImpl.close(TransactionImpl.java:712)
+	at org.eclipse.emf.transaction.impl.TransactionImpl.commit(TransactionImpl.java:474)
+	at org.eclipse.emf.transaction.impl.TransactionalEditingDomainImpl.runExclusive(TransactionalEditingDomainImpl.java:333)
+	at org.eclipse.sphinx.emf.workspace.loading.operations.AbstractLoadOperation.runReloadModelFiles(AbstractLoadOperation.java:464)
+	at org.eclipse.sphinx.emf.workspace.loading.operations.AbstractLoadOperation.runDetectAndReloadModelFiles(AbstractLoadOperation.java:419)
+	at org.eclipse.sphinx.emf.workspace.loading.operations.FileReloadOperation.run(FileReloadOperation.java:47)
+	at org.eclipse.sphinx.emf.workspace.internal.loading.ModelLoadJob.run(ModelLoadJob.java:52)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.emf.transaction 4 45 2022-09-27 18:54:23.316
+!MESSAGE Uncaught exception during post-commit listener notifications
+!STACK 0
+org.eclipse.swt.SWTException: Invalid thread access
+	at org.eclipse.swt.SWT.error(SWT.java:4491)
+	at org.eclipse.swt.SWT.error(SWT.java:4406)
+	at org.eclipse.swt.SWT.error(SWT.java:4377)
+	at org.eclipse.swt.widgets.Widget.error(Widget.java:482)
+	at org.eclipse.swt.widgets.Widget.checkWidget(Widget.java:373)
+	at org.eclipse.swt.widgets.Control.setEnabled(Control.java:3319)
+	at cn.com.isoft.bswbuilder.ui.editor.pages.RteBuilderEditorPage.enableDisableControls(RteBuilderEditorPage.java:99)
+	at cn.com.isoft.bswbuilder.ui.editor.pages.RteBuilderEditorPage.updateGui(RteBuilderEditorPage.java:240)
+	at cn.com.isoft.bswbuilder.ui.editor.pages.RteBuilderEditorPage.operationFinished(RteBuilderEditorPage.java:143)
+	at cn.com.isoft.pal.ui.editors.AbstractBuilderForRteEditor.notifyOperationListeners(AbstractBuilderForRteEditor.java:191)
+	at cn.com.isoft.pal.ui.editors.AbstractBuilderForRteEditor.access$1(AbstractBuilderForRteEditor.java:189)
+	at cn.com.isoft.pal.ui.editors.AbstractBuilderForRteEditor$3.resourceSetChanged(AbstractBuilderForRteEditor.java:177)
+	at org.eclipse.emf.transaction.impl.TransactionalEditingDomainImpl$1.run(TransactionalEditingDomainImpl.java:781)
+	at org.eclipse.emf.transaction.impl.TransactionalEditingDomainImpl.runExclusive(TransactionalEditingDomainImpl.java:328)
+	at org.eclipse.emf.transaction.impl.TransactionalEditingDomainImpl.postcommit(TransactionalEditingDomainImpl.java:771)
+	at org.eclipse.emf.transaction.impl.TransactionalEditingDomainImpl.deactivate(TransactionalEditingDomainImpl.java:543)
+	at org.eclipse.emf.transaction.impl.TransactionImpl.close(TransactionImpl.java:712)
+	at org.eclipse.emf.transaction.impl.TransactionImpl.commit(TransactionImpl.java:474)
+	at org.eclipse.emf.transaction.impl.TransactionalEditingDomainImpl.runExclusive(TransactionalEditingDomainImpl.java:333)
+	at org.eclipse.sphinx.emf.workspace.loading.operations.AbstractLoadOperation.runReloadModelFiles(AbstractLoadOperation.java:464)
+	at org.eclipse.sphinx.emf.workspace.loading.operations.AbstractLoadOperation.runDetectAndReloadModelFiles(AbstractLoadOperation.java:419)
+	at org.eclipse.sphinx.emf.workspace.loading.operations.FileReloadOperation.run(FileReloadOperation.java:47)
+	at org.eclipse.sphinx.emf.workspace.internal.loading.ModelLoadJob.run(ModelLoadJob.java:52)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-27 18:54:23.636
+!MESSAGE Module with instance Adc is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-27 18:54:23.637
+!MESSAGE Module with instance BswM is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-27 18:54:23.638
+!MESSAGE Module with instance Can is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-27 18:54:23.639
+!MESSAGE Module with instance CanIf is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-27 18:54:23.639
+!MESSAGE Module with instance CanNm is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-27 18:54:23.639
+!MESSAGE Module with instance CanSM is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-27 18:54:23.639
+!MESSAGE Module with instance CanTp is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-27 18:54:23.640
+!MESSAGE Module with instance CanTrcv is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-27 18:54:23.640
+!MESSAGE Module with instance CanTrcv_TLE9255W is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-27 18:54:23.640
+!MESSAGE Module with instance CanTSyn is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-27 18:54:23.640
+!MESSAGE Module with instance CDD_FOTA is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-27 18:54:23.640
+!MESSAGE Module with instance Com is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-27 18:54:23.641
+!MESSAGE Module with instance ComM is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-27 18:54:23.641
+!MESSAGE Module with instance Crc is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-27 18:54:23.641
+!MESSAGE Module with instance CryIf is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-27 18:54:23.641
+!MESSAGE Module with instance Crypto is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-27 18:54:23.642
+!MESSAGE Module with instance Csm is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-27 18:54:23.642
+!MESSAGE Module with instance Dcm is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-27 18:54:23.642
+!MESSAGE Module with instance Dem is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-27 18:54:23.642
+!MESSAGE Module with instance Det is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-27 18:54:23.646
+!MESSAGE Module with instance Dio is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-27 18:54:23.646
+!MESSAGE Module with instance Dlt is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-27 18:54:23.648
+!MESSAGE Module with instance DoIP is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-27 18:54:23.648
+!MESSAGE Module with instance E2E is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-27 18:54:23.649
+!MESSAGE Module with instance Ea is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-27 18:54:23.649
+!MESSAGE Module with instance EcuM is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-27 18:54:23.649
+!MESSAGE Module with instance Eep_M95320 is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-27 18:54:23.650
+!MESSAGE Module with instance Eth is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-27 18:54:23.650
+!MESSAGE Module with instance EthIf is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-27 18:54:23.651
+!MESSAGE Module with instance EthSM is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-27 18:54:23.651
+!MESSAGE Module with instance EthSwt is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-27 18:54:23.652
+!MESSAGE Module with instance EthTrcv is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-27 18:54:23.652
+!MESSAGE Module with instance EthTSyn is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-27 18:54:23.652
+!MESSAGE Module with instance Fee is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-27 18:54:23.652
+!MESSAGE Module with instance FiM is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-27 18:54:23.653
+!MESSAGE Module with instance Fls is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-27 18:54:23.653
+!MESSAGE Module with instance FlsTst is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-27 18:54:23.657
+!MESSAGE Module with instance Fr is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-27 18:54:23.658
+!MESSAGE Module with instance FrArTp is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-27 18:54:23.658
+!MESSAGE Module with instance FrIf is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-27 18:54:23.658
+!MESSAGE Module with instance FrNm is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-27 18:54:23.658
+!MESSAGE Module with instance FrSM is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-27 18:54:23.658
+!MESSAGE Module with instance Gpt is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-27 18:54:23.658
+!MESSAGE Module with instance Icu is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-27 18:54:23.658
+!MESSAGE Module with instance IoHwAb is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-27 18:54:23.658
+!MESSAGE Module with instance IpduM is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-27 18:54:23.659
+!MESSAGE Module with instance J1939Dcm is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-27 18:54:23.659
+!MESSAGE Module with instance J1939Nm is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-27 18:54:23.659
+!MESSAGE Module with instance J1939Rm is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-27 18:54:23.659
+!MESSAGE Module with instance J1939Tp is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-27 18:54:23.659
+!MESSAGE Module with instance KeyM is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-27 18:54:23.660
+!MESSAGE Module with instance LdCom is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-27 18:54:23.660
+!MESSAGE Module with instance Lin is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-27 18:54:23.660
+!MESSAGE Module with instance LinIf is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-27 18:54:23.660
+!MESSAGE Module with instance LinNm is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-27 18:54:23.661
+!MESSAGE Module with instance LinSM is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-27 18:54:23.661
+!MESSAGE Module with instance LinTrcv is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-27 18:54:23.661
+!MESSAGE Module with instance Mcu is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-27 18:54:23.661
+!MESSAGE Module with instance MemIf is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-27 18:54:23.661
+!MESSAGE Module with instance Nm is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-27 18:54:23.662
+!MESSAGE Module with instance NvM is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-27 18:54:23.662
+!MESSAGE Module with instance OsekNm is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-27 18:54:23.662
+!MESSAGE Module with instance Port is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-27 18:54:23.662
+!MESSAGE Module with instance Pwm is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-27 18:54:23.663
+!MESSAGE Module with instance Pwm is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-27 18:54:23.663
+!MESSAGE Module with instance RamTst is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-27 18:54:23.663
+!MESSAGE Module with instance Sd is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-27 18:54:23.663
+!MESSAGE Module with instance SecOC is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-27 18:54:23.663
+!MESSAGE Module with instance SoAd is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-27 18:54:23.664
+!MESSAGE Module with instance SomeIpTp is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-27 18:54:23.664
+!MESSAGE Module with instance Spi is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-27 18:54:23.664
+!MESSAGE Module with instance StbM is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-27 18:54:23.664
+!MESSAGE Module with instance TcpIp is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-27 18:54:23.665
+!MESSAGE Module with instance Tm is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-27 18:54:23.665
+!MESSAGE Module with instance UdpNm is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-27 18:54:23.665
+!MESSAGE Module with instance Wdg is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-27 18:54:23.665
+!MESSAGE Module with instance WdgIf is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-27 18:54:23.666
+!MESSAGE Module with instance WdgM is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-27 18:54:23.666
+!MESSAGE Module with instance Xcp is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-27 18:54:23.666
+!MESSAGE Module with instance Xfrm is not available in the current ECU
+
+!ENTRY PalActivatorPlugin 4 4 2022-09-27 18:54:29.088
+!MESSAGE org.eclipse.swt.SWTException: Invalid thread access
+!STACK 0
+org.eclipse.swt.SWTException: Invalid thread access
+	at org.eclipse.swt.SWT.error(SWT.java:4491)
+	at org.eclipse.swt.SWT.error(SWT.java:4406)
+	at org.eclipse.swt.SWT.error(SWT.java:4377)
+	at org.eclipse.swt.widgets.Widget.error(Widget.java:482)
+	at org.eclipse.swt.widgets.Widget.checkWidget(Widget.java:373)
+	at org.eclipse.swt.widgets.Control.isVisible(Control.java:1953)
+	at cn.com.isoft.pal.ui.editors.pages.AutosarForRteFormPage.operationFinished(AutosarForRteFormPage.java:63)
+	at cn.com.isoft.bswbuilder.ui.editor.pages.RteBuilderEditorPage.operationFinished(RteBuilderEditorPage.java:141)
+	at cn.com.isoft.pal.ui.editors.AbstractBuilderForRteEditor.notifyOperationListeners(AbstractBuilderForRteEditor.java:191)
+	at cn.com.isoft.pal.ui.editors.AbstractBuilderForRteEditor.access$1(AbstractBuilderForRteEditor.java:189)
+	at cn.com.isoft.pal.ui.editors.AbstractBuilderForRteEditor$3.resourceSetChanged(AbstractBuilderForRteEditor.java:177)
+	at org.eclipse.emf.transaction.impl.TransactionalEditingDomainImpl$1.run(TransactionalEditingDomainImpl.java:781)
+	at org.eclipse.emf.transaction.impl.TransactionalEditingDomainImpl.runExclusive(TransactionalEditingDomainImpl.java:328)
+	at org.eclipse.emf.transaction.impl.TransactionalEditingDomainImpl.postcommit(TransactionalEditingDomainImpl.java:771)
+	at org.eclipse.emf.transaction.impl.TransactionalEditingDomainImpl.deactivate(TransactionalEditingDomainImpl.java:543)
+	at org.eclipse.emf.transaction.impl.TransactionImpl.close(TransactionImpl.java:712)
+	at org.eclipse.emf.transaction.impl.TransactionImpl.commit(TransactionImpl.java:474)
+	at org.eclipse.emf.workspace.AbstractEMFOperation.execute(AbstractEMFOperation.java:155)
+	at org.eclipse.core.commands.operations.DefaultOperationHistory.execute(DefaultOperationHistory.java:516)
+	at org.eclipse.sphinx.emf.util.WorkspaceTransactionUtil.executeInWriteTransaction(WorkspaceTransactionUtil.java:191)
+	at org.eclipse.sphinx.emf.util.WorkspaceTransactionUtil.executeInWriteTransaction(WorkspaceTransactionUtil.java:142)
+	at cn.com.isoft.bswbuilder.ui.wizards.jobs.ImportCommunicationMatrixJob.runInWorkspace(ImportCommunicationMatrixJob.java:98)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:39)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.emf.transaction 4 45 2022-09-27 18:54:29.090
+!MESSAGE Uncaught exception during post-commit listener notifications
+!STACK 0
+org.eclipse.swt.SWTException: Invalid thread access
+	at org.eclipse.swt.SWT.error(SWT.java:4491)
+	at org.eclipse.swt.SWT.error(SWT.java:4406)
+	at org.eclipse.swt.SWT.error(SWT.java:4377)
+	at org.eclipse.swt.widgets.Widget.error(Widget.java:482)
+	at org.eclipse.swt.widgets.Widget.checkWidget(Widget.java:373)
+	at org.eclipse.swt.widgets.Control.setEnabled(Control.java:3319)
+	at cn.com.isoft.bswbuilder.ui.editor.pages.RteBuilderEditorPage.enableDisableControls(RteBuilderEditorPage.java:99)
+	at cn.com.isoft.bswbuilder.ui.editor.pages.RteBuilderEditorPage.updateGui(RteBuilderEditorPage.java:240)
+	at cn.com.isoft.bswbuilder.ui.editor.pages.RteBuilderEditorPage.operationFinished(RteBuilderEditorPage.java:143)
+	at cn.com.isoft.pal.ui.editors.AbstractBuilderForRteEditor.notifyOperationListeners(AbstractBuilderForRteEditor.java:191)
+	at cn.com.isoft.pal.ui.editors.AbstractBuilderForRteEditor.access$1(AbstractBuilderForRteEditor.java:189)
+	at cn.com.isoft.pal.ui.editors.AbstractBuilderForRteEditor$3.resourceSetChanged(AbstractBuilderForRteEditor.java:177)
+	at org.eclipse.emf.transaction.impl.TransactionalEditingDomainImpl$1.run(TransactionalEditingDomainImpl.java:781)
+	at org.eclipse.emf.transaction.impl.TransactionalEditingDomainImpl.runExclusive(TransactionalEditingDomainImpl.java:328)
+	at org.eclipse.emf.transaction.impl.TransactionalEditingDomainImpl.postcommit(TransactionalEditingDomainImpl.java:771)
+	at org.eclipse.emf.transaction.impl.TransactionalEditingDomainImpl.deactivate(TransactionalEditingDomainImpl.java:543)
+	at org.eclipse.emf.transaction.impl.TransactionImpl.close(TransactionImpl.java:712)
+	at org.eclipse.emf.transaction.impl.TransactionImpl.commit(TransactionImpl.java:474)
+	at org.eclipse.emf.workspace.AbstractEMFOperation.execute(AbstractEMFOperation.java:155)
+	at org.eclipse.core.commands.operations.DefaultOperationHistory.execute(DefaultOperationHistory.java:516)
+	at org.eclipse.sphinx.emf.util.WorkspaceTransactionUtil.executeInWriteTransaction(WorkspaceTransactionUtil.java:191)
+	at org.eclipse.sphinx.emf.util.WorkspaceTransactionUtil.executeInWriteTransaction(WorkspaceTransactionUtil.java:142)
+	at cn.com.isoft.bswbuilder.ui.wizards.jobs.ImportCommunicationMatrixJob.runInWorkspace(ImportCommunicationMatrixJob.java:98)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:39)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-27 18:54:29.365
+!MESSAGE Module with instance Adc is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-27 18:54:29.365
+!MESSAGE Module with instance BswM is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-27 18:54:29.365
+!MESSAGE Module with instance Can is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-27 18:54:29.366
+!MESSAGE Module with instance CanIf is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-27 18:54:29.366
+!MESSAGE Module with instance CanNm is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-27 18:54:29.366
+!MESSAGE Module with instance CanSM is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-27 18:54:29.366
+!MESSAGE Module with instance CanTp is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-27 18:54:29.367
+!MESSAGE Module with instance CanTrcv is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-27 18:54:29.367
+!MESSAGE Module with instance CanTrcv_TLE9255W is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-27 18:54:29.367
+!MESSAGE Module with instance CanTSyn is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-27 18:54:29.367
+!MESSAGE Module with instance CDD_FOTA is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-27 18:54:29.368
+!MESSAGE Module with instance Com is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-27 18:54:29.368
+!MESSAGE Module with instance ComM is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-27 18:54:29.368
+!MESSAGE Module with instance Crc is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-27 18:54:29.368
+!MESSAGE Module with instance CryIf is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-27 18:54:29.368
+!MESSAGE Module with instance Crypto is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-27 18:54:29.369
+!MESSAGE Module with instance Csm is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-27 18:54:29.369
+!MESSAGE Module with instance Dcm is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-27 18:54:29.369
+!MESSAGE Module with instance Dem is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-27 18:54:29.369
+!MESSAGE Module with instance Det is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-27 18:54:29.369
+!MESSAGE Module with instance Dio is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-27 18:54:29.370
+!MESSAGE Module with instance Dlt is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-27 18:54:29.370
+!MESSAGE Module with instance DoIP is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-27 18:54:29.370
+!MESSAGE Module with instance E2E is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-27 18:54:29.370
+!MESSAGE Module with instance Ea is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-27 18:54:29.371
+!MESSAGE Module with instance EcuM is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-27 18:54:29.371
+!MESSAGE Module with instance Eep_M95320 is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-27 18:54:29.371
+!MESSAGE Module with instance Eth is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-27 18:54:29.371
+!MESSAGE Module with instance EthIf is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-27 18:54:29.371
+!MESSAGE Module with instance EthSM is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-27 18:54:29.372
+!MESSAGE Module with instance EthSwt is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-27 18:54:29.372
+!MESSAGE Module with instance EthTrcv is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-27 18:54:29.372
+!MESSAGE Module with instance EthTSyn is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-27 18:54:29.372
+!MESSAGE Module with instance Fee is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-27 18:54:29.373
+!MESSAGE Module with instance FiM is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-27 18:54:29.373
+!MESSAGE Module with instance Fls is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-27 18:54:29.373
+!MESSAGE Module with instance FlsTst is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-27 18:54:29.373
+!MESSAGE Module with instance Fr is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-27 18:54:29.373
+!MESSAGE Module with instance FrArTp is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-27 18:54:29.374
+!MESSAGE Module with instance FrIf is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-27 18:54:29.374
+!MESSAGE Module with instance FrNm is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-27 18:54:29.374
+!MESSAGE Module with instance FrSM is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-27 18:54:29.374
+!MESSAGE Module with instance Gpt is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-27 18:54:29.374
+!MESSAGE Module with instance Icu is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-27 18:54:29.375
+!MESSAGE Module with instance IoHwAb is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-27 18:54:29.375
+!MESSAGE Module with instance IpduM is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-27 18:54:29.375
+!MESSAGE Module with instance J1939Dcm is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-27 18:54:29.375
+!MESSAGE Module with instance J1939Nm is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-27 18:54:29.376
+!MESSAGE Module with instance J1939Rm is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-27 18:54:29.376
+!MESSAGE Module with instance J1939Tp is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-27 18:54:29.377
+!MESSAGE Module with instance KeyM is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-27 18:54:29.378
+!MESSAGE Module with instance LdCom is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-27 18:54:29.378
+!MESSAGE Module with instance Lin is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-27 18:54:29.378
+!MESSAGE Module with instance LinIf is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-27 18:54:29.379
+!MESSAGE Module with instance LinNm is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-27 18:54:29.379
+!MESSAGE Module with instance LinSM is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-27 18:54:29.379
+!MESSAGE Module with instance LinTrcv is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-27 18:54:29.379
+!MESSAGE Module with instance Mcu is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-27 18:54:29.380
+!MESSAGE Module with instance MemIf is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-27 18:54:29.380
+!MESSAGE Module with instance Nm is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-27 18:54:29.380
+!MESSAGE Module with instance NvM is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-27 18:54:29.380
+!MESSAGE Module with instance OsekNm is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-27 18:54:29.381
+!MESSAGE Module with instance Port is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-27 18:54:29.381
+!MESSAGE Module with instance Pwm is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-27 18:54:29.381
+!MESSAGE Module with instance Pwm is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-27 18:54:29.381
+!MESSAGE Module with instance RamTst is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-27 18:54:29.381
+!MESSAGE Module with instance Sd is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-27 18:54:29.382
+!MESSAGE Module with instance SecOC is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-27 18:54:29.382
+!MESSAGE Module with instance SoAd is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-27 18:54:29.382
+!MESSAGE Module with instance SomeIpTp is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-27 18:54:29.382
+!MESSAGE Module with instance Spi is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-27 18:54:29.383
+!MESSAGE Module with instance StbM is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-27 18:54:29.383
+!MESSAGE Module with instance TcpIp is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-27 18:54:29.383
+!MESSAGE Module with instance Tm is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-27 18:54:29.383
+!MESSAGE Module with instance UdpNm is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-27 18:54:29.384
+!MESSAGE Module with instance Wdg is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-27 18:54:29.384
+!MESSAGE Module with instance WdgIf is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-27 18:54:29.384
+!MESSAGE Module with instance WdgM is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-27 18:54:29.384
+!MESSAGE Module with instance Xcp is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-27 18:54:29.384
+!MESSAGE Module with instance Xfrm is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-27 18:54:45.566
+!MESSAGE org.eclipse.emf.common.util.BasicEList$BasicIndexOutOfBoundsException: index=1, size=1
+!STACK 0
+org.eclipse.emf.common.util.BasicEList$BasicIndexOutOfBoundsException: index=1, size=1
+	at org.eclipse.emf.common.util.BasicEList.get(BasicEList.java:346)
+	at cn.com.isoft.rtebuilder.generator.RteCompuMethodFactory.createCompuScaling(RteCompuMethodFactory.java:29)
+	at cn.com.isoft.rtebuilder.generator.RteComFactory.addCompuScalesOfIntraEcu(RteComFactory.java:3167)
+	at cn.com.isoft.rtebuilder.generator.RteComFactory.addCompuPhysToInternal(RteComFactory.java:2934)
+	at cn.com.isoft.rtebuilder.swcgenerator.generators.DataReceivePointBuilder.addRte_Read_Api(DataReceivePointBuilder.java:1079)
+	at cn.com.isoft.rtebuilder.swcgenerator.generators.DataReceivePointBuilder.build(DataReceivePointBuilder.java:129)
+	at cn.com.isoft.rtebuilder.swcgenerator.generators.RunnableEntityBuilder.buildDataReceivePointByArguments(RunnableEntityBuilder.java:93)
+	at cn.com.isoft.rtebuilder.swcgenerator.generators.RunnableEntityBuilder.build(RunnableEntityBuilder.java:48)
+	at cn.com.isoft.rtebuilder.swcgenerator.generators.BehaviorBuilder.buildRunnables(BehaviorBuilder.java:162)
+	at cn.com.isoft.rtebuilder.swcgenerator.generators.BehaviorBuilder.build(BehaviorBuilder.java:126)
+	at cn.com.isoft.rtebuilder.swcgenerator.generators.ComponentPrototypeBuilder.build(ComponentPrototypeBuilder.java:100)
+	at cn.com.isoft.rtebuilder.swcgenerator.generators.ExtractBuilder.buildComponentPrototypes(ExtractBuilder.java:284)
+	at cn.com.isoft.rtebuilder.swcgenerator.generators.ExtractBuilder.build(ExtractBuilder.java:45)
+	at cn.com.isoft.rtebuilder.swcgenerator.generators.RteEnvironmentBuilder.buildExtract(RteEnvironmentBuilder.java:48)
+	at cn.com.isoft.rtebuilder.swcgenerator.generators.RteEnvironmentBuilder.build(RteEnvironmentBuilder.java:29)
+	at cn.com.isoft.rtebuilder.generator.RteGenerator.generate(RteGenerator.java:146)
+	at cn.com.isoft.pal.utils.GeneratorUtils.generateConfiguration(GeneratorUtils.java:659)
+	at cn.com.isoft.pal.utils.GeneratorUtils.generateConfigurations(GeneratorUtils.java:329)
+	at cn.com.isoft.bswbuilder.ui.actions.GenerateConfigAction$GeneratorRunnable.run(GenerateConfigAction.java:219)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:119)
+
+!ENTRY org.eclipse.ui 4 0 2022-09-27 19:55:16.613
+!MESSAGE Unhandled event loop exception
+!STACK 0
+org.eclipse.swt.SWTException: Widget is disposed
+	at org.eclipse.swt.SWT.error(SWT.java:4491)
+	at org.eclipse.swt.SWT.error(SWT.java:4406)
+	at org.eclipse.swt.SWT.error(SWT.java:4377)
+	at org.eclipse.swt.widgets.Widget.error(Widget.java:482)
+	at org.eclipse.swt.widgets.Widget.checkWidget(Widget.java:354)
+	at org.eclipse.swt.widgets.Text.getText(Text.java:1359)
+	at org.eclipse.ui.internal.quickaccess.QuickAccessContents$4$1.run(QuickAccessContents.java:578)
+	at org.eclipse.swt.widgets.Display.runTimer(Display.java:4281)
+	at org.eclipse.swt.widgets.Display.messageProc(Display.java:3368)
+	at org.eclipse.swt.internal.win32.OS.DispatchMessageW(Native Method)
+	at org.eclipse.swt.internal.win32.OS.DispatchMessage(OS.java:2549)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3767)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$4.run(PartRenderingEngine.java:1127)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:337)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1018)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:156)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:694)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:337)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:606)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:150)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:139)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:380)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:235)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:669)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:608)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1515)
+
+!ENTRY PalActivatorPlugin 4 4 2022-09-28 13:35:51.899
+!MESSAGE org.eclipse.swt.SWTException: Invalid thread access
+!STACK 0
+org.eclipse.swt.SWTException: Invalid thread access
+	at org.eclipse.swt.SWT.error(SWT.java:4491)
+	at org.eclipse.swt.SWT.error(SWT.java:4406)
+	at org.eclipse.swt.SWT.error(SWT.java:4377)
+	at org.eclipse.swt.widgets.Widget.error(Widget.java:482)
+	at org.eclipse.swt.widgets.Widget.checkWidget(Widget.java:373)
+	at org.eclipse.swt.widgets.Control.isVisible(Control.java:1953)
+	at cn.com.isoft.pal.ui.editors.pages.AutosarForRteFormPage.operationFinished(AutosarForRteFormPage.java:63)
+	at cn.com.isoft.bswbuilder.ui.editor.pages.RteBuilderEditorPage.operationFinished(RteBuilderEditorPage.java:141)
+	at cn.com.isoft.pal.ui.editors.AbstractBuilderForRteEditor.notifyOperationListeners(AbstractBuilderForRteEditor.java:191)
+	at cn.com.isoft.pal.ui.editors.AbstractBuilderForRteEditor.access$1(AbstractBuilderForRteEditor.java:189)
+	at cn.com.isoft.pal.ui.editors.AbstractBuilderForRteEditor$3.resourceSetChanged(AbstractBuilderForRteEditor.java:177)
+	at org.eclipse.emf.transaction.impl.TransactionalEditingDomainImpl$1.run(TransactionalEditingDomainImpl.java:781)
+	at org.eclipse.emf.transaction.impl.TransactionalEditingDomainImpl.runExclusive(TransactionalEditingDomainImpl.java:328)
+	at org.eclipse.emf.transaction.impl.TransactionalEditingDomainImpl.postcommit(TransactionalEditingDomainImpl.java:771)
+	at org.eclipse.emf.transaction.impl.TransactionalEditingDomainImpl.deactivate(TransactionalEditingDomainImpl.java:543)
+	at org.eclipse.emf.transaction.impl.TransactionImpl.close(TransactionImpl.java:712)
+	at org.eclipse.emf.transaction.impl.TransactionImpl.commit(TransactionImpl.java:474)
+	at org.eclipse.emf.transaction.impl.TransactionalEditingDomainImpl.runExclusive(TransactionalEditingDomainImpl.java:333)
+	at org.eclipse.sphinx.emf.workspace.loading.operations.AbstractLoadOperation.runReloadModelFiles(AbstractLoadOperation.java:464)
+	at org.eclipse.sphinx.emf.workspace.loading.operations.AbstractLoadOperation.runDetectAndReloadModelFiles(AbstractLoadOperation.java:419)
+	at org.eclipse.sphinx.emf.workspace.loading.operations.FileReloadOperation.run(FileReloadOperation.java:47)
+	at org.eclipse.sphinx.emf.workspace.internal.loading.ModelLoadJob.run(ModelLoadJob.java:52)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.emf.transaction 4 45 2022-09-28 13:35:51.914
+!MESSAGE Uncaught exception during post-commit listener notifications
+!STACK 0
+org.eclipse.swt.SWTException: Invalid thread access
+	at org.eclipse.swt.SWT.error(SWT.java:4491)
+	at org.eclipse.swt.SWT.error(SWT.java:4406)
+	at org.eclipse.swt.SWT.error(SWT.java:4377)
+	at org.eclipse.swt.widgets.Widget.error(Widget.java:482)
+	at org.eclipse.swt.widgets.Widget.checkWidget(Widget.java:373)
+	at org.eclipse.swt.widgets.Control.setEnabled(Control.java:3319)
+	at cn.com.isoft.bswbuilder.ui.editor.pages.RteBuilderEditorPage.enableDisableControls(RteBuilderEditorPage.java:99)
+	at cn.com.isoft.bswbuilder.ui.editor.pages.RteBuilderEditorPage.updateGui(RteBuilderEditorPage.java:240)
+	at cn.com.isoft.bswbuilder.ui.editor.pages.RteBuilderEditorPage.operationFinished(RteBuilderEditorPage.java:143)
+	at cn.com.isoft.pal.ui.editors.AbstractBuilderForRteEditor.notifyOperationListeners(AbstractBuilderForRteEditor.java:191)
+	at cn.com.isoft.pal.ui.editors.AbstractBuilderForRteEditor.access$1(AbstractBuilderForRteEditor.java:189)
+	at cn.com.isoft.pal.ui.editors.AbstractBuilderForRteEditor$3.resourceSetChanged(AbstractBuilderForRteEditor.java:177)
+	at org.eclipse.emf.transaction.impl.TransactionalEditingDomainImpl$1.run(TransactionalEditingDomainImpl.java:781)
+	at org.eclipse.emf.transaction.impl.TransactionalEditingDomainImpl.runExclusive(TransactionalEditingDomainImpl.java:328)
+	at org.eclipse.emf.transaction.impl.TransactionalEditingDomainImpl.postcommit(TransactionalEditingDomainImpl.java:771)
+	at org.eclipse.emf.transaction.impl.TransactionalEditingDomainImpl.deactivate(TransactionalEditingDomainImpl.java:543)
+	at org.eclipse.emf.transaction.impl.TransactionImpl.close(TransactionImpl.java:712)
+	at org.eclipse.emf.transaction.impl.TransactionImpl.commit(TransactionImpl.java:474)
+	at org.eclipse.emf.transaction.impl.TransactionalEditingDomainImpl.runExclusive(TransactionalEditingDomainImpl.java:333)
+	at org.eclipse.sphinx.emf.workspace.loading.operations.AbstractLoadOperation.runReloadModelFiles(AbstractLoadOperation.java:464)
+	at org.eclipse.sphinx.emf.workspace.loading.operations.AbstractLoadOperation.runDetectAndReloadModelFiles(AbstractLoadOperation.java:419)
+	at org.eclipse.sphinx.emf.workspace.loading.operations.FileReloadOperation.run(FileReloadOperation.java:47)
+	at org.eclipse.sphinx.emf.workspace.internal.loading.ModelLoadJob.run(ModelLoadJob.java:52)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-28 13:35:52.185
+!MESSAGE Module with instance Adc is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-28 13:35:52.185
+!MESSAGE Module with instance BswM is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-28 13:35:52.185
+!MESSAGE Module with instance Can is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-28 13:35:52.186
+!MESSAGE Module with instance CanIf is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-28 13:35:52.186
+!MESSAGE Module with instance CanNm is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-28 13:35:52.186
+!MESSAGE Module with instance CanSM is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-28 13:35:52.186
+!MESSAGE Module with instance CanTp is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-28 13:35:52.187
+!MESSAGE Module with instance CanTrcv is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-28 13:35:52.187
+!MESSAGE Module with instance CanTrcv_TLE9255W is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-28 13:35:52.187
+!MESSAGE Module with instance CanTSyn is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-28 13:35:52.187
+!MESSAGE Module with instance CDD_FOTA is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-28 13:35:52.188
+!MESSAGE Module with instance Com is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-28 13:35:52.188
+!MESSAGE Module with instance ComM is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-28 13:35:52.188
+!MESSAGE Module with instance Crc is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-28 13:35:52.188
+!MESSAGE Module with instance CryIf is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-28 13:35:52.189
+!MESSAGE Module with instance Crypto is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-28 13:35:52.189
+!MESSAGE Module with instance Csm is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-28 13:35:52.189
+!MESSAGE Module with instance Dcm is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-28 13:35:52.189
+!MESSAGE Module with instance Dem is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-28 13:35:52.190
+!MESSAGE Module with instance Det is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-28 13:35:52.190
+!MESSAGE Module with instance Dio is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-28 13:35:52.190
+!MESSAGE Module with instance Dlt is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-28 13:35:52.190
+!MESSAGE Module with instance DoIP is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-28 13:35:52.191
+!MESSAGE Module with instance E2E is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-28 13:35:52.191
+!MESSAGE Module with instance Ea is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-28 13:35:52.191
+!MESSAGE Module with instance EcuM is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-28 13:35:52.192
+!MESSAGE Module with instance Eep_M95320 is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-28 13:35:52.192
+!MESSAGE Module with instance Eth is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-28 13:35:52.192
+!MESSAGE Module with instance EthIf is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-28 13:35:52.195
+!MESSAGE Module with instance EthSM is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-28 13:35:52.195
+!MESSAGE Module with instance EthSwt is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-28 13:35:52.196
+!MESSAGE Module with instance EthTrcv is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-28 13:35:52.196
+!MESSAGE Module with instance EthTSyn is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-28 13:35:52.198
+!MESSAGE Module with instance Fee is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-28 13:35:52.199
+!MESSAGE Module with instance FiM is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-28 13:35:52.199
+!MESSAGE Module with instance Fls is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-28 13:35:52.200
+!MESSAGE Module with instance FlsTst is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-28 13:35:52.200
+!MESSAGE Module with instance Fr is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-28 13:35:52.201
+!MESSAGE Module with instance FrArTp is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-28 13:35:52.201
+!MESSAGE Module with instance FrIf is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-28 13:35:52.201
+!MESSAGE Module with instance FrNm is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-28 13:35:52.202
+!MESSAGE Module with instance FrSM is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-28 13:35:52.202
+!MESSAGE Module with instance Gpt is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-28 13:35:52.202
+!MESSAGE Module with instance Icu is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-28 13:35:52.203
+!MESSAGE Module with instance IoHwAb is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-28 13:35:52.204
+!MESSAGE Module with instance IpduM is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-28 13:35:52.204
+!MESSAGE Module with instance J1939Dcm is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-28 13:35:52.204
+!MESSAGE Module with instance J1939Nm is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-28 13:35:52.204
+!MESSAGE Module with instance J1939Rm is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-28 13:35:52.205
+!MESSAGE Module with instance J1939Tp is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-28 13:35:52.205
+!MESSAGE Module with instance KeyM is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-28 13:35:52.205
+!MESSAGE Module with instance LdCom is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-28 13:35:52.205
+!MESSAGE Module with instance Lin is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-28 13:35:52.205
+!MESSAGE Module with instance LinIf is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-28 13:35:52.206
+!MESSAGE Module with instance LinNm is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-28 13:35:52.206
+!MESSAGE Module with instance LinSM is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-28 13:35:52.206
+!MESSAGE Module with instance LinTrcv is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-28 13:35:52.206
+!MESSAGE Module with instance Mcu is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-28 13:35:52.206
+!MESSAGE Module with instance MemIf is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-28 13:35:52.207
+!MESSAGE Module with instance Nm is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-28 13:35:52.207
+!MESSAGE Module with instance NvM is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-28 13:35:52.207
+!MESSAGE Module with instance OsekNm is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-28 13:35:52.208
+!MESSAGE Module with instance Port is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-28 13:35:52.208
+!MESSAGE Module with instance Pwm is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-28 13:35:52.208
+!MESSAGE Module with instance Pwm is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-28 13:35:52.208
+!MESSAGE Module with instance RamTst is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-28 13:35:52.208
+!MESSAGE Module with instance Sd is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-28 13:35:52.209
+!MESSAGE Module with instance SecOC is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-28 13:35:52.209
+!MESSAGE Module with instance SoAd is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-28 13:35:52.209
+!MESSAGE Module with instance SomeIpTp is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-28 13:35:52.209
+!MESSAGE Module with instance Spi is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-28 13:35:52.209
+!MESSAGE Module with instance StbM is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-28 13:35:52.210
+!MESSAGE Module with instance TcpIp is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-28 13:35:52.210
+!MESSAGE Module with instance Tm is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-28 13:35:52.210
+!MESSAGE Module with instance UdpNm is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-28 13:35:52.210
+!MESSAGE Module with instance Wdg is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-28 13:35:52.211
+!MESSAGE Module with instance WdgIf is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-28 13:35:52.211
+!MESSAGE Module with instance WdgM is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-28 13:35:52.211
+!MESSAGE Module with instance Xcp is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-28 13:35:52.212
+!MESSAGE Module with instance Xfrm is not available in the current ECU
+
+!ENTRY PalActivatorPlugin 4 4 2022-09-28 13:35:59.032
+!MESSAGE org.eclipse.swt.SWTException: Invalid thread access
+!STACK 0
+org.eclipse.swt.SWTException: Invalid thread access
+	at org.eclipse.swt.SWT.error(SWT.java:4491)
+	at org.eclipse.swt.SWT.error(SWT.java:4406)
+	at org.eclipse.swt.SWT.error(SWT.java:4377)
+	at org.eclipse.swt.widgets.Widget.error(Widget.java:482)
+	at org.eclipse.swt.widgets.Widget.checkWidget(Widget.java:373)
+	at org.eclipse.swt.widgets.Control.isVisible(Control.java:1953)
+	at cn.com.isoft.pal.ui.editors.pages.AutosarForRteFormPage.operationFinished(AutosarForRteFormPage.java:63)
+	at cn.com.isoft.bswbuilder.ui.editor.pages.RteBuilderEditorPage.operationFinished(RteBuilderEditorPage.java:141)
+	at cn.com.isoft.pal.ui.editors.AbstractBuilderForRteEditor.notifyOperationListeners(AbstractBuilderForRteEditor.java:191)
+	at cn.com.isoft.pal.ui.editors.AbstractBuilderForRteEditor.access$1(AbstractBuilderForRteEditor.java:189)
+	at cn.com.isoft.pal.ui.editors.AbstractBuilderForRteEditor$3.resourceSetChanged(AbstractBuilderForRteEditor.java:177)
+	at org.eclipse.emf.transaction.impl.TransactionalEditingDomainImpl$1.run(TransactionalEditingDomainImpl.java:781)
+	at org.eclipse.emf.transaction.impl.TransactionalEditingDomainImpl.runExclusive(TransactionalEditingDomainImpl.java:328)
+	at org.eclipse.emf.transaction.impl.TransactionalEditingDomainImpl.postcommit(TransactionalEditingDomainImpl.java:771)
+	at org.eclipse.emf.transaction.impl.TransactionalEditingDomainImpl.deactivate(TransactionalEditingDomainImpl.java:543)
+	at org.eclipse.emf.transaction.impl.TransactionImpl.close(TransactionImpl.java:712)
+	at org.eclipse.emf.transaction.impl.TransactionImpl.commit(TransactionImpl.java:474)
+	at org.eclipse.emf.workspace.AbstractEMFOperation.execute(AbstractEMFOperation.java:155)
+	at org.eclipse.core.commands.operations.DefaultOperationHistory.execute(DefaultOperationHistory.java:516)
+	at org.eclipse.sphinx.emf.util.WorkspaceTransactionUtil.executeInWriteTransaction(WorkspaceTransactionUtil.java:191)
+	at org.eclipse.sphinx.emf.util.WorkspaceTransactionUtil.executeInWriteTransaction(WorkspaceTransactionUtil.java:142)
+	at cn.com.isoft.bswbuilder.ui.wizards.jobs.ImportCommunicationMatrixJob.runInWorkspace(ImportCommunicationMatrixJob.java:98)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:39)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.emf.transaction 4 45 2022-09-28 13:35:59.033
+!MESSAGE Uncaught exception during post-commit listener notifications
+!STACK 0
+org.eclipse.swt.SWTException: Invalid thread access
+	at org.eclipse.swt.SWT.error(SWT.java:4491)
+	at org.eclipse.swt.SWT.error(SWT.java:4406)
+	at org.eclipse.swt.SWT.error(SWT.java:4377)
+	at org.eclipse.swt.widgets.Widget.error(Widget.java:482)
+	at org.eclipse.swt.widgets.Widget.checkWidget(Widget.java:373)
+	at org.eclipse.swt.widgets.Control.setEnabled(Control.java:3319)
+	at cn.com.isoft.bswbuilder.ui.editor.pages.RteBuilderEditorPage.enableDisableControls(RteBuilderEditorPage.java:99)
+	at cn.com.isoft.bswbuilder.ui.editor.pages.RteBuilderEditorPage.updateGui(RteBuilderEditorPage.java:240)
+	at cn.com.isoft.bswbuilder.ui.editor.pages.RteBuilderEditorPage.operationFinished(RteBuilderEditorPage.java:143)
+	at cn.com.isoft.pal.ui.editors.AbstractBuilderForRteEditor.notifyOperationListeners(AbstractBuilderForRteEditor.java:191)
+	at cn.com.isoft.pal.ui.editors.AbstractBuilderForRteEditor.access$1(AbstractBuilderForRteEditor.java:189)
+	at cn.com.isoft.pal.ui.editors.AbstractBuilderForRteEditor$3.resourceSetChanged(AbstractBuilderForRteEditor.java:177)
+	at org.eclipse.emf.transaction.impl.TransactionalEditingDomainImpl$1.run(TransactionalEditingDomainImpl.java:781)
+	at org.eclipse.emf.transaction.impl.TransactionalEditingDomainImpl.runExclusive(TransactionalEditingDomainImpl.java:328)
+	at org.eclipse.emf.transaction.impl.TransactionalEditingDomainImpl.postcommit(TransactionalEditingDomainImpl.java:771)
+	at org.eclipse.emf.transaction.impl.TransactionalEditingDomainImpl.deactivate(TransactionalEditingDomainImpl.java:543)
+	at org.eclipse.emf.transaction.impl.TransactionImpl.close(TransactionImpl.java:712)
+	at org.eclipse.emf.transaction.impl.TransactionImpl.commit(TransactionImpl.java:474)
+	at org.eclipse.emf.workspace.AbstractEMFOperation.execute(AbstractEMFOperation.java:155)
+	at org.eclipse.core.commands.operations.DefaultOperationHistory.execute(DefaultOperationHistory.java:516)
+	at org.eclipse.sphinx.emf.util.WorkspaceTransactionUtil.executeInWriteTransaction(WorkspaceTransactionUtil.java:191)
+	at org.eclipse.sphinx.emf.util.WorkspaceTransactionUtil.executeInWriteTransaction(WorkspaceTransactionUtil.java:142)
+	at cn.com.isoft.bswbuilder.ui.wizards.jobs.ImportCommunicationMatrixJob.runInWorkspace(ImportCommunicationMatrixJob.java:98)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:39)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-28 13:36:00.856
+!MESSAGE Module with instance Adc is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-28 13:36:00.857
+!MESSAGE Module with instance BswM is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-28 13:36:00.858
+!MESSAGE Module with instance Can is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-28 13:36:00.859
+!MESSAGE Module with instance CanIf is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-28 13:36:00.860
+!MESSAGE Module with instance CanNm is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-28 13:36:00.861
+!MESSAGE Module with instance CanSM is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-28 13:36:00.861
+!MESSAGE Module with instance CanTp is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-28 13:36:00.861
+!MESSAGE Module with instance CanTrcv is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-28 13:36:00.862
+!MESSAGE Module with instance CanTrcv_TLE9255W is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-28 13:36:00.862
+!MESSAGE Module with instance CanTSyn is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-28 13:36:00.871
+!MESSAGE Module with instance CDD_FOTA is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-28 13:36:00.872
+!MESSAGE Module with instance Com is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-28 13:36:00.872
+!MESSAGE Module with instance ComM is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-28 13:36:00.872
+!MESSAGE Module with instance Crc is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-28 13:36:00.873
+!MESSAGE Module with instance CryIf is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-28 13:36:00.874
+!MESSAGE Module with instance Crypto is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-28 13:36:00.874
+!MESSAGE Module with instance Csm is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-28 13:36:00.874
+!MESSAGE Module with instance Dcm is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-28 13:36:00.875
+!MESSAGE Module with instance Dem is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-28 13:36:00.875
+!MESSAGE Module with instance Det is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-28 13:36:00.876
+!MESSAGE Module with instance Dio is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-28 13:36:00.876
+!MESSAGE Module with instance Dlt is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-28 13:36:00.876
+!MESSAGE Module with instance DoIP is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-28 13:36:00.877
+!MESSAGE Module with instance E2E is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-28 13:36:00.877
+!MESSAGE Module with instance Ea is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-28 13:36:00.877
+!MESSAGE Module with instance EcuM is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-28 13:36:00.878
+!MESSAGE Module with instance Eep_M95320 is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-28 13:36:00.878
+!MESSAGE Module with instance Eth is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-28 13:36:00.878
+!MESSAGE Module with instance EthIf is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-28 13:36:00.879
+!MESSAGE Module with instance EthSM is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-28 13:36:00.879
+!MESSAGE Module with instance EthSwt is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-28 13:36:00.880
+!MESSAGE Module with instance EthTrcv is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-28 13:36:00.880
+!MESSAGE Module with instance EthTSyn is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-28 13:36:00.881
+!MESSAGE Module with instance Fee is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-28 13:36:00.881
+!MESSAGE Module with instance FiM is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-28 13:36:00.881
+!MESSAGE Module with instance Fls is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-28 13:36:00.882
+!MESSAGE Module with instance FlsTst is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-28 13:36:00.882
+!MESSAGE Module with instance Fr is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-28 13:36:00.882
+!MESSAGE Module with instance FrArTp is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-28 13:36:00.883
+!MESSAGE Module with instance FrIf is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-28 13:36:00.883
+!MESSAGE Module with instance FrNm is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-28 13:36:00.883
+!MESSAGE Module with instance FrSM is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-28 13:36:00.884
+!MESSAGE Module with instance Gpt is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-28 13:36:00.884
+!MESSAGE Module with instance Icu is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-28 13:36:00.884
+!MESSAGE Module with instance IoHwAb is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-28 13:36:00.885
+!MESSAGE Module with instance IpduM is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-28 13:36:00.885
+!MESSAGE Module with instance J1939Dcm is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-28 13:36:00.885
+!MESSAGE Module with instance J1939Nm is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-28 13:36:00.885
+!MESSAGE Module with instance J1939Rm is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-28 13:36:00.885
+!MESSAGE Module with instance J1939Tp is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-28 13:36:00.886
+!MESSAGE Module with instance KeyM is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-28 13:36:00.886
+!MESSAGE Module with instance LdCom is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-28 13:36:00.886
+!MESSAGE Module with instance Lin is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-28 13:36:00.887
+!MESSAGE Module with instance LinIf is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-28 13:36:00.887
+!MESSAGE Module with instance LinNm is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-28 13:36:00.888
+!MESSAGE Module with instance LinSM is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-28 13:36:00.888
+!MESSAGE Module with instance LinTrcv is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-28 13:36:00.888
+!MESSAGE Module with instance Mcu is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-28 13:36:00.889
+!MESSAGE Module with instance MemIf is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-28 13:36:00.889
+!MESSAGE Module with instance Nm is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-28 13:36:00.889
+!MESSAGE Module with instance NvM is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-28 13:36:00.890
+!MESSAGE Module with instance OsekNm is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-28 13:36:00.890
+!MESSAGE Module with instance Port is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-28 13:36:00.890
+!MESSAGE Module with instance Pwm is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-28 13:36:00.896
+!MESSAGE Module with instance Pwm is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-28 13:36:00.896
+!MESSAGE Module with instance RamTst is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-28 13:36:00.897
+!MESSAGE Module with instance Sd is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-28 13:36:00.897
+!MESSAGE Module with instance SecOC is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-28 13:36:00.897
+!MESSAGE Module with instance SoAd is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-28 13:36:00.898
+!MESSAGE Module with instance SomeIpTp is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-28 13:36:00.898
+!MESSAGE Module with instance Spi is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-28 13:36:00.898
+!MESSAGE Module with instance StbM is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-28 13:36:00.898
+!MESSAGE Module with instance TcpIp is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-28 13:36:00.899
+!MESSAGE Module with instance Tm is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-28 13:36:00.900
+!MESSAGE Module with instance UdpNm is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-28 13:36:00.900
+!MESSAGE Module with instance Wdg is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-28 13:36:00.900
+!MESSAGE Module with instance WdgIf is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-28 13:36:00.901
+!MESSAGE Module with instance WdgM is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-28 13:36:00.901
+!MESSAGE Module with instance Xcp is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-28 13:36:00.901
+!MESSAGE Module with instance Xfrm is not available in the current ECU
+
+!ENTRY PalActivatorPlugin 4 4 2022-09-28 14:09:09.051
+!MESSAGE org.eclipse.swt.SWTException: Invalid thread access
+!STACK 0
+org.eclipse.swt.SWTException: Invalid thread access
+	at org.eclipse.swt.SWT.error(SWT.java:4491)
+	at org.eclipse.swt.SWT.error(SWT.java:4406)
+	at org.eclipse.swt.SWT.error(SWT.java:4377)
+	at org.eclipse.swt.widgets.Widget.error(Widget.java:482)
+	at org.eclipse.swt.widgets.Widget.checkWidget(Widget.java:373)
+	at org.eclipse.swt.widgets.Control.isVisible(Control.java:1953)
+	at cn.com.isoft.pal.ui.editors.pages.AutosarForRteFormPage.operationFinished(AutosarForRteFormPage.java:63)
+	at cn.com.isoft.bswbuilder.ui.editor.pages.RteBuilderEditorPage.operationFinished(RteBuilderEditorPage.java:141)
+	at cn.com.isoft.pal.ui.editors.AbstractBuilderForRteEditor.notifyOperationListeners(AbstractBuilderForRteEditor.java:191)
+	at cn.com.isoft.pal.ui.editors.AbstractBuilderForRteEditor.access$1(AbstractBuilderForRteEditor.java:189)
+	at cn.com.isoft.pal.ui.editors.AbstractBuilderForRteEditor$3.resourceSetChanged(AbstractBuilderForRteEditor.java:177)
+	at org.eclipse.emf.transaction.impl.TransactionalEditingDomainImpl$1.run(TransactionalEditingDomainImpl.java:781)
+	at org.eclipse.emf.transaction.impl.TransactionalEditingDomainImpl.runExclusive(TransactionalEditingDomainImpl.java:328)
+	at org.eclipse.emf.transaction.impl.TransactionalEditingDomainImpl.postcommit(TransactionalEditingDomainImpl.java:771)
+	at org.eclipse.emf.transaction.impl.TransactionalEditingDomainImpl.deactivate(TransactionalEditingDomainImpl.java:543)
+	at org.eclipse.emf.transaction.impl.TransactionImpl.close(TransactionImpl.java:712)
+	at org.eclipse.emf.transaction.impl.TransactionImpl.commit(TransactionImpl.java:474)
+	at org.eclipse.emf.transaction.impl.TransactionalEditingDomainImpl.runExclusive(TransactionalEditingDomainImpl.java:333)
+	at org.eclipse.sphinx.emf.workspace.loading.operations.AbstractLoadOperation.runReloadModelFiles(AbstractLoadOperation.java:464)
+	at org.eclipse.sphinx.emf.workspace.loading.operations.AbstractLoadOperation.runDetectAndReloadModelFiles(AbstractLoadOperation.java:419)
+	at org.eclipse.sphinx.emf.workspace.loading.operations.FileReloadOperation.run(FileReloadOperation.java:47)
+	at org.eclipse.sphinx.emf.workspace.internal.loading.ModelLoadJob.run(ModelLoadJob.java:52)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.emf.transaction 4 45 2022-09-28 14:09:09.052
+!MESSAGE Uncaught exception during post-commit listener notifications
+!STACK 0
+org.eclipse.swt.SWTException: Invalid thread access
+	at org.eclipse.swt.SWT.error(SWT.java:4491)
+	at org.eclipse.swt.SWT.error(SWT.java:4406)
+	at org.eclipse.swt.SWT.error(SWT.java:4377)
+	at org.eclipse.swt.widgets.Widget.error(Widget.java:482)
+	at org.eclipse.swt.widgets.Widget.checkWidget(Widget.java:373)
+	at org.eclipse.swt.widgets.Control.setEnabled(Control.java:3319)
+	at cn.com.isoft.bswbuilder.ui.editor.pages.RteBuilderEditorPage.enableDisableControls(RteBuilderEditorPage.java:99)
+	at cn.com.isoft.bswbuilder.ui.editor.pages.RteBuilderEditorPage.updateGui(RteBuilderEditorPage.java:240)
+	at cn.com.isoft.bswbuilder.ui.editor.pages.RteBuilderEditorPage.operationFinished(RteBuilderEditorPage.java:143)
+	at cn.com.isoft.pal.ui.editors.AbstractBuilderForRteEditor.notifyOperationListeners(AbstractBuilderForRteEditor.java:191)
+	at cn.com.isoft.pal.ui.editors.AbstractBuilderForRteEditor.access$1(AbstractBuilderForRteEditor.java:189)
+	at cn.com.isoft.pal.ui.editors.AbstractBuilderForRteEditor$3.resourceSetChanged(AbstractBuilderForRteEditor.java:177)
+	at org.eclipse.emf.transaction.impl.TransactionalEditingDomainImpl$1.run(TransactionalEditingDomainImpl.java:781)
+	at org.eclipse.emf.transaction.impl.TransactionalEditingDomainImpl.runExclusive(TransactionalEditingDomainImpl.java:328)
+	at org.eclipse.emf.transaction.impl.TransactionalEditingDomainImpl.postcommit(TransactionalEditingDomainImpl.java:771)
+	at org.eclipse.emf.transaction.impl.TransactionalEditingDomainImpl.deactivate(TransactionalEditingDomainImpl.java:543)
+	at org.eclipse.emf.transaction.impl.TransactionImpl.close(TransactionImpl.java:712)
+	at org.eclipse.emf.transaction.impl.TransactionImpl.commit(TransactionImpl.java:474)
+	at org.eclipse.emf.transaction.impl.TransactionalEditingDomainImpl.runExclusive(TransactionalEditingDomainImpl.java:333)
+	at org.eclipse.sphinx.emf.workspace.loading.operations.AbstractLoadOperation.runReloadModelFiles(AbstractLoadOperation.java:464)
+	at org.eclipse.sphinx.emf.workspace.loading.operations.AbstractLoadOperation.runDetectAndReloadModelFiles(AbstractLoadOperation.java:419)
+	at org.eclipse.sphinx.emf.workspace.loading.operations.FileReloadOperation.run(FileReloadOperation.java:47)
+	at org.eclipse.sphinx.emf.workspace.internal.loading.ModelLoadJob.run(ModelLoadJob.java:52)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-28 14:09:09.314
+!MESSAGE Module with instance Adc is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-28 14:09:09.314
+!MESSAGE Module with instance BswM is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-28 14:09:09.315
+!MESSAGE Module with instance Can is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-28 14:09:09.315
+!MESSAGE Module with instance CanIf is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-28 14:09:09.315
+!MESSAGE Module with instance CanNm is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-28 14:09:09.316
+!MESSAGE Module with instance CanSM is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-28 14:09:09.316
+!MESSAGE Module with instance CanTp is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-28 14:09:09.316
+!MESSAGE Module with instance CanTrcv is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-28 14:09:09.316
+!MESSAGE Module with instance CanTrcv_TLE9255W is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-28 14:09:09.317
+!MESSAGE Module with instance CanTSyn is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-28 14:09:09.317
+!MESSAGE Module with instance CDD_FOTA is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-28 14:09:09.317
+!MESSAGE Module with instance Com is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-28 14:09:09.317
+!MESSAGE Module with instance ComM is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-28 14:09:09.317
+!MESSAGE Module with instance Crc is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-28 14:09:09.317
+!MESSAGE Module with instance CryIf is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-28 14:09:09.318
+!MESSAGE Module with instance Crypto is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-28 14:09:09.318
+!MESSAGE Module with instance Csm is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-28 14:09:09.318
+!MESSAGE Module with instance Dcm is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-28 14:09:09.318
+!MESSAGE Module with instance Dem is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-28 14:09:09.319
+!MESSAGE Module with instance Det is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-28 14:09:09.319
+!MESSAGE Module with instance Dio is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-28 14:09:09.319
+!MESSAGE Module with instance Dlt is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-28 14:09:09.319
+!MESSAGE Module with instance DoIP is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-28 14:09:09.319
+!MESSAGE Module with instance E2E is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-28 14:09:09.320
+!MESSAGE Module with instance Ea is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-28 14:09:09.320
+!MESSAGE Module with instance EcuM is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-28 14:09:09.320
+!MESSAGE Module with instance Eep_M95320 is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-28 14:09:09.320
+!MESSAGE Module with instance Eth is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-28 14:09:09.320
+!MESSAGE Module with instance EthIf is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-28 14:09:09.321
+!MESSAGE Module with instance EthSM is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-28 14:09:09.321
+!MESSAGE Module with instance EthSwt is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-28 14:09:09.321
+!MESSAGE Module with instance EthTrcv is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-28 14:09:09.321
+!MESSAGE Module with instance EthTSyn is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-28 14:09:09.322
+!MESSAGE Module with instance Fee is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-28 14:09:09.322
+!MESSAGE Module with instance FiM is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-28 14:09:09.322
+!MESSAGE Module with instance Fls is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-28 14:09:09.322
+!MESSAGE Module with instance FlsTst is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-28 14:09:09.322
+!MESSAGE Module with instance Fr is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-28 14:09:09.323
+!MESSAGE Module with instance FrArTp is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-28 14:09:09.323
+!MESSAGE Module with instance FrIf is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-28 14:09:09.323
+!MESSAGE Module with instance FrNm is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-28 14:09:09.323
+!MESSAGE Module with instance FrSM is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-28 14:09:09.323
+!MESSAGE Module with instance Gpt is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-28 14:09:09.324
+!MESSAGE Module with instance Icu is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-28 14:09:09.324
+!MESSAGE Module with instance IoHwAb is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-28 14:09:09.324
+!MESSAGE Module with instance IpduM is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-28 14:09:09.324
+!MESSAGE Module with instance J1939Dcm is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-28 14:09:09.324
+!MESSAGE Module with instance J1939Nm is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-28 14:09:09.325
+!MESSAGE Module with instance J1939Rm is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-28 14:09:09.325
+!MESSAGE Module with instance J1939Tp is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-28 14:09:09.325
+!MESSAGE Module with instance KeyM is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-28 14:09:09.325
+!MESSAGE Module with instance LdCom is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-28 14:09:09.325
+!MESSAGE Module with instance Lin is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-28 14:09:09.326
+!MESSAGE Module with instance LinIf is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-28 14:09:09.326
+!MESSAGE Module with instance LinNm is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-28 14:09:09.326
+!MESSAGE Module with instance LinSM is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-28 14:09:09.326
+!MESSAGE Module with instance LinTrcv is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-28 14:09:09.326
+!MESSAGE Module with instance Mcu is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-28 14:09:09.327
+!MESSAGE Module with instance MemIf is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-28 14:09:09.327
+!MESSAGE Module with instance Nm is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-28 14:09:09.327
+!MESSAGE Module with instance NvM is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-28 14:09:09.327
+!MESSAGE Module with instance OsekNm is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-28 14:09:09.327
+!MESSAGE Module with instance Port is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-28 14:09:09.328
+!MESSAGE Module with instance Pwm is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-28 14:09:09.328
+!MESSAGE Module with instance Pwm is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-28 14:09:09.328
+!MESSAGE Module with instance RamTst is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-28 14:09:09.328
+!MESSAGE Module with instance Sd is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-28 14:09:09.328
+!MESSAGE Module with instance SecOC is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-28 14:09:09.328
+!MESSAGE Module with instance SoAd is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-28 14:09:09.328
+!MESSAGE Module with instance SomeIpTp is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-28 14:09:09.329
+!MESSAGE Module with instance Spi is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-28 14:09:09.329
+!MESSAGE Module with instance StbM is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-28 14:09:09.329
+!MESSAGE Module with instance TcpIp is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-28 14:09:09.329
+!MESSAGE Module with instance Tm is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-28 14:09:09.329
+!MESSAGE Module with instance UdpNm is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-28 14:09:09.330
+!MESSAGE Module with instance Wdg is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-28 14:09:09.330
+!MESSAGE Module with instance WdgIf is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-28 14:09:09.331
+!MESSAGE Module with instance WdgM is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-28 14:09:09.331
+!MESSAGE Module with instance Xcp is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-28 14:09:09.331
+!MESSAGE Module with instance Xfrm is not available in the current ECU
+
+!ENTRY PalActivatorPlugin 4 4 2022-09-28 14:09:15.059
+!MESSAGE org.eclipse.swt.SWTException: Invalid thread access
+!STACK 0
+org.eclipse.swt.SWTException: Invalid thread access
+	at org.eclipse.swt.SWT.error(SWT.java:4491)
+	at org.eclipse.swt.SWT.error(SWT.java:4406)
+	at org.eclipse.swt.SWT.error(SWT.java:4377)
+	at org.eclipse.swt.widgets.Widget.error(Widget.java:482)
+	at org.eclipse.swt.widgets.Widget.checkWidget(Widget.java:373)
+	at org.eclipse.swt.widgets.Control.isVisible(Control.java:1953)
+	at cn.com.isoft.pal.ui.editors.pages.AutosarForRteFormPage.operationFinished(AutosarForRteFormPage.java:63)
+	at cn.com.isoft.bswbuilder.ui.editor.pages.RteBuilderEditorPage.operationFinished(RteBuilderEditorPage.java:141)
+	at cn.com.isoft.pal.ui.editors.AbstractBuilderForRteEditor.notifyOperationListeners(AbstractBuilderForRteEditor.java:191)
+	at cn.com.isoft.pal.ui.editors.AbstractBuilderForRteEditor.access$1(AbstractBuilderForRteEditor.java:189)
+	at cn.com.isoft.pal.ui.editors.AbstractBuilderForRteEditor$3.resourceSetChanged(AbstractBuilderForRteEditor.java:177)
+	at org.eclipse.emf.transaction.impl.TransactionalEditingDomainImpl$1.run(TransactionalEditingDomainImpl.java:781)
+	at org.eclipse.emf.transaction.impl.TransactionalEditingDomainImpl.runExclusive(TransactionalEditingDomainImpl.java:328)
+	at org.eclipse.emf.transaction.impl.TransactionalEditingDomainImpl.postcommit(TransactionalEditingDomainImpl.java:771)
+	at org.eclipse.emf.transaction.impl.TransactionalEditingDomainImpl.deactivate(TransactionalEditingDomainImpl.java:543)
+	at org.eclipse.emf.transaction.impl.TransactionImpl.close(TransactionImpl.java:712)
+	at org.eclipse.emf.transaction.impl.TransactionImpl.commit(TransactionImpl.java:474)
+	at org.eclipse.emf.workspace.AbstractEMFOperation.execute(AbstractEMFOperation.java:155)
+	at org.eclipse.core.commands.operations.DefaultOperationHistory.execute(DefaultOperationHistory.java:516)
+	at org.eclipse.sphinx.emf.util.WorkspaceTransactionUtil.executeInWriteTransaction(WorkspaceTransactionUtil.java:191)
+	at org.eclipse.sphinx.emf.util.WorkspaceTransactionUtil.executeInWriteTransaction(WorkspaceTransactionUtil.java:142)
+	at cn.com.isoft.bswbuilder.ui.wizards.jobs.ImportCommunicationMatrixJob.runInWorkspace(ImportCommunicationMatrixJob.java:98)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:39)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.emf.transaction 4 45 2022-09-28 14:09:15.061
+!MESSAGE Uncaught exception during post-commit listener notifications
+!STACK 0
+org.eclipse.swt.SWTException: Invalid thread access
+	at org.eclipse.swt.SWT.error(SWT.java:4491)
+	at org.eclipse.swt.SWT.error(SWT.java:4406)
+	at org.eclipse.swt.SWT.error(SWT.java:4377)
+	at org.eclipse.swt.widgets.Widget.error(Widget.java:482)
+	at org.eclipse.swt.widgets.Widget.checkWidget(Widget.java:373)
+	at org.eclipse.swt.widgets.Control.setEnabled(Control.java:3319)
+	at cn.com.isoft.bswbuilder.ui.editor.pages.RteBuilderEditorPage.enableDisableControls(RteBuilderEditorPage.java:99)
+	at cn.com.isoft.bswbuilder.ui.editor.pages.RteBuilderEditorPage.updateGui(RteBuilderEditorPage.java:240)
+	at cn.com.isoft.bswbuilder.ui.editor.pages.RteBuilderEditorPage.operationFinished(RteBuilderEditorPage.java:143)
+	at cn.com.isoft.pal.ui.editors.AbstractBuilderForRteEditor.notifyOperationListeners(AbstractBuilderForRteEditor.java:191)
+	at cn.com.isoft.pal.ui.editors.AbstractBuilderForRteEditor.access$1(AbstractBuilderForRteEditor.java:189)
+	at cn.com.isoft.pal.ui.editors.AbstractBuilderForRteEditor$3.resourceSetChanged(AbstractBuilderForRteEditor.java:177)
+	at org.eclipse.emf.transaction.impl.TransactionalEditingDomainImpl$1.run(TransactionalEditingDomainImpl.java:781)
+	at org.eclipse.emf.transaction.impl.TransactionalEditingDomainImpl.runExclusive(TransactionalEditingDomainImpl.java:328)
+	at org.eclipse.emf.transaction.impl.TransactionalEditingDomainImpl.postcommit(TransactionalEditingDomainImpl.java:771)
+	at org.eclipse.emf.transaction.impl.TransactionalEditingDomainImpl.deactivate(TransactionalEditingDomainImpl.java:543)
+	at org.eclipse.emf.transaction.impl.TransactionImpl.close(TransactionImpl.java:712)
+	at org.eclipse.emf.transaction.impl.TransactionImpl.commit(TransactionImpl.java:474)
+	at org.eclipse.emf.workspace.AbstractEMFOperation.execute(AbstractEMFOperation.java:155)
+	at org.eclipse.core.commands.operations.DefaultOperationHistory.execute(DefaultOperationHistory.java:516)
+	at org.eclipse.sphinx.emf.util.WorkspaceTransactionUtil.executeInWriteTransaction(WorkspaceTransactionUtil.java:191)
+	at org.eclipse.sphinx.emf.util.WorkspaceTransactionUtil.executeInWriteTransaction(WorkspaceTransactionUtil.java:142)
+	at cn.com.isoft.bswbuilder.ui.wizards.jobs.ImportCommunicationMatrixJob.runInWorkspace(ImportCommunicationMatrixJob.java:98)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:39)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-28 14:09:15.352
+!MESSAGE Module with instance Adc is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-28 14:09:15.353
+!MESSAGE Module with instance BswM is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-28 14:09:15.353
+!MESSAGE Module with instance Can is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-28 14:09:15.354
+!MESSAGE Module with instance CanIf is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-28 14:09:15.354
+!MESSAGE Module with instance CanNm is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-28 14:09:15.354
+!MESSAGE Module with instance CanSM is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-28 14:09:15.354
+!MESSAGE Module with instance CanTp is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-28 14:09:15.355
+!MESSAGE Module with instance CanTrcv is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-28 14:09:15.355
+!MESSAGE Module with instance CanTrcv_TLE9255W is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-28 14:09:15.355
+!MESSAGE Module with instance CanTSyn is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-28 14:09:15.355
+!MESSAGE Module with instance CDD_FOTA is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-28 14:09:15.355
+!MESSAGE Module with instance Com is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-28 14:09:15.356
+!MESSAGE Module with instance ComM is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-28 14:09:15.356
+!MESSAGE Module with instance Crc is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-28 14:09:15.356
+!MESSAGE Module with instance CryIf is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-28 14:09:15.356
+!MESSAGE Module with instance Crypto is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-28 14:09:15.356
+!MESSAGE Module with instance Csm is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-28 14:09:15.357
+!MESSAGE Module with instance Dcm is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-28 14:09:15.357
+!MESSAGE Module with instance Dem is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-28 14:09:15.357
+!MESSAGE Module with instance Det is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-28 14:09:15.357
+!MESSAGE Module with instance Dio is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-28 14:09:15.357
+!MESSAGE Module with instance Dlt is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-28 14:09:15.358
+!MESSAGE Module with instance DoIP is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-28 14:09:15.358
+!MESSAGE Module with instance E2E is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-28 14:09:15.358
+!MESSAGE Module with instance Ea is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-28 14:09:15.359
+!MESSAGE Module with instance EcuM is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-28 14:09:15.359
+!MESSAGE Module with instance Eep_M95320 is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-28 14:09:15.359
+!MESSAGE Module with instance Eth is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-28 14:09:15.359
+!MESSAGE Module with instance EthIf is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-28 14:09:15.359
+!MESSAGE Module with instance EthSM is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-28 14:09:15.360
+!MESSAGE Module with instance EthSwt is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-28 14:09:15.360
+!MESSAGE Module with instance EthTrcv is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-28 14:09:15.360
+!MESSAGE Module with instance EthTSyn is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-28 14:09:15.360
+!MESSAGE Module with instance Fee is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-28 14:09:15.360
+!MESSAGE Module with instance FiM is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-28 14:09:15.361
+!MESSAGE Module with instance Fls is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-28 14:09:15.361
+!MESSAGE Module with instance FlsTst is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-28 14:09:15.361
+!MESSAGE Module with instance Fr is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-28 14:09:15.361
+!MESSAGE Module with instance FrArTp is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-28 14:09:15.362
+!MESSAGE Module with instance FrIf is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-28 14:09:15.362
+!MESSAGE Module with instance FrNm is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-28 14:09:15.362
+!MESSAGE Module with instance FrSM is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-28 14:09:15.362
+!MESSAGE Module with instance Gpt is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-28 14:09:15.363
+!MESSAGE Module with instance Icu is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-28 14:09:15.363
+!MESSAGE Module with instance IoHwAb is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-28 14:09:15.363
+!MESSAGE Module with instance IpduM is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-28 14:09:15.363
+!MESSAGE Module with instance J1939Dcm is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-28 14:09:15.364
+!MESSAGE Module with instance J1939Nm is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-28 14:09:15.364
+!MESSAGE Module with instance J1939Rm is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-28 14:09:15.364
+!MESSAGE Module with instance J1939Tp is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-28 14:09:15.364
+!MESSAGE Module with instance KeyM is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-28 14:09:15.364
+!MESSAGE Module with instance LdCom is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-28 14:09:15.365
+!MESSAGE Module with instance Lin is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-28 14:09:15.365
+!MESSAGE Module with instance LinIf is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-28 14:09:15.365
+!MESSAGE Module with instance LinNm is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-28 14:09:15.365
+!MESSAGE Module with instance LinSM is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-28 14:09:15.366
+!MESSAGE Module with instance LinTrcv is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-28 14:09:15.366
+!MESSAGE Module with instance Mcu is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-28 14:09:15.366
+!MESSAGE Module with instance MemIf is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-28 14:09:15.366
+!MESSAGE Module with instance Nm is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-28 14:09:15.366
+!MESSAGE Module with instance NvM is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-28 14:09:15.367
+!MESSAGE Module with instance OsekNm is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-28 14:09:15.367
+!MESSAGE Module with instance Port is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-28 14:09:15.367
+!MESSAGE Module with instance Pwm is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-28 14:09:15.367
+!MESSAGE Module with instance Pwm is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-28 14:09:15.368
+!MESSAGE Module with instance RamTst is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-28 14:09:15.368
+!MESSAGE Module with instance Sd is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-28 14:09:15.368
+!MESSAGE Module with instance SecOC is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-28 14:09:15.368
+!MESSAGE Module with instance SoAd is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-28 14:09:15.369
+!MESSAGE Module with instance SomeIpTp is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-28 14:09:15.369
+!MESSAGE Module with instance Spi is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-28 14:09:15.369
+!MESSAGE Module with instance StbM is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-28 14:09:15.369
+!MESSAGE Module with instance TcpIp is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-28 14:09:15.369
+!MESSAGE Module with instance Tm is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-28 14:09:15.370
+!MESSAGE Module with instance UdpNm is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-28 14:09:15.370
+!MESSAGE Module with instance Wdg is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-28 14:09:15.370
+!MESSAGE Module with instance WdgIf is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-28 14:09:15.370
+!MESSAGE Module with instance WdgM is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-28 14:09:15.371
+!MESSAGE Module with instance Xcp is not available in the current ECU
+
+!ENTRY cn.com.isoft.mal.exceptions 4 0 2022-09-28 14:09:15.371
+!MESSAGE Module with instance Xfrm is not available in the current ECU
